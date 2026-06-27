@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.24
+
+-->
+<liquids Lang="es" Encoding="utf-8">
+  <liquid Name="Acid">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{G|ácido}}</displayName>
+    <adjective>▶{{G|ácido}}</adjective>
+    <waterRitualName>▶ácido</waterRitualName>
+    <smearedAdjective>▶{{G|ácido}}</smearedAdjective>
+    <smearedName>▶{{G|cubierto de ácido}}</smearedName>
+    <stainedName>▶{{G|ácido}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶{{G|¡QUEMA!}}" />
+    <part Name="DamageOnDrink" Message="▶por {{G|beber ácido}}!" />
+    <part Name="AcidEating" DamageMessage="▶por {{G|ácido}}!" />
+  </liquid>
+  <liquid Name="Asphalt">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{K|asfalto}}</displayName>
+    <adjective>▶{{K|alquitranado}}</adjective>
+    <waterRitualName>▶alquitrán</waterRitualName>
+    <smearedAdjective>▶{{K|alquitranado}}</smearedAdjective>
+    <smearedName>▶{{K|cubierto de alquitrán}}</smearedName>
+    <stainedName>▶{{K|alquitrán}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶{{K|¡Quema!}}" />
+    <part Name="DamageOnDrink" Message="▶por {{K|beber asfalto}}!" />
+  </liquid>
+  <liquid Name="Algae">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{g|algas}}</displayName>
+    <adjective>▶{{g|algáceo}}</adjective>
+    <waterRitualName>▶algas</waterRitualName>
+    <smearedAdjective>▶{{g|algáceo}}</smearedAdjective>
+    <smearedName>▶{{g|cubierto de algas}}</smearedName>
+    <stainedName>▶{{g|algas}}</stainedName>
+    <part Name="SnackOnDrink" Message="▶La salmuera te pica en la boca y te llena el aliento de aire de lago." />
+  </liquid>
+  <liquid Name="Blood">
+    <circulatoryLossTerm>▶sangrando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶sangrado</circulatoryLossNoun>
+    <displayName>▶{{r|sangre}}</displayName>
+    <adjective>▶{{r|ensangrentado}}</adjective>
+    <waterRitualName>▶sangre</waterRitualName>
+    <smearedAdjective>▶{{r|ensangrentado}}</smearedAdjective>
+    <smearedName>▶{{r|ensangrentado}}</smearedName>
+    <stainedName>▶{{r|sangre}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶Tiene un sabor metálico." />
+  </liquid>
+  <liquid Name="BrainBrine">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{brainbrine|salmuera cerebral}}</displayName>
+    <adjective>▶{{nervous|nervioso}}</adjective>
+    <waterRitualName>▶salmuera cerebral</waterRitualName>
+    <smearedAdjective>▶{{nervous|nervioso}}</smearedAdjective>
+    <smearedName>▶{{nervous|nervioso}}</smearedName>
+    <stainedName>▶{{brainbrine|salmuera cerebral}}</stainedName>
+  </liquid>
+  <liquid Name="Cider">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{cider|sidra}}</displayName>
+    <adjective>▶{{cider|especiado}}</adjective>
+    <waterRitualName>▶sidra</waterRitualName>
+    <smearedAdjective>▶{{cider|fragante}}</smearedAdjective>
+    <smearedName>▶{{cider|fragante}}</smearedName>
+    <stainedName>▶{{cider|sidra}}</stainedName>
+    <part Name="DrankWine" Message="▶Es picante y deliciosa." />
+  </liquid>
+  <liquid Name="CloningDraught">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{cloning|brebaje de clonación}}</displayName>
+    <adjective>▶{{cloning|homogeneizado}}</adjective>
+    <waterRitualName>▶brebaje</waterRitualName>
+    <smearedAdjective>▶{{cloning|homogeneizado}}</smearedAdjective>
+    <smearedName>▶{{cloning|homogeneizado}}</smearedName>
+    <stainedName>▶{{cloning|brebaje de clonación}}</stainedName>
+    <part Name="CloningBehaviors" DrinkMessage="▶Te invade una ambivalencia inquietante." />
+  </liquid>
+  <liquid Name="Convalessence">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{C|convalessence}}</displayName>
+    <adjective>▶{{C|luminoso}}</adjective>
+    <waterRitualName>▶convalessence</waterRitualName>
+    <smearedAdjective>▶{{C|luminoso}}</smearedAdjective>
+    <smearedName>▶{{C|luminoso}}</smearedName>
+    <stainedName>▶{{C|convalessence}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶¡Es efervescente!" />
+    <freezeObject Name="CryoGas">
+      <verb>▶sublimar</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Gel">
+    <slipperyMessage>▶{{Y|¡=subject.The.name= resbala con el gel!}}</slipperyMessage>
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{Y|gel}}</displayName>
+    <adjective>▶{{Y|untuoso}}</adjective>
+    <waterRitualName>▶gel</waterRitualName>
+    <smearedAdjective>▶{{Y|untuoso}}</smearedAdjective>
+    <smearedName>▶{{Y|untuoso}}</smearedName>
+    <stainedName>▶{{Y|gel}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶Es muy grasiento." />
+  </liquid>
+  <liquid Name="GreenGoo">
+    <circulatoryLossTerm>▶rezumando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶exudación</circulatoryLossNoun>
+    <displayName>▶{{G|baba verde}}</displayName>
+    <adjective>▶{{G|viscoso}}</adjective>
+    <waterRitualName>▶baba</waterRitualName>
+    <smearedAdjective>▶{{G|viscoso}}</smearedAdjective>
+    <smearedName>▶{{G|viscoso}}</smearedName>
+    <stainedName>▶{{G|baba}}</stainedName>
+    <part Name="PoisonOnGoingProne" Message="▶La baba venenosa te quema los ojos." />
+    <part Name="PoisonOnDrink" Message="▶¡Sientes el veneno recorrer tus venas!" />
+    <part Name="MessageOnDrink" Message="▶¡Es horrible!" />
+  </liquid>
+  <liquid Name="Honey">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{w|miel}}</displayName>
+    <adjective>▶{{w|meloso}}</adjective>
+    <waterRitualName>▶miel</waterRitualName>
+    <smearedAdjective>▶{{w|pegajoso}}</smearedAdjective>
+    <smearedName>▶{{w|pegajoso}}</smearedName>
+    <stainedName>▶{{w|miel}}</stainedName>
+    <part Name="SnackOnDrink" Message="▶¡Delicioso!" />
+  </liquid>
+  <liquid Name="Ink">
+    <slipperyMessage>▶{{K|¡=subject.The.name= resbala con la tinta!}}</slipperyMessage>
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{K|tinta}}</displayName>
+    <adjective>▶{{K|entintado}}</adjective>
+    <waterRitualName>▶tinta</waterRitualName>
+    <smearedAdjective>▶{{K|entintado}}</smearedAdjective>
+    <smearedName>▶{{K|entintado}}</smearedName>
+    <stainedName>▶{{K|tinta}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶Sabe muchísimo a tinta." />
+  </liquid>
+  <liquid Name="Lava">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{lava|lava}}</displayName>
+    <adjective>▶{{lava|magmático}}</adjective>
+    <waterRitualName>▶lava</waterRitualName>
+    <smearedAdjective>▶{{lava|magmático}}</smearedAdjective>
+    <smearedName>▶{{lava|cubierto de lava}}</smearedName>
+    <stainedName>▶{{lava|lava}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶{{lava|¡QUEMA!}}" />
+    <part Name="DamageOnDrink" Message="▶por {{lava|beber lava}}!" />
+    <part Name="AccomplishmentOnDrink">
+      <accomplishment>▶Inexplicablemente, bebiste lava.</accomplishment>
+      <muralText>▶Por razones que la esfinge de la experiencia subjetiva guarda en secreto, =name= bebió el té prohibido.</muralText>
+      <gospelText>▶Mientras viajaba por =player.zone.name=, =name= se detuvo en una taberna de =landmark.nearest=. Allí perdió una apuesta y bebió con timidez un trago de lava. Milagrosamente, salió de la taberna sin un rasguño.</gospelText>
+    </part>
+    <freezeObject Name="SmallBoulder">
+      <verb>▶solidificar</verb>
+    </freezeObject>
+    <freezeObject Name="MediumBoulder">
+      <verb>▶solidificar</verb>
+    </freezeObject>
+    <freezeObject Name="Shale">
+      <verb>▶solidificar</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="NeutronFlux">
+    <circulatoryLossTerm>▶fluctuando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶fluctuación</circulatoryLossNoun>
+    <displayName>▶{{Y|flujo}} {{neutronic|neutrónico}}</displayName>
+    <adjective>▶{{neutronic|neutrónico}}</adjective>
+    <waterRitualName>▶flujo</waterRitualName>
+    <smearedAdjective>▶{{neutronic|neutrónico}}</smearedAdjective>
+    <smearedName>▶{{neutronic|neutro}}</smearedName>
+    <stainedName>▶{{neutronic|flujo}}</stainedName>
+  </liquid>
+  <liquid Name="Oil">
+    <slipperyMessage>▶{{C|¡=subject.The.name= resbala con el aceite!}}</slipperyMessage>
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{K|aceite}}</displayName>
+    <adjective>▶{{K|aceitoso}}</adjective>
+    <waterRitualName>▶aceite</waterRitualName>
+    <smearedAdjective>▶{{K|aceitoso}}</smearedAdjective>
+    <smearedName>▶{{K|aceitoso}}</smearedName>
+    <stainedName>▶{{K|aceite}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶{{K|¡Asqueroso!}}" />
+  </liquid>
+  <liquid Name="Ooze">
+    <circulatoryLossTerm>▶rezumando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶exudación</circulatoryLossNoun>
+    <displayName>▶{{K|baba negra}}</displayName>
+    <adjective>▶{{K|rezumante}}</adjective>
+    <waterRitualName>▶baba</waterRitualName>
+    <smearedAdjective>▶{{K|rezumante}}</smearedAdjective>
+    <smearedName>▶{{K|rezumante}}</smearedName>
+    <stainedName>▶{{K|baba}}</stainedName>
+    <part Name="MessageOnDrink" Message="▶¡Es repulsivo!" />
+    <part Name="DiseaseOnGoingProne" Message="▶Una baba pútrida te salpica la boca. Te dan arcadas por el sabor repugnante." />
+    <part Name="DiseaseOnDrink" Message="▶¡Te sientes mal!" />
+  </liquid>
+  <liquid Name="PrimordialSoup">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{c|sopa primigenia}}</displayName>
+    <adjective>▶{{c|caldoso}}</adjective>
+    <waterRitualName>▶sopa</waterRitualName>
+    <smearedAdjective>▶{{c|caldoso}}</smearedAdjective>
+    <smearedName>▶{{c|caldoso}}</smearedName>
+    <stainedName>▶{{c|sopa}}</stainedName>
+    <part Name="SoupSludgeSpawner">
+      <spawnMessage>▶Los líquidos en reacción se cuajan en =object.a.name:withTitles=.</spawnMessage>
+      <stopMessage>▶Los líquidos dejan de reaccionar.</stopMessage>
+      <startMessage>▶La sopa primigenia =subject.to.the.direction= empieza a reaccionar con =liquid.name=.</startMessage>
+    </part>
+    <part Name="HydrateOnDrink" Message="▶Sientes la sopa agitarse en tu estómago." />
+  </liquid>
+  <liquid Name="Putrescence">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{putrid|putrefacción}}</displayName>
+    <adjective>▶{{putrid|pútrido}}</adjective>
+    <waterRitualName>▶putrefacción</waterRitualName>
+    <smearedAdjective>▶{{putrid|pútrido}}</smearedAdjective>
+    <smearedName>▶{{putrid|pútrido}}</smearedName>
+    <stainedName>▶{{putrid|putrefacción}}</stainedName>
+    <part Name="VomitOnDrink" Message="▶¡Es asqueroso!" />
+  </liquid>
+  <liquid Name="Salt">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{Y|sal}}</displayName>
+    <adjective>▶{{Y|salado}}</adjective>
+    <waterRitualName>▶sal</waterRitualName>
+    <smearedAdjective>▶{{Y|salado}}</smearedAdjective>
+    <smearedName>▶{{Y|incrustado de sal}}</smearedName>
+    <stainedName>▶{{Y|sal}}</stainedName>
+    <part Name="SaltOnDrink" Message="▶¡Puaj, está salado!" />
+    <part Name="AltAdjectiveWhenPurityBelow" Alt="▶{{w|salobre}}" />
+    <freezeObject Name="Halite">
+      <verb>▶solidificar</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Sap">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{W|savia}}</displayName>
+    <adjective>▶{{W|azucarado}}</adjective>
+    <waterRitualName>▶savia</waterRitualName>
+    <smearedAdjective>▶{{W|pegajoso}}</smearedAdjective>
+    <smearedName>▶{{W|pegajoso}}</smearedName>
+    <stainedName>▶{{W|savia}}</stainedName>
+    <part Name="SnackOnDrink" Message="▶Es dulce al paladar." />
+  </liquid>
+  <liquid Name="Slime">
+    <slipperyMessage>▶{{slimy|¡=subject.The.name= resbala con el limo!}}</slipperyMessage>
+    <circulatoryLossTerm>▶rezumando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶exudación</circulatoryLossNoun>
+    <displayName>▶{{slimy|limo}}</displayName>
+    <adjective>▶{{slimy|viscoso}}</adjective>
+    <waterRitualName>▶líquido</waterRitualName>
+    <smearedAdjective>▶{{slimy|viscoso}}</smearedAdjective>
+    <smearedName>▶{{slimy|viscoso}}</smearedName>
+    <stainedName>▶{{g|limo}}</stainedName>
+    <part Name="ConfuseOnDrink" Message="▶¡Es asquerosamente viscoso!" />
+  </liquid>
+  <liquid Name="Sludge">
+    <circulatoryLossTerm>▶rezumando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶exudación</circulatoryLossNoun>
+    <displayName>▶{{w|fango marrón}}</displayName>
+    <adjective>▶{{w|fangoso}}</adjective>
+    <waterRitualName>▶fango</waterRitualName>
+    <smearedAdjective>▶{{w|fangoso}}</smearedAdjective>
+    <smearedName>▶{{w|fangoso}}</smearedName>
+    <stainedName>▶{{w|fango}}</stainedName>
+    <part Name="RustOnGoingProne" Message="▶Un fango marrón te salpica la boca. Haces una mueca por el sabor metálico." />
+    <part Name="PoisonOnDrink" Message="▶¡Te sientes mal!" />
+    <part Name="MessageOnDrink" Message="▶¡Es espantoso!" />
+  </liquid>
+  <liquid Name="Sunslag">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{sunslag|escoria solar}}</displayName>
+    <adjective>▶{{radiant|radiante}}</adjective>
+    <waterRitualName>▶escoria solar</waterRitualName>
+    <smearedAdjective>▶{{radiant|radiante}}</smearedAdjective>
+    <smearedName>▶{{radiant|radiante}}</smearedName>
+    <stainedName>▶{{sunslag|escoria solar}}</stainedName>
+    <part Name="SunSlagOnDrink">
+      <tooMuchMessage>▶El fulgor te quema la boca, pero ya no puedes exaltarte más.</tooMuchMessage>
+      <noStatMessage>▶El fulgor te quema la boca.</noStatMessage>
+      <boostedMessage>
+        ▶El fulgor te quema la boca y te infunde ánimo.
+
+        ▶Tu Presteza aumenta permanentemente en {{rules|=boost=}}.
+      </boostedMessage>
+      <accomplishmentText>▶Bebiste la nata brillante del Arrecife de Paladio y ganaste presteza.</accomplishmentText>
+      <muralText>▶¡Mira a =player.name= partir los huesos de las polis y beber su médula! ¡Gana presteza, oh Saad nuestro, con la sangre vital de la urbe!</muralText>
+      <gospelText>▶Mientras viajaba por =terrain.t=, =player.name= se detuvo en una taberna de =landmark.nearest=. Allí ganó una apuesta y bebió triunfalmente un trago de escoria solar. Ganó presteza y abandonó la taberna a un ritmo imposible de seguir.</gospelText>
+    </part>
+  </liquid>
+  <liquid Name="Water">
+    <slipperyMessage>▶{{C|¡=subject.The.name= resbala en el hielo!}}</slipperyMessage>
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{B|agua}}</displayName>
+    <adjective>▶{{Y|diluido}}</adjective>
+    <waterRitualName>▶agua</waterRitualName>
+    <smearedAdjective>▶{{B|mojado}}</smearedAdjective>
+    <smearedName>▶{{B|mojado}}</smearedName>
+    <stainedName>▶{{B|agua}}</stainedName>
+    <part Name="WaterHydration">
+      <amphibiousMessage>▶¡=subject.The.name= se echa el agua por encima!</amphibiousMessage>
+      <freshMessage>▶¡Ah, qué refrescante!</freshMessage>
+    </part>
+    <part Name="AltSmearedAdjectiveWhenSecondaryTo" Alt="▶{{B|mojado}}" />
+    <part Name="AltSmearedAdjectiveWhenMixed" Alt="▶{{Y|diluido}}" />
+    <part Name="AltNameWhenPure" Alt="▶{{B|agua dulce}}" />
+  </liquid>
+  <liquid Name="Wax">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{Y|cera fundida}}</displayName>
+    <adjective>▶{{Y|ceroso}}</adjective>
+    <waterRitualName>▶cera</waterRitualName>
+    <smearedAdjective>▶{{Y|ceroso}}</smearedAdjective>
+    <smearedName>▶{{Y|ceroso}}</smearedName>
+    <stainedName>▶{{Y|cera}}</stainedName>
+    <part Name="TemperatureChangeOnDrink" Message="▶Está caliente y es asqueroso." />
+    <freezeObject Name="Wax Nodule">
+      <verb>▶cuajar</verb>
+    </freezeObject>
+    <freezeObject Name="Wax Block">
+      <verb>▶solidificar</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Wine">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{m|vino}}</displayName>
+    <adjective>▶{{m|sabroso}}</adjective>
+    <waterRitualName>▶vino</waterRitualName>
+    <smearedAdjective>▶{{m|sabroso}}</smearedAdjective>
+    <smearedName>▶{{m|sabroso}}</smearedName>
+    <stainedName>▶{{m|vino}}</stainedName>
+    <part Name="HydrateOnDrink" Message="▶¡El trago cálido te sonroja!" />
+  </liquid>
+  <liquid Name="WarmStatic">
+    <circulatoryLossTerm>▶goteando</circulatoryLossTerm>
+    <circulatoryLossNoun>▶goteo</circulatoryLossNoun>
+    <displayName>▶{{Y|estática cálida}}</displayName>
+    <adjective>▶{{Y|entrópico}}</adjective>
+    <waterRitualName>▶estática cálida</waterRitualName>
+    <smearedAdjective>▶{{Y|entrópico}}</smearedAdjective>
+    <smearedName>▶{{Y|entrópico}}</smearedName>
+    <stainedName>▶{{Y|estática cálida}}</stainedName>
+    <part Name="GlitchOnPour">
+      <messageObject>▶=subject.T= se distorsiona hasta volverse =object.an=.</messageObject>
+      <messageZone>▶El espacio a tu alrededor empieza a distorsionarse.</messageZone>
+      <accomplishmentObject>▶Vertiste la entropía pura del universo sobre las cosas y provocaste que se distorsionaran hasta volverse otras cosas.</accomplishmentObject>
+      <accomplishmentZone>▶Vertiste la entropía pura del universo en el suelo y provocaste que el espacio a tu alrededor se distorsionara.</accomplishmentZone>
+    </part>
+  </liquid>
+</liquids>
