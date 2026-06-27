@@ -1,0 +1,15 @@
+{
+  "ID": "rafaelvergara.lang.spanish.es",
+  "Title": "Traducción al español (España)",
+  "Description": "Traducción no oficial de Caves of Qud al español de España.",
+  "Version": "0.0.1",
+  "Author": "rafaelvergara",
+  "Tags": "Localization",
+  "Directories": [
+    {
+      "Path": "/languages/",
+      "Version": ">=1.1.0",
+      "Build": ">=2.0.212"
+    }
+  ]
+}

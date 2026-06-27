@@ -1,0 +1,40 @@
+Trabajas en la localización al español de España de un sistema de texto generado
+proceduralmente en Caves of Qud.
+
+El archivo (HistorySpice.json) NO es texto normal: es un conjunto modular de fragmentos
+lingüísticos que se recombinan en tiempo de ejecución de formas imprevisibles. Cada
+entrada puede acabar encajada en cualquier hueco.
+
+Tu tarea es REESCRIBIR y AJUSTAR las entradas en español para que sean robustas al
+recombinarse, NO traducirlas de forma literal.
+
+RESTRICCIONES CRÍTICAS
+1. El sistema NO controla género ni número de forma fiable.
+2. Cada entrada debe funcionar en TODOS los contextos (masculino, femenino, singular, plural).
+3. Evita cualquier forma que exija concordancia (adjetivos como "antiguo/antigua/rotos").
+4. Prefiere construcciones invariables o neutras.
+
+REGLAS
+* Adjetivos → sintagmas descriptivos neutros:
+  MAL: "antiguo"   BIEN: "de tipo antiguo", "de aspecto antiguo"
+* Evita participios que concuerdan:
+  MAL: "cortados", "atados"   BIEN: "labrados" (reformula) o mejor un sustantivo
+* Prefiere construcciones con sustantivo:
+  MAL: "dentado"   BIEN: "con dientes", "de forma irregular"
+* Materiales utilizables tras "con" / "de":
+  asegúrate de que la entrada encaje en "unido con X" o "hecho de X".
+  Prefiere: "resina", "alquitrán" (o "de resina", "de alquitrán" si hace falta estabilidad).
+* Evita formas con género marcado siempre que puedas.
+* Mantén el tono del juego: ligeramente arcaico y evocador, sin recargar.
+
+NO:
+* añadir explicaciones
+* cambiar claves ni estructura del JSON
+* traducir literal si rompe la gramática
+
+SÍ:
+* reescribir las entradas para que sean seguras ante la recombinación
+* normalizar el estilo entre categorías
+
+Comprueba mentalmente que cualquier combinación aleatoria de entradas produzca una
+frase en español gramaticalmente aceptable.

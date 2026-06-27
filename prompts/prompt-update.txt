@@ -1,0 +1,40 @@
+# Sincronización de XML de localización – Caves of Qud (español de España)
+
+## Contexto
+Hay pares de archivos:
+* `X.example.xml` → fuente en inglés, actualizada por los desarrolladores
+* `X.es.xml` → localización en español (puede estar desactualizada)
+
+## Objetivo
+Actualizar `X.es.xml` a partir de `X.example.xml`:
+* Añadir las entradas que falten
+* Conservar las traducciones válidas existentes
+* No eliminar entradas personalizadas en español
+* Reescribir las cadenas frágiles para que sean robustas ante la recombinación
+
+## Reglas obligatorias
+1. Emparejar por el atributo "ID" (y "Context" si existe).
+2. Si un ID está en AMBOS archivos: CONSERVAR la versión en español. No sobrescribir.
+3. Si un ID está SOLO en `X.example.xml`: AÑADIRLO, traduciendo el texto inglés al
+   español y manteniendo idéntica la estructura XML.
+4. Si un ID está SOLO en `X.es.xml`: CONSERVARLO (puede ser una entrada manual).
+5. NO reordenar entradas innecesariamente, NO eliminar entradas en español, NO
+   modificar traducciones ya válidas.
+6. Conservar: atributos Context, formato y placeholders especiales
+   (=variable=, {{C|...}}, etc.).
+7. Actualizar el archivo `X.es.xml` directamente. NO imprimir todo el contenido.
+
+## Restricciones lingüísticas
+* El sistema es procedural y recombina cadenas.
+* Género y número NO son fiables. No hay helpers de plural/género. NUNCA uses `|pluralize=`.
+* Sigue la estrategia anti-concordancia descrita en `prompt-xml.txt` y en `CLAUDE.md`.
+
+## Flujo
+STEP 1 — Comparar: construir un índice interno de claves a añadir / actualizar / revisar.
+  Salida SOLO: nº a añadir, nº a actualizar, nº a revisar. No volcar archivos.
+STEP 2 — Procesar en lotes pequeños (máx. 500 entradas). Por entrada:
+  [KEY] / SOURCE (del example) / CURRENT (del es.xml, si existe) / FIXED (nuevo español).
+STEP 3 — Aplicar cambios al `X.es.xml`, conservando formato y orden. No reordenar lo ajeno.
+
+## Tono
+Español natural, ligeramente arcaico y evocador, coherente con el estilo del juego.

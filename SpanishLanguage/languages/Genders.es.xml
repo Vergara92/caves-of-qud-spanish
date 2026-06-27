@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.24
+Tabla de géneros (español de España).
+Términos por género que el motor inserta de forma fiable: estos SÍ pueden ir
+con género/número correcto, porque el género es conocido en cada entrada.
+-->
+<genders Lang="es" Encoding="utf-8">
+
+  <gender Name="neuter"
+    Subjective="ello"
+    Objective="ello"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismo"
+  />
+
+  <gender Name="nonspecific"
+    Subjective="elle"
+    Objective="elle"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí misme"
+  />
+
+  <gender Name="neuterperson"
+    Subjective="ello"
+    Objective="ello"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismo"
+  />
+
+  <gender Name="male"
+    Subjective="él"
+    Objective="él"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismo"
+    PersonTerm="hombre"
+    ImmaturePersonTerm="muchacho"
+    FormalAddressTerm="amigo"
+    OffspringTerm="hijo"
+    SiblingTerm="hermano"
+    ParentTerm="padre"
+  />
+
+  <gender Name="female"
+    Subjective="ella"
+    Objective="ella"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suya"
+    Reflexive="sí misma"
+    PersonTerm="mujer"
+    ImmaturePersonTerm="muchacha"
+    FormalAddressTerm="amiga"
+    OffspringTerm="hija"
+    SiblingTerm="hermana"
+    ParentTerm="madre"
+  />
+
+  <gender Name="plural"
+    Subjective="ellos"
+    Objective="ellos"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismos"
+    PersonTerm="personas"
+    ImmaturePersonTerm="niños"
+    FormalAddressTerm="amigos"
+    OffspringTerm="hijos"
+    SiblingTerm="hermanos"
+    ParentTerm="padres"
+  />
+
+  <gender Name="collective"
+    Subjective="ellos"
+    Objective="ellos"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismos"
+    PersonTerm="gente"
+    ImmaturePersonTerm="niños"
+    FormalAddressTerm="amigos"
+    OffspringTerm="hijos"
+    SiblingTerm="hermanos"
+    ParentTerm="padres"
+  />
+
+  <gender Name="males"
+    Subjective="ellos"
+    Objective="ellos"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismos"
+    PersonTerm="hombres"
+    ImmaturePersonTerm="muchachos"
+    FormalAddressTerm="amigos"
+    OffspringTerm="hijos"
+    SiblingTerm="hermanos"
+    ParentTerm="padres"
+  />
+
+  <gender Name="females"
+    Subjective="ellas"
+    Objective="ellas"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suya"
+    Reflexive="sí mismas"
+    PersonTerm="mujeres"
+    ImmaturePersonTerm="muchachas"
+    FormalAddressTerm="amigas"
+    OffspringTerm="hijas"
+    SiblingTerm="hermanas"
+    ParentTerm="madres"
+  />
+
+  <gender Name="hindren male"
+    Subjective="él"
+    Objective="él"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismo"
+    PersonTerm="hombre"
+    ImmaturePersonTerm="faun"
+    FormalAddressTerm="buck"
+    OffspringTerm="hijo"
+    SiblingTerm="hermano"
+    ParentTerm="padre"
+  />
+
+  <gender Name="hindren female"
+    Subjective="ella"
+    Objective="ella"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suya"
+    Reflexive="sí misma"
+    PersonTerm="mujer"
+    ImmaturePersonTerm="faun"
+    FormalAddressTerm="mi cierva"
+    OffspringTerm="hija"
+    SiblingTerm="hermana"
+    ParentTerm="madre"
+  />
+
+  <gender Name="hartind"
+    Subjective="elle"
+    Objective="elle"
+    PossessiveAdjective="su"
+    SubstantivePossessive="suyo"
+    Reflexive="sí mismo"
+    PersonTerm="hartind"
+    ImmaturePersonTerm="faun"
+    FormalAddressTerm="hartind"
+    OffspringTerm="hijo"
+    SiblingTerm="hermano"
+    ParentTerm="progenitor"
+  />
+
+  <gender Name="elverson"
+    Subjective="ey"
+    Objective="em"
+    PossessiveAdjective="eir"
+    SubstantivePossessive="eirs"
+    Reflexive="emself"
+    PersonTerm="persona"
+    ImmaturePersonTerm="criatura"
+    FormalAddressTerm="amistad"
+    OffspringTerm="descendiente"
+    SiblingTerm="hermane"
+    ParentTerm="progenitor"
+  />
+
+</genders>

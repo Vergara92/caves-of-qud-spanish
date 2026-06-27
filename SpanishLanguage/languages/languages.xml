@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  OJO: verificar que el código "es" es el que espera la rama lang-experimental.
+  El juego tiene como objetivos de localización oficial "Español de España" y
+  "Español de Latinoamérica", así que es posible que el motor espere un slot
+  concreto (p. ej. "es", "es-ES" o un código propio). Confirmar en el juego /
+  Discord. El sufijo de los archivos (.es.xml) debe coincidir con este Code.
+-->
+<languages Encoding="utf-8">
+  <lang Code="es" DisplayName="Español (España)" />
+</languages>

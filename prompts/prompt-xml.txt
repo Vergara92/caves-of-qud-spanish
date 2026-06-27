@@ -1,0 +1,97 @@
+Traduce al español de España los archivos XML de la mod de localización de Caves of Qud (RPG post-apocalíptico, tono poético/arcaico/extraño).
+
+## Formato XML
+Dos estructuras posibles:
+  <part Name="Description" Short="▶traducción"/>
+  <string Context="..." ID="original">▶traducción</string>
+
+Reglas: modifica SOLO el contenido después de ▶. No añadas líneas. No toques los atributos Name/Context/ID ni la estructura XML. Conserva &#xA;, &quot; y demás entidades XML.
+
+## Plantillas: conservar SIN cambios
+- =pronouns.subjective= / =pronouns.Subjective=
+- =pronouns.possessive= / =pronouns.Possessive=
+- =pronouns.objective= / =pronouns.reflexive=
+- =pronouns.personTerm= / =pronouns.formalAddressTerm=
+- =pronouns.This= / =pronouns.this=
+- =subject.T= / =subject.t= / =subject.The.name= / =subject.the.name=
+- =object.T= / =object.t= / =object.The.name= / =object.the.name=
+- =subject.Basename= / =subject.Basename|strip=
+- =subject.possessive= / =subject.its= / =subject.is= / =subject.them=
+- =object.a.name= / =object.name= / =object.name's=
+- =name= / =player.name= / =npc.name= y cualquier nombre propio
+- =effect.name= / =weapon.name= / =hands.name= y nombres dinámicos similares
+- =shoutMessage= y cualquier variable de contenido dinámico
+- Plantillas numéricas: =volume=, =number=, =amount=, =duration= y similares
+- {{W|...}} {{r|...}} {{g|...}} etc. — colores: conserva estructura y contenido
+- Modificadores con pipe: |strip |cap |a |capitalize |pluralize etc.
+
+## Plantillas: eliminar y reescribir en español
+- =verb:X:afterpronoun= → verbo español conjugado directo
+- =verb:'re:afterpronoun= / =verb:'ve:afterpronoun= → reescribe en español
+- =subject.Does:verb= → =subject.The.name= + verbo español
+  (excepción: si el sujeto es un objeto poseído por el jugador, valóralo caso por caso)
+
+El pronombre sujeto español se omite cuando el sujeto ya está expresado por =subject.The.name= o por el contexto.
+
+## REGLA CENTRAL: eliminar la concordancia (CRÍTICO en español)
+El texto se genera de forma procedural recombinando fragmentos y el sistema NO
+maneja género ni número de forma fiable. NO traduzcas literal: reescribe para que
+la frase funcione en TODAS las combinaciones (masculino, femenino, singular, plural).
+
+Si una frase depende de concordancia → REESCRÍBELA.
+
+Aplica solo cuando el género/número del referente sea desconocido en tiempo de
+ejecución (típicamente el texto que rodea a =object.name=, =subject.name=,
+materiales, adjetivos sueltos). Cuando el género es conocido (términos de la tabla
+Genders: hombre/mujer, hijo/hija…), úsalo correcto.
+
+Cómo evitar concordancia:
+- Adjetivos → sustantivos o sintagmas neutros.
+  MAL: "una espada antigua" / "un anillo antiguo"
+  BIEN: "=object.the.name=, de factura antigua" / "=object.the.name=, de aspecto antiguo"
+- Participios que concuerdan → reformula con sustantivo o verbo neutro.
+  MAL: "rotos", "atados", "tallados"
+  BIEN: "con roturas", "con ataduras", "con tallas" (o reestructura para evitarlo)
+- Artículos que delatan género/número → evítalos cuando el referente es variable.
+  MAL: "el pueblo de X" / "los habitantes de X"
+  BIEN: "pueblo de X", "habitantes de X"
+- Cuantificadores invariables: "cada", "todo tipo de", "diversos" (no "muchos/muchas").
+- Prefiere construcciones verbales e impersonales: "ofrece protección a X" en vez de
+  "la protección de X"; "muestra poder" en vez de "es poderoso".
+
+## Artículos (cuando el referente SÍ es de género conocido y fijo)
+Usa el artículo español correcto (el/la/los/las — un/una/unos/unas). Contracciones
+del/al. Nunca dejes "the" ni "a/an" en el texto traducido.
+
+## Género (referentes de género conocido)
+- Criatura de género fijo (male/female): usa el género correcto en artículos y adjetivos.
+- Género variable: usa =pronouns.X= y minimiza concordancias.
+- Objetos/abstractos: usa el género gramatical español que corresponda al sustantivo
+  que tú mismo elijas, manteniéndolo coherente dentro de la misma cadena.
+
+## Registro España
+- Tratamiento al jugador: "tú" (segunda persona del singular).
+- Plural de "you": "vosotros".
+- Léxico peninsular, sin marcas latinoamericanas (coger, vosotros, etc.).
+
+## Nombres propios — no traducir
+Lugares, razas, personajes: Joppa, Qud, Barathrum, Grit Gate, Stilt, etc.
+
+## Tono
+Español natural, ligeramente arcaico y evocador, sin recargar.
+
+## Ejemplos
+❌ =pronouns.Subjective= =verb:root:afterpronoun= en la tierra buscando joyas.
+✅ ▶Hurga en la tierra buscando joyas.
+
+❌ =pronouns.This= =pronouns.personTerm= robusto =verb:wear:afterpronoun= un delantal blanco.
+✅ ▶=pronouns.This= =pronouns.personTerm= robusto lleva un delantal blanco.
+
+❌ ▶=subject.Does:se desprende= de =object.the.name=!
+✅ ▶=subject.The.name= se desprende de =object.the.name=!
+
+❌ =pronouns.Subjective= =verb:are:afterpronoun= un gatito pequeño [...] {{m|fosforescente}}
+✅ ▶Es un gatito pequeño [...] {{m|fosforescente}}
+
+❌ ▶=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.
+✅ ▶=subject.The.name= empieza a comportarse como si fuera =effect.name|strip=.
