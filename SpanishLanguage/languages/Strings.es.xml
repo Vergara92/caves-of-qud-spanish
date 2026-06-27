@@ -9,7 +9,7 @@ The Context attribute is optional, it includes some information about how the st
 used. The table will first check for a match on Context and ID, but will also check for ID
 alone if no match found.
 -->
-<strings Lang="example" Encoding="utf-8">
+<strings Lang="es" Encoding="utf-8">
   <string Context="Loading Status Bar" ID="Loading Colors.xml">Cargando Colors.xml</string>
   <string Context="Redeem Code - Invalid code" ID="That code is invalid.">Ese código no es válido.</string>
   <string Context="Redeem Code" ID="Redeeming code...">Canjeando código...</string>

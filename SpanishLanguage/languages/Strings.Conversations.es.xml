@@ -13,7 +13,7 @@ Strings loaded by the conversations loader also have all starting and trailing w
 removed, and each line is unindented.
 
 -->
-<strings Lang="example" Encoding="utf-8">
+<strings Lang="es" Encoding="utf-8">
   <string ID="...">...</string>
   <string ID="Live and drink.">Vive y bebe.</string>
   <!-- ** End super common-->
