@@ -1466,7 +1466,7 @@ alone if no match found.
   <string Context="TwiddleObject - Error out of range" ID="You cannot do that from here.">No puedes hacer eso desde aquí.</string>
   <string Context="Journal - Finalize entry text" ID="=text|capitalize=">=text|capitalize=</string>
   <string Context="Journal - Observations" ID="Qud was once called Salum.">Qud se llamó una vez Salum.</string>
-  <string Context="Journal - Observations" ID="The shomer Rainwater claims that Brightsheol is the dream of a seraph who lives atop the Spindle.">El shomer Rainwater asegura que Brightsheol es el sueño de un serafín que habita en lo alto del Huso.</string>
+  <string Context="Journal - Observations" ID="The shomer Rainwater claims that Brightsheol is the dream of a seraph who lives atop the Spindle.">El shomer Rainwater asegura que Brightsheol es el sueño de un serafín que habita en lo alto del Spindle.</string>
   <string Context="Journal - Village Notes, Joppa" ID="In the mystic air of Jeweled Dusk, a circle of farmers clasped hands and sheathed a vinereaper in the moistened soil. From then on, the villagers of Joppa were known as the people of the vine.">En el aire místico del Ocaso Enjoyado, un círculo de granjeros se tomó de las manos y enterró una segadora de vid en el suelo humedecido. Desde entonces, a las gentes de Joppa se las conoció como el pueblo de la vid.</string>
   <string Context="Journal - Village Notes, Joppa" ID="Since the first festival of Ut yara Ux, the villagers of Joppa have feasted on warm apple matz.">Desde el primer festival de Ut yara Ux, las gentes de Joppa se han dado festines de matz de manzana caliente.</string>
   <string Context="Journal - Village Notes, Kyakukya" ID="Under the Beetle Moon, folks settled here to gather goods of passage for Ape Saad Oboroqoru, and so Kyakukya was founded.">Bajo la Luna del Escarabajo, unas gentes se asentaron aquí para reunir bienes de paso para el Simio Saad Oboroqoru, y así se fundó Kyakukya.</string>
@@ -4115,7 +4115,7 @@ alone if no match found.
   <string Context="Golem Quest Mound Hostiles" ID="You can't do that with hostile creatures nearby.">No puedes hacer eso con criaturas hostiles cerca.</string>
   <string Context="Golem Quest Mound Build Button" ID="Build">Construir</string>
   <string Context="Golem Quest Mount Build Key" ID="Backspace">Retroceso</string>
-  <string ID="With the help of Pax Klanq and the Barathrumites, you constructed =golem.a.name= to climb the Spindle.">Con la ayuda de Pax Klanq y los Barathrumitas, construiste =golem.a.name= para escalar el Huso.</string>
+  <string ID="With the help of Pax Klanq and the Barathrumites, you constructed =golem.a.name= to climb the Spindle.">Con la ayuda de Pax Klanq y los Barathrumitas, construiste =golem.a.name= para escalar el Spindle.</string>
   <string Context="Golem Quest Selection Title" ID="Choose =selection|article=">Elige =selection|article=</string>
   <string Context="Golem Quest Selection Empty" ID="&lt;make a selection&gt;">&lt;haz una selección&gt;</string>
   <string Context="Settlements Generate Farm Name fallback nameRoot" ID="Urist">Urist</string>
@@ -4314,7 +4314,7 @@ alone if no match found.
   <string Context="TileBuilding Load Status Bar Message" ID="Loading BuildingTiles.txt">Cargando BuildingTiles.txt</string>
   <string Context="Children of the Tomb Accomplishment - Text" ID="You restored functionality to one of the four strange entities in the Tomb.">Restauraste la funcionalidad de una de las cuatro extrañas entidades de la Tumba.</string>
   <string Context="Children of the Tomb Accomplishment - mural text" ID="Remember the kindness of =name=, who absolved =player.possessive= treacherous brother of sin and steered him to salvation!">Recordad la bondad de =name=, que absolvió de pecado a =player.possessive= hermano traidor y lo guio hacia la salvación.</string>
-  <string Context="Children of the Tomb Accomplishment - gospel text" ID="In a moss-caked tomb under the light of the Spindle, =name= cemented their relationship with enigmatic beings by marrying the entity =entityName=.">En una tumba cubierta de musgo bajo la luz del Huso, =name= cimentó su relación con seres enigmáticos al desposar a la entidad =entityName=.</string>
+  <string Context="Children of the Tomb Accomplishment - gospel text" ID="In a moss-caked tomb under the light of the Spindle, =name= cemented their relationship with enigmatic beings by marrying the entity =entityName=.">En una tumba cubierta de musgo bajo la luz del Spindle, =name= cimentó su relación con seres enigmáticos al desposar a la entidad =entityName=.</string>
   <string Context="Crypt of Warriors - wall description warrior" ID="In tracery around the margins, warriors assemble in hex phalanxes.">En la tracería de los márgenes, hay guerreros formando en falanges hexagonales.</string>
   <string Context="Crypt of Warriors - wall description tutor" ID="In tracery around the margins, tutors instruct pupils in domed amphitheatres.">En la tracería de los márgenes, hay tutores instruyendo a alumnos en anfiteatros abovedados.</string>
   <string Context="Crypt of Warriors - wall description priest" ID="In tracery around the margins, priests burn incense inside of thuribles.">En la tracería de los márgenes, hay sacerdotes quemando incienso dentro de incensarios.</string>

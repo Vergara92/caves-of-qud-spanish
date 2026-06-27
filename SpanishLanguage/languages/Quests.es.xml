@@ -227,7 +227,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </quest>
   <quest ID="Tomb of the Eaters" Name="Tumba de los Eaters" Accomplishment="Regresaste de la Tumba de los Eaters tras desactivar con éxito el campo magnético del Spindle.">
     <step ID="Recover the Mark of Death" Name="Recupera la Marca de la Muerte">
-      <text>Recupera el sigilo perdido que usaban los Eaters para marcar a sus muertos.</text>
+      <text>Recupera el sigilo perdido que usaban los Devoradores para marcar a sus muertos.</text>
     </step>
     <step ID="Inscribe the Mark" Name="Inscribe la Marca">
       <text>Tatúate la marca en el cuerpo.</text>

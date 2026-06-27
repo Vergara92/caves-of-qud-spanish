@@ -191,7 +191,7 @@ Me explicó, como os he contado a ti y al resto de acólitos, que el mundo que c
 Esto ya lo sabes. Es la verdad que conté, aunque solo a medias. Pero Rebekah me enseñó más.
   </string>
   <string Context="Conversation Barathrum.Z-Reveal3.Text" ID="Atop the implausible rise of the Spindle roosted a Seraph, one of the great machinic archons of the Eaters, and this being Rebekah served.&#xA;&#xA;In the short years before I arrived in Qud, the Seraph became convinced that something had changed in the cosmic order. That along the ecliptic of the Folk Clock, some uncounted peg had slid to a priming position, and that the Coven was set to imminently return.">
-En lo alto de la inverosímil elevación del Spindle se posaba un Seraph, uno de los grandes arcontes maquínicos de los Eaters, y a este ser servía Rebekah.
+En lo alto de la inverosímil elevación del Spindle se posaba un Seraph, uno de los grandes arcontes maquínicos de los Devoradores, y a este ser servía Rebekah.
 
 En los breves años anteriores a mi llegada a Qud, el Seraph se convenció de que algo había cambiado en el orden cósmico. De que, a lo largo de la eclíptica del Folk Clock, alguna clavija innumerada se había deslizado a una posición de cebado, y de que el Coven estaba a punto de regresar de forma inminente.
   </string>
@@ -565,7 +565,7 @@ Convencí a Pax Klanq de construir la trepadora.
 Pax Klanq ha accedido a construir la trepadora. ¿Y ahora qué?
   </string>
   <string Context="Conversation Barathrum.Welcome.TombExplain1Choice.Text" ID="Could you tell me again about the Tomb of the Eaters?">
-¿Podrías hablarme de nuevo de la Tumba de los Eaters?
+¿Podrías hablarme de nuevo de la Tumba de los Devoradores?
   </string>
   <string Context="Conversation Barathrum.Welcome.GolemChoice.Text" ID="The magnetic field has been disable and the Spindle is free to ascend. What now?">
 El campo magnético ha sido desactivado y el Spindle está libre para ascender. ¿Y ahora qué?
@@ -612,17 +612,17 @@ Primero necesito tiempo a solas.
   <string Context="Conversation Barathrum.TombBody1.Text" ID="The climber design relies on the use of electromagnets to interface with the planet's magnetic field and generate torque. Unfortunately, the Spindle generates its own interfering field, perhaps as a mechanism to prevent unwanted ascension.&#xA;&#xA;Our aim is to access the Spindle's control unit and disable the field. How we accomplish this, however, is an enigma. From disparate bits across the archives of the digitum, Ereshkigal has stitched together a cryptic but instructional brocade. She's learned the field can be turned off from a place called Brightsheol, located in the Thin World and accessible only through Resheph's tomb inside the Tomb of the Eaters.">
 El diseño de la trepadora se basa en el uso de electroimanes para interactuar con el campo magnético del planeta y generar par. Por desgracia, el Spindle genera su propio campo de interferencia, quizá como mecanismo para impedir ascensos no deseados.
 
-Nuestro objetivo es acceder a la unidad de control del Spindle y desactivar el campo. Cómo lo lograremos, sin embargo, es un enigma. A partir de bits dispersos por los archivos del digitum, Ereshkigal ha entretejido un brocado críptico pero instructivo. Ha averiguado que el campo puede apagarse desde un lugar llamado Brightsheol, situado en el Thin World y accesible solo a través de la tumba de Resheph, dentro de la Tumba de los Eaters.
+Nuestro objetivo es acceder a la unidad de control del Spindle y desactivar el campo. Cómo lo lograremos, sin embargo, es un enigma. A partir de bits dispersos por los archivos del digitum, Ereshkigal ha entretejido un brocado críptico pero instructivo. Ha averiguado que el campo puede apagarse desde un lugar llamado Brightsheol, situado en el Thin World y accesible solo a través de la tumba de Resheph, dentro de la Tumba de los Devoradores.
   </string>
   <string Context="Conversation Barathrum.TombBody2.Text" ID="Strange, this, and imprecise, but as tinkers we know: a crude blueprint is better than no blueprint. You must return to Omonporch and enter the Tomb of the Eaters. Once inside, trace the errant paths cut into the mausoleum by robbers and vandals, and ascend to Resheph's burial chamber.&#xA;&#xA;As for gaining entrance to the Tomb, Resheph sealed the gates a thousand years ago, but there's a flaw in the seal. The ancient Mark of Death has been lost to time, but if you were to recover it and incise the mark on your body, the Death Gate would open for you, as it did for countless Eater cadavers in the long-blurred past.&#xA;&#xA;Recover the Mark of Death, =name=, enter the Tomb, and cross into Brightsheol. Place your paws once again on the dial and drum.">
-Extraño es esto, e impreciso, pero como manitas sabemos: un plano tosco es mejor que ningún plano. Debes regresar a Omonporch y entrar en la Tumba de los Eaters. Una vez dentro, sigue los senderos errantes excavados en el mausoleo por ladrones y vándalos, y asciende hasta la cámara funeraria de Resheph.
+Extraño es esto, e impreciso, pero como manitas sabemos: un plano tosco es mejor que ningún plano. Debes regresar a Omonporch y entrar en la Tumba de los Devoradores. Una vez dentro, sigue los senderos errantes excavados en el mausoleo por ladrones y vándalos, y asciende hasta la cámara funeraria de Resheph.
 
-En cuanto a obtener acceso a la Tumba, Resheph selló las puertas hace mil años, pero hay un defecto en el sello. La antigua Marca de la Muerte se ha perdido en el tiempo, pero si la recuperaras y grabaras la marca en tu cuerpo, la Puerta de la Muerte se abriría para ti, como lo hizo para incontables cadáveres de Eaters en el pasado largamente difuminado.
+En cuanto a obtener acceso a la Tumba, Resheph selló las puertas hace mil años, pero hay un defecto en el sello. La antigua Marca de la Muerte se ha perdido en el tiempo, pero si la recuperaras y grabaras la marca en tu cuerpo, la Puerta de la Muerte se abriría para ti, como lo hizo para incontables cadáveres de Devoradores en el pasado largamente difuminado.
 
 Recupera la Marca de la Muerte, =name=, entra en la Tumba y cruza a Brightsheol. Posa tus zarpas una vez más sobre el dial y el tambor.
   </string>
   <string Context="Conversation Barathrum.TombBody2.TombBody3Choice.Text" ID="I will enter the Tomb of the Eaters as you ask.">
-Entraré en la Tumba de los Eaters como me pides.
+Entraré en la Tumba de los Devoradores como me pides.
   </string>
   <string Context="Conversation Barathrum.TombBody2.EndChoice.Text" ID="You ask so much. I must consider it.">
 Pides mucho. Debo considerarlo.
@@ -636,12 +636,12 @@ Tomo nota de tu advertencia. Adiós, Barathrum.
   <string Context="Conversation Barathrum.TombExplain1.Text" ID="The climber design relies on the use of electromagnets to interface with the planet's magnetic field and generate torque. Unfortunately, the Spindle generates its own interfering field, perhaps as a mechanism to prevent unwanted ascension.&#xA;&#xA;Our aim is to access the Spindle's control unit and disable the field. How we accomplish this, however, is an enigma. From disparate bits across the archives of the digitum, Ereshkigal has stitched together a cryptic but instructional brocade. She's learned the field can be turned off from a place called Brightsheol, located in the Thin World and accessible only through Resheph's tomb inside the Tomb of the Eaters.">
 El diseño de la trepadora se basa en el uso de electroimanes para interactuar con el campo magnético del planeta y generar par. Por desgracia, el Spindle genera su propio campo de interferencia, quizá como mecanismo para impedir ascensos no deseados.
 
-Nuestro objetivo es acceder a la unidad de control del Spindle y desactivar el campo. Cómo lo lograremos, sin embargo, es un enigma. A partir de bits dispersos por los archivos del digitum, Ereshkigal ha entretejido un brocado críptico pero instructivo. Ha averiguado que el campo puede apagarse desde un lugar llamado Brightsheol, situado en el Thin World y accesible solo a través de la tumba de Resheph, dentro de la Tumba de los Eaters.
+Nuestro objetivo es acceder a la unidad de control del Spindle y desactivar el campo. Cómo lo lograremos, sin embargo, es un enigma. A partir de bits dispersos por los archivos del digitum, Ereshkigal ha entretejido un brocado críptico pero instructivo. Ha averiguado que el campo puede apagarse desde un lugar llamado Brightsheol, situado en el Thin World y accesible solo a través de la tumba de Resheph, dentro de la Tumba de los Devoradores.
   </string>
   <string Context="Conversation Barathrum.TombExplain2.Text" ID="Strange, this, and imprecise, but as tinkers we know: a crude blueprint is better than no blueprint. You must return to Omonporch and enter the Tomb of the Eaters. Once inside, trace the errant paths cut into the mausoleum by robbers and vandals, and ascend to Resheph's burial chamber.&#xA;&#xA;As for gaining entrance to the Tomb, Resheph sealed the gates a thousand years ago, but there's a flaw in the seal. The ancient Mark of Death has been lost to time, but if you were to recover it and incise the mark on your body, the Death Gate would open for you, as it did for countless Eater cadavers in the long-blurred past.&#xA;&#xA;You're to recover the Mark of Death, =name=, enter the Tomb, and cross into Brightsheol.">
-Extraño es esto, e impreciso, pero como manitas sabemos: un plano tosco es mejor que ningún plano. Debes regresar a Omonporch y entrar en la Tumba de los Eaters. Una vez dentro, sigue los senderos errantes excavados en el mausoleo por ladrones y vándalos, y asciende hasta la cámara funeraria de Resheph.
+Extraño es esto, e impreciso, pero como manitas sabemos: un plano tosco es mejor que ningún plano. Debes regresar a Omonporch y entrar en la Tumba de los Devoradores. Una vez dentro, sigue los senderos errantes excavados en el mausoleo por ladrones y vándalos, y asciende hasta la cámara funeraria de Resheph.
 
-En cuanto a obtener acceso a la Tumba, Resheph selló las puertas hace mil años, pero hay un defecto en el sello. La antigua Marca de la Muerte se ha perdido en el tiempo, pero si la recuperaras y grabaras la marca en tu cuerpo, la Puerta de la Muerte se abriría para ti, como lo hizo para incontables cadáveres de Eaters en el pasado largamente difuminado.
+En cuanto a obtener acceso a la Tumba, Resheph selló las puertas hace mil años, pero hay un defecto en el sello. La antigua Marca de la Muerte se ha perdido en el tiempo, pero si la recuperaras y grabaras la marca en tu cuerpo, la Puerta de la Muerte se abriría para ti, como lo hizo para incontables cadáveres de Devoradores en el pasado largamente difuminado.
 
 Has de recuperar la Marca de la Muerte, =name=, entrar en la Tumba y cruzar a Brightsheol.
   </string>
@@ -678,7 +678,7 @@ La señal es un faro de bienvenida, y procede de lo más alto del Spindle.
 ¿Y qué es el Spindle, en realidad?
   </string>
   <string Context="Conversation Barathrum.Spindle.Text" ID="The beacon confirmed my hypothesis. The Spindle is an elevator, engineered by the Eaters to convey freight to and from the vault of heaven. You see, nestling, in the earliest aurora of our past, the Eaters of Earth were joined by a great coven of beings that spanned the firmament. But the Eaters succumbed to some terrible temptation, and an injunction was placed on our world.&#xA;&#xA;Since then, the stars were silent to us, and our world was left to molder and decay. But something changed. The signal affirms that an entity roosts atop the Spindle, and invites us to join it.&#xA;&#xA;Dare I say, is the injunction at an end? It's too early to tell, but alas, there could be hope for our world.">
-El faro confirmó mi hipótesis. El Spindle es un ascensor, ideado por los Eaters para transportar carga hacia y desde la bóveda del cielo. Verás, polluelo, en la más temprana aurora de nuestro pasado, a los Eaters de la Tierra se unió un gran coven de seres que abarcaban el firmamento. Pero los Eaters sucumbieron a alguna terrible tentación, y se impuso una interdicción sobre nuestro mundo.
+El faro confirmó mi hipótesis. El Spindle es un ascensor, ideado por los Devoradores para transportar carga hacia y desde la bóveda del cielo. Verás, polluelo, en la más temprana aurora de nuestro pasado, a los Devoradores de la Tierra se unió un gran coven de seres que abarcaban el firmamento. Pero los Devoradores sucumbieron a alguna terrible tentación, y se impuso una interdicción sobre nuestro mundo.
 
 Desde entonces, las estrellas guardaron silencio para nosotros, y nuestro mundo quedó abandonado a la podredumbre y la decadencia. Pero algo cambió. La señal afirma que una entidad se posa en lo alto del Spindle, y nos invita a unirnos a ella.
 
@@ -3381,7 +3381,7 @@ Perdona. Me despisté un poco. ¿Qué necesitas?
 La sangre no sabe mal, pero no me cabe en la cabeza vivir de ella.
   </string>
   <string Context="Conversation CatHerder.Start.Text.Text" ID="By the Eaters, I'm exhausted. May I help you?">
-Por los Eaters, estoy agotado. ¿En qué puedo ayudarte?
+Por los Devoradores, estoy agotado. ¿En qué puedo ayudarte?
   </string>
   <string Context="Conversation CatHerder.Start.Text.Text2" ID="Please don't open the gate.">
 Por favor, no abras la verja.
@@ -3603,7 +3603,7 @@ Vengo en paz.
 No nos entretengamos juntos.
   </string>
   <string Context="Conversation Arconaut.Start.Text.Text8" ID="May the Eaters gift you.">
-Que los Eaters te colmen de dones.
+Que los Devoradores te colmen de dones.
   </string>
   <string Context="Conversation Arconaut.Start.Text.Text9" ID="Scrap for goods?">
 ¿Chatarra por mercancía?
@@ -3804,7 +3804,7 @@ Vive y bebe, =player.formalAddressTerm=.
 Tengo lo que necesitas, =player.formalAddressTerm=.
   </string>
   <string Context="Conversation GenericMerchant.Start.Text.Text7" ID="Ah, =player.formalAddressTerm=, thank the Eaters that you have found Qud's only honest shopkeep.">
-Ah, =player.formalAddressTerm=, da gracias a los Eaters por haber encontrado al único tendero honrado de Qud.
+Ah, =player.formalAddressTerm=, da gracias a los Devoradores por haber encontrado al único tendero honrado de Qud.
   </string>
   <string Context="Conversation GenericMerchant.Start.Text.Text8" ID="On my honor, =player.formalAddressTerm=, my goods are of only the highest quality and I offer a fair trade.">
 Por mi honor, =player.formalAddressTerm=, mi mercancía es de la más alta calidad y ofrezco un trato justo.
@@ -3831,7 +3831,7 @@ Que encuentres sombra y sustento, =player.formalAddressTerm=.
 Date prisa con eso.
   </string>
   <string Context="Conversation GenericMerchant.Start.Text.Text16" ID="By the Eaters, have you ever seen so much treasure?">
-Por los Eaters, ¿has visto alguna vez tanto tesoro?
+Por los Devoradores, ¿has visto alguna vez tanto tesoro?
   </string>
   <string Context="Conversation WardenEsthers.Welcome.Text" ID="Live and drink, traveler. Welcome to the Stilt.">
 Vive y bebe, viajero. Bienvenido al Stilt.
@@ -4838,7 +4838,7 @@ Hace tiempo que conocemos la ubicación de un {{W|baetyl}} plenamente funcional 
 ¿Qué es un baetyl?
   </string>
   <string Context="Conversation Otho.Baetyl?.Text" ID="They are antique stones located in certain places deep within the caverns of Qud. We believe they are some sort of hyper-advanced machines built by the Eaters. Often one claims to possess a sentience of its own. However, most of them have gone haywire in the eons since their creation; it is rare indeed to discover one whose circuitry is wholly uncorroded.&#xA;&#xA;The Mechanimists worship this one as an idol, and they will protect it at all costs. You will need to find a way through their host to the baetyl itself.&#xA;&#xA;Do you believe you can accomplish this task?">
-Son piedras antiguas situadas en ciertos lugares en lo hondo de las cavernas de Qud. Creemos que son una especie de máquinas hiperavanzadas construidas por los Eaters. A menudo una de ellas afirma poseer conciencia propia. Sin embargo, la mayoría se han trastornado en los eones desde su creación; es raro de veras dar con una cuya circuitería esté del todo libre de corrosión.
+Son piedras antiguas situadas en ciertos lugares en lo hondo de las cavernas de Qud. Creemos que son una especie de máquinas hiperavanzadas construidas por los Devoradores. A menudo una de ellas afirma poseer conciencia propia. Sin embargo, la mayoría se han trastornado en los eones desde su creación; es raro de veras dar con una cuya circuitería esté del todo libre de corrosión.
 
 Los Mechanimists adoran a este como a un ídolo, y lo protegerán a toda costa. Tendrás que abrirte paso entre su hueste hasta el baetyl mismo.
 
@@ -4853,7 +4853,7 @@ Debo pensarme esta tarea.
   <string Context="Conversation Otho.Bethesda1.Text" ID="Good, =factionaddress:Barathrumites=. Speak to {{m|Q Girl}} in the workshop. She'll encode her instructions for the baetyl onto a copy of the disk.&#xA;&#xA;There's one more thing. The baetyl is located beneath the ancient cryobarrios of the Eaters. Time has worked to erode the mechanisms that contain their cryogenic mist. That freezing vapor billows out of the chambers freely now, cooling the entire cavern. You will want to procure warm clothing to protect =player.reflexive=.&#xA;&#xA;The spoils of the Mechanimists are yours to keep. Remember, =factionaddress:Barathrumites=, Barathrum will look kindly upon your service.">
 Bien, =factionaddress:Barathrumites=. Habla con {{m|Q Girl}} en el taller. Grabará sus instrucciones para el baetyl en una copia del disco.
 
-Hay una cosa más. El baetyl se halla bajo los antiguos cryobarrios de los Eaters. El tiempo ha erosionado los mecanismos que contenían su bruma criogénica. Ese vapor helado brota libremente ahora de las cámaras, enfriando toda la caverna. Querrás procurarte ropa de abrigo para protegerte.
+Hay una cosa más. El baetyl se halla bajo los antiguos cryobarrios de los Devoradores. El tiempo ha erosionado los mecanismos que contenían su bruma criogénica. Ese vapor helado brota libremente ahora de las cámaras, enfriando toda la caverna. Querrás procurarte ropa de abrigo para protegerte.
 
 El botín de los Mechanimists es tuyo. Recuerda, =factionaddress:Barathrumites=, Barathrum mirará con buenos ojos tu servicio.
   </string>
@@ -4914,7 +4914,7 @@ Aseguraré el Spindle para Barathrum.
 Debo pensarme esta tarea.
   </string>
   <string Context="Conversation Otho.Ripe1.Text" ID="The Putus Templar, or the Sons and Daughters, as they call themselves, are an order of knights who claim descendancy from the Eaters, the ancient folk who wrought the chrome halls of Qud. Beware them, for while they despise all mutants, they harbor a special malice for Barathrum.&#xA;&#xA;Take care that you do not find =player.reflexive= inside one of their slave pens.">
-Los Putus Templar, o los Hijos e Hijas, como ellos se llaman, son una orden de caballeros que se proclaman descendientes de los Eaters, el pueblo antiguo que forjó los salones de cromo de Qud. Ten cuidado con ellos, pues, aunque desprecian a todos los mutantes, guardan una inquina especial hacia Barathrum.
+Los Putus Templar, o los Hijos e Hijas, como ellos se llaman, son una orden de caballeros que se proclaman descendientes de los Devoradores, el pueblo antiguo que forjó los salones de cromo de Qud. Ten cuidado con ellos, pues, aunque desprecian a todos los mutantes, guardan una inquina especial hacia Barathrum.
 
 Procura no acabar dentro de uno de sus corrales de esclavos.
   </string>
@@ -5256,7 +5256,7 @@ Saludos, Sparafucile.
 ¿Has conocido alguna vez a Pax Klanq?
   </string>
   <string Context="Conversation Sparafucile.SilentGreeting.TombSpara.Text" ID="I must enter Brightsheol through the Tomb of the Eaters.">
-Debo entrar en Brightsheol por la Tumba de los Eaters.
+Debo entrar en Brightsheol por la Tumba de los Devoradores.
   </string>
   <string Context="Conversation Sparafucile.SilentGreeting.GolemSpara.Text" ID="What do you think of Klanq's presence?">
 ¿Qué opinas de la presencia de Klanq?
@@ -5431,7 +5431,7 @@ Estos son los capítulos finales de esta historia, =name=, y probablemente de mu
 Será bueno ver el otro lado de todo esto, de un modo u otro.
   </string>
   <string Context="Conversation Iseppa.Post Arms.TombQuestChoice.Text" ID="I must enter Brightsheol through the Tomb of the Eaters.">
-Debo entrar en Brightsheol por la Tumba de los Eaters.
+Debo entrar en Brightsheol por la Tumba de los Devoradores.
   </string>
   <string Context="Conversation Iseppa.Post Arms.GreetingsChoice.Text" ID="Let's talk, Iseppa.">
 Hablemos, Iseppa.
@@ -5636,7 +5636,7 @@ Bueno, debería irme. Vive y bebe.
 Muerte a todos los subyugadores que osen enfrentarse a nosotros.
   </string>
   <string Context="Conversation Dardi.Post Arms.TombQuestChoice.Text" ID="I must enter Brightsheol through the Tomb of the Eaters.">
-Debo entrar en Brightsheol por la Tumba de los Eaters.
+Debo entrar en Brightsheol por la Tumba de los Devoradores.
   </string>
   <string Context="Conversation Dardi.Post Arms.GreetingsChoice.Text" ID="About your workshop...">
 Sobre tu taller...
@@ -5711,7 +5711,7 @@ Vive y bebe, manitas de la comida.
   <string Context="Conversation Dardi.Porridge.Text" ID="What you smell is Grit Gate's signature dish. The Porridge is a recipe passed down through generations of Barathrumites, and it is the food that inspired me to pursue my craft. Yes, outsiders quail at the intensity of the scent, for its flavor is as bold as its effects!&#xA;&#xA;We use cuisine to channel lightning from our bodies! Other recipes may let us breathe fire, or learn the secrets of the Eaters. The Porridge is as precious a part of our legacy as the Barathrum Clock or the foaminator.">
 Lo que hueles es el plato estrella de Grit Gate. Las Gachas son una receta transmitida por generaciones de Barathrumites, y es el plato que me inspiró a perseguir mi oficio. ¡Sí, los forasteros se amilanan ante la intensidad del olor, pues su sabor es tan audaz como sus efectos!
 
-¡Usamos la cocina para canalizar relámpagos desde nuestros cuerpos! Otras recetas pueden hacernos escupir fuego, o aprender los secretos de los Eaters. Las Gachas son una parte tan preciada de nuestro legado como el Reloj de Barathrum o el espumador.
+¡Usamos la cocina para canalizar relámpagos desde nuestros cuerpos! Otras recetas pueden hacernos escupir fuego, o aprender los secretos de los Devoradores. Las Gachas son una parte tan preciada de nuestro legado como el Reloj de Barathrum o el espumador.
   </string>
   <string Context="Conversation Dardi.Porridge.EndChoice.Text" ID="Live and drink, food-tinkerer.">
 Vive y bebe, manitas de la comida.
@@ -5825,7 +5825,7 @@ Pasé tanto tiempo preparándome para la eventualidad de que mi hogar fuera asal
 No estaba preparado. Esta sensación de ultraje quema como un electrocauterio.
   </string>
   <string Context="Conversation Aloysius.Post Arms.TombQuestChoice.Text" ID="I must enter Brightsheol through the Tomb of the Eaters.">
-Debo entrar en Brightsheol por la Tumba de los Eaters.
+Debo entrar en Brightsheol por la Tumba de los Devoradores.
   </string>
   <string Context="Conversation Aloysius.Post Arms.GreetingsChoice.Text" ID="Can we talk, Aloysius?">
 ¿Podemos hablar, Aloysius?
@@ -5953,7 +5953,7 @@ Ejerceré mi mejor criterio. Vive y bebe.
 Me embriago con tu sola presencia, cachorro. Gracias por mantenerte a salvo.
   </string>
   <string Context="Conversation Hortensa.Post Arms.TombQuestChoice.Text" ID="I must enter Brightsheol through the Tomb of the Eaters.">
-Debo entrar en Brightsheol por la Tumba de los Eaters.
+Debo entrar en Brightsheol por la Tumba de los Devoradores.
   </string>
   <string Context="Conversation Hortensa.Post Arms.GreetingsChoice.Text" ID="Drink deeply of life, Hortensa. Let's talk.">
 Bebe a fondo de la vida, Hortensa. Hablemos.
@@ -5964,7 +5964,7 @@ Tú también. Vive y bebe.
   <string Context="Conversation Hortensa.TombQuest.Text" ID="...  I do not like this.&#xA;&#xA;I know you will go. Please take care where you dig; mopango wanderers say the hot blood of Eater artifice yet runs in the guts of that place.">
 ...  Esto no me gusta.
 
-Sé que irás. Por favor, ten cuidado dónde cavas; los errantes mopango dicen que la sangre caliente del artificio de los Eaters aún corre por las entrañas de ese lugar.
+Sé que irás. Por favor, ten cuidado dónde cavas; los errantes mopango dicen que la sangre caliente del artificio de los Devoradores aún corre por las entrañas de ese lugar.
   </string>
   <string Context="Conversation Hortensa.TombQuest.EndChoice.Text" ID="I thank you.">
 Te lo agradezco.
@@ -11169,7 +11169,7 @@ Eh, kendren, ¿existe de verdad el yempuris phi? ¿De verdad viene a por nosotro
 ¿Es verdad que los kendren a veces mueren de cocinar demasiado fuerte?
   </string>
   <string Context="Conversation FaundrenVillager.Start.Text.Text31" ID="Kendren! Kendren! Take me with you! I want to see the Sixty Stilts!">
-¡Kendren! ¡Kendren! ¡Llévame contigo! ¡Quiero ver los Sesenta Pilares!
+¡Kendren! ¡Kendren! ¡Llévame contigo! ¡Quiero ver los Sixty Stilts!
   </string>
   <string Context="Conversation FaundrenVillager.Start.EndChoice.Text" ID="I am busy. Live and drink, little one.">
 Estoy ocupado. Vive y bebe, pequeño.
@@ -11525,7 +11525,7 @@ Ahora mamamos leche eléctrica del viejo y dolorido templo para hacer girar nues
 ¿Árbol Estelar?
   </string>
   <string Context="Conversation Haddas.StarTree.Text" ID="Aye, the Blue Mother who breaks the sky. Those who Eat called her Gjaus, and those who Wake call her Spindle.">
-Sí, la Madre Azul que rompe el cielo. Quienes Devoran la llamaban Gjaus, y quienes Despiertan la llaman Huso.
+Sí, la Madre Azul que rompe el cielo. Quienes Devoran la llamaban Gjaus, y quienes Despiertan la llaman Spindle.
   </string>
   <string Context="Conversation Haddas.Warden.Text" ID="One called 1-FF, who wandered in errancy out from the Tomb and was reprogrammed by the Daughter who lived and died in the rot-black box, nine Daughters ago.">
 Una llamada 1-FF, que vagó errante fuera de la Tumba y fue reprogramada por la Hija que vivió y murió en la caja negra de podredumbre, hace nueve Hijas.
@@ -11620,7 +11620,7 @@ Que nuestras vidas sean tan dulces como mi cosecha, =player.formalAddressTerm=.
 ¿Cantarás y trabajarás conmigo, =player.formalAddressTerm=?
   </string>
   <string Context="Conversation BananaRancher.Start.Text.Text5" ID="Hey, oh-way, it's a long way down, from the reaches of the Spindle to the humble ground...">
-Eh, oh-vay, qué larga es la bajada, desde las alturas del Huso hasta el humilde suelo...
+Eh, oh-vay, qué larga es la bajada, desde las alturas del Spindle hasta el humilde suelo...
   </string>
   <string Context="Conversation BananaRancher.Start.Text.Text6" ID="Hey, oh-way, banana tree, count the bunches, one-two-three...">
 Eh, oh-vay, platanero, cuenta los racimos, uno-dos-tres...
@@ -12986,7 +12986,7 @@ Saad, cruza ahora por la alta puerta y adéntrate en Brightsheol.
 ¿Por qué me llamas Saad?
   </string>
   <string Context="Conversation Shomer.Start.ChoiceMission.Text" ID="I've come from the Thick World with a mission: to disable the Spindle's magnetic field. Can you do this for me?">
-He venido del Mundo Espeso con una misión: desactivar el campo magnético del Huso. ¿Puedes hacerlo por mí?
+He venido del Mundo Espeso con una misión: desactivar el campo magnético del Spindle. ¿Puedes hacerlo por mí?
   </string>
   <string Context="Conversation Shomer.Dead.Text" ID="Saad, the bodi dien, but the mind romen.">
 Saad, el cuerpo muere, mas la mente vaga.
@@ -12998,7 +12998,7 @@ Saad, el cuerpo muere, mas la mente vaga.
 ¿Por qué me llamas Saad?
   </string>
   <string Context="Conversation Shomer.Dead.MissionChoice.Text" ID="I've come from the Thick World with a mission: to disable the Spindle's magnetic field. Can you do this for me?">
-He venido del Mundo Espeso con una misión: desactivar el campo magnético del Huso. ¿Puedes hacerlo por mí?
+He venido del Mundo Espeso con una misión: desactivar el campo magnético del Spindle. ¿Puedes hacerlo por mí?
   </string>
   <string Context="Conversation Shomer.Place.Text" ID="Saad, stonden thu at the heigh gate to Brightsheol.&#xA;Saad, thyn heres been wet with olde lif.&#xA;Saad, shaken thyn hed and cross in-to neue lif.">
 Saad, estás ante la alta puerta de Brightsheol.
@@ -13015,7 +13015,7 @@ Saad, sacude la cabeza y cruza a la nueva vida.
 ¿Por qué me llamas Saad?
   </string>
   <string Context="Conversation Shomer.Place.MissionChoice.Text" ID="I've come from the Thick World with a mission: to disable the Spindle's magnetic field. Can you do this for me?">
-He venido del Mundo Espeso con una misión: desactivar el campo magnético del Huso. ¿Puedes hacerlo por mí?
+He venido del Mundo Espeso con una misión: desactivar el campo magnético del Spindle. ¿Puedes hacerlo por mí?
   </string>
   <string Context="Conversation Shomer.Resheph.Text" ID="No Saad Resheph residen her.">
 Ningún Saad Resheph reside aquí.
@@ -13030,7 +13030,7 @@ Ningún Saad Resheph reside aquí.
 ¿Por qué me llamas Saad?
   </string>
   <string Context="Conversation Shomer.Resheph.MissionChoice.Text" ID="I've come from the Thick World with a mission: to disable the Spindle's magnetic field. Can you do this for me?">
-He venido del Mundo Espeso con una misión: desactivar el campo magnético del Huso. ¿Puedes hacerlo por mí?
+He venido del Mundo Espeso con una misión: desactivar el campo magnético del Spindle. ¿Puedes hacerlo por mí?
   </string>
   <string Context="Conversation Shomer.Dream.Text" ID="Alofte of Gjaus a cite twinklen.&#xA;And ther the Seraph dremen.&#xA;And Brightsheol is the drem.">
 En lo alto de Gjaus titila una ciudad.
@@ -13047,7 +13047,7 @@ Y Brightsheol es el sueño.
 ¿Por qué me llamas Saad?
   </string>
   <string Context="Conversation Shomer.Dream.MissionChoice.Text" ID="I've come from the Thick World with a mission: to disable the Spindle's magnetic field. Can you do this for me?">
-He venido del Mundo Espeso con una misión: desactivar el campo magnético del Huso. ¿Puedes hacerlo por mí?
+He venido del Mundo Espeso con una misión: desactivar el campo magnético del Spindle. ¿Puedes hacerlo por mí?
   </string>
   <string Context="Conversation Shomer.Saad.Text" ID="Artow a Saad of olde Salum, and nou stonden thu at the heigh gate to Brightsheol.">
 Eres un Saad de la vieja Salum, y ahora estás ante la alta puerta de Brightsheol.
@@ -13062,7 +13062,7 @@ Eres un Saad de la vieja Salum, y ahora estás ante la alta puerta de Brightsheo
 ¿Qué es este lugar?
   </string>
   <string Context="Conversation Shomer.Saad.MissionChoice.Text" ID="I've come from the Thick World with a mission: to disable the Spindle's magnetic field. Can you do this for me?">
-He venido del Mundo Espeso con una misión: desactivar el campo magnético del Huso. ¿Puedes hacerlo por mí?
+He venido del Mundo Espeso con una misión: desactivar el campo magnético del Spindle. ¿Puedes hacerlo por mí?
   </string>
   <string Context="Conversation Shomer.Qud.Text" ID="Saad, yis.">
 Saad, sí.
@@ -13077,7 +13077,7 @@ Saad, sí.
 ¿Por qué me llamas Saad?
   </string>
   <string Context="Conversation Shomer.Qud.MissionChoice.Text" ID="I've come from the Thick World with a mission: to disable the Spindle's magnetic field. Can you do this for me?">
-He venido del Mundo Espeso con una misión: desactivar el campo magnético del Huso. ¿Puedes hacerlo por mí?
+He venido del Mundo Espeso con una misión: desactivar el campo magnético del Spindle. ¿Puedes hacerlo por mí?
   </string>
   <string Context="Conversation Shomer.Mission.Text" ID="{{emote|*The clothes shrouding Rainwater Shomer's form are still for many moments.*}}&#xA;&#xA;The shomrim connen. Why oghte we?">
 {{emote|*Las ropas que envuelven la figura de Shomer del Agua de Lluvia quedan inmóviles durante largos instantes.*}}
@@ -13091,7 +13091,7 @@ Porque... soy un Saad, al fin y al cabo.
 ¡Shomer, mocoso impertinente! El Saad Resheph está ante ti. Haz lo que te digo.
   </string>
   <string Context="Conversation Shomer.Mission.Salum1Choice.Text" ID="Something changed atop the Spindle. If Brightsheol is indeed connected to the city there, then this change may suggest it's in peril...">
-Algo cambió en lo alto del Huso. Si Brightsheol está en verdad unida a la ciudad de allí, este cambio podría indicar que corre peligro...
+Algo cambió en lo alto del Spindle. Si Brightsheol está en verdad unida a la ciudad de allí, este cambio podría indicar que corre peligro...
   </string>
   <string Context="Conversation Shomer.Mission.StartChoice.Text" ID="Wait. I have more questions to ask.">
 Espera. Tengo más preguntas que hacer.
@@ -13105,13 +13105,13 @@ Los shomrim siguen incrédulos.
 {{emote|*Las ropas que envuelven la figura de Shomer del Agua de Lluvia permanecen inmóviles.*}}
   </string>
   <string Context="Conversation Shomer.Salum1.Salum2Choice.Text" ID="One year ago, someone began broadcasting a signal from atop the Spindle. I have a recording of it here...">
-Hace un año, alguien empezó a emitir una señal desde lo alto del Huso. Aquí tengo una grabación de ella...
+Hace un año, alguien empezó a emitir una señal desde lo alto del Spindle. Aquí tengo una grabación de ella...
   </string>
   <string Context="Conversation Shomer.Salum2.Text" ID="{{emote|*The clothes shrouding Rainwater Shomer's form remain still.*}}">
 {{emote|*Las ropas que envuelven la figura de Shomer del Agua de Lluvia permanecen inmóviles.*}}
   </string>
   <string Context="Conversation Shomer.Salum2.Salum3Choice.Text" ID="I ask you: disable the magnetic field so that the Spindle can be ascended and the signal investigated.">
-Te lo pido: desactiva el campo magnético para que el Huso pueda ascenderse y la señal investigarse.
+Te lo pido: desactiva el campo magnético para que el Spindle pueda ascenderse y la señal investigarse.
   </string>
   <string Context="Conversation Shomer.Salum3.Text" ID="{{emote|*The clothes shrouding Rainwater Shomer's form are still for many moments.*}}&#xA;&#xA;Saad, the Seraph sprecen.&#xA;Saad, thu asken, and the shomrim assenten.&#xA;Saad, wiltou return to Salum or crossen in-to Brightsheol?">
 {{emote|*Las ropas que envuelven la figura de Shomer del Agua de Lluvia quedan inmóviles durante largos instantes.*}}
@@ -13121,7 +13121,7 @@ Saad, tú lo pides, y los shomrim asienten.
 Saad, ¿volverás a Salum o cruzarás a Brightsheol?
   </string>
   <string Context="Conversation Shomer.Salum3.ReturnChoice.Text" ID="If it can be done, return me to Qud. I wish to ascend the Spindle myself.">
-Si puede hacerse, devuélveme a Qud. Deseo ascender el Huso yo mismo.
+Si puede hacerse, devuélveme a Qud. Deseo ascender el Spindle yo mismo.
   </string>
   <string Context="Conversation Shomer.Salum3.CrossChoice.Text" ID="... I've shaken the wet life from my hair. Now I shall cross into Brightsheol.">
 ... He sacudido la vida húmeda de mis cabellos. Ahora cruzaré a Brightsheol.
@@ -13917,7 +13917,7 @@ Vive y bebe, Rokhas.
   <string Context="Conversation Rokhas.Ranch.Text" ID="I said I ranch these here beauts.&#xA;&#xA;The Freeholders en't much for letting a body lay claim to land. En't what I'da wished for, but as the Issachari say: &quot;Should your compass lead you to the Six Day Stilt, throw it in the well.&quot;">
 He dicho que crío a estas preciosidades de aquí.
 
-A los del Feudo Libre no les va mucho dejar que uno reclame tierra para sí. No es lo que yo habría querido, pero como dicen los Issachari: &quot;Si tu brújula te lleva al Pilar de los Seis Días, tírala al pozo.&quot;
+A los del Feudo Libre no les va mucho dejar que uno reclame tierra para sí. No es lo que yo habría querido, pero como dicen los Issachari: &quot;Si tu brújula te lleva al Six Day Stilt, tírala al pozo.&quot;
   </string>
   <string Context="Conversation Rokhas.Ranch.HometownChoice.Text" ID="Are you from the desert? How did you end up here?">
 ¿Eres del desierto? ¿Cómo acabaste aquí?
@@ -14100,7 +14100,7 @@ Grit Gate es, ah... ahí es donde reside la Chica Q, ¿verdad? Escribió mi libr
 Ahí es donde se congregan los, ah, fieles al dios-simio, ¿correcto? Y, eh... Cuervocanto, también. Presentaré esta posibilidad a mi pueblo y lo comentaremos.
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.6" ID="Ezra is, ah, the village at the base of the Spindle, is it not?&#xA;&#xA;The very cradle of history. Not that my kin have a strong taste for history, but perhaps living amongst fresco and bas-relief will change their, ah, collective outlook?">
-Ezra es, ah, la aldea al pie del Huso, ¿no es así?
+Ezra es, ah, la aldea al pie del Spindle, ¿no es así?
 
 La mismísima cuna de la historia. No es que los míos tengan un fuerte gusto por la historia, pero ¿acaso vivir entre frescos y bajorrelieves cambie su, ah, perspectiva colectiva?
   </string>
@@ -14134,7 +14134,7 @@ He hecho mis indagaciones. Es hora de que los slynth elijan un nuevo hogar.
 La aldea de Joppa ha accedido a acoger a los slynth como suyos.
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.Mechanimists.Text" ID="The Mechanimists of the Six Day Stilt agreed to accept the slynth as their own.">
-Los Mecanimistas del Pilar de los Seis Días accedieron a acoger a los slynth como suyos.
+Los Mecanimistas del Six Day Stilt accedieron a acoger a los slynth como suyos.
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.Barathrumites.Text" ID="The Barathrumites of Grit Gate agreed to accept the slynth as their own.">
 Los Barathrumitas de Grit Gate accedieron a acoger a los slynth como suyos.
@@ -14203,7 +14203,7 @@ Nuestra partida de emigración sale hacia las marismas saladas por la mañana.
   <string Context="Conversation Thah.SlynthDecision.2" ID="After some discussion and deliberation, we have come to consensus: most of our number will join the Mechanimist faith, and reside at the Stiltgrounds at the edge of the Mogh'ra'yi.&#xA;&#xA;Our emigration party departs for the Six Day Stilt in the morning.">
 Tras cierta discusión y deliberación, hemos llegado al consenso: la mayoría de los nuestros abrazará la fe Mecanimista, y residirá en los terrenos del Pilar al borde del Mogh'ra'yi.
 
-Nuestra partida de emigración sale hacia el Pilar de los Seis Días por la mañana.
+Nuestra partida de emigración sale hacia el Six Day Stilt por la mañana.
   </string>
   <string Context="Conversation Thah.SlynthDecision.3" ID="After some discussion and deliberation, we have come to consensus: The new home of the slynth is among the disciples of Barathrum. My kin have agreed to dedicate themselves to the pursuits of learning and service.&#xA;&#xA;Our emigration party departs for Grit Gate in the morning.">
 Tras cierta discusión y deliberación, hemos llegado al consenso: el nuevo hogar de los slynth está entre los discípulos de Barathrum. Los míos han accedido a dedicarse a los empeños del saber y el servicio.
@@ -14243,7 +14243,7 @@ Nuestra partida de emigración sale hacia los campos de flores por la mañana.
   <string Context="Conversation Thah.SlynthDecision.10" ID="After some discussion and deliberation, we have come to consensus: the slynth shall become a part of Chavvah, the living city. There are no words for the breadth of futures before us, and we would not know them if they were. Perhaps we will learn to chime.&#xA;&#xA;Our emigration party departs for the moon stair in the morning.">
 Tras cierta discusión y deliberación, hemos llegado al consenso: los slynth pasarán a formar parte de Chavvah, la ciudad viva. No hay palabras para la amplitud de futuros que tenemos ante nosotros, y no las conoceríamos aunque las hubiera. Quizá aprendamos a repicar.
 
-Nuestra partida de emigración sale hacia la escalera de la luna por la mañana.
+Nuestra partida de emigración sale hacia la Moon Stair por la mañana.
   </string>
   <string Context="Conversation Thah.SlynthDecision.11" ID="After some discussion and deliberation, we have come to consensus: the slynth shall become citizens of =village.name=. We shall learn the practice of =village.activity=, hold =village.sacred= dear and spurn =village.profane=.&#xA;&#xA;Our emigration party departs for =village.name= in the morning.">
 Tras cierta discusión y deliberación, hemos llegado al consenso: los slynth se volverán ciudadanos de =village.name=. Aprenderemos la práctica de =village.activity=, tendremos en gran estima a =village.sacred= y desdeñaremos a =village.profane=.
@@ -14636,7 +14636,7 @@ Esta es la génesis de mi Yo distinto, una conciencia que contiene a la vez lo -
   <string Context="Conversation ChavvahPrime.BarathrumChavvahDone2.Text" ID="You have completed the ritual of -elseing. You have set bright Tau free.&#xA;&#xA;Yes, =name=. I will turn my chimes Spindleward to tune, then vibrate at our verve frequency. I will power your starclimb.&#xA;&#xA;Be vested to tell whoever you must that Chavvah has made this commitment.">
 Has completado el ritual del -otrar. Has liberado a la radiante Tau.
 
-Sí, =name=. Volveré mis campanas hacia el Huso para afinar, luego vibraré en nuestra frecuencia de brío. Alimentaré tu ascenso estelar.
+Sí, =name=. Volveré mis campanas hacia el Spindle para afinar, luego vibraré en nuestra frecuencia de brío. Alimentaré tu ascenso estelar.
 
 Quedas facultado para decir a quien debas que Chavvah ha asumido este compromiso.
   </string>
@@ -14647,7 +14647,7 @@ Gracias, Dyvvrach. Vive y bebe.
 Me sobresalto con esto pero Tikva me serena. Ahora recuerdo: desde cachorro he sabido que Barathrum es flojo al contar pero audaz al pedir. ¿Un ascenso estelar? Quieres decir, ¿una subida a la larga roca que repica?
   </string>
   <string Context="Conversation ChavvahPrime.Barathrum.AscentChoice.Text" ID="Barathrum intends to ascend the Spindle to discover the source of the Signal, yes. He needs a power source for the climber, one shielded from electromagnetic disturbance.">
-Barathrum pretende ascender el Huso para descubrir la fuente de la Señal, sí. Necesita una fuente de energía para el trepador, una protegida de la perturbación electromagnética.
+Barathrum pretende ascender el Spindle para descubrir la fuente de la Señal, sí. Necesita una fuente de energía para el trepador, una protegida de la perturbación electromagnética.
   </string>
   <string Context="Conversation ChavvahPrime.Ascent.Text" ID="oh. This. Was this felt in gyredream? Your coming to keter? I ask, do not answer.">
 oh. Esto. ¿Se sintió esto en el girosueño? ¿Tu venida al keter? Pregunto, no respondas.

@@ -68,8 +68,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
       <zone Level="11" x="1" y="1" Load="Merge" ProperName="true" Name="Yd Freehold" />
     </cell>
     <cell Name="MoonStairCell" Load="Merge">
-      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="cielo sobre la Escalera de la Luna" IndefiniteArticle="el" />
-      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Escalera de la Luna" IndefiniteArticle="la" />
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="cielo sobre la Moon Stair" IndefiniteArticle="el" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" Name="Moon Stair" IndefiniteArticle="la" />
       <zone Level="11-15" x="0-2" y="0-2" Load="Merge" Name="escalera subterránea" />
     </cell>
     <cell Name="EynRojCell" Load="Merge">
