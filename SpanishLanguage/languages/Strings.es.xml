@@ -393,10 +393,10 @@ alone if no match found.
   <string Context="SkillsAndPowersStatusScreen a skill that has not been learned" ID="{{R|[Unlearned]}}">{{R|[Sin aprender]}}</string>
   <string Context="SkillsAndPowersStatusScreen a power is known but not the base skill" ID="{{W|[Unlearned]}}">{{W|[Sin aprender]}}</string>
   <string Context="SkillsAndPowersStatusScreen a known power and skill" ID="{{G|[Learned]}}">{{G|[Aprendido]}}</string>
-  <string Context="Skill UI Skill Cost OK" ID=":: {{C|=skill.cost=}} SP ::">:: {{C|=skill.cost=}} PP ::</string>
-  <string Context="Skill UI Skill Cost Too High" ID=":: {{R|=skill.cost=}} SP ::">:: {{R|=skill.cost=}} PP ::</string>
-  <string Context="Skill UI Power Cost OK" ID=":: {{C|=power.cost=}} SP ::">:: {{C|=power.cost=}} PP ::</string>
-  <string Context="Skill UI Power Cost Too High" ID=":: {{R|=power.cost=}} SP ::">:: {{R|=power.cost=}} PP ::</string>
+  <string Context="Skill UI Skill Cost OK" ID=":: {{C|=skill.cost=}} SP ::">:: {{C|=skill.cost=}} PH ::</string>
+  <string Context="Skill UI Skill Cost Too High" ID=":: {{R|=skill.cost=}} SP ::">:: {{R|=skill.cost=}} PH ::</string>
+  <string Context="Skill UI Power Cost OK" ID=":: {{C|=power.cost=}} SP ::">:: {{C|=power.cost=}} PH ::</string>
+  <string Context="Skill UI Power Cost Too High" ID=":: {{R|=power.cost=}} SP ::">:: {{R|=power.cost=}} PH ::</string>
   <string Context="Skill UI Either Stat Separator" ID=" or " Value=" o " />
   <string Context="Skill UI No Requirements" ID="{{K|[none]}}">{{K|[ninguno]}}</string>
   <string Context="Skill UI Requirement Met" ID="{{G|[=requisite.name=]}}">{{G|[=requisite.name=]}}</string>
@@ -404,7 +404,7 @@ alone if no match found.
   <string Context="Skill UI Exclusion Met" ID="Ex: {{g|[=exclusion.name=]}}">Ex: {{g|[=exclusion.name=]}}</string>
   <string Context="Skill UI Exclusion Not Met" ID="Ex: {{R|[=exclusion.name=]}}">Ex: {{R|[=exclusion.name=]}}</string>
   <string Context="Skill UI Stat Header" ID="{{K|{{g|=str=}}: {{g|=go.str=}} ■ {{g|=agi=}}: {{g|=go.agi=}} ■ {{g|=tou=}}: {{g|=go.tou=}} ■ {{g|=int=}}: {{g|=go.int=}} ■ {{g|=wil=}}: {{g|=go.wil=}} ■ {{g|=ego=}}: {{g|=go.ego=}}}}">{{K|{{g|=str=}}: {{g|=go.str=}} ■ {{g|=agi=}}: {{g|=go.agi=}} ■ {{g|=tou=}}: {{g|=go.tou=}} ■ {{g|=int=}}: {{g|=go.int=}} ■ {{g|=wil=}}: {{g|=go.wil=}} ■ {{g|=ego=}}: {{g|=go.ego=}}}}</string>
-  <string Context="Skill UI SP Available" ID="Skill Points (SP): {{C|=go.sp=}}">Puntos de Habilidad (PP): {{C|=go.sp=}}</string>
+  <string Context="Skill UI SP Available" ID="Skill Points (SP): {{C|=go.sp=}}">Puntos de Habilidad (PH): {{C|=go.sp=}}</string>
   <string Context="Skill UI Required Skills Label" ID="[REQUIRED SKILLS]">[HABILIDADES REQUERIDAS]</string>
   <string Context="StatusScreens - Base Accept button" ID="Accept">Aceptar</string>
   <string Context="TinkeringDetailsLine Cost" ID="=tinkerable.cost=">=tinkerable.cost=</string>
