@@ -185,8 +185,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="La chapa de metal se traba en patrón de rombos y se suelda para cercar. La superficie está chamuscada y arañada por tramos." />
   </object>
   <object Name="CrysteelPlatedWall" Load="Merge">
-    <part Name="Render" DisplayName="muro de cortante con placas de cristacero" />
-    <part Name="Description" Short="Placas de relleno longitudinales de cristacero bruñido se ensamblan con vigas de fulcreto. Los sonidos de la vida resuenan por sus huecos vacíos." />
+    <part Name="Render" DisplayName="muro de cortante con placas de crysteel" />
+    <part Name="Description" Short="Placas de relleno longitudinales de crysteel bruñido se ensamblan con vigas de fulcreto. Los sonidos de la vida resuenan por sus huecos vacíos." />
   </object>
   <object Name="Foamcrete" Load="Merge">
     <part Name="Render" DisplayName="espumacreto" />

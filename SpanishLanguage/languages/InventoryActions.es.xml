@@ -573,8 +573,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <key>k</key>
   </inventoryAction>
   <inventoryAction Name="Mod">
-    <display>modificar con artesanía</display>
-    <preferToHighlight>artesanía</preferToHighlight>
+    <display>modificar con manitas</display>
+    <preferToHighlight>manitas</preferToHighlight>
     <key>t</key>
   </inventoryAction>
   <inventoryAction Name="AddNotes">

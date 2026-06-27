@@ -32,7 +32,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="ZoneLandmarkBox" DisplayName="tienda" Preposition="en" />
   </object>
   <object Name="LandmarkJoppaWatervine" Load="Merge">
-    <part Name="ZoneLandmarkGroup" DisplayName="plantación de watervine" Preposition="junto a" />
+    <part Name="ZoneLandmarkGroup" DisplayName="plantación de viÃ±agua" Preposition="junto a" />
   </object>
   <object Name="LandmarkJoppaMill" Load="Merge">
     <part Name="ZoneLandmarkBox" DisplayName="molino del poblado" Preposition="junto a" />

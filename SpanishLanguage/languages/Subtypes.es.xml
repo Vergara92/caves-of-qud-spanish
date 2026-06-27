@@ -79,7 +79,7 @@ string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many s
 string Context="subtype.Water Merchant.extrainfo" ID="Starts with trade goods"
 -->
     </subtype>
-    <subtype Name="Watervine Farmer" DisplayName="Cultivador de Vid Acuática">
+    <subtype Name="Watervine Farmer" DisplayName="Cultivador de Viñagua">
       <!--(Strings.appendix)
 string Context="subtype.Watervine Farmer.extrainfo" ID="Starts with random cooking ingredients"
 -->

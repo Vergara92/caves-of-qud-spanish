@@ -420,7 +420,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de perro" />
   </object>
   <object Name="Chromeling" Load="Merge">
-    <part Name="Render" DisplayName="{{c|cromelín}}" />
+    <part Name="Render" DisplayName="{{c|chromeling}}" />
     <part Name="Description" Short="Entretejido a partir de chatarra, =pronouns.subjective= se tambalea. ¿Qué pensaba el artista y hacedor mientras golpeaba el metal hasta darle una efigie? =pronouns.Subjective= ocupa un punto entre polos en varios ejes: a medio camino entre el chimpancé y el humano, a medio camino entre el niño y el adulto. =pronouns.Subjective= es de pequeño tamaño, y hay sombras bajo =pronouns.possessive= mejilla de cromo." />
   </object>
   <object Name="Electrofuge" Load="Merge">
@@ -1163,7 +1163,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="infiltrador" />
   </object>
   <object Name="Plated Chromeling" Load="Merge">
-    <part Name="Render" DisplayName="{{C|cromadito acorazado}}" />
+    <part Name="Render" DisplayName="{{C|chromeling acorazado}}" />
     <part Name="Description" Short="Hilvanado a partir de chatarra metálica, =pronouns.subjective= se tambalea. ¿En qué pensaba el artista y hacedor mientras golpeaba el metal hasta darle una semejanza? =pronouns.Subjective= ocupa un punto entre los polos de varios ejes: a medio camino entre chimpancé y humano, a medio camino entre niño y adulto. =pronouns.Subjective= es pequeño, y hay sombras bajo =pronouns.possessive= mejilla cromada." />
   </object>
   <object Name="Prism Perch" Load="Merge">
@@ -2452,7 +2452,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Galgal" Load="Merge">
     <part Name="Render" DisplayName="galgal" />
-    <part Name="Description" Short="Una troika de ruedas monstruosas y relucientes orbita una esfera central de nubes de xenón y relámpagos de galio. Los radios son cristacero laminado sangrado de sus imperfecciones esmeralda, y las llantas son epitelio lechoso -- un único iris estirado a la topología de un toro -- y cuadriculado en el envés con pupilas. =pronouns.Possessive= movimiento traza la carpintería de los mundos." />
+    <part Name="Description" Short="Una troika de ruedas monstruosas y relucientes orbita una esfera central de nubes de xenón y relámpagos de galio. Los radios son crysteel laminado sangrado de sus imperfecciones esmeralda, y las llantas son epitelio lechoso -- un único iris estirado a la topología de un toro -- y cuadriculado en el envés con pupilas. =pronouns.Possessive= movimiento traza la carpintería de los mundos." />
   </object>
   <object Name="Naser Cannon" Load="Merge">
     <part Name="Render" DisplayName="cañón naser" />
@@ -3868,7 +3868,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Shem -1" Load="Merge">
     <part Name="Render" DisplayName="{{c|Shem -1}}" />
-    <part Name="Description" Short="Shem ha aumentado =pronouns.possessive= cuerpo más allá de la forma básica del cromelín soldándole encima un abrigo disimétrico y con volantes de chatarra metálica. Es demasiado grande y grandioso para =pronouns.possessive= pequeña figura, pero Shem va arrastrando los pies con confianza, como si =pronouns.subjective= esperara crecer hasta llenarlo." />
+    <part Name="Description" Short="Shem ha aumentado =pronouns.possessive= cuerpo más allá de la forma básica del chromeling soldándole encima un abrigo disimétrico y con volantes de chatarra metálica. Es demasiado grande y grandioso para =pronouns.possessive= pequeña figura, pero Shem va arrastrando los pies con confianza, como si =pronouns.subjective= esperara crecer hasta llenarlo." />
     <part Name="Memorial" Eulogies="Barathrumites::Fuiste perfecto en cada iteración." />
     <xtagGrammar Proper="true" />
   </object>
@@ -3953,7 +3953,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Aloysius" Load="Merge">
     <part Name="Render" DisplayName="Aloysius" />
-    <part Name="Description" Short="Pelaje blanco y arrugas de piel brotan de las comisuras de =pronouns.possessive= ojos tímidos. =pronouns.Subjective= pasa un perno suelto sobre =pronouns.possessive= nudillos, dispuesto a arreglar un cromelín deficiente por milésima y primera vez antes que charlar con otra persona." />
+    <part Name="Description" Short="Pelaje blanco y arrugas de piel brotan de las comisuras de =pronouns.possessive= ojos tímidos. =pronouns.Subjective= pasa un perno suelto sobre =pronouns.possessive= nudillos, dispuesto a arreglar un chromeling deficiente por milésima y primera vez antes que charlar con otra persona." />
     <part Name="Memorial" Eulogies="Barathrumites::Lloro a mi querido amigo. Aloysius, si persistes en azul pálido parpadeando a través del mundo delgado... dímelo. Te aguardo con ansia." />
     <xtagGrammar Proper="true" />
   </object>

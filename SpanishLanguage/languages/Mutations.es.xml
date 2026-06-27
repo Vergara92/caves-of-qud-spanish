@@ -701,7 +701,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext>
             <p>Identificas sin error artefactos hasta el nivel de complejidad <stat Name="IdentifyComplexity" />.</p>
-            <p>Aprendes a construir artefactos identificados hasta el nivel de complejidad <stat Name="ConstructComplexity" /> (debes tener la habilidad de artesanía apropiada).</p>
+            <p>Aprendes a construir artefactos identificados hasta el nivel de complejidad <stat Name="ConstructComplexity" /> (debes tener la habilidad de manitas apropiada).</p>
             <p>Puedes abrir puertas de seguridad y usar algunos dispositivos protegidos al tocarlos.</p>
           </leveltext>
     </mutation>
