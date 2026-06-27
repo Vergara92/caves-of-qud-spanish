@@ -14,42 +14,42 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
 
 -->
 <mutations Lang="es" Encoding="utf-8">
-  <category Name="Morphotypes" DisplayName="▶{{W|Morfotipos}}">
-    <mutation Name="Chimera" DisplayName="▶Quimera">
-      <description>▶
+  <category Name="Morphotypes" DisplayName="{{W|Morfotipos}}">
+    <mutation Name="Chimera" DisplayName="Quimera">
+      <description>
             <p>Solo manifiestas mutaciones físicas, y todas tus opciones al manifestar una mutación nueva son físicas.</p>
             <br />
             <p>Cada vez que manifiestas una mutación nueva, una de tus opciones también te hace crecer un miembro nuevo al azar.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Esper" DisplayName="▶Esper">
-      <description>▶
+    <mutation Name="Esper" DisplayName="Esper">
+      <description>
             <p>Solo manifiestas mutaciones mentales, y todas tus opciones al manifestar una mutación nueva son mentales.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Unstable Genome" DisplayName="▶Genoma inestable">
-      <description>▶
+    <mutation Name="Unstable Genome" DisplayName="Genoma inestable">
+      <description>
             <p>Obtienes una mutación adicional cada vez que compras esto, pero las mutaciones no se manifiestan de inmediato.</p>
             <p>Cada vez que subes de nivel, hay un 33% de probabilidad de que tu genoma se desestabilice y puedas elegir entre 3 mutaciones al azar.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
   </category>
-  <category Name="Physical" DisplayName="▶{{G|Mutaciones físicas}}">
-    <mutation Name="Adrenal Control" DisplayName="▶Control adrenal" BearerDescription="▶quienes controlan sus glándulas suprarrenales">
-      <description>▶
+  <category Name="Physical" DisplayName="{{G|Mutaciones físicas}}">
+    <mutation Name="Adrenal Control" DisplayName="Control adrenal" BearerDescription="quienes controlan sus glándulas suprarrenales">
+      <description>
             <p>Regulas la liberación de adrenalina de tu cuerpo.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Puedes aumentar el flujo de adrenalina de tu cuerpo durante <stat Name="Duration" />.</p>
-            <p>Mientras fluye, ganas +<stat Name="QuicknessBonus" /> de Presteza y otras mutaciones físicas ganan +<stat Name="MutationBonus" Unit="▶de rango" />.</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <p>Mientras fluye, ganas +<stat Name="QuicknessBonus" /> de Presteza y otras mutaciones físicas ganan +<stat Name="MutationBonus" Unit="de rango" />.</p>
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Beak" DisplayName="▶Pico" BearerDescription="▶quienes tienen pico">
-      <description>▶
+    <mutation Name="Beak" DisplayName="Pico" BearerDescription="quienes tienen pico">
+      <description>
             <p>Tu rostro luce <stat Name="BeakName" /> de buen ver.</p>
             <br />
             <p>+1 Ego</p>
@@ -58,24 +58,24 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Burrowing Claws" DisplayName="▶Garras excavadoras" BearerDescription="▶excavadores">
-      <description>▶
+    <mutation Name="Burrowing Claws" DisplayName="Garras excavadoras" BearerDescription="excavadores">
+      <description>
             <!-- code will prefix this with "Burrowing Claws Claw" blueprints VariantDescription -->
             <p>Tienes garras en forma de pala capaces de excavar a través de la tierra.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p><gametext>=weapon.Name=</gametext>: penetración contra muros: <stat Name="WallPenetration" /></p>
-            <p>Con <gametext>=weapon.Name=</gametext> destruyes muros tras <stat Name="WallHits" Unit="▶impacto penetrante" />.</p>
+            <p>Con <gametext>=weapon.Name=</gametext> destruyes muros tras <stat Name="WallHits" Unit="impacto penetrante" />.</p>
             <switch Name="PrereleaseContent"><case Value="true"><p>Puede excavar pasajes hacia arriba o hacia abajo fuera del combate</p></case></switch>
             <p><gametext>=weapon.Name= también es un arma natural de clase =weaponClass.name= que inflige <stat Name="Damage" /> de daño base a lo que no sean muros.</gametext></p>
           </leveltext>
     </mutation>
-    <mutation Name="Carapace" DisplayName="▶Caparazón" BearerDescription="▶quienes tienen caparazón">
-      <description>▶
+    <mutation Name="Carapace" DisplayName="Caparazón" BearerDescription="quienes tienen caparazón">
+      <description>
             <!-- code will prefix this with blueprints VariantDescription -->
             <p>Te protege un caparazón resistente.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p><stat Name="AV" Filters="signed" /> AV</p>
             <p><stat Name="DV" Filters="signed" /> DV</p>
             <p><stat Name="HeatResist" Filters="signed" /> de resistencia al calor</p>
@@ -85,34 +85,34 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p>No puede llevar armadura corporal.</p>
           </leveltext>
     </mutation>
-    <mutation Name="Corrosive Gas Generation" DisplayName="▶Generación de gas corrosivo" BearerDescription="▶quienes expulsan gas corrosivo">
-      <description>▶
+    <mutation Name="Corrosive Gas Generation" DisplayName="Generación de gas corrosivo" BearerDescription="quienes expulsan gas corrosivo">
+      <description>
             <p>Liberas una ráfaga de <stat Name="GasName" /> a tu alrededor.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Libera gas durante <stat Name="Duration" /></p>
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Aumenta <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Reduce <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Double-muscled" DisplayName="▶Doble musculatura" BearerDescription="▶quienes tienen doble musculatura">
-      <description>▶
+    <mutation Name="Double-muscled" DisplayName="Doble musculatura" BearerDescription="quienes tienen doble musculatura">
+      <description>
             <p>Posees una fuerza descomunal.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>+<stat Name="Strength" /> de Fuerza</p>
             <p><stat Name="DazeChance" />% de probabilidad de aturdir a tu adversario al acertar un ataque cuerpo a cuerpo durante 2-3 rondas</p>
           </leveltext>
     </mutation>
-    <mutation Name="Electrical Generation" DisplayName="▶Generación eléctrica" BearerDescription="▶quienes generan electricidad">
-      <description>▶
+    <mutation Name="Electrical Generation" DisplayName="Generación eléctrica" BearerDescription="quienes generan electricidad">
+      <description>
             <p>Acumulas carga eléctrica que puedes usar y descargar para infligir daño.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Carga máxima: <stat Name="MaxCharge" /></p>
             <p>Acumulas <stat Name="BaseChargePerTurn" /> de carga base por turno</p>
             <p>Puedes descargar toda la carga acumulada para causar 1d4 de daño por cada <stat Name="DischargeChunk" /> de carga</p>
@@ -123,63 +123,63 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p>Puedes suministrar carga a dispositivos equipados que tengan sistemas de energía integrados.</p>
           </leveltext>
     </mutation>
-    <mutation Name="Electromagnetic Pulse" DisplayName="▶Pulso electromagnético" BearerDescription="▶quienes emiten pulsos electromagnéticos">
-      <description>▶
+    <mutation Name="Electromagnetic Pulse" DisplayName="Pulso electromagnético" BearerDescription="quienes emiten pulsos electromagnéticos">
+      <description>
             <p>Generas un pulso electromagnético que desactiva los artefactos y máquinas cercanos.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Área: <stat Name="Area" /> centrada en ti</p>
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Flaming Ray" DisplayName="▶Rayo flamígero" BearerDescription="▶quienes tienen manos de fuego">
-      <description>▶
+    <mutation Name="Flaming Ray" DisplayName="Rayo flamígero" BearerDescription="quienes tienen manos de fuego">
+      <description>
             <p>Emites un rayo de llamas<switch Name="BodyPartName"><case Value="" /><default> desde tu <stat Name="BodyPartName" /></default></switch>.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Emite un rayo de llamas de <stat Name="Range" /> casillas en la dirección que elijas.</p>
-            <statline Name="Damage" DisplayName="▶Daño" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
-            <p>Los ataques cuerpo a cuerpo calientan a los adversarios en <stat Name="HeatOnHit" Unit="▶grado" /></p>
+            <statline Name="Damage" DisplayName="Daño" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
+            <p>Los ataques cuerpo a cuerpo calientan a los adversarios en <stat Name="HeatOnHit" Unit="grado" /></p>
           </leveltext>
     </mutation>
-    <mutation Name="Freezing Ray" DisplayName="▶Rayo congelante" BearerDescription="▶quienes tienen manos de escarcha">
-      <description>▶
+    <mutation Name="Freezing Ray" DisplayName="Rayo congelante" BearerDescription="quienes tienen manos de escarcha">
+      <description>
             <p>Emites un rayo de escarcha<switch Name="BodyPartName"><case Value="" /><default> desde tu <stat Name="BodyPartName" /></default></switch>.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Emite un rayo de escarcha de <stat Name="Range" /> casillas en la dirección que elijas.</p>
-            <statline Name="Damage" DisplayName="▶Daño" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
-            <p>Los ataques cuerpo a cuerpo enfrían a los adversarios en <stat Name="CoolOnHit" Unit="▶grado" /></p>
+            <statline Name="Damage" DisplayName="Daño" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
+            <p>Los ataques cuerpo a cuerpo enfrían a los adversarios en <stat Name="CoolOnHit" Unit="grado" /></p>
           </leveltext>
     </mutation>
-    <mutation Name="Heightened Hearing" DisplayName="▶Oído agudizado" BearerDescription="▶quienes tienen el oído agudizado">
-      <description>▶
+    <mutation Name="Heightened Hearing" DisplayName="Oído agudizado" BearerDescription="quienes tienen el oído agudizado">
+      <description>
             <p>Posees un oído de agudeza sobrenatural.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Detectas la presencia de criaturas dentro de un radio de <stat Name="Radius" />.</p>
             <p><switch Name="LevelMatch"><case Value="true">Probabilidad de identificar criaturas detectadas cercanas</case><default>{{rules|Aumenta la probabilidad de identificar criaturas detectadas cercanas}}</default></switch></p>
           </leveltext>
     </mutation>
-    <mutation Name="Heightened Quickness" DisplayName="▶Presteza agudizada" BearerDescription="▶quienes son veloces">
-      <description>▶
+    <mutation Name="Heightened Quickness" DisplayName="Presteza agudizada" BearerDescription="quienes son veloces">
+      <description>
             <p>Estás dotado de una velocidad tremenda.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>+<stat Name="SpeedBonus" /> de Presteza</p>
           </leveltext>
     </mutation>
-    <mutation Name="Horns" DisplayName="▶Cuernos" BearerDescription="▶quienes tienen cuernos">
-      <description>▶
+    <mutation Name="Horns" DisplayName="Cuernos" BearerDescription="quienes tienen cuernos">
+      <description>
             <p><gametext>=horns.A.name.or.plural= te brota de la cabeza.</gametext></p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>20% de probabilidad en un ataque cuerpo a cuerpo de cornear a tu adversario</p>
-            <statline Name="Damage" DisplayName="▶Incremento de daño" />
-            <statline Name="ToHitBonus" DisplayName="▶Bonificación al golpear" />
+            <statline Name="Damage" DisplayName="Incremento de daño" />
+            <statline Name="ToHitBonus" DisplayName="Bonificación al golpear" />
             <switch Name="LevelMode">
               <case Value="BleedBonus"><p>{{rules|Aumenta la dificultad de la salvación contra hemorragia y su intensidad}}</p></case>
               <case Value="LevelUp"><p>{{rules|Aumenta la dificultad de la salvación contra hemorragia}}</p></case>
@@ -191,64 +191,64 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p><gametext>+100 de reputación con {{w|=faction:Antelopes=}} y {{w|=faction:Goatfolk=}}</gametext></p>
           </leveltext>
     </mutation>
-    <mutation Name="Metamorphosis" DisplayName="▶Metamorfosis" BearerDescription="▶cambiaformas">
-      <description>▶
+    <mutation Name="Metamorphosis" DisplayName="Metamorfosis" BearerDescription="cambiaformas">
+      <description>
             <p>Asumes la forma de cualquier criatura que toques.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Solo puedes asumir la forma de criaturas de nivel <stat Name="MaxLevel" /> o inferior.</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Multiple Arms" DisplayName="▶Brazos múltiples" BearerDescription="▶quienes tienen muchos brazos">
-      <description>▶
+    <mutation Name="Multiple Arms" DisplayName="Brazos múltiples" BearerDescription="quienes tienen muchos brazos">
+      <description>
             <p>Tienes un par de brazos adicional.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p><stat Name="AttackChance" />% de probabilidad de que cada brazo adicional aseste un ataque cuerpo a cuerpo extra siempre que realices un ataque cuerpo a cuerpo</p>
           </leveltext>
     </mutation>
-    <mutation Name="Multiple Legs" DisplayName="▶Piernas múltiples" BearerDescription="▶quienes tienen muchas piernas">
-      <description>▶
+    <mutation Name="Multiple Legs" DisplayName="Piernas múltiples" BearerDescription="quienes tienen muchas piernas">
+      <description>
             <p>Tienes un par de piernas adicional.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>+<stat Name="MoveSpeed" /> de velocidad de movimiento</p>
             <p>+<stat Name="CarryCapacity" />% de capacidad de carga</p>
           </leveltext>
     </mutation>
-    <mutation Name="Night Vision" DisplayName="▶Visión nocturna" BearerDescription="▶quienes ven en la oscuridad">
-      <description>▶
+    <mutation Name="Night Vision" DisplayName="Visión nocturna" BearerDescription="quienes ven en la oscuridad">
+      <description>
             <p>Ves en la oscuridad.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Phasing" DisplayName="▶Fasamiento" BearerDescription="▶quienes se desfasan">
-      <description>▶
+    <mutation Name="Phasing" DisplayName="Fasamiento" BearerDescription="quienes se desfasan">
+      <description>
             <p>Puedes atravesar objetos sólidos durante breves periodos de tiempo.</p>
           </description>
-      <leveltext>▶
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+      <leveltext>
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Photosynthetic Skin" DisplayName="▶Piel fotosintética" BearerDescription="▶quienes tienen la piel verde">
-      <description>▶
+    <mutation Name="Photosynthetic Skin" DisplayName="Piel fotosintética" BearerDescription="quienes tienen la piel verde">
+      <description>
             <p>Te repones absorbiendo luz solar a través de tu vigorosa piel verde.</p>
           </description>
-      <leveltext>▶
-            <p>Puedes tomar el sol en lugar de comer para obtener un efecto metabólico especial durante <stat Name="DurationDay" Unit="▶día" />: +<stat Name="BonusRegen" /> a la tasa de curación natural y +<stat Name="BonusQuickness" /> de Presteza</p>
-            <p>Mientras tomas el sol, acumulas almidón y lignina que puedes usar como ingredientes en las comidas que cocinas (máximo <stat Name="StarchServings" Unit="▶ración" /> de cada uno).</p>
+      <leveltext>
+            <p>Puedes tomar el sol en lugar de comer para obtener un efecto metabólico especial durante <stat Name="DurationDay" Unit="día" />: +<stat Name="BonusRegen" /> a la tasa de curación natural y +<stat Name="BonusQuickness" /> de Presteza</p>
+            <p>Mientras tomas el sol, acumulas almidón y lignina que puedes usar como ingredientes en las comidas que cocinas (máximo <stat Name="StarchServings" Unit="ración" /> de cada uno).</p>
             <p>+<stat Name="BonusCamoflage" /> de DV mientras ocupas el mismo espacio que el follaje</p>
             <p>+200 de reputación con {{w|raíces}}, {{w|árboles}}, {{w|enredaderas}} y {{w|el Consortium of Phyta}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Quills" DisplayName="▶Púas" BearerDescription="▶quienes tienen púas">
-      <description>▶
+    <mutation Name="Quills" DisplayName="Púas" BearerDescription="quienes tienen púas">
+      <description>
             <!-- description will be replaced with the Quill Blueprint VariantDescription if it has one. -->
             <p>Cientos de púas afiladas como agujas te cubren el cuerpo.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <switch Name="LevelMatch">
               <case Value="true"><p><stat Name="MaxQuills" /> <stat Name="Quills" /></p></case>
               <default><p>+{{rules|80-120}} <stat Name="Quills" /></p></default>
@@ -261,11 +261,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p>Inmune a las <stat Name="Quills" /> de otras criaturas</p>
           </leveltext>
     </mutation>
-    <mutation Name="Regeneration" DisplayName="▶Regeneración" BearerDescription="▶quienes se regeneran">
-      <description>▶
+    <mutation Name="Regeneration" DisplayName="Regeneración" BearerDescription="quienes se regeneran">
+      <description>
             <p>Tus heridas sanan muy deprisa.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Tu tasa completa de curación natural se aplica en combate.</p>
             <p>+<stat Name="RegenBonus" />% de tasa de curación natural más rápida</p>
             <p><stat Name="RegenChance" />% de probabilidad de regenerar un miembro perdido cada ronda</p>
@@ -279,96 +279,96 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             </switch>
           </leveltext>
     </mutation>
-    <mutation Name="Sleep Gas Generation" DisplayName="▶Generación de gas somnífero" BearerDescription="▶quienes expulsan gas somnífero">
-      <description>▶
+    <mutation Name="Sleep Gas Generation" DisplayName="Generación de gas somnífero" BearerDescription="quienes expulsan gas somnífero">
+      <description>
             <p>Liberas una ráfaga de <stat Name="GasName" /> a tu alrededor.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Libera gas durante <stat Name="Duration" /></p>
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Aumenta <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Reduce <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Slime Glands" DisplayName="▶Glándulas de baba" BearerDescription="▶quienes escupen baba">
-      <description>▶
+    <mutation Name="Slime Glands" DisplayName="Glándulas de baba" BearerDescription="quienes escupen baba">
+      <description>
             <p>Produces una baba viscosa que puedes escupir a las cosas.</p>
             <p></p>
             <p>Cubre un área de baba</p>
-            <statline Name="Range" DisplayName="▶Alcance" />
-            <statline Name="Area" DisplayName="▶Área" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Range" DisplayName="Alcance" />
+            <statline Name="Area" DisplayName="Área" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
             <p>Puedes caminar sobre la baba sin resbalar.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Spinnerets" DisplayName="▶Hileras" BearerDescription="▶quienes tejen telarañas">
-      <description>▶
+    <mutation Name="Spinnerets" DisplayName="Hileras" BearerDescription="quienes tejen telarañas">
+      <description>
             <p>Puedes tejer telarañas de seda pegajosa.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Mientras tejes, dejas telarañas a tu paso al moverte.</p>
             <switch Name="LevelMatch">
               <case Value="true"></case>
               <default><p>{{rules|Aumenta la resistencia de la telaraña}}</p></default>
             </switch>
-            <statline Name="SpinDuration" DisplayName="▶Duración" Unit="▶acción de movimiento" />
+            <statline Name="SpinDuration" DisplayName="Duración" Unit="acción de movimiento" />
             <saveline Name="MoveSave" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
             <p>Eres inmune a quedar atrapado.</p>
             <p>+300 de reputación con {{w|arácnidos}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Stinger (Confusing Venom)" DisplayName="▶Aguijón (veneno desconcertante)" BearerDescription="▶quienes tienen aguijones con veneno desconcertante">
-      <description>▶
+    <mutation Name="Stinger (Confusing Venom)" DisplayName="Aguijón (veneno desconcertante)" BearerDescription="quienes tienen aguijones con veneno desconcertante">
+      <description>
             <p>Tienes una cola con un aguijón que inyecta veneno <stat Name="VenomType" /> a tus enemigos.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>20% de probabilidad en un ataque cuerpo a cuerpo de aguijonear a tu adversario <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
             <p>El aguijón es una hoja larga y solo puede penetrar una vez.</p>
             <p>Siempre aguijoneas al cargar o embestir.</p>
             <p>El aguijón aplica veneno al causar daño (solo un 20% de probabilidad si el aguijón es tu arma principal).</p>
             <p>Puedes usar la habilidad activable Aguijonear para golpear con tu aguijón y acertar y penetrar de forma automática.</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga de aguijoneo" />
+            <statline Name="Cooldown" DisplayName="Recarga de aguijoneo" />
             <p>El veneno desconcierta a los adversarios durante <stat Name="Duration" /></p>
             <p>+200 de reputación con {{w|arácnidos}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Stinger (Paralyzing Venom)" DisplayName="▶Aguijón (veneno paralizante)" BearerDescription="▶quienes tienen aguijones con veneno paralizante">
-      <description>▶
+    <mutation Name="Stinger (Paralyzing Venom)" DisplayName="Aguijón (veneno paralizante)" BearerDescription="quienes tienen aguijones con veneno paralizante">
+      <description>
             <p>Tienes una cola con un aguijón que inyecta veneno <stat Name="VenomType" /> a tus enemigos.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>20% de probabilidad en un ataque cuerpo a cuerpo de aguijonear a tu adversario <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
             <p>El aguijón es una hoja larga y solo puede penetrar una vez.</p>
             <p>Siempre aguijoneas al cargar o embestir.</p>
             <p>El aguijón aplica veneno al causar daño (solo un 20% de probabilidad si el aguijón es tu arma principal).</p>
             <p>Puedes usar la habilidad activable Aguijonear para golpear con tu aguijón y acertar y penetrar de forma automática.</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga de aguijoneo" />
+            <statline Name="Cooldown" DisplayName="Recarga de aguijoneo" />
             <p>El veneno paraliza a los adversarios durante <stat Name="Duration" /></p>
             <p>+200 de reputación con {{w|arácnidos}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Stinger (Poisoning Venom)" DisplayName="▶Aguijón (veneno tóxico)" BearerDescription="▶quienes tienen aguijones con veneno tóxico">
-      <description>▶
+    <mutation Name="Stinger (Poisoning Venom)" DisplayName="Aguijón (veneno tóxico)" BearerDescription="quienes tienen aguijones con veneno tóxico">
+      <description>
             <p>Tienes una cola con un aguijón que inyecta veneno <stat Name="VenomType" /> a tus enemigos.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>20% de probabilidad en un ataque cuerpo a cuerpo de aguijonear a tu adversario <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
             <p>El aguijón es una hoja larga y solo puede penetrar una vez.</p>
             <p>Siempre aguijoneas al cargar o embestir.</p>
             <p>El aguijón aplica veneno al causar daño (solo un 20% de probabilidad si el aguijón es tu arma principal).</p>
             <p>Puedes usar la habilidad activable Aguijonear para golpear con tu aguijón y acertar y penetrar de forma automática.</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga de aguijoneo" />
+            <statline Name="Cooldown" DisplayName="Recarga de aguijoneo" />
             <p>El veneno envenena a los adversarios durante <stat Name="Duration" /> (incremento de daño <stat Name="PoisonDamage" />)</p>
             <p>+200 de reputación con {{w|arácnidos}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Thick Fur" DisplayName="▶Pelaje espeso" BearerDescription="▶quienes tienen pelaje espeso">
-      <description>▶
+    <mutation Name="Thick Fur" DisplayName="Pelaje espeso" BearerDescription="quienes tienen pelaje espeso">
+      <description>
             <p>Te cubre un manto espeso de pelaje, que te protege de los elementos.</p>
             <p></p>
             <p>+5 de resistencia al calor</p>
@@ -377,61 +377,61 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Triple-jointed" DisplayName="▶Triple articulación" BearerDescription="▶quienes tienen triple articulación">
-      <description>▶
+    <mutation Name="Triple-jointed" DisplayName="Triple articulación" BearerDescription="quienes tienen triple articulación">
+      <description>
             <p>Tus articulaciones se estiran mucho más de lo habitual.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>+<stat Name="Agility" /> de Agilidad</p>
             <p><stat Name="Chance" />% de probabilidad de que Esprintar y las habilidades con requisitos de Agilidad no entren en recarga tras usarse</p>
           </leveltext>
     </mutation>
-    <mutation Name="Two-headed" DisplayName="▶Bicéfalo" BearerDescription="▶quienes tienen dos cabezas">
-      <description>▶
+    <mutation Name="Two-headed" DisplayName="Bicéfalo" BearerDescription="quienes tienen dos cabezas">
+      <description>
             <p>Tienes dos cabezas.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Las acciones mentales tienen un <stat Name="MentalActionDiscount" />% menos de coste de acción</p>
             <p><stat Name="ShakeOff" />% de probabilidad inicial y cada ronda de sacudirte un efecto de estado mental negativo</p>
           </leveltext>
     </mutation>
-    <mutation Name="Two-hearted" DisplayName="▶Bicardíaco" BearerDescription="▶quienes tienen dos corazones">
-      <description>▶
+    <mutation Name="Two-hearted" DisplayName="Bicardíaco" BearerDescription="quienes tienen dos corazones">
+      <description>
             <p>Tienes dos corazones.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>+<stat Name="Toughness" /> de Resistencia</p>
             <p>Puedes esprintar durante un <stat Name="SprintBonus" />% más de tiempo.</p>
           </leveltext>
     </mutation>
-    <mutation Name="Wings" DisplayName="▶Alas" BearerDescription="▶quienes tienen alas">
-      <description>▶
+    <mutation Name="Wings" DisplayName="Alas" BearerDescription="quienes tienen alas">
+      <description>
             <!-- Will be replaced with blueprints VariantDescription if it exists. -->
             <p>Vuelas.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Viajas por el mapa del mundo a x<stat Name="WorldMapTravelSpeed" /> de velocidad.</p>
             <p><stat Name="LostSaveBonus" />% menos de probabilidad de perderte</p>
             <p>Mientras estás al aire libre, puedes volar. Las criaturas en tierra no pueden alcanzarte cuerpo a cuerpo mientras vuelas.</p>
             <p><stat Name="CrashChance" />% de probabilidad de caer torpemente al suelo</p>
             <p><stat Name="SprintingMoveSpeedBonus" Filters="signed" />% de velocidad de movimiento al esprintar</p>
-            <p>Puedes saltar <stat Name="JumpDistanceBonus" Unit="▶casilla" /> más lejos.</p>
-            <p>Puedes cargar <stat Name="ChargeDistanceBonus" Unit="▶casilla" /> más lejos.</p>
+            <p>Puedes saltar <stat Name="JumpDistanceBonus" Unit="casilla" /> más lejos.</p>
+            <p>Puedes cargar <stat Name="ChargeDistanceBonus" Unit="casilla" /> más lejos.</p>
             <p>+300 de reputación con {{w|aves}} y {{w|mamíferos alados}}</p>
           </leveltext>
     </mutation>
   </category>
-  <category Name="PhysicalDefects" DisplayName="▶{{R|Defectos físicos}}">
-    <mutation Name="Albino" DisplayName="▶Albino" BearerDescription="▶albinos">
-      <description>▶
+  <category Name="PhysicalDefects" DisplayName="{{R|Defectos físicos}}">
+    <mutation Name="Albino" DisplayName="Albino" BearerDescription="albinos">
+      <description>
             <p>Tu piel, tu cabello y tus ojos carecen de pigmento.</p>
             <p></p>
             <p>Regeneras puntos de golpe a un quinto de la tasa habitual a plena luz del día.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Amphibious" DisplayName="▶Anfibio" BearerDescription="▶quienes son anfibios">
-      <description>▶
+    <mutation Name="Amphibious" DisplayName="Anfibio" BearerDescription="quienes son anfibios">
+      <description>
             <p>Tu piel debe mantenerse húmeda con agua dulce.</p>
             <p></p>
             <p>Para saciar la sed te viertes agua por encima en lugar de beberla.</p>
@@ -440,24 +440,24 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Brittle Bones" DisplayName="▶Huesos frágiles" BearerDescription="▶quienes tienen los huesos frágiles">
-      <description>▶
+    <mutation Name="Brittle Bones" DisplayName="Huesos frágiles" BearerDescription="quienes tienen los huesos frágiles">
+      <description>
             <p>Tus huesos son frágiles.</p>
             <p></p>
             <p>Sufres un 50% más de daño por ataques contundentes, caídas y otras fuentes de daño por impacto.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Nerve Poppy" DisplayName="▶Amapola nerviosa" BearerDescription="▶quienes no sienten dolor">
-      <description>▶
+    <mutation Name="Nerve Poppy" DisplayName="Amapola nerviosa" BearerDescription="quienes no sienten dolor">
+      <description>
             <p>Careces de un sentido del dolor desarrollado.</p>
             <p></p>
             <p>Solo conoces tu estado de salud general y no tu número exacto de puntos de golpe.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Carnivorous" DisplayName="▶Carnívoro" BearerDescription="▶quienes son carnívoros">
-      <description>▶
+    <mutation Name="Carnivorous" DisplayName="Carnívoro" BearerDescription="quienes son carnívoros">
+      <description>
             <p>Comes carne en exclusiva.</p>
             <p></p>
             <p>No obtienes saciedad de los alimentos que no sean carne.</p>
@@ -468,8 +468,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Cold-Blooded" DisplayName="▶Sangre fría" BearerDescription="▶quienes son de sangre fría">
-      <description>▶
+    <mutation Name="Cold-Blooded" DisplayName="Sangre fría" BearerDescription="quienes son de sangre fría">
+      <description>
             <p>Tu vitalidad depende de tu temperatura; a temperaturas más altas, estás más vivaz. A temperaturas más bajas, estás más aletargado.</p>
             <p></p>
             <p>Tu puntuación base de Presteza se reduce en 10.</p>
@@ -478,16 +478,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Electromagnetic Impulse" DisplayName="▶Impulso electromagnético" BearerDescription="▶quienes no controlan sus pulsos electromagnéticos">
-      <description>▶
+    <mutation Name="Electromagnetic Impulse" DisplayName="Impulso electromagnético" BearerDescription="quienes no controlan sus pulsos electromagnéticos">
+      <description>
             <p>Liberas pulsos electromagnéticos de forma involuntaria, desactivando los robots y artefactos a tu alrededor.</p>
             <p></p>
             <p>Pequeña probabilidad cada ronda en combate de liberar un pulso electromagnético de radio 3, desactivando robots y artefactos (incluidos los que llevas encima) durante 11-20 rondas.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Hooks for Feet" DisplayName="▶Garfios por pies" BearerDescription="▶quienes tienen garfios por pies">
-      <description>▶
+    <mutation Name="Hooks for Feet" DisplayName="Garfios por pies" BearerDescription="quienes tienen garfios por pies">
+      <description>
             <!-- will be replaced by blueprint's VariantDescription property if it exists. -->
             <p>Tienes <stat Name="BlueprintName" /> por pies.</p>
             <p></p>
@@ -495,8 +495,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Irritable Genome" DisplayName="▶Genoma irritable" BearerDescription="▶quienes tienen el genoma irritable">
-      <description>▶
+    <mutation Name="Irritable Genome" DisplayName="Genoma irritable" BearerDescription="quienes tienen el genoma irritable">
+      <description>
             <p>Tu genoma es irritable e impredecible.</p>
             <p></p>
             <p>Cada vez que gastas un punto de mutación, el siguiente punto de mutación que obtengas se gastará al azar.</p>
@@ -504,24 +504,24 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Myopic" DisplayName="▶Miope" BearerDescription="▶quienes son miopes">
-      <description>▶
+    <mutation Name="Myopic" DisplayName="Miope" BearerDescription="quienes son miopes">
+      <description>
             <p>Eres corto de vista.</p>
             <p></p>
             <p>Solo puedes ver hasta un radio de 10.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Spontaneous Combustion" DisplayName="▶Combustión espontánea" BearerDescription="▶quienes arden de forma espontánea">
-      <description>▶
+    <mutation Name="Spontaneous Combustion" DisplayName="Combustión espontánea" BearerDescription="quienes arden de forma espontánea">
+      <description>
             <p>Te incendias de forma espontánea.</p>
             <p></p>
             <p>Pequeña probabilidad cada ronda en combate de incendiarte de forma espontánea.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Tonic Allergy" DisplayName="▶Alergia a los tónicos" BearerDescription="▶quienes son alérgicos">
-      <description>▶
+    <mutation Name="Tonic Allergy" DisplayName="Alergia a los tónicos" BearerDescription="quienes son alérgicos">
+      <description>
             <p>Eres alérgico a los tónicos.</p>
             <p></p>
             <p>La probabilidad de que tu fisiología mutante reaccione mal a un tónico aumenta al 33%.</p>
@@ -530,27 +530,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
       <leveltext></leveltext>
     </mutation>
   </category>
-  <category Name="Mental" DisplayName="▶{{G|Mutaciones mentales}}">
-    <mutation Name="Beguiling" DisplayName="▶Embeleso" BearerDescription="▶embelesadores" BiomeEpithet="▶encomio">
-      <description>▶
+  <category Name="Mental" DisplayName="{{G|Mutaciones mentales}}">
+    <mutation Name="Beguiling" DisplayName="Embeleso" BearerDescription="embelesadores" BiomeEpithet="encomio">
+      <description>
             <p>Embelesas a una criatura cercana para que te sirva con lealtad.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Ataque mental contra una criatura con mente</p>
             <p>Tirada de éxito: {{rules|rango de mutación}} o modificador de Ego (el que sea mayor) + nivel de personaje + 1d8 vs. MA del defensor + nivel de personaje</p>
-            <statline Name="Range" DisplayName="▶Alcance" />
+            <statline Name="Range" DisplayName="Alcance" />
             <p>Criatura embelesada: +<stat Name="BonusHP" /> puntos de golpe adicionales</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Burgeoning" DisplayName="▶Eclosión" BearerDescription="▶jardineros psíquicos" BiomeAdjective="▶en eclosión">
-      <description>▶
+    <mutation Name="Burgeoning" DisplayName="Eclosión" BearerDescription="jardineros psíquicos" BiomeAdjective="en eclosión">
+      <description>
             <p>Provocas que las plantas broten de forma espontánea en un área cercana, entorpeciendo a tus enemigos.</p>
           </description>
-      <leveltext>▶
-            <statline Name="Range" DisplayName="▶Alcance" />
+      <leveltext>
+            <statline Name="Range" DisplayName="Alcance" />
             <p>Área: <stat Name="Area" /> + crecimiento hacia las casillas adyacentes</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
             <switch Name="LevelMatch">
               <case Value="true"></case>
               <default><p>{{rules|Se invocan plantas más poderosas}}</p></default>
@@ -558,173 +558,173 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p>+200 de reputación con {{w|el Consortium of Phyta}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Clairvoyance" DisplayName="▶Clarividencia" BearerDescription="▶quienes son clarividentes" BiomeEpithet="▶panóptico">
-      <description>▶Obtienes brevemente visión de un área cercana.</description>
-      <leveltext>▶
-            <statline Name="VisionRadius" DisplayName="▶Radio de visión" />
-            <statline Name="VisionDuration" DisplayName="▶Duración de la visión" Unit="▶ronda" />
-            <statline Name="Cooldown" Unit="▶ronda" DisplayName="▶Recarga" />
+    <mutation Name="Clairvoyance" DisplayName="Clarividencia" BearerDescription="quienes son clarividentes" BiomeEpithet="panóptico">
+      <description>Obtienes brevemente visión de un área cercana.</description>
+      <leveltext>
+            <statline Name="VisionRadius" DisplayName="Radio de visión" />
+            <statline Name="VisionDuration" DisplayName="Duración de la visión" Unit="ronda" />
+            <statline Name="Cooldown" Unit="ronda" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Confusion" DisplayName="▶Confusión" BearerDescription="▶enigmistas" BiomeEpithet="▶laberinto psíquico">
-      <description>▶Confundes a los enemigos cercanos.</description>
-      <leveltext>▶
+    <mutation Name="Confusion" DisplayName="Confusión" BearerDescription="enigmistas" BiomeEpithet="laberinto psíquico">
+      <description>Confundes a los enemigos cercanos.</description>
+      <leveltext>
             <p>Las criaturas afectadas actúan de forma semialeatoria y reciben una penalización de -<stat Name="Penalty" /> a sus capacidades mentales.</p>
-            <statline Name="ConeAngle" DisplayName="▶Ángulo del cono" Unit="▶grado" />
-            <statline Name="ConeLength" DisplayName="▶Longitud del cono" />
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="ConeAngle" DisplayName="Ángulo del cono" Unit="grado" />
+            <statline Name="ConeLength" DisplayName="Longitud del cono" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Cryokinesis" DisplayName="▶Criocinesis" BearerDescription="▶criomantes" BiomeEpithet="▶prado de escarcha">
-      <description>▶Enfrías un área cercana con la mente.</description>
-      <leveltext>▶
+    <mutation Name="Cryokinesis" DisplayName="Criocinesis" BearerDescription="criomantes" BiomeEpithet="prado de escarcha">
+      <description>Enfrías un área cercana con la mente.</description>
+      <leveltext>
             <switch Name="LevelMatch">
               <case Value="true"><p>Enfría el área afectada durante <stat Name="Duration" />, infligiendo daño y congelando cosas</p></case>
               <case Value="raise"><p>{{rules|Aumenta la intensidad del frío}}</p></case>
               <default><p>{{rules|Reduce la intensidad del frío}}</p></default>
             </switch>
-            <statline Name="Range" DisplayName="▶Alcance" />
-            <statline Name="Area" DisplayName="▶Área" />
-            <statline Name="DamageRound1" DisplayName="▶Daño de la ronda 1" />
-            <statline Name="DamageRound2" DisplayName="▶Daño de la ronda 2" />
-            <statline Name="DamageRound3" DisplayName="▶Daño de la ronda 3" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Range" DisplayName="Alcance" />
+            <statline Name="Area" DisplayName="Área" />
+            <statline Name="DamageRound1" DisplayName="Daño de la ronda 1" />
+            <statline Name="DamageRound2" DisplayName="Daño de la ronda 2" />
+            <statline Name="DamageRound3" DisplayName="Daño de la ronda 3" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Disintegration" DisplayName="▶Desintegración" BearerDescription="▶desintegradores" BiomeAdjective="▶en rápida resonancia">
-      <description>▶Desintegras la materia cercana.</description>
-      <leveltext>▶
-            <statline Name="Area" DisplayName="▶Área" />
-            <statline Name="DamageNonStructural" DisplayName="▶Daño a objetos no estructurales" />
-            <statline Name="DamageStructural" DisplayName="▶Daño a objetos estructurales" />
+    <mutation Name="Disintegration" DisplayName="Desintegración" BearerDescription="desintegradores" BiomeAdjective="en rápida resonancia">
+      <description>Desintegras la materia cercana.</description>
+      <leveltext>
+            <statline Name="Area" DisplayName="Área" />
+            <statline Name="DamageNonStructural" DisplayName="Daño a objetos no estructurales" />
+            <statline Name="DamageStructural" DisplayName="Daño a objetos estructurales" />
             <p>Quedas exhausto durante 3 rondas tras usar este poder.</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Domination" DisplayName="▶Dominación" BearerDescription="▶quienes dominan la voluntad ajena" BiomeEpithet="▶teatro de voluntades">
-      <description>▶
+    <mutation Name="Domination" DisplayName="Dominación" BearerDescription="quienes dominan la voluntad ajena" BiomeEpithet="teatro de voluntades">
+      <description>
             <p>Estrangulas la mente de una criatura adyacente y controlas sus acciones mientras tu propio cuerpo yace inerte.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Ataque mental contra una criatura con mente</p>
             <p>Tirada de éxito: {{rules|rango de mutación}} o modificador de Ego (el que sea mayor) + nivel de personaje + 1d8 vs. MA del defensor + nivel de personaje</p>
             <p>Alcance: 1</p>
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Ego Projection" DisplayName="▶Proyección del Ego" BearerDescription="▶quienes proyectan su ego sobre el plano físico" BiomeAdjective="▶psíquicamente refractante">
-      <description>▶A pura fuerza de voluntad, realizas proezas físicas asombrosas.</description>
-      <leveltext>▶
+    <mutation Name="Ego Projection" DisplayName="Proyección del Ego" BearerDescription="quienes proyectan su ego sobre el plano físico" BiomeAdjective="psíquicamente refractante">
+      <description>A pura fuerza de voluntad, realizas proezas físicas asombrosas.</description>
+      <leveltext>
             <p>Aumenta un atributo físico en una cantidad igual al doble de tu bonificación de Ego</p>
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Force Bubble" DisplayName="▶Burbuja de fuerza" BearerDescription="▶gente burbuja" BiomeAdjective="▶burbujeante">
-      <description>▶Generas un campo de fuerza a tu alrededor.</description>
-      <leveltext>▶
+    <mutation Name="Force Bubble" DisplayName="Burbuja de fuerza" BearerDescription="gente burbuja" BiomeAdjective="burbujeante">
+      <description>Generas un campo de fuerza a tu alrededor.</description>
+      <leveltext>
             <p>Crea un campo de fuerza de 3x3 centrado en ti</p>
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
             <p>Puedes disparar armas a distancia a través del campo de fuerza.</p>
           </leveltext>
     </mutation>
-    <mutation Name="Force Wall" DisplayName="▶Muro de fuerza" BearerDescription="▶arquitectos de muros de fuerza" BiomeEpithet="▶bastión de fuerza">
-      <description>▶Generas un muro de fuerza que te protege de tus enemigos.</description>
-      <leveltext>▶
+    <mutation Name="Force Wall" DisplayName="Muro de fuerza" BearerDescription="arquitectos de muros de fuerza" BiomeEpithet="bastión de fuerza">
+      <description>Generas un muro de fuerza que te protege de tus enemigos.</description>
+      <leveltext>
             <p>Crea 9 casillas contiguas de campo de fuerza inmóvil.</p>
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
             <p>Puedes disparar armas a distancia a través del campo de fuerza.</p>
           </leveltext>
     </mutation>
-    <mutation Name="Kindle" DisplayName="▶Prender" BearerDescription="▶prendedores" BiomeAdjective="▶prendedor">
-      <description>▶
+    <mutation Name="Kindle" DisplayName="Prender" BearerDescription="prendedores" BiomeAdjective="prendedor">
+      <description>
             <p>Prendes un pequeño fuego con la mente.</p>
             <p></p>
-            <statline Name="Range" DisplayName="▶Alcance" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Range" DisplayName="Alcance" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Light Manipulation" DisplayName="▶Manipulación de la luz" BearerDescription="▶manipuladores de la luz" BiomeAdjective="▶iluminado">
-      <description>▶
+    <mutation Name="Light Manipulation" DisplayName="Manipulación de la luz" BearerDescription="manipuladores de la luz" BiomeAdjective="iluminado">
+      <description>
             <p>Manipulas la luz en tu beneficio.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Produces luz ambiental dentro de un radio de <stat Name="Radius" />.</p>
             <p>Puedes concentrar la luz en un rayo láser, reduciendo temporalmente en 1 el radio de tu luz ambiental.</p>
-            <statline Name="LaserDamageInc" DisplayName="▶Incremento de daño del láser" />
-            <statline Name="LaserPen" DisplayName="▶Penetración del láser" />
-            <p>La luz ambiental se recarga a un ritmo de 1 unidad cada <stat Name="AmbientRegrowthDuration" Unit="▶ronda" /> hasta alcanzar su valor máximo.</p>
+            <statline Name="LaserDamageInc" DisplayName="Incremento de daño del láser" />
+            <statline Name="LaserPen" DisplayName="Penetración del láser" />
+            <p>La luz ambiental se recarga a un ritmo de 1 unidad cada <stat Name="AmbientRegrowthDuration" Unit="ronda" /> hasta alcanzar su valor máximo.</p>
             <p><stat Name="ReflectChance" />% de probabilidad de reflejar daño basado en luz</p>
         </leveltext>
     </mutation>
-    <mutation Name="Mass Mind" DisplayName="▶Mente colectiva" BearerDescription="▶quienes acceden a la Mente Colectiva" BiomeEpithet="▶asamblea mental">
-      <description>▶
+    <mutation Name="Mass Mind" DisplayName="Mente colectiva" BearerDescription="quienes acceden a la Mente Colectiva" BiomeEpithet="asamblea mental">
+      <description>
             <p>Accedes a la mente agregada y robas poder a otros esper.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Reinicia todas las mutaciones mentales</p>
-            <statline Name="CooldownNoWillpower" Unit="▶ronda" DisplayName="▶Recarga sin Voluntad" />
+            <statline Name="CooldownNoWillpower" Unit="ronda" DisplayName="Recarga sin Voluntad" />
             <p>La recarga no se ve afectada por la Voluntad.</p>
             <p>Cada uso atrae algo más la atención de intrusos psíquicos.</p>
             <p><switch Name="LevelMatch"><case Value="true">Pequeña probabilidad cada ronda de que otro esper robe tus poderes</case><default>{{rules|Reduce la probabilidad de que otro esper robe tus poderes}}</default></switch></p>
             <p>-200 de reputación con {{w|los Seekers of the Sightless Way}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Mental Mirror" DisplayName="▶Espejo mental" BearerDescription="▶quienes reflejan lo mental" BiomeEpithet="▶estepa espejo">
-      <description>▶
+    <mutation Name="Mental Mirror" DisplayName="Espejo mental" BearerDescription="quienes reflejan lo mental" BiomeEpithet="estepa espejo">
+      <description>
             <p>Reflejas los ataques mentales de vuelta a tus atacantes.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Cuando sufres un ataque mental mientras Espejo mental no está en recarga, ganas +<stat Name="BonusMA" /> de armadura mental (MA).</p>
             <p>Si el ataque entonces no logra penetrar tu MA, se refleja de vuelta a tu atacante.</p>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Precognition" DisplayName="▶Precognición" BearerDescription="▶quienes son presciente" BiomeEpithet="▶emplazamiento futuro">
-      <description>▶
+    <mutation Name="Precognition" DisplayName="Precognición" BearerDescription="quienes son presciente" BiomeEpithet="emplazamiento futuro">
+      <description>
             <p>Atisbas tu futuro cercano.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Puedes activar este poder y, más adelante, regresar al momento en que lo activaste.</p>
             <p>Duración entre el uso y el regreso: <stat Name="Duration" /></p>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Psychometry" DisplayName="▶Psicometría" BearerDescription="▶quienes son sensibles a la psicometría" BiomeAdjective="▶retrocognitivo">
-      <description>▶
+    <mutation Name="Psychometry" DisplayName="Psicometría" BearerDescription="quienes son sensibles a la psicometría" BiomeAdjective="retrocognitivo">
+      <description>
             <p>Lees la historia de los artefactos al tocarlos, aprendiendo qué hacen y cómo se fabricaron.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Identificas sin error artefactos hasta el nivel de complejidad <stat Name="IdentifyComplexity" />.</p>
             <p>Aprendes a construir artefactos identificados hasta el nivel de complejidad <stat Name="ConstructComplexity" /> (debes tener la habilidad de artesanía apropiada).</p>
             <p>Puedes abrir puertas de seguridad y usar algunos dispositivos protegidos al tocarlos.</p>
           </leveltext>
     </mutation>
-    <mutation Name="Pyrokinesis" DisplayName="▶Pirocinesis" BearerDescription="▶piromantes" BiomeEpithet="▶prado de llamas">
-      <description>▶
+    <mutation Name="Pyrokinesis" DisplayName="Pirocinesis" BearerDescription="piromantes" BiomeEpithet="prado de llamas">
+      <description>
             <p>Calientas un área cercana con la mente.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <switch Name="LevelMatch">
               <case Value="true"><p>Tuesta el área afectada durante 3 rondas</p></case>
               <case Value="raise"><p>{{rules|Aumenta la intensidad del calor}}</p></case>
               <default><p>{{rules|Reduce la intensidad del calor}}</p></default>
             </switch>
-            <statline Name="Range" DisplayName="▶Alcance" />
-            <statline Name="Area" DisplayName="▶Área" />
-            <statline Name="DamageRound1" DisplayName="▶Daño de la ronda 1" />
-            <statline Name="DamageRound2" DisplayName="▶Daño de la ronda 2" />
-            <statline Name="DamageRound3" DisplayName="▶Daño de la ronda 3" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Range" DisplayName="Alcance" />
+            <statline Name="Area" DisplayName="Área" />
+            <statline Name="DamageRound1" DisplayName="Daño de la ronda 1" />
+            <statline Name="DamageRound2" DisplayName="Daño de la ronda 2" />
+            <statline Name="DamageRound3" DisplayName="Daño de la ronda 3" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Sense Psychic" DisplayName="▶Detectar psíquicos" BearerDescription="▶quienes son sensibles a lo psíquico" BiomeAdjective="▶desnudo">
-      <description>▶
+    <mutation Name="Sense Psychic" DisplayName="Detectar psíquicos" BearerDescription="quienes son sensibles a lo psíquico" BiomeAdjective="desnudo">
+      <description>
             <p>Puedes detectar a otros mutantes mentales a través del éter psíquico.</p>
             <p></p>
             <p>Detectas la presencia de enemigos psíquicos dentro de un radio de <stat Name="Radius" />.</p>
@@ -732,64 +732,64 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Spacetime Vortex" DisplayName="▶Vórtice espaciotemporal" BearerDescription="▶plegadores del espacio" BiomeAdjective="▶deformado">
-      <description>▶
+    <mutation Name="Spacetime Vortex" DisplayName="Vórtice espaciotemporal" BearerDescription="plegadores del espacio" BiomeAdjective="deformado">
+      <description>
             <p>Desgarras el espaciotiempo, lanzando lo que tienes cerca a través de una brecha en el tejido cósmico.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Invoca un vórtice que engulle todo a su paso.</p>
             <switch Name="BonusDuration">
               <case Value="0"></case>
-              <default><statline Name="BonusDuration" DisplayName="▶Duración adicional" Unit="▶ronda" /></default>
+              <default><statline Name="BonusDuration" DisplayName="Duración adicional" Unit="ronda" /></default>
             </switch>
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
             <p>Puedes entrar en el vórtice para teletransportarte a una ubicación al azar de Qud.</p>
             <p>+200 de reputación con {{w|seres de alta entropía}}</p>
           </leveltext>
     </mutation>
-    <mutation Name="Stunning Force" DisplayName="▶Fuerza pasmante" BearerDescription="▶quienes son telequinéticos" BiomeAdjective="▶telequinético">
-      <description>▶
+    <mutation Name="Stunning Force" DisplayName="Fuerza pasmante" BearerDescription="quienes son telequinéticos" BiomeAdjective="telequinético">
+      <description>
             <p>Invocas una fuerza concusiva en un área cercana, lanzando a los enemigos hacia atrás y pasmándolos.</p>
           </description>
-      <leveltext>▶
-            <statline Name="Range" DisplayName="▶Alcance" />
-            <statline Name="Area" DisplayName="▶Área" />
+      <leveltext>
+            <statline Name="Range" DisplayName="Alcance" />
+            <statline Name="Area" DisplayName="Área" />
             <switch Name="LevelMatch">
               <case Value="true"><p>Las criaturas son empujadas lejos del centro de la explosión, pasmadas, y reciben daño aplastante en hasta 3 incrementos.</p></case>
               <default><p>{{rules|Aumenta la dificultad de la salvación contra pasmo}}</p></default>
             </switch>
-            <statline Name="DamageIncrement" DisplayName="▶Incremento de daño" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="DamageIncrement" DisplayName="Incremento de daño" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Sunder Mind" DisplayName="▶Desgarrar mente" BearerDescription="▶quienes desgarran mentes" BiomeEpithet="▶cementerio psíquico">
-      <description>▶
+    <mutation Name="Sunder Mind" DisplayName="Desgarrar mente" BearerDescription="quienes desgarran mentes" BiomeEpithet="cementerio psíquico">
+      <description>
             <p>Desgarras la mente de un enemigo, dejándolo tambaleándose de dolor.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Durante hasta 10 rondas, entablas combate psíquico con un adversario, infligiendo daño cada ronda.</p>
             <p>Realizar cualquier acción que no sea pasar el turno romperá la conexión.</p>
             <p>Cada ronda realizas un ataque mental vs. armadura mental (MA).</p>
-            <statline Name="DamageIncrement" DisplayName="▶Incremento de daño" />
+            <statline Name="DamageIncrement" DisplayName="Incremento de daño" />
             <p>Tras la décima ronda, infliges daño adicional igual a la cantidad total de daño que hayas hecho hasta el momento.</p>
-            <statline Name="Range" DisplayName="▶Alcance" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Range" DisplayName="Alcance" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Syphon Vim" DisplayName="▶Drenar vigor" BearerDescription="▶sanguijuelas de vida" BiomeEpithet="▶campo de matanza">
-      <description>▶
+    <mutation Name="Syphon Vim" DisplayName="Drenar vigor" BearerDescription="sanguijuelas de vida" BiomeEpithet="campo de matanza">
+      <description>
             <p>Te vinculas con una criatura orgánica cercana y le drenas la fuerza vital.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Ataque mental contra una criatura orgánica</p>
-            <p>Drena <stat Name="HP" Unit="▶punto de golpe" /> por ronda</p>
+            <p>Drena <stat Name="HP" Unit="punto de golpe" /> por ronda</p>
             <p>El objetivo obtiene una salvación mental para resistir el daño cada ronda</p>
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Telepathy" DisplayName="▶Telepatía" BearerDescription="▶quienes son telépatas" BiomeAdjective="▶telepático">
-      <description>▶
+    <mutation Name="Telepathy" DisplayName="Telepatía" BearerDescription="quienes son telépatas" BiomeAdjective="telepático">
+      <description>
             <p>Puedes comunicarte con otros a través del éter psíquico.</p>
             <p></p>
             <p>Habla con cualquiera que tengas a la vista</p>
@@ -797,51 +797,51 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Teleportation" DisplayName="▶Teletransporte" BearerDescription="▶quienes se teletransportan" BiomeEpithet="▶karst espaciotemporal">
-      <description>▶
+    <mutation Name="Teleportation" DisplayName="Teletransporte" BearerDescription="quienes se teletransportan" BiomeEpithet="karst espaciotemporal">
+      <description>
             <p>Te teletransportas a una ubicación cercana.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Te teletransportas a una ubicación al azar dentro de un área designada.</p>
-            <statline Name="UncertaintyRadius" DisplayName="▶Radio de incertidumbre" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="UncertaintyRadius" DisplayName="Radio de incertidumbre" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Teleport Other" DisplayName="▶Teletransportar a otro" BearerDescription="▶quienes teletransportan a otros" BiomeEpithet="▶ermita">
-      <description>▶
+    <mutation Name="Teleport Other" DisplayName="Teletransportar a otro" BearerDescription="quienes teletransportan a otros" BiomeEpithet="ermita">
+      <description>
             <p>Teletransportas a una criatura adyacente a una ubicación cercana al azar.</p>
           </description>
-      <leveltext>▶
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+      <leveltext>
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Time Dilation" DisplayName="▶Dilatación temporal" BearerDescription="▶dilatadores del tiempo" BiomeEpithet="▶prisma temporal">
-      <description>▶
+    <mutation Name="Time Dilation" DisplayName="Dilatación temporal" BearerDescription="dilatadores del tiempo" BiomeEpithet="prisma temporal">
+      <description>
             <p>Distorsionas el tiempo en torno a tu persona para ralentizar a tus enemigos.</p>
           </description>
-      <leveltext>▶
+      <leveltext>
             <p>Las criaturas a menos de <stat Name="Range" /> casillas se ralentizan en función de lo cerca que estén de ti.</p>
             <p>Distancia 1: las criaturas reciben una penalización del <stat Name="QuicknessPenalty1" />% a la Presteza</p>
             <p>Distancia 4: las criaturas reciben una penalización del <stat Name="QuicknessPenalty4" />% a la Presteza</p>
             <p>Distancia 7: las criaturas reciben una penalización del <stat Name="QuicknessPenalty7" />% a la Presteza</p>
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
-    <mutation Name="Temporal Fugue" DisplayName="▶Fuga temporal" BearerDescription="▶fugitivos del tiempo" BiomeEpithet="▶nodo espaciotemporal">
-      <description>▶
+    <mutation Name="Temporal Fugue" DisplayName="Fuga temporal" BearerDescription="fugitivos del tiempo" BiomeEpithet="nodo espaciotemporal">
+      <description>
             <p>Pasas rápidamente hacia delante y hacia atrás en el tiempo creando múltiples copias de ti mismo.</p>
           </description>
-      <leveltext>▶
-            <statline Name="Duration" DisplayName="▶Duración" />
-            <statline Name="Copies" DisplayName="▶Copias" />
-            <statline Name="Cooldown" DisplayName="▶Recarga" />
+      <leveltext>
+            <statline Name="Duration" DisplayName="Duración" />
+            <statline Name="Copies" DisplayName="Copias" />
+            <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
   </category>
-  <category Name="MentalDefects" DisplayName="▶{{R|Defectos mentales}}">
-    <mutation Name="Amnesia" DisplayName="▶Amnesia" BearerDescription="▶quienes no recuerdan" BiomeAdjective="▶sin pasado">
-      <description>▶
+  <category Name="MentalDefects" DisplayName="{{R|Defectos mentales}}">
+    <mutation Name="Amnesia" DisplayName="Amnesia" BearerDescription="quienes no recuerdan" BiomeAdjective="sin pasado">
+      <description>
             <p>Olvidas cosas y lugares.</p>
             <p></p>
             <p>Cada vez que aprendes un secreto nuevo, hay una pequeña probabilidad de que olvides un secreto.</p>
@@ -849,16 +849,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Blinking Tic" DisplayName="▶Tic de parpadeo" BearerDescription="▶quienes se teletransportan de forma compulsiva" BiomeAdjective="▶parpadeante">
-      <description>▶
+    <mutation Name="Blinking Tic" DisplayName="Tic de parpadeo" BearerDescription="quienes se teletransportan de forma compulsiva" BiomeAdjective="parpadeante">
+      <description>
             <p>Te teletransportas sin control.</p>
             <p></p>
             <p>Pequeña probabilidad cada ronda en combate de teletransportarte al azar a una ubicación cercana.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Dystechnia" DisplayName="▶Distecnia" BearerDescription="▶quienes se aturullan ante la complejidad tecnológica" BiomeAdjective="▶regresivo">
-      <description>▶
+    <mutation Name="Dystechnia" DisplayName="Distecnia" BearerDescription="quienes se aturullan ante la complejidad tecnológica" BiomeAdjective="regresivo">
+      <description>
             <p>Te aturulla la complejidad tecnológica.</p>
             <p></p>
             <p>Eres mucho peor examinando artefactos.</p>
@@ -867,40 +867,40 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Evil Twin" DisplayName="▶Gemelo malvado" BearerDescription="▶quienes tienen un doble" BiomeEpithet="▶asamblea de uno mismo">
-      <description>▶
+    <mutation Name="Evil Twin" DisplayName="Gemelo malvado" BearerDescription="quienes tienen un doble" BiomeEpithet="asamblea de uno mismo">
+      <description>
             <p>Movida por algún impulso inescrutable, una versión paralela de ti misma viaja por el espacio y el tiempo para destruirte.</p>
             <p></p>
             <p>Cada vez que llegas a una ubicación nueva, hay una pequeña probabilidad de que tu gemelo malvado te haya seguido hasta allí e intente matarte.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Narcolepsy" DisplayName="▶Narcolepsia" BearerDescription="▶quienes son narcolépticos" BiomeAdjective="▶somnoliento">
-      <description>▶
+    <mutation Name="Narcolepsy" DisplayName="Narcolepsia" BearerDescription="quienes son narcolépticos" BiomeAdjective="somnoliento">
+      <description>
             <p>Te quedas dormido sin querer de vez en cuando.</p>
             <p></p>
             <p>Pequeña probabilidad cada ronda en combate de quedarte dormido durante 20-29 rondas.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Psionic Migraines" DisplayName="▶Migrañas psiónicas" BearerDescription="▶quienes sufren migrañas psiónicas" BiomeAdjective="▶estridente">
-      <description>▶
+    <mutation Name="Psionic Migraines" DisplayName="Migrañas psiónicas" BearerDescription="quienes sufren migrañas psiónicas" BiomeAdjective="estridente">
+      <description>
             <p>Sufres potentes migrañas psiónicas que vuelven tu cabeza extremadamente sensible.</p>
             <p></p>
             <p>No puedes llevar sombreros ni cascos.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Quantum Jitters" DisplayName="▶Temblores cuánticos" BearerDescription="▶quienes son cuánticamente inciertos" BiomeAdjective="▶tembloroso">
-      <description>▶
+    <mutation Name="Quantum Jitters" DisplayName="Temblores cuánticos" BearerDescription="quienes son cuánticamente inciertos" BiomeAdjective="tembloroso">
+      <description>
             <p>Tus actos voluntarios a veces abollan el espaciotiempo.</p>
             <p></p>
             <p>Cada vez que usas una habilidad activable, hay una pequeña probabilidad de que se te escape la concentración y abolles el espaciotiempo en la región local, haciendo aparecer de 1 a 2 vórtices espaciotemporales. Esta probabilidad aumenta cuanto más tiempo pasas sin usar una habilidad activable.</p>
           </description>
       <leveltext></leveltext>
     </mutation>
-    <mutation Name="Socially Repugnant" DisplayName="▶Repugnancia social" BearerDescription="▶quienes son socialmente repugnantes" BiomeEpithet="▶asamblea de miserables">
-      <description>▶
+    <mutation Name="Socially Repugnant" DisplayName="Repugnancia social" BearerDescription="quienes son socialmente repugnantes" BiomeEpithet="asamblea de miserables">
+      <description>
             <p>A los demás les cuesta tolerarte en entornos sociales.</p>
             <p></p>
             <p>-50 de reputación con todas las facciones</p>

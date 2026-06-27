@@ -20,163 +20,163 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
 
 -->
 <factions Lang="es" Encoding="utf-8">
-  <faction Name="Sludges" DisplayName="▶fangos" />
-  <faction Name="Soups" DisplayName="▶sopas">
+  <faction Name="Sludges" DisplayName="fangos" />
+  <faction Name="Soups" DisplayName="sopas">
     <interests>
-      <interest Tags="soups" Description="▶sopas" />
-      <interest Tags="stews" Description="▶guisos" />
-      <interest Tags="messes" Description="▶revoltijos de todo tipo" />
+      <interest Tags="soups" Description="sopas" />
+      <interest Tags="stews" Description="guisos" />
+      <interest Tags="messes" Description="revoltijos de todo tipo" />
     </interests>
   </faction>
-  <faction Name="Gelatinous Polyhedra" DisplayName="▶poliedros gelatinosos">
+  <faction Name="Gelatinous Polyhedra" DisplayName="poliedros gelatinosos">
     <interests>
-      <interest Tags="shapes" WillBuy="true" WillSell="false" Description="▶formas y volúmenes teóricos" />
+      <interest Tags="shapes" WillBuy="true" WillSell="false" Description="formas y volúmenes teóricos" />
     </interests>
   </faction>
-  <faction Name="Jellies" DisplayName="▶gelatinas">
+  <faction Name="Jellies" DisplayName="gelatinas">
     <interests>
-      <interest Tags="gelatin" WillBuy="false" WillSell="true" Description="▶comidas a base de gelatina" />
+      <interest Tags="gelatin" WillBuy="false" WillSell="true" Description="comidas a base de gelatina" />
     </interests>
   </faction>
-  <faction Name="Slimes" DisplayName="▶limos" />
-  <faction Name="Amoeba" DisplayName="▶amebas">
+  <faction Name="Slimes" DisplayName="limos" />
+  <faction Name="Amoeba" DisplayName="amebas">
     <interests>
-      <interest Tags="adhesion" WillBuy="true" WillSell="false" Description="▶adhesión celular" />
+      <interest Tags="adhesion" WillBuy="true" WillSell="false" Description="adhesión celular" />
     </interests>
   </faction>
-  <faction Name="Algae" DisplayName="▶algas">
+  <faction Name="Algae" DisplayName="algas">
     <interests>
-      <interest Tags="lakesrivers" Description="▶emplazamiento de lagos y ríos" />
+      <interest Tags="lakesrivers" Description="emplazamiento de lagos y ríos" />
     </interests>
   </faction>
-  <faction Name="Cocci" DisplayName="▶cocos">
+  <faction Name="Cocci" DisplayName="cocos">
     <interests>
-      <interest Tags="moistproteinrich" Description="▶emplazamiento de entornos húmedos y ricos en proteínas" />
-      <interest Tags="skinnasal" Description="▶piel y cavidades nasales" />
+      <interest Tags="moistproteinrich" Description="emplazamiento de entornos húmedos y ricos en proteínas" />
+      <interest Tags="skinnasal" Description="piel y cavidades nasales" />
     </interests>
   </faction>
-  <faction Name="Bacilli" DisplayName="▶bacilos">
+  <faction Name="Bacilli" DisplayName="bacilos">
     <interests>
-      <interest Tags="moistproteinrich" Description="▶emplazamiento de entornos húmedos y ricos en proteínas" />
-      <interest Tags="sporedispersal" Description="▶dispersión de esporas" />
+      <interest Tags="moistproteinrich" Description="emplazamiento de entornos húmedos y ricos en proteínas" />
+      <interest Tags="sporedispersal" Description="dispersión de esporas" />
     </interests>
   </faction>
-  <faction Name="Spirilla" DisplayName="▶espirilos">
+  <faction Name="Spirilla" DisplayName="espirilos">
     <interests>
-      <interest Tags="moistproteinrich" Description="▶emplazamiento de entornos húmedos y ricos en proteínas" />
-      <interest Tags="spirals" Description="▶espirales" />
+      <interest Tags="moistproteinrich" Description="emplazamiento de entornos húmedos y ricos en proteínas" />
+      <interest Tags="spirals" Description="espirales" />
     </interests>
   </faction>
-  <faction Name="Vibrios" DisplayName="▶vibriones">
+  <faction Name="Vibrios" DisplayName="vibriones">
     <interests>
-      <interest Tags="moistproteinrich" Description="▶emplazamiento de entornos húmedos y ricos en proteínas" />
-      <interest Tags="coves" WillBuy="true" WillSell="false" Description="▶emplazamiento de calas y estuarios" />
+      <interest Tags="moistproteinrich" Description="emplazamiento de entornos húmedos y ricos en proteínas" />
+      <interest Tags="coves" WillBuy="true" WillSell="false" Description="emplazamiento de calas y estuarios" />
     </interests>
   </faction>
-  <faction Name="Spirochaetes" DisplayName="▶espiroquetas">
+  <faction Name="Spirochaetes" DisplayName="espiroquetas">
     <interests>
-      <interest Tags="moistproteinrich" Description="▶emplazamiento de entornos húmedos y ricos en proteínas" />
-      <interest Tags="spirals" Description="▶espirales" />
+      <interest Tags="moistproteinrich" Description="emplazamiento de entornos húmedos y ricos en proteínas" />
+      <interest Tags="spirals" Description="espirales" />
     </interests>
   </faction>
-  <faction Name="Methanogens" DisplayName="▶metanógenos">
+  <faction Name="Methanogens" DisplayName="metanógenos">
     <interests>
-      <interest Tags="methane" WillBuy="false" WillSell="true" Description="▶emplazamiento de ciénagas de metano" />
+      <interest Tags="methane" WillBuy="false" WillSell="true" Description="emplazamiento de ciénagas de metano" />
     </interests>
   </faction>
-  <faction Name="Thermoacidophiles" DisplayName="▶termoacidófilos" />
-  <faction Name="Halophiles" DisplayName="▶halófilos" />
-  <faction Name="Molds" DisplayName="▶mohos">
+  <faction Name="Thermoacidophiles" DisplayName="termoacidófilos" />
+  <faction Name="Halophiles" DisplayName="halófilos" />
+  <faction Name="Molds" DisplayName="mohos">
     <interests>
-      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶emplazamiento de cosas muertas" />
-      <interest Tags="network" Description="▶topología de redes" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="emplazamiento de cosas muertas" />
+      <interest Tags="network" Description="topología de redes" />
     </interests>
   </faction>
-  <faction Name="Mushrooms" DisplayName="▶setas">
+  <faction Name="Mushrooms" DisplayName="setas">
     <interests>
-      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶emplazamiento de cosas muertas" />
-      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶emplazamiento de sombrereros" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="emplazamiento de cosas muertas" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="emplazamiento de sombrereros" />
     </interests>
   </faction>
-  <faction Name="Rusts" DisplayName="▶royas">
+  <faction Name="Rusts" DisplayName="royas">
     <interests>
-      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶emplazamiento de cosas muertas" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="emplazamiento de cosas muertas" />
     </interests>
   </faction>
-  <faction Name="Smuts" DisplayName="▶tizones">
+  <faction Name="Smuts" DisplayName="tizones">
     <interests>
-      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶emplazamiento de cosas muertas" />
-      <interest Tags="plantlairs" Description="▶emplazamiento de guaridas de plantas" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="emplazamiento de cosas muertas" />
+      <interest Tags="plantlairs" Description="emplazamiento de guaridas de plantas" />
     </interests>
   </faction>
-  <faction Name="Mildews" DisplayName="▶mildiús">
+  <faction Name="Mildews" DisplayName="mildiús">
     <interests>
-      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶emplazamiento de cosas muertas" />
-      <interest Tags="moldelders" Description="▶emplazamiento de mentores del moho" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="emplazamiento de cosas muertas" />
+      <interest Tags="moldelders" Description="emplazamiento de mentores del moho" />
     </interests>
   </faction>
-  <faction Name="Yeasts" DisplayName="▶levaduras">
+  <faction Name="Yeasts" DisplayName="levaduras">
     <interests>
-      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶emplazamiento de cosas muertas" />
-      <interest Tags="beerbreadwine" WillBuy="false" WillSell="true" Description="▶cerveza, pan y vino" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="emplazamiento de cosas muertas" />
+      <interest Tags="beerbreadwine" WillBuy="false" WillSell="true" Description="cerveza, pan y vino" />
     </interests>
   </faction>
-  <faction Name="Crystal" DisplayName="▶entidades cristalinas que destellan">
+  <faction Name="Crystal" DisplayName="entidades cristalinas que destellan">
     <interests>
-      <interest Tags="thingsunknown" Description="▶cosas que nadie más podría saber" />
+      <interest Tags="thingsunknown" Description="cosas que nadie más podría saber" />
     </interests>
   </faction>
-  <faction Name="Snailfolk" DisplayName="▶pueblo caracol">
+  <faction Name="Snailfolk" DisplayName="pueblo caracol">
     <interests>
-      <interest Tags="soups" Description="▶sopas" />
-      <interest Tags="stews" Description="▶guisos" />
-      <interest Tags="teas" Description="▶infusiones" />
+      <interest Tags="soups" Description="sopas" />
+      <interest Tags="stews" Description="guisos" />
+      <interest Tags="teas" Description="infusiones" />
     </interests>
   </faction>
-  <faction Name="Walking Ibes" DisplayName="▶ibes andantes">
+  <faction Name="Walking Ibes" DisplayName="ibes andantes">
     <interests>
-      <interest Tags="talltrees" WillBuy="true" WillSell="false" Description="▶emplazamiento de árboles altos" />
-      <interest Tags="music" WillBuy="false" WillSell="true" Description="▶actuaciones musicales" />
+      <interest Tags="talltrees" WillBuy="true" WillSell="false" Description="emplazamiento de árboles altos" />
+      <interest Tags="music" WillBuy="false" WillSell="true" Description="actuaciones musicales" />
     </interests>
   </faction>
-  <faction Name="Elephantines" DisplayName="▶elefantinos" />
-  <faction Name="Yanshufim" DisplayName="▶yanshufim" FormatWithArticle="true">
+  <faction Name="Elephantines" DisplayName="elefantinos" />
+  <faction Name="Yanshufim" DisplayName="yanshufim" FormatWithArticle="true">
     <interests>
-      <interest Tags="astral" WillBuy="true" WillSell="false" Description="▶lugares de debilidad astral" />
+      <interest Tags="astral" WillBuy="true" WillSell="false" Description="lugares de debilidad astral" />
     </interests>
   </faction>
-  <faction Name="Foxen" DisplayName="▶foxen">
+  <faction Name="Foxen" DisplayName="foxen">
     <interests>
-      <interest Tags="games" Description="▶juegos de azar" />
-      <interest Tags="rivers" Description="▶emplazamiento de ríos" />
+      <interest Tags="games" Description="juegos de azar" />
+      <interest Tags="rivers" Description="emplazamiento de ríos" />
     </interests>
   </faction>
-  <faction Name="Batfolk" DisplayName="▶pueblo murciélago">
+  <faction Name="Batfolk" DisplayName="pueblo murciélago">
     <interests>
-      <interest Tags="caves" Description="▶cavernas" />
-      <interest Tags="vaultedroofs" WillBuy="true" WillSell="false" Description="▶emplazamiento de techos abovedados" />
+      <interest Tags="caves" Description="cavernas" />
+      <interest Tags="vaultedroofs" WillBuy="true" WillSell="false" Description="emplazamiento de techos abovedados" />
     </interests>
   </faction>
   <faction Name="Nephilim">
     <interests>
-      <interest Tags="becoming" Description="▶volverse criaturas de sentido y propósito" />
-      <interest Tags="managingCult" Description="▶el manejo de fieles" />
+      <interest Tags="becoming" Description="volverse criaturas de sentido y propósito" />
+      <interest Tags="managingCult" Description="el manejo de fieles" />
     </interests>
   </faction>
-  <faction Name="Knight Liminal" DisplayName="▶Caballeros Liminales" FormatWithArticle="true">
+  <faction Name="Knight Liminal" DisplayName="Caballeros Liminales" FormatWithArticle="true">
     <interests>
-      <interest Tags="limen" Description="▶el Limen" />
+      <interest Tags="limen" Description="el Limen" />
     </interests>
   </faction>
-  <faction Name="Quetzal Council" DisplayName="▶Consejo Quetzal" FormatWithArticle="true">
+  <faction Name="Quetzal Council" DisplayName="Consejo Quetzal" FormatWithArticle="true">
     <interests>
-      <interest Tags="self-sovereignty" Description="▶la autosoberanía" />
-      <interest Tags="plaguemitigation" Description="▶la mitigación de plagas" />
+      <interest Tags="self-sovereignty" Description="la autosoberanía" />
+      <interest Tags="plaguemitigation" Description="la mitigación de plagas" />
     </interests>
   </faction>
-  <faction Name="Chiliad Mamon" DisplayName="▶Nietos de Mamon" FormatWithArticle="true">
+  <faction Name="Chiliad Mamon" DisplayName="Nietos de Mamon" FormatWithArticle="true">
     <interests>
-      <interest Tags="generationaltrauma" Description="▶el trauma de las cicatrices generacionales" />
+      <interest Tags="generationaltrauma" Description="el trauma de las cicatrices generacionales" />
     </interests>
   </faction>
 </factions>

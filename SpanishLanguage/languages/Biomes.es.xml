@@ -6,55 +6,55 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
 <biomes Lang="es" Encoding="utf-8">
   <biome Name="Fungal">
     <variant Name="Weak">
-      <noun>▶mancha de hongos</noun>
+      <noun>mancha de hongos</noun>
     </variant>
     <variant Name="Medium">
-      <noun>▶soto de hongos</noun>
+      <noun>soto de hongos</noun>
     </variant>
     <variant Name="Strong">
-      <noun>▶bosque de hongos</noun>
-      <journalSecret>▶un bosque de {{m|hongos}}</journalSecret>
+      <noun>bosque de hongos</noun>
+      <journalSecret>un bosque de {{m|hongos}}</journalSecret>
     </variant>
   </biome>
   <biome Name="Slimy">
     <variant Name="Weak">
-      <noun>▶mancha de limo</noun>
-      <adjective>▶de limo</adjective>
+      <noun>mancha de limo</noun>
+      <adjective>de limo</adjective>
     </variant>
     <variant Name="Medium">
-      <noun>▶campo de limo</noun>
-      <adjective>▶anegado de limo</adjective>
+      <noun>campo de limo</noun>
+      <adjective>anegado de limo</adjective>
     </variant>
     <variant Name="Strong">
-      <noun>▶ciénaga de limo</noun>
-      <journalSecret>▶una ciénaga de {{g|limo}}</journalSecret>
+      <noun>ciénaga de limo</noun>
+      <journalSecret>una ciénaga de {{g|limo}}</journalSecret>
     </variant>
   </biome>
   <biome Name="Tarry">
     <variant Name="Weak">
-      <noun>▶mancha de alquitrán</noun>
-      <adjective>▶de alquitrán</adjective>
+      <noun>mancha de alquitrán</noun>
+      <adjective>de alquitrán</adjective>
     </variant>
     <variant Name="Medium">
-      <noun>▶charcas de alquitrán</noun>
+      <noun>charcas de alquitrán</noun>
     </variant>
     <variant Name="Strong">
-      <noun>▶pozos de alquitrán ardiente</noun>
-      <journalSecret>▶unos pozos de {{K|alquitrán}} {{fiery|ardiente}}</journalSecret>
+      <noun>pozos de alquitrán ardiente</noun>
+      <journalSecret>unos pozos de {{K|alquitrán}} {{fiery|ardiente}}</journalSecret>
     </variant>
   </biome>
   <biome Name="Rusty">
     <variant Name="Weak">
-      <noun>▶mancha de óxido</noun>
-      <adjective>▶de óxido</adjective>
+      <noun>mancha de óxido</noun>
+      <adjective>de óxido</adjective>
     </variant>
     <variant Name="Medium">
-      <noun>▶campo de óxido</noun>
-      <adjective>▶cubierto de óxido</adjective>
+      <noun>campo de óxido</noun>
+      <adjective>cubierto de óxido</adjective>
     </variant>
     <variant Name="Strong">
-      <noun>▶ciénaga de óxido</noun>
-      <journalSecret>▶una ciénaga de {{rusty|óxido}}</journalSecret>
+      <noun>ciénaga de óxido</noun>
+      <journalSecret>una ciénaga de {{rusty|óxido}}</journalSecret>
     </variant>
   </biome>
 </biomes>

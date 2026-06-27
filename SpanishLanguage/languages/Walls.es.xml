@@ -23,658 +23,658 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
 -->
 <objects Lang="es" Encoding="utf-8">
   <object Name="Wall" Load="Merge">
-    <part Name="Description" Short="▶[muro]" />
-    <tag Name="HeroNameTitleDescriptor" Value="▶Agrietado,Sin Grietas,Antaño Agrietado,Pintado,En Pie,Tachonado,Recio,Dos Veces Agrietado,Sin Pintar,Sin Tachonar" />
-    <tag Name="HeroNameTitleClientele" Value="▶de los Constructores,de los Cobardes,de los Defensores,de los Tejados,de los Asediados,de los Impávidos" />
-    <xtagTextFragments Skin="▶textura" PoeticFeatures="▶naturaleza imponente,quietud apacible,abrigo reconfortante" />
+    <part Name="Description" Short="[muro]" />
+    <tag Name="HeroNameTitleDescriptor" Value="Agrietado,Sin Grietas,Antaño Agrietado,Pintado,En Pie,Tachonado,Recio,Dos Veces Agrietado,Sin Pintar,Sin Tachonar" />
+    <tag Name="HeroNameTitleClientele" Value="de los Constructores,de los Cobardes,de los Defensores,de los Tejados,de los Asediados,de los Impávidos" />
+    <xtagTextFragments Skin="textura" PoeticFeatures="naturaleza imponente,quietud apacible,abrigo reconfortante" />
   </object>
   <object Name="BaseMushroomWall" Load="Merge">
-    <part Name="Render" DisplayName="▶carne de hongo" />
-    <part Name="Description" Short="▶Un limo cargado de esporas reluce sobre el cuerpo fructífero, semejante a una jaula, recortado como un seto para ajustarse a los ángulos ordenados de la domesticidad." />
+    <part Name="Render" DisplayName="carne de hongo" />
+    <part Name="Description" Short="Un limo cargado de esporas reluce sobre el cuerpo fructífero, semejante a una jaula, recortado como un seto para ajustarse a los ángulos ordenados de la domesticidad." />
   </object>
   <object Name="Shale" Load="Merge">
-    <part Name="Render" DisplayName="▶pizarra arcillosa" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="pizarra arcillosa" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Sandstone" Load="Merge">
-    <part Name="Render" DisplayName="▶arenisca" />
-    <part Name="Description" Short="▶La roca se erosiona en arena, la arena vuela hacia los lagos, los lagos se entierran en lodo, y el lodo aplasta la arena hasta hacerla roca. La tierra se reordena." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="arenisca" />
+    <part Name="Description" Short="La roca se erosiona en arena, la arena vuela hacia los lagos, los lagos se entierran en lodo, y el lodo aplasta la arena hasta hacerla roca. La tierra se reordena." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Limestone" Load="Merge">
-    <part Name="Render" DisplayName="▶caliza" />
-    <part Name="Description" Short="▶A la vida invertebrada se le sorbió el tejido y se la desangró durante millones de años. La roca glauca es una necrópolis." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="caliza" />
+    <part Name="Description" Short="A la vida invertebrada se le sorbió el tejido y se la desangró durante millones de años. La roca glauca es una necrópolis." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Marl" Load="Merge">
-    <part Name="Render" DisplayName="▶marga" />
-    <part Name="Description" Short="▶Ecosistemas lacustres, fundidos en un lodo rico en cal, exhiben sus asuntos milenarios con un brillo blanco como la tiza." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="marga" />
+    <part Name="Description" Short="Ecosistemas lacustres, fundidos en un lodo rico en cal, exhiben sus asuntos milenarios con un brillo blanco como la tiza." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Halite" Load="Merge">
-    <part Name="Render" DisplayName="▶sal de roca" />
-    <part Name="Description" Short="▶Nubes carmesíes adoptan su forma cristalina: cubos anidados por dentro y por fuera. ¿Por qué oculta Moghra'yi esta forma al sol?" />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="sal de roca" />
+    <part Name="Description" Short="Nubes carmesíes adoptan su forma cristalina: cubos anidados por dentro y por fuera. ¿Por qué oculta Moghra'yi esta forma al sol?" />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Gypsum" Load="Merge">
-    <part Name="Render" DisplayName="▶yeso" />
-    <part Name="Description" Short="▶Cristal calcinado, color oro, arroja sus sombras geométricas sobre los suelos de un millón de grutas acuosas." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="yeso" />
+    <part Name="Description" Short="Cristal calcinado, color oro, arroja sus sombras geométricas sobre los suelos de un millón de grutas acuosas." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Black Shale" Load="Merge">
-    <part Name="Render" DisplayName="▶pizarra negra" />
-    <part Name="Description" Short="▶La piedra negra se alza en monumento a las ciudades de caracoles que perecieron bajo la arcilla y se pudrieron hasta volverse pirita." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="pizarra negra" />
+    <part Name="Description" Short="La piedra negra se alza en monumento a las ciudades de caracoles que perecieron bajo la arcilla y se pudrieron hasta volverse pirita." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Coral Rag" Load="Merge">
-    <part Name="Render" DisplayName="▶caliza de coral" />
-    <part Name="Description" Short="▶Los arrecifes fueron las arcologías de los océanos jóvenes. Ahora son criptas turquesas, sus superficies mordidas por el agua ácida hasta dejar heridas ásperas." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="caliza de coral" />
+    <part Name="Description" Short="Los arrecifes fueron las arcologías de los océanos jóvenes. Ahora son criptas turquesas, sus superficies mordidas por el agua ácida hasta dejar heridas ásperas." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Oolite" Load="Merge">
-    <part Name="Render" DisplayName="▶oolita" />
-    <part Name="Description" Short="▶Huevos pétreos se incuban en láminas planas y nacaradas. Jamás eclosiona larva alguna; se les desgasta hasta hacerse polvo." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="oolita" />
+    <part Name="Description" Short="Huevos pétreos se incuban en láminas planas y nacaradas. Jamás eclosiona larva alguna; se les desgasta hasta hacerse polvo." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Serpentinite" Load="Merge">
-    <part Name="Render" DisplayName="▶serpentinita" />
-    <part Name="Description" Short="▶Sin nombre para los seres del mundo de la superficie son los atrios donde da a luz lo subterráneo, donde la roca ultramáfica se humedece en fluido amniótico y nace como serpiente-mundo." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="serpentinita" />
+    <part Name="Description" Short="Sin nombre para los seres del mundo de la superficie son los atrios donde da a luz lo subterráneo, donde la roca ultramáfica se humedece en fluido amniótico y nace como serpiente-mundo." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Slate" Load="Merge">
-    <part Name="Render" DisplayName="▶lutita" />
-    <part Name="Description" Short="▶El polvo volcánico se aovilló en su capullo de tierra profunda y rompió en piedra gris. Los sofistas teorizan que es el color del éter puro." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="lutita" />
+    <part Name="Description" Short="El polvo volcánico se aovilló en su capullo de tierra profunda y rompió en piedra gris. Los sofistas teorizan que es el color del éter puro." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Quartzite" Load="Merge">
-    <part Name="Render" DisplayName="▶cuarcita" />
-    <part Name="Description" Short="▶Mosaicos cristalinos moteados de rojo y cian son los restos metamórficos de placas-mundo que se desmoronan. La nueva tierra pugna por nacer." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="cuarcita" />
+    <part Name="Description" Short="Mosaicos cristalinos moteados de rojo y cian son los restos metamórficos de placas-mundo que se desmoronan. La nueva tierra pugna por nacer." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Marble" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de mármol" />
-    <part Name="Description" Short="▶Caracoles y coral fueron triturados en la prensa geológica, pintados en cintas de impureza y pulidos a lo largo del plano ideal." />
+    <part Name="Render" DisplayName="muro de mármol" />
+    <part Name="Description" Short="Caracoles y coral fueron triturados en la prensa geológica, pintados en cintas de impureza y pulidos a lo largo del plano ideal." />
   </object>
   <object Name="Star Orchid Marble" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de mármol de orquídea estelar" />
-    <part Name="Description" Short="▶Seres de caparazón duro venidos de otros mundos fueron cosechados de los planetesimales, quemados con fulgor en el escape magenta de las naves de sus carroñeros, y comprimidos juntos en honda astral hacia la reentrada." />
+    <part Name="Render" DisplayName="muro de mármol de orquídea estelar" />
+    <part Name="Description" Short="Seres de caparazón duro venidos de otros mundos fueron cosechados de los planetesimales, quemados con fulgor en el escape magenta de las naves de sus carroñeros, y comprimidos juntos en honda astral hacia la reentrada." />
   </object>
   <object Name="Black Marble" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol negro" />
-    <part Name="Description" Short="▶Los vacíos-mundo en los confines más hondos del planeta están divididos por una mampostería numinosa. Hay sentido en los patrones de su tenue filigrana blanca, pero nadie lo discierne." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="mármol negro" />
+    <part Name="Description" Short="Los vacíos-mundo en los confines más hondos del planeta están divididos por una mampostería numinosa. Hay sentido en los patrones de su tenue filigrana blanca, pero nadie lo discierne." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Polished Black Marble" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol negro pulido" />
-    <part Name="Description" Short="▶Los vacíos-mundo en los confines más hondos del planeta están divididos por una mampostería numinosa. Hay sentido en los patrones de su tenue filigrana blanca, pero nadie lo discierne." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="mármol negro pulido" />
+    <part Name="Description" Short="Los vacíos-mundo en los confines más hondos del planeta están divididos por una mampostería numinosa. Hay sentido en los patrones de su tenue filigrana blanca, pero nadie lo discierne." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Granite" Load="Merge">
-    <part Name="Render" DisplayName="▶granito" />
-    <part Name="Description" Short="▶El feldespato y sus rocas primas se mezclan y salpican con un grano de patrón estático. Las grietas presagian los guijarros del futuro." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="granito" />
+    <part Name="Description" Short="El feldespato y sus rocas primas se mezclan y salpican con un grano de patrón estático. Las grietas presagian los guijarros del futuro." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Mudroot" Load="Merge">
-    <part Name="Render" DisplayName="▶raíz de lodo enredada" />
-    <part Name="Description" Short="▶Trenzas de venas vegetales fibrosas enmallan el lodo compactado y rezuman una sangre salobre." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="raíz de lodo enredada" />
+    <part Name="Description" Short="Trenzas de venas vegetales fibrosas enmallan el lodo compactado y rezuman una sangre salobre." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Basalt" Load="Merge">
-    <part Name="Render" DisplayName="▶basalto" />
-    <part Name="Description" Short="▶Las cicatrices de la colada de lava se leen como pequeñas repisas a lo ancho de la piedra. Los oscuros agujeritos fueron en otro tiempo los cráteres de nacimiento de los gases disueltos." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="basalto" />
+    <part Name="Description" Short="Las cicatrices de la colada de lava se leen como pequeñas repisas a lo ancho de la piedra. Los oscuros agujeritos fueron en otro tiempo los cráteres de nacimiento de los gases disueltos." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="GodshroomWall" Load="Merge">
-    <part Name="Render" DisplayName="▶carne de hongo" />
+    <part Name="Render" DisplayName="carne de hongo" />
   </object>
   <object Name="MushroomWall-Red" Load="Merge">
-    <part Name="Render" DisplayName="▶carne de hongo" />
+    <part Name="Render" DisplayName="carne de hongo" />
   </object>
   <object Name="MushroomWall-White" Load="Merge">
-    <part Name="Render" DisplayName="▶carne de hongo" />
+    <part Name="Render" DisplayName="carne de hongo" />
   </object>
   <object Name="PlantWall" Load="Merge">
-    <part Name="Render" DisplayName="▶materia vegetal" />
-    <part Name="Description" Short="▶El tiempo y el azar -- las dos manos de la naturaleza -- han entretejido raíces, tallos y hojas en una presa fibrosa." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="materia vegetal" />
+    <part Name="Description" Short="El tiempo y el azar -- las dos manos de la naturaleza -- han entretejido raíces, tallos y hojas en una presa fibrosa." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="AgateWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de pizarra con vetas de {{K|ágata}}" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas negras." />
+    <part Name="Render" DisplayName="muro de pizarra con vetas de {{K|ágata}}" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas negras." />
   </object>
   <object Name="TopazWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de pizarra con vetas de {{W|topacio}}" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas doradas." />
+    <part Name="Render" DisplayName="muro de pizarra con vetas de {{W|topacio}}" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas doradas." />
   </object>
   <object Name="JasperWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de pizarra con vetas de {{R|jaspe}}" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas rojas." />
+    <part Name="Render" DisplayName="muro de pizarra con vetas de {{R|jaspe}}" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas rojas." />
   </object>
   <object Name="AmethystWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de pizarra con vetas de {{M|amatista}}" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas púrpuras." />
+    <part Name="Render" DisplayName="muro de pizarra con vetas de {{M|amatista}}" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas púrpuras." />
   </object>
   <object Name="SapphireWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de pizarra con vetas de {{B|zafiro}}" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas azules." />
+    <part Name="Render" DisplayName="muro de pizarra con vetas de {{B|zafiro}}" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas azules." />
   </object>
   <object Name="EmeraldWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de pizarra con vetas de {{G|esmeralda}}" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas verdes." />
+    <part Name="Render" DisplayName="muro de pizarra con vetas de {{G|esmeralda}}" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas verdes." />
   </object>
   <object Name="PeridotWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de meteorito con vetas de {{peridot|peridoto}}" />
-    <part Name="Description" Short="▶Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas verdes y doradas." />
+    <part Name="Render" DisplayName="muro de meteorito con vetas de {{peridot|peridoto}}" />
+    <part Name="Description" Short="Arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años. Toda la piedra está surcada por relucientes cintas verdes y doradas." />
   </object>
   <object Name="Fulcrete" Load="Merge">
-    <part Name="Render" DisplayName="▶fulcreto" />
-    <part Name="Description" Short="▶Islas de grava de carbono pueblan un océano de betún y se alzan desde el plano horizontal hacia el vacío del raspaire. El tiempo y la presión han trazado zanjas finísimas a lo largo de la cuenca." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="fulcreto" />
+    <part Name="Description" Short="Islas de grava de carbono pueblan un océano de betún y se alzan desde el plano horizontal hacia el vacío del raspaire. El tiempo y la presión han trazado zanjas finísimas a lo largo de la cuenca." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="EbonFulcrete" Load="Merge">
-    <part Name="Description" Short="▶Islas negras de grava de carbono pueblan un océano de betún y se alzan desde el plano horizontal hacia el vacío del raspaire. El tiempo y la presión han trazado zanjas finísimas a lo largo de la cuenca." />
-    <part Name="Render" DisplayName="▶fulcreto de ébano" />
+    <part Name="Description" Short="Islas negras de grava de carbono pueblan un océano de betún y se alzan desde el plano horizontal hacia el vacío del raspaire. El tiempo y la presión han trazado zanjas finísimas a lo largo de la cuenca." />
+    <part Name="Render" DisplayName="fulcreto de ébano" />
   </object>
   <object Name="MetalWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de metal" />
-    <part Name="Description" Short="▶La chapa de metal se traba en patrón de rombos y se suelda para cercar. La superficie está chamuscada y arañada por tramos." />
+    <part Name="Render" DisplayName="muro de metal" />
+    <part Name="Description" Short="La chapa de metal se traba en patrón de rombos y se suelda para cercar. La superficie está chamuscada y arañada por tramos." />
   </object>
   <object Name="RustedMetalWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de metal oxidado" />
-    <part Name="Description" Short="▶La chapa de metal se traba en patrón de rombos y se suelda para cercar. La superficie está chamuscada y arañada por tramos." />
+    <part Name="Render" DisplayName="muro de metal oxidado" />
+    <part Name="Description" Short="La chapa de metal se traba en patrón de rombos y se suelda para cercar. La superficie está chamuscada y arañada por tramos." />
   </object>
   <object Name="CrysteelPlatedWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de cortante con placas de cristacero" />
-    <part Name="Description" Short="▶Placas de relleno longitudinales de cristacero bruñido se ensamblan con vigas de fulcreto. Los sonidos de la vida resuenan por sus huecos vacíos." />
+    <part Name="Render" DisplayName="muro de cortante con placas de cristacero" />
+    <part Name="Description" Short="Placas de relleno longitudinales de cristacero bruñido se ensamblan con vigas de fulcreto. Los sonidos de la vida resuenan por sus huecos vacíos." />
   </object>
   <object Name="Foamcrete" Load="Merge">
-    <part Name="Render" DisplayName="▶espumacreto" />
-    <part Name="Description" Short="▶Las grietas del muro son fósiles del patrón de expansión hexagonal del espumacreto comprimido." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="espumacreto" />
+    <part Name="Description" Short="Las grietas del muro son fósiles del patrón de expansión hexagonal del espumacreto comprimido." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Verdigris" Load="Merge">
-    <part Name="Render" DisplayName="▶cromo deslustrado" />
-    <part Name="Description" Short="▶El musgo ponzoñoso color aguamarina aviva la forma metálica y atrae a los bichos ebrios de latón." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="cromo deslustrado" />
+    <part Name="Description" Short="El musgo ponzoñoso color aguamarina aviva la forma metálica y atrae a los bichos ebrios de latón." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Concrete" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de hormigón" />
-    <part Name="Description" Short="▶La piedra gris y lisa esconde sus entrañas guijarrosas y aglomeradas y la pasta-sangre de cemento. Está veteada de mugre." />
+    <part Name="Render" DisplayName="muro de hormigón" />
+    <part Name="Description" Short="La piedra gris y lisa esconde sus entrañas guijarrosas y aglomeradas y la pasta-sangre de cemento. Está veteada de mugre." />
   </object>
   <object Name="PigskinWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de piel de cerdo" />
-    <part Name="Description" Short="▶Un corte de carne rosada y velluda se ha estirado y curtido para techar a sus pupilos." />
+    <part Name="Render" DisplayName="muro de piel de cerdo" />
+    <part Name="Description" Short="Un corte de carne rosada y velluda se ha estirado y curtido para techar a sus pupilos." />
   </object>
   <object Name="WoodWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de tallo de salmuera" />
-    <part Name="Description" Short="▶He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo." />
+    <part Name="Render" DisplayName="muro de tallo de salmuera" />
+    <part Name="Description" Short="He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo." />
   </object>
   <object Name="BrinestalkWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de tallo de salmuera" />
-    <part Name="Description" Short="▶He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo." />
+    <part Name="Render" DisplayName="muro de tallo de salmuera" />
+    <part Name="Description" Short="He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo." />
   </object>
   <object Name="BurntWood" Load="Merge">
-    <part Name="Render" DisplayName="▶madera carbonizada" />
-    <part Name="Description" Short="▶La corteza del árbol quedó ennegrecida por el asalto del fuego del cielo y ahora reluce en la luz que queda atrás." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="madera carbonizada" />
+    <part Name="Description" Short="La corteza del árbol quedó ennegrecida por el asalto del fuego del cielo y ahora reluce en la luz que queda atrás." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="CanvasWall" Load="Merge">
-    <part Name="Render" DisplayName="▶lona" />
-    <part Name="Description" Short="▶El lino avivado de la tierra se tejió en sarga, en un patrón cuadrado simple, y se colgó de las estacas." />
+    <part Name="Render" DisplayName="lona" />
+    <part Name="Description" Short="El lino avivado de la tierra se tejió en sarga, en un patrón cuadrado simple, y se colgó de las estacas." />
   </object>
   <object Name="ThatchedWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de paja" />
-    <part Name="Description" Short="▶Franjas de vid de agua y paja de tallo de salmuera se atan en haces y se inclinan para desviar la escoria salina." />
+    <part Name="Render" DisplayName="muro de paja" />
+    <part Name="Description" Short="Franjas de vid de agua y paja de tallo de salmuera se atan en haces y se inclinan para desviar la escoria salina." />
   </object>
   <object Name="WornWoodWall" Load="Merge">
-    <part Name="Render" DisplayName="▶madera desgastada" />
-    <part Name="Description" Short="▶He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo." />
-    <xtagGrammar iArticle="▶some" />
+    <part Name="Render" DisplayName="madera desgastada" />
+    <part Name="Description" Short="He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo." />
+    <xtagGrammar iArticle="some" />
   </object>
   <object Name="WornWoodWall with Mask" Load="Merge">
-    <part Name="Render" DisplayName="▶madera desgastada con máscara colgante" />
-    <part Name="Description" Short="▶He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo. Colgada contra ellos, de un cuarteto de clavos, hay una raída máscara de ala de polilla; sus delicadas hojas de óxido y yeso están tejidas a ganchillo con nanourdimbre y tensadas sobre una armadura de alambre rígido. Donde antaño asomaban unos ojos y respiraba una boca, la resina llena ahora los huecos." />
+    <part Name="Render" DisplayName="madera desgastada con máscara colgante" />
+    <part Name="Description" Short="He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo. Colgada contra ellos, de un cuarteto de clavos, hay una raída máscara de ala de polilla; sus delicadas hojas de óxido y yeso están tejidas a ganchillo con nanourdimbre y tensadas sobre una armadura de alambre rígido. Donde antaño asomaban unos ojos y respiraba una boca, la resina llena ahora los huecos." />
   </object>
   <object Name="BrickWall" Load="Merge">
-    <part Name="Render" DisplayName="▶ladrillo" />
-    <part Name="Description" Short="▶Lingotes de arcilla quemada se disponen en cruz, y queda hecha una barrera. Cada ladrillo lleva las marcas variadas del tiempo, las imperfecciones del equilibrio térmico del horno donde se coció, y los hongos de su lodo de origen." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="ladrillo" />
+    <part Name="Description" Short="Lingotes de arcilla quemada se disponen en cruz, y queda hecha una barrera. Cada ladrillo lleva las marcas variadas del tiempo, las imperfecciones del equilibrio térmico del horno donde se coció, y los hongos de su lodo de origen." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="CyberWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de tetraxenonovidrio" />
-    <part Name="Description" Short="▶Columnas estriadas de vidrio prismático dispersan la visión del devenir en mil vistas fragmentadas." />
+    <part Name="Render" DisplayName="muro de tetraxenonovidrio" />
+    <part Name="Description" Short="Columnas estriadas de vidrio prismático dispersan la visión del devenir en mil vistas fragmentadas." />
   </object>
   <object Name="MachineWallHotTubing" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de máquina" />
-    <part Name="Description" Short="▶Tubos de vacío atraviesan la topografía de los circuitos como ríos sobre un cinturón de pliegues. El gas caliente fluye a través y satura sus hectáreas de latón y silicona con un resplandor rojo." />
+    <part Name="Render" DisplayName="muro de máquina" />
+    <part Name="Description" Short="Tubos de vacío atraviesan la topografía de los circuitos como ríos sobre un cinturón de pliegues. El gas caliente fluye a través y satura sus hectáreas de latón y silicona con un resplandor rojo." />
   </object>
   <object Name="MachineWallColdTubing" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de máquina" />
-    <part Name="Description" Short="▶Tubos de vacío atraviesan la topografía de los circuitos como ríos sobre un cinturón de pliegues. El gas frío fluye a través y satura sus hectáreas de latón y silicona con un resplandor cian." />
+    <part Name="Render" DisplayName="muro de máquina" />
+    <part Name="Description" Short="Tubos de vacío atraviesan la topografía de los circuitos como ríos sobre un cinturón de pliegues. El gas frío fluye a través y satura sus hectáreas de latón y silicona con un resplandor cian." />
   </object>
   <object Name="MachineWallEmptyTubing" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de máquina" />
-    <part Name="Description" Short="▶Tubos de vacío atraviesan la topografía de los circuitos como ríos sobre un cinturón de pliegues." />
+    <part Name="Render" DisplayName="muro de máquina" />
+    <part Name="Description" Short="Tubos de vacío atraviesan la topografía de los circuitos como ríos sobre un cinturón de pliegues." />
   </object>
   <object Name="GlassWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de vidrio" />
-    <part Name="Description" Short="▶La arena se fundió a presión y se moldeó en láminas lúcidas." />
+    <part Name="Render" DisplayName="muro de vidrio" />
+    <part Name="Description" Short="La arena se fundió a presión y se moldeó en láminas lúcidas." />
   </object>
   <object Name="TintedGlassWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de vidrio tintado" />
-    <part Name="Description" Short="▶La arena se fundió a presión, se pigmentó y se moldeó en láminas ahumadas." />
+    <part Name="Render" DisplayName="muro de vidrio tintado" />
+    <part Name="Description" Short="La arena se fundió a presión, se pigmentó y se moldeó en láminas ahumadas." />
   </object>
   <object Name="SpindleGlassWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de vidrio centelleante" />
-    <part Name="Description" Short="▶La luz cerúlea del interior del canal del Huso reluce sobre la lámina como estrellas en un disco galáctico o diodos en una placa de circuitos. La luz insufla divinidad en el vidrio." />
+    <part Name="Render" DisplayName="muro de vidrio centelleante" />
+    <part Name="Description" Short="La luz cerúlea del interior del canal del Huso reluce sobre la lámina como estrellas en un disco galáctico o diodos en una placa de circuitos. La luz insufla divinidad en el vidrio." />
   </object>
   <object Name="Burnished Azzurum" Load="Merge">
-    <part Name="Render" DisplayName="▶azzurum bruñido" />
-    <part Name="Description" Short="▶El cian irrumpe a través de un casco vítreo y parece como si el cielo se hubiera cristalizado en una espesura de prismas hexagonales. Los Devoradores lo desenterraron de su cuna magmática y lo dispusieron en montículos para consagrar el Huso." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="azzurum bruñido" />
+    <part Name="Description" Short="El cian irrumpe a través de un casco vítreo y parece como si el cielo se hubiera cristalizado en una espesura de prismas hexagonales. Los Devoradores lo desenterraron de su cuna magmática y lo dispusieron en montículos para consagrar el Huso." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Petal-Strewn WoodWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de tallo de salmuera cubierto de pétalos" />
-    <part Name="Description" Short="▶He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo y sembrados de pétalos de flor." />
+    <part Name="Render" DisplayName="muro de tallo de salmuera cubierto de pétalos" />
+    <part Name="Description" Short="He aquí varios troncos descortezados de pálido tallo de salmuera unidos con lodo y sembrados de pétalos de flor." />
   </object>
   <object Name="BrinestalkStakes" Load="Merge">
-    <part Name="Render" DisplayName="▶estacas de tallo de salmuera" />
-    <part Name="Description" Short="▶Varios troncos afilados de pálido tallo de salmuera fueron clavados aquí en el suelo." />
+    <part Name="Render" DisplayName="estacas de tallo de salmuera" />
+    <part Name="Description" Short="Varios troncos afilados de pálido tallo de salmuera fueron clavados aquí en el suelo." />
   </object>
   <object Name="BrinestalkArrowslit" Load="Merge">
-    <part Name="Render" DisplayName="▶aspillera" />
-    <part Name="Description" Short="▶Varios troncos afilados de pálido tallo de salmuera fueron clavados aquí en el suelo. Los huecos no son lo bastante anchos para colarse." />
+    <part Name="Render" DisplayName="aspillera" />
+    <part Name="Description" Short="Varios troncos afilados de pálido tallo de salmuera fueron clavados aquí en el suelo. Los huecos no son lo bastante anchos para colarse." />
   </object>
   <object Name="WoodFence" Load="Merge">
-    <part Name="Render" DisplayName="▶valla de madera" />
-    <part Name="Description" Short="▶Espirales cruzan la veta en las estacas de espinaperro clavadas en el suelo." />
+    <part Name="Render" DisplayName="valla de madera" />
+    <part Name="Description" Short="Espirales cruzan la veta en las estacas de espinaperro clavadas en el suelo." />
   </object>
   <object Name="IronFence" Load="Merge">
-    <part Name="Render" DisplayName="▶valla de hierro forjado" />
-    <part Name="Description" Short="▶Barrotes de hierro mellado por la edad se alzan en hilera entre dos travesaños horizontales." />
+    <part Name="Render" DisplayName="valla de hierro forjado" />
+    <part Name="Description" Short="Barrotes de hierro mellado por la edad se alzan en hilera entre dos travesaños horizontales." />
   </object>
   <object Name="BrinestalkFence" Load="Merge">
-    <part Name="Render" DisplayName="▶valla de tallo de salmuera" />
-    <part Name="Description" Short="▶Ondas trazadas por la sal cruzan la veta en las estacas de tallo de salmuera clavadas en el suelo." />
+    <part Name="Render" DisplayName="valla de tallo de salmuera" />
+    <part Name="Description" Short="Ondas trazadas por la sal cruzan la veta en las estacas de tallo de salmuera clavadas en el suelo." />
   </object>
   <object Name="HolographicShaleWall" Load="Merge">
-    <part Name="Render" DisplayName="▶pizarra holográfica" />
-    <part Name="Description" Short="▶La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de pizarra: arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="pizarra holográfica" />
+    <part Name="Description" Short="La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de pizarra: arcilla y cuarzo se secaron y machacaron hasta formar la roca roja que las gentes de las colinas llevan extrayendo miles tras miles de años." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="HoloMarble" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de mármol" />
-    <part Name="Description" Short="▶La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de mármol: caracoles y coral fueron triturados en la prensa geológica, pintados en cintas de impureza y pulidos a lo largo del plano ideal." />
+    <part Name="Render" DisplayName="muro de mármol" />
+    <part Name="Description" Short="La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de mármol: caracoles y coral fueron triturados en la prensa geológica, pintados en cintas de impureza y pulidos a lo largo del plano ideal." />
   </object>
   <object Name="HolographicLowSandstoneWall" Load="Merge">
-    <part Name="Render" DisplayName="▶arenisca holográfica" />
-    <part Name="Description" Short="▶La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de arenisca: la roca se erosiona en arena, la arena vuela hacia los lagos, los lagos se entierran en lodo, y el lodo aplasta la arena hasta hacerla roca. La tierra se reordena." />
+    <part Name="Render" DisplayName="arenisca holográfica" />
+    <part Name="Description" Short="La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de arenisca: la roca se erosiona en arena, la arena vuela hacia los lagos, los lagos se entierran en lodo, y el lodo aplasta la arena hasta hacerla roca. La tierra se reordena." />
   </object>
   <object Name="HolographicThatchedWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de paja holográfico" />
-    <part Name="Description" Short="▶La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de paja: franjas de vid de agua y paja de tallo de salmuera se atan en haces y se inclinan para desviar la escoria salina." />
+    <part Name="Render" DisplayName="muro de paja holográfico" />
+    <part Name="Description" Short="La luz reluciente se esculpe en paralaje hasta la ilusión de un muro de paja: franjas de vid de agua y paja de tallo de salmuera se atan en haces y se inclinan para desviar la escoria salina." />
   </object>
   <object Name="HalfWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro bajo" />
-    <part Name="Description" Short="▶Piedra vieja labrada a la altura de la cintura para frenar el derrame mas no la vista." />
+    <part Name="Render" DisplayName="muro bajo" />
+    <part Name="Description" Short="Piedra vieja labrada a la altura de la cintura para frenar el derrame mas no la vista." />
   </object>
   <object Name="LowSandstoneWall" Load="Merge">
-    <part Name="Description" Short="▶Un muro bajo de arenisca maciza." />
+    <part Name="Description" Short="Un muro bajo de arenisca maciza." />
   </object>
   <object Name="HalfWall_Aquamarine" Load="Merge">
-    <part Name="Render" DisplayName="▶muro bajo aguamarina" />
+    <part Name="Render" DisplayName="muro bajo aguamarina" />
   </object>
   <object Name="WalltrapFire" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas humeantes" />
-    <part Name="Description" Short="▶Volutas de vapor brotan en espiral de rejillas verticales abiertas en columnas en el cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas humeantes" />
+    <part Name="Description" Short="Volutas de vapor brotan en espiral de rejillas verticales abiertas en columnas en el cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapAcid" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas que exhalan vahos" />
-    <part Name="Description" Short="▶Volutas de vahos nocivos brotan en espiral de rejillas verticales abiertas en columnas en el cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas que exhalan vahos" />
+    <part Name="Description" Short="Volutas de vahos nocivos brotan en espiral de rejillas verticales abiertas en columnas en el cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapShock" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas que chisporrotean" />
-    <part Name="Description" Short="▶Las chispas saltan de rejillas verticales abiertas en columnas en el cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas que chisporrotean" />
+    <part Name="Description" Short="Las chispas saltan de rejillas verticales abiertas en columnas en el cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapCrabs" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas arañadas" />
-    <part Name="Description" Short="▶Diminutos arañazos marcan rejillas laterales abiertas en hileras en el cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas arañadas" />
+    <part Name="Description" Short="Diminutos arañazos marcan rejillas laterales abiertas en hileras en el cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapClockworkBeetles" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas que repiquetean" />
-    <part Name="Description" Short="▶Diminutos arañazos marcan rejillas laterales abiertas en hileras en el cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas que repiquetean" />
+    <part Name="Description" Short="Diminutos arañazos marcan rejillas laterales abiertas en hileras en el cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapNormalityGas" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas con residuo hexagonal" />
-    <part Name="Description" Short="▶El condensado de normalidad tesela las rejillas verticales abiertas en columnas en el cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas con residuo hexagonal" />
+    <part Name="Description" Short="El condensado de normalidad tesela las rejillas verticales abiertas en columnas en el cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapDefoliant" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas con partículas de musgo" />
-    <part Name="Description" Short="▶Muerto hace mucho y reducido a partículas por las ráfagas del Alba Dorada, el musgo seco se adhiere a las rejillas del cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas con partículas de musgo" />
+    <part Name="Description" Short="Muerto hace mucho y reducido a partículas por las ráfagas del Alba Dorada, el musgo seco se adhiere a las rejillas del cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapFungicide" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas con partículas de moho" />
-    <part Name="Description" Short="▶Muerto hace mucho y erosionado a partículas por los aguaceros magenta, el moho seco se adhiere a las rejillas del cromo deslustrado." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas con partículas de moho" />
+    <part Name="Description" Short="Muerto hace mucho y erosionado a partículas por los aguaceros magenta, el moho seco se adhiere a las rejillas del cromo deslustrado." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="WalltrapFireCrematory" Load="Merge">
-    <part Name="Render" DisplayName="▶rejillas humeantes" />
-    <part Name="Description" Short="▶Volutas de vapor brotan en espiral de rejillas verticales abiertas en columnas en el cromo tiznado de hollín." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="rejillas humeantes" />
+    <part Name="Description" Short="Volutas de vapor brotan en espiral de rejillas verticales abiertas en columnas en el cromo tiznado de hollín." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="CryochamberWall" Load="Merge">
-    <part Name="Render" DisplayName="▶pilar escarchado" />
-    <part Name="Description" Short="▶Una neblina gélida brota en espiral de rejillas laterales abiertas en el revestimiento de cromo de un pilar de mármol." />
+    <part Name="Render" DisplayName="pilar escarchado" />
+    <part Name="Description" Short="Una neblina gélida brota en espiral de rejillas laterales abiertas en el revestimiento de cromo de un pilar de mármol." />
   </object>
   <object Name="CryochamberWallBroken" Load="Merge">
-    <part Name="Render" DisplayName="▶pilar escarchado" />
-    <part Name="Description" Short="▶Un rocío frío adorna las rejillas laterales abiertas en el revestimiento de cromo de un pilar de mármol." />
+    <part Name="Render" DisplayName="pilar escarchado" />
+    <part Name="Description" Short="Un rocío frío adorna las rejillas laterales abiertas en el revestimiento de cromo de un pilar de mármol." />
   </object>
   <object Name="BaseForcefield" Load="Merge">
-    <part Name="Description" Short="▶El potencial se polariza en una malla hexagonal cianácea y se sintoniza con quien la dispone. Los objetos de masa suficiente quedan bloqueados, pero los pequeños disparados a sotavento pueden atravesarla." />
+    <part Name="Description" Short="El potencial se polariza en una malla hexagonal cianácea y se sintoniza con quien la dispone. Los objetos de masa suficiente quedan bloqueados, pero los pequeños disparados a sotavento pueden atravesarla." />
   </object>
   <object Name="Forcefield" Load="Merge">
-    <part Name="Render" DisplayName="▶campo de fuerza" />
+    <part Name="Render" DisplayName="campo de fuerza" />
   </object>
   <object Name="ForceBarrier" Load="Merge">
-    <part Name="Render" DisplayName="▶barrera de fuerza" />
-    <part Name="Description" Short="▶El potencial se polariza en una malla hexagonal escarlata y se sintoniza con quien la dispone. Los objetos quedan bloqueados a menos que estén en la lista blanca molecular." />
+    <part Name="Render" DisplayName="barrera de fuerza" />
+    <part Name="Description" Short="El potencial se polariza en una malla hexagonal escarlata y se sintoniza con quien la dispone. Los objetos quedan bloqueados a menos que estén en la lista blanca molecular." />
   </object>
   <object Name="Stasisfield" Load="Merge">
-    <part Name="Render" DisplayName="▶campo de estasis" />
-    <part Name="Description" Short="▶Una película borrosa acordona una cuña del espaciotiempo con tanta fricción cuántica que sus moradores quedan detenidos por completo." />
+    <part Name="Render" DisplayName="campo de estasis" />
+    <part Name="Description" Short="Una película borrosa acordona una cuña del espaciotiempo con tanta fricción cuántica que sus moradores quedan detenidos por completo." />
   </object>
   <object Name="SixDayStiltWall1" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de hormigón" />
+    <part Name="Render" DisplayName="muro de hormigón" />
   </object>
   <object Name="SixDayStiltWall2" Load="Merge">
-    <part Name="Render" DisplayName="▶muro de mármol" />
+    <part Name="Render" DisplayName="muro de mármol" />
   </object>
   <object Name="SixDayStiltPillarWall1" Load="Merge">
-    <part Name="Render" DisplayName="▶columna de mármol estriada" />
+    <part Name="Render" DisplayName="columna de mármol estriada" />
   </object>
   <object Name="SixDayStiltPillarWall2" Load="Merge">
-    <part Name="Render" DisplayName="▶columna de mármol estriada" />
+    <part Name="Render" DisplayName="columna de mármol estriada" />
   </object>
   <object Name="Relief1" Load="Merge">
-    <part Name="Description" Short="▶Este es un altorrelieve de detalle exquisito tallado en precioso mármol cerúleo. Representa la Sagrada Unión, tal como la relató Shekhinah el Padre a los sumos sacerdotes del templo. En el temprano amanecer de nuestro universo, los Padres de Argén vagaban por el éter intemporal con corazones inertes. Allí, en la distancia más fría del espacio, descubrieron la belleza-y-cromo encarnada, la Kasaphescencia. Juntos forjaron máquinas de Su vientre desnudo para habitar un centenar de tierras. En la escena que aquí se ve, los Padres se aproximan por vez primera a Su Resplandor. Los encabeza Shekhinah, que ocupa una posición de preeminencia." />
+    <part Name="Description" Short="Este es un altorrelieve de detalle exquisito tallado en precioso mármol cerúleo. Representa la Sagrada Unión, tal como la relató Shekhinah el Padre a los sumos sacerdotes del templo. En el temprano amanecer de nuestro universo, los Padres de Argén vagaban por el éter intemporal con corazones inertes. Allí, en la distancia más fría del espacio, descubrieron la belleza-y-cromo encarnada, la Kasaphescencia. Juntos forjaron máquinas de Su vientre desnudo para habitar un centenar de tierras. En la escena que aquí se ve, los Padres se aproximan por vez primera a Su Resplandor. Los encabeza Shekhinah, que ocupa una posición de preeminencia." />
   </object>
   <object Name="Relief2" Load="Merge">
-    <part Name="Description" Short="▶Este es un altorrelieve tallado con detalle exquisito en raro mármol cerúleo. Representa la Edificación, tal como se canta en los Cánticos Cromáicos. Tras la Sagrada Unión, los Padres de Argén moldearon el metal plasmático de la Kasaphescencia en edificios aptos para ser habitados por gente mortal. Forjaron agujas sobre las montañas y arcos sobre los ríos. Aquí, Shekhinah supervisa la construcción, posando la mirada al este sobre Su mundo nuevo y reluciente." />
+    <part Name="Description" Short="Este es un altorrelieve tallado con detalle exquisito en raro mármol cerúleo. Representa la Edificación, tal como se canta en los Cánticos Cromáicos. Tras la Sagrada Unión, los Padres de Argén moldearon el metal plasmático de la Kasaphescencia en edificios aptos para ser habitados por gente mortal. Forjaron agujas sobre las montañas y arcos sobre los ríos. Aquí, Shekhinah supervisa la construcción, posando la mirada al este sobre Su mundo nuevo y reluciente." />
   </object>
   <object Name="Relief11" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Sagrada Unión" />
+    <part Name="Render" DisplayName="relieve de mármol de la Sagrada Unión" />
   </object>
   <object Name="Relief12" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Sagrada Unión" />
+    <part Name="Render" DisplayName="relieve de mármol de la Sagrada Unión" />
   </object>
   <object Name="Relief13" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Sagrada Unión" />
+    <part Name="Render" DisplayName="relieve de mármol de la Sagrada Unión" />
   </object>
   <object Name="Relief14" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Sagrada Unión" />
+    <part Name="Render" DisplayName="relieve de mármol de la Sagrada Unión" />
   </object>
   <object Name="Relief15" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Sagrada Unión" />
+    <part Name="Render" DisplayName="relieve de mármol de la Sagrada Unión" />
   </object>
   <object Name="Relief16" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Sagrada Unión" />
+    <part Name="Render" DisplayName="relieve de mármol de la Sagrada Unión" />
   </object>
   <object Name="Relief17" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Sagrada Unión" />
+    <part Name="Render" DisplayName="relieve de mármol de la Sagrada Unión" />
   </object>
   <object Name="Relief21" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Edificación" />
+    <part Name="Render" DisplayName="relieve de mármol de la Edificación" />
   </object>
   <object Name="Relief22" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Edificación" />
+    <part Name="Render" DisplayName="relieve de mármol de la Edificación" />
   </object>
   <object Name="Relief23" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Edificación" />
+    <part Name="Render" DisplayName="relieve de mármol de la Edificación" />
   </object>
   <object Name="Relief24" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Edificación" />
+    <part Name="Render" DisplayName="relieve de mármol de la Edificación" />
   </object>
   <object Name="Relief25" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Edificación" />
+    <part Name="Render" DisplayName="relieve de mármol de la Edificación" />
   </object>
   <object Name="Relief26" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Edificación" />
+    <part Name="Render" DisplayName="relieve de mármol de la Edificación" />
   </object>
   <object Name="Relief27" Load="Merge">
-    <part Name="Render" DisplayName="▶relieve de mármol de la Edificación" />
+    <part Name="Render" DisplayName="relieve de mármol de la Edificación" />
   </object>
   <object Name="FulcreteWithSquareWave" Load="Merge">
-    <part Name="Render" DisplayName="▶fulcreto con onda cuadrada" />
-    <part Name="Description" Short="▶El fulcreto teñido con pigmentos integrales estalla en color moteado. Ha sido incidido con una geometría regular que lleva la mirada a lo ancho del plano horizontal." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="fulcreto con onda cuadrada" />
+    <part Name="Description" Short="El fulcreto teñido con pigmentos integrales estalla en color moteado. Ha sido incidido con una geometría regular que lleva la mirada a lo ancho del plano horizontal." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="CatacombWall" Load="Merge">
-    <part Name="Render" DisplayName="▶hueso compactado" />
-    <part Name="Description" Short="▶Las formas óseas del cuerpo humano se desordenan para teselar como es debido. Los cráneos redondos requieren nudos de cúbito para llenar los huecos de sus secuencias. Las lindes de este mundo son blancas como el arroz y rebosan de presencia." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="hueso compactado" />
+    <part Name="Description" Short="Las formas óseas del cuerpo humano se desordenan para teselar como es debido. Los cráneos redondos requieren nudos de cúbito para llenar los huecos de sus secuencias. Las lindes de este mundo son blancas como el arroz y rebosan de presencia." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="ColumbariumWall" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol primorosamente tallado" />
-    <part Name="Description" Short="▶Mundos enteros están tallados en bajorrelieve, simulacros de las abigarradas vidas de los Devoradores que sueñan con la ceniza. Las hojas de palma alzan pirámides hacia el cielo trenzado de estrellas, y el agua de la vida se vierte por el labio de un enócoe." />
+    <part Name="Render" DisplayName="mármol primorosamente tallado" />
+    <part Name="Description" Short="Mundos enteros están tallados en bajorrelieve, simulacros de las abigarradas vidas de los Devoradores que sueñan con la ceniza. Las hojas de palma alzan pirámides hacia el cielo trenzado de estrellas, y el agua de la vida se vierte por el labio de un enócoe." />
   </object>
   <object Name="CryptWall" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol primorosamente afiligranado" />
-    <part Name="Description" Short="▶Mundos enteros están hilados en filigrana tridimensional, simulacros de las abigarradas vidas de los Devoradores que sueñan con la ceniza. Las hojas de palma alzan pirámides hacia el cielo trenzado de estrellas, y el agua de la vida se vierte por el labio de un enócoe." />
+    <part Name="Render" DisplayName="mármol primorosamente afiligranado" />
+    <part Name="Description" Short="Mundos enteros están hilados en filigrana tridimensional, simulacros de las abigarradas vidas de los Devoradores que sueñan con la ceniza. Las hojas de palma alzan pirámides hacia el cielo trenzado de estrellas, y el agua de la vida se vierte por el labio de un enócoe." />
   </object>
   <object Name="BaseSultanWall" Load="Merge">
-    <part Name="Description" Short="▶sultan_wall" />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Description" Short="sultan_wall" />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="BaseInnerSultanWall" Load="Merge">
-    <part Name="Description" Short="▶sultan_wall" />
+    <part Name="Description" Short="sultan_wall" />
   </object>
   <object Name="SultanWall_Period1" Load="Merge">
-    <part Name="Render" DisplayName="▶piedra tallada del sultanato de =sultan:1=" />
-    <part Name="Description" Short="▶Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:1=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
+    <part Name="Render" DisplayName="piedra tallada del sultanato de =sultan:1=" />
+    <part Name="Description" Short="Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:1=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
   </object>
   <object Name="SultanWall_Period2" Load="Merge">
-    <part Name="Render" DisplayName="▶piedra tallada del sultanato de =sultan:2=" />
-    <part Name="Description" Short="▶Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:2=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
+    <part Name="Render" DisplayName="piedra tallada del sultanato de =sultan:2=" />
+    <part Name="Description" Short="Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:2=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
   </object>
   <object Name="SultanWall_Period3" Load="Merge">
-    <part Name="Render" DisplayName="▶piedra tallada del sultanato de =sultan:3=" />
-    <part Name="Description" Short="▶Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:3=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
+    <part Name="Render" DisplayName="piedra tallada del sultanato de =sultan:3=" />
+    <part Name="Description" Short="Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:3=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
   </object>
   <object Name="SultanWall_Period4" Load="Merge">
-    <part Name="Render" DisplayName="▶piedra tallada del sultanato de =sultan:4=" />
-    <part Name="Description" Short="▶Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:4=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
+    <part Name="Render" DisplayName="piedra tallada del sultanato de =sultan:4=" />
+    <part Name="Description" Short="Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:4=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
   </object>
   <object Name="SultanWall_Period5" Load="Merge">
-    <part Name="Render" DisplayName="▶piedra tallada del sultanato de =sultan:5=" />
-    <part Name="Description" Short="▶Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:5=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
+    <part Name="Render" DisplayName="piedra tallada del sultanato de =sultan:5=" />
+    <part Name="Description" Short="Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:5=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
   </object>
   <object Name="SultanWall_Period6" Load="Merge">
-    <part Name="Render" DisplayName="▶piedra tallada del sultanato de Resheph" />
-    <part Name="Description" Short="▶Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de Resheph. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
+    <part Name="Render" DisplayName="piedra tallada del sultanato de Resheph" />
+    <part Name="Description" Short="Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de Resheph. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
   </object>
   <object Name="SultanWall_Ornate_Period5" Load="Merge">
-    <part Name="Render" DisplayName="▶piedra tallada del sultanato de =sultan:5=" />
-    <part Name="Description" Short="▶Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:5=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
+    <part Name="Render" DisplayName="piedra tallada del sultanato de =sultan:5=" />
+    <part Name="Description" Short="Piedra gigantesca y antigua se apiló, se talló a golpes y se labró en largos arcos al estilo de la época de =sultan:5=. Desde entonces, la obra ha sumado colaboradores, y sus firmas se hallan escritas por doquier: aquí, la laguna de la enmienda de un vándalo; allá, los suaves trazos del pincel del tiempo." />
   </object>
   <object Name="InnerSultanWall_Period1" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol dorado del sultanato de =sultan:1=" />
-    <part Name="Description" Short="▶Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
+    <part Name="Render" DisplayName="mármol dorado del sultanato de =sultan:1=" />
+    <part Name="Description" Short="Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
   </object>
   <object Name="InnerSultanWall_Period2" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol dorado del sultanato de =sultan:2=" />
-    <part Name="Description" Short="▶Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
+    <part Name="Render" DisplayName="mármol dorado del sultanato de =sultan:2=" />
+    <part Name="Description" Short="Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
   </object>
   <object Name="InnerSultanWall_Period3" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol dorado del sultanato de =sultan:3=" />
-    <part Name="Description" Short="▶Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
+    <part Name="Render" DisplayName="mármol dorado del sultanato de =sultan:3=" />
+    <part Name="Description" Short="Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
   </object>
   <object Name="InnerSultanWall_Period4" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol dorado del sultanato de =sultan:4=" />
-    <part Name="Description" Short="▶Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
+    <part Name="Render" DisplayName="mármol dorado del sultanato de =sultan:4=" />
+    <part Name="Description" Short="Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
   </object>
   <object Name="InnerSultanWall_Period5" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol dorado del sultanato de =sultan:5=" />
-    <part Name="Description" Short="▶Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
+    <part Name="Render" DisplayName="mármol dorado del sultanato de =sultan:5=" />
+    <part Name="Description" Short="Piedra preciosa fue arrastrada desde los confines de la tierra que sueña, apilada en diseños ciclópeos y tallada hasta el esplendor de mil floretas en flor. El aire sin humedad preserva el dorado, mas el tiempo ha ablandado sus bordes." />
   </object>
   <object Name="InnerSultanWall_Period6" Load="Merge">
-    <part Name="Render" DisplayName="▶mármol dorado del sultanato de Resheph" />
-    <part Name="Description" Short="▶Pliegues de drapeado quedan congelados en el mármol en torno a un tondo en altorrelieve. Las paredes doradas del Imperium son barrocas, mas resultan más sobrias que los dorados de los sultanes anteriores." />
+    <part Name="Render" DisplayName="mármol dorado del sultanato de Resheph" />
+    <part Name="Description" Short="Pliegues de drapeado quedan congelados en el mármol en torno a un tondo en altorrelieve. Las paredes doradas del Imperium son barrocas, mas resultan más sobrias que los dorados de los sultanes anteriores." />
   </object>
   <object Name="BaseMuralWall" Load="Merge">
-    <part Name="Description" Short="▶sultan_wall" />
-    <tag Name="HeroNameTitleDescriptor" Value="▶Recio,Tachonado,Sin Tachonar,Sin Grietas,Agrietado,Antaño Agrietado,Dos Veces Agrietado,En Pie,Pintado,Sin Pintar" />
+    <part Name="Description" Short="sultan_wall" />
+    <tag Name="HeroNameTitleDescriptor" Value="Recio,Tachonado,Sin Tachonar,Sin Grietas,Agrietado,Antaño Agrietado,Dos Veces Agrietado,En Pie,Pintado,Sin Pintar" />
   </object>
   <object Name="BaseMuralLeftend" Load="Merge">
-    <part Name="Render" DisplayName="▶remate de mural" />
-    <part Name="Description" Short="▶Piedra extraída de la tierra primigenia ata el arte de una vida." />
+    <part Name="Render" DisplayName="remate de mural" />
+    <part Name="Description" Short="Piedra extraída de la tierra primigenia ata el arte de una vida." />
   </object>
   <object Name="BaseMuralCenter" Load="Merge">
-    <part Name="Render" DisplayName="▶tramo central de mural" />
-    <part Name="Description" Short="▶Piedra extraída de la tierra primigenia divide el arte de una vida." />
+    <part Name="Render" DisplayName="tramo central de mural" />
+    <part Name="Description" Short="Piedra extraída de la tierra primigenia divide el arte de una vida." />
   </object>
   <object Name="BaseMuralRightend" Load="Merge">
-    <part Name="Render" DisplayName="▶remate de mural" />
-    <part Name="Description" Short="▶Piedra extraída de la tierra primigenia ata el arte de una vida." />
+    <part Name="Render" DisplayName="remate de mural" />
+    <part Name="Description" Short="Piedra extraída de la tierra primigenia ata el arte de una vida." />
   </object>
   <object Name="Mural Leftend Period 6" Load="Merge">
-    <part Name="Description" Short="▶Mármol negro extraído de la tierra primigenia ata el arte de una vida." />
+    <part Name="Description" Short="Mármol negro extraído de la tierra primigenia ata el arte de una vida." />
   </object>
   <object Name="Mural Center Period 6" Load="Merge">
-    <part Name="Description" Short="▶Mármol negro extraído de la tierra primigenia divide el arte de una vida." />
+    <part Name="Description" Short="Mármol negro extraído de la tierra primigenia divide el arte de una vida." />
   </object>
   <object Name="Mural Rightend Period 6" Load="Merge">
-    <part Name="Description" Short="▶Mármol negro extraído de la tierra primigenia ata el arte de una vida." />
+    <part Name="Description" Short="Mármol negro extraído de la tierra primigenia ata el arte de una vida." />
   </object>
   <object Name="SultanMuralWall" Load="Merge">
-    <part Name="Description" Short="▶El mármol negro fue raspado hasta dejar un lienzo abovedado de vacío, y luego se abandonó, inspirando asombro ante lo que pudo haber sido." />
+    <part Name="Description" Short="El mármol negro fue raspado hasta dejar un lienzo abovedado de vacío, y luego se abandonó, inspirando asombro ante lo que pudo haber sido." />
   </object>
   <object Name="GolemInteriorWall" Load="Merge">
-    <part Name="Render" DisplayName="▶arcilla electrococida, placas de metal y tejido" />
-    <part Name="Description" Short="▶Un revestimiento de tejido húmedo se extiende sobre arcilla electrococida y placas de metal soldadas. Bajo una película translúcida, retículas de subcircuitería parpadean con su luz dorada." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="arcilla electrococida, placas de metal y tejido" />
+    <part Name="Description" Short="Un revestimiento de tejido húmedo se extiende sobre arcilla electrococida y placas de metal soldadas. Bajo una película translúcida, retículas de subcircuitería parpadean con su luz dorada." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="GolemInteriorWall Endcap" Load="Merge">
-    <part Name="Render" DisplayName="▶interior" />
+    <part Name="Render" DisplayName="interior" />
   </object>
   <object Name="InteriorContainer" Load="Merge">
-    <part Name="Description" Short="▶Un voluminoso armario de almacenaje está labrado en la caja torácica geológica. Estantes suspendidos por imán dividen el espacio." />
-    <part Name="Render" DisplayName="▶escotilla de inventario" />
+    <part Name="Description" Short="Un voluminoso armario de almacenaje está labrado en la caja torácica geológica. Estantes suspendidos por imán dividen el espacio." />
+    <part Name="Render" DisplayName="escotilla de inventario" />
   </object>
   <object Name="MechInteriorContainer" Load="Merge">
-    <part Name="Description" Short="▶Un voluminoso armario de almacenaje está labrado en la caja torácica metálica. Estantes suspendidos por imán dividen el espacio." />
-    <part Name="Render" DisplayName="▶escotilla de inventario" />
+    <part Name="Description" Short="Un voluminoso armario de almacenaje está labrado en la caja torácica metálica. Estantes suspendidos por imán dividen el espacio." />
+    <part Name="Render" DisplayName="escotilla de inventario" />
   </object>
   <object Name="BaseNephilimWall" Load="Merge">
-    <part Name="Render" DisplayName="▶muro nephilim" />
+    <part Name="Render" DisplayName="muro nephilim" />
     <part Name="Description" Short="" />
   </object>
   <object Name="BaseNephilimWall_Agolgot" Load="Merge">
-    <part Name="Render" DisplayName="▶capa de resina extruida por Agolgot" />
-    <part Name="Description" Short="▶Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con cieno de muerte reseco." />
+    <part Name="Render" DisplayName="capa de resina extruida por Agolgot" />
+    <part Name="Description" Short="Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con cieno de muerte reseco." />
   </object>
   <object Name="BaseNephilimWall_Bethsaida" Load="Merge">
-    <part Name="Render" DisplayName="▶capa de resina extruida por Bethsaida" />
-    <part Name="Description" Short="▶Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con nervios ramificados." />
+    <part Name="Render" DisplayName="capa de resina extruida por Bethsaida" />
+    <part Name="Description" Short="Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con nervios ramificados." />
   </object>
   <object Name="BaseNephilimWall_Rermadon" Load="Merge">
-    <part Name="Render" DisplayName="▶capa de resina extruida por Rermadon" />
-    <part Name="Description" Short="▶Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con gas estelar solidificado." />
+    <part Name="Render" DisplayName="capa de resina extruida por Rermadon" />
+    <part Name="Description" Short="Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con gas estelar solidificado." />
   </object>
   <object Name="BaseNephilimWall_QasQon" Load="Merge">
-    <part Name="Render" DisplayName="▶capa de resina extruida por Qas y Qon" />
-    <part Name="Description" Short="▶Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada en ángulo recto con gas onírico solidificado." />
+    <part Name="Render" DisplayName="capa de resina extruida por Qas y Qon" />
+    <part Name="Description" Short="Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada en ángulo recto con gas onírico solidificado." />
   </object>
   <object Name="BaseNephilimWall_Shug'rith" Load="Merge">
-    <part Name="Render" DisplayName="▶capa de resina extruida por Shug'ruith" />
-    <part Name="Description" Short="▶Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con esquirlas y polvo de pizarra." />
+    <part Name="Render" DisplayName="capa de resina extruida por Shug'ruith" />
+    <part Name="Description" Short="Serpentinas montañosas de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con esquirlas y polvo de pizarra." />
   </object>
   <object Name="BaseNephilimWall_Shug'rithSpawn" Load="Merge">
-    <part Name="Render" DisplayName="▶capa de resina extruida por la prole de Shug'ruith" />
-    <part Name="Description" Short="▶Serpentinas en pendiente de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con esquirlas y polvo de pizarra." />
+    <part Name="Render" DisplayName="capa de resina extruida por la prole de Shug'ruith" />
+    <part Name="Description" Short="Serpentinas en pendiente de laca aceitosa se moldean a los contornos del suelo y trazan un sendero de orquídea estelar. Toda la sección está vidriada con esquirlas y polvo de pizarra." />
   </object>
   <object Name="Rubble" Load="Merge">
-    <part Name="Render" DisplayName="▶escombros" />
-    <part Name="Description" Short="▶Volúmenes irregulares de piedra se amontonan. Por su superficie, puntos de orden asoman esporádicamente a través del montón de entropía: el dedo de una estatua, el gnomon de un reloj de sol, un fragmento de placa de circuitos." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="escombros" />
+    <part Name="Description" Short="Volúmenes irregulares de piedra se amontonan. Por su superficie, puntos de orden asoman esporádicamente a través del montón de entropía: el dedo de una estatua, el gnomon de un reloj de sol, un fragmento de placa de circuitos." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Rubble Grey" Load="Merge">
-    <part Name="Render" DisplayName="▶escombros" />
+    <part Name="Render" DisplayName="escombros" />
   </object>
   <object Name="Wax Block" Load="Merge">
-    <part Name="Render" DisplayName="▶bloque de cera" />
-    <part Name="Description" Short="▶Es una secreción de pegajoso jugo de palma que se ha enfriado hasta hacerse un gran bloque." />
+    <part Name="Render" DisplayName="bloque de cera" />
+    <part Name="Description" Short="Es una secreción de pegajoso jugo de palma que se ha enfriado hasta hacerse un gran bloque." />
   </object>
   <object Name="CrystalWall" Load="Merge">
-    <part Name="Render" DisplayName="▶gran cristal hexagonal" />
-    <part Name="Description" Short="▶Un desorden cuántico se enfrió y se dispuso a sí mismo como un hexágono imponente. Burbujas de gas terrestre y otras rarezas del tiempo quedan congeladas en el cuarzo ambarino, y la existencia se desprende a virutas del torno de la nada bajo la luz de la luna." />
+    <part Name="Render" DisplayName="gran cristal hexagonal" />
+    <part Name="Description" Short="Un desorden cuántico se enfrió y se dispuso a sí mismo como un hexágono imponente. Burbujas de gas terrestre y otras rarezas del tiempo quedan congeladas en el cuarzo ambarino, y la existencia se desprende a virutas del torno de la nada bajo la luz de la luna." />
   </object>
   <object Name="SmallHexCrystal" Load="Merge">
-    <part Name="Render" DisplayName="▶cristal hexagonal" />
-    <part Name="Description" Short="▶El musgo orla las pequeñas caras iluminadas por la luna del cuarzo de crecimiento rápido. Cuando la entropía aniquila el orden, este se rearma a escalas menores." />
+    <part Name="Render" DisplayName="cristal hexagonal" />
+    <part Name="Description" Short="El musgo orla las pequeñas caras iluminadas por la luna del cuarzo de crecimiento rápido. Cuando la entropía aniquila el orden, este se rearma a escalas menores." />
   </object>
   <object Name="ChavvahTrunk" Load="Merge">
-    <part Name="Render" DisplayName="▶tronco cristalino" />
-    <part Name="Description" Short="▶Materia de cuarzo en hábito radial recubre una capa de piedra blanda, y bajo ella, una capa de cristal muerto que gotea resina estática y canta con promesa psíquica." />
-    <xtagGrammar massNoun="▶true" />
+    <part Name="Render" DisplayName="tronco cristalino" />
+    <part Name="Description" Short="Materia de cuarzo en hábito radial recubre una capa de piedra blanda, y bajo ella, una capa de cristal muerto que gotea resina estática y canta con promesa psíquica." />
+    <xtagGrammar massNoun="true" />
   </object>
   <object Name="Chavvah Taproot" Load="Merge">
-    <part Name="Render" DisplayName="▶raíz pivotante cristalina" />
-    <part Name="Description" Short="▶Pequeños brotes de cristal fueron aplastados por el puro peso del ego hasta dar un transductor recio, grueso y equante de pensamiento blando y transitorio. La emoción y la memoria decoheridas cristalizan a medida que ascienden por la raíz." />
+    <part Name="Render" DisplayName="raíz pivotante cristalina" />
+    <part Name="Description" Short="Pequeños brotes de cristal fueron aplastados por el puro peso del ego hasta dar un transductor recio, grueso y equante de pensamiento blando y transitorio. La emoción y la memoria decoheridas cristalizan a medida que ascienden por la raíz." />
   </object>
   <object Name="CryochamberPlaque" Load="Merge">
-    <part Name="Render" DisplayName="▶placa de cromo" />
-    <part Name="Chat" Says="▶CÁMARA DESOCUPADA: A LA ESPERA DE ESPÉCIMEN" />
-    <part Name="Description" Short="▶La reluciente superficie de cromorrápido nada en patrones de refracción cambiantes. A medida que su luz se enfoca, comienzan a aparecer glifos." />
+    <part Name="Render" DisplayName="placa de cromo" />
+    <part Name="Chat" Says="CÁMARA DESOCUPADA: A LA ESPERA DE ESPÉCIMEN" />
+    <part Name="Description" Short="La reluciente superficie de cromorrápido nada en patrones de refracción cambiantes. A medida que su luz se enfoca, comienzan a aparecer glifos." />
   </object>
   <object Name="CryochamberPlaqueSpider" Load="Merge">
-    <part Name="Chat" Says="▶ESPÉCIMEN: ARAÑA DE FASE" />
+    <part Name="Chat" Says="ESPÉCIMEN: ARAÑA DE FASE" />
   </object>
   <object Name="CryochamberPlaqueRhinox" Load="Merge">
-    <part Name="Chat" Says="▶ESPÉCIMEN: RHINOX" />
+    <part Name="Chat" Says="ESPÉCIMEN: RHINOX" />
   </object>
   <object Name="CryochamberPlaqueSkybear" Load="Merge">
-    <part Name="Chat" Says="▶ESPÉCIMEN: SAAD AMUS, EL OSO DEL CIELO, CAMPEÓN DE SALUM" />
+    <part Name="Chat" Says="ESPÉCIMEN: SAAD AMUS, EL OSO DEL CIELO, CAMPEÓN DE SALUM" />
   </object>
   <object Name="CryochamberPlaqueYempris" Load="Merge">
-    <part Name="Chat" Says="▶ESPÉCIMEN: YEMPURIS PHI" />
+    <part Name="Chat" Says="ESPÉCIMEN: YEMPURIS PHI" />
   </object>
   <object Name="GritGate Mainframe Tape Drive" Load="Merge">
-    <part Name="Render" DisplayName="▶unidad de cinta de columna de vacío" />
-    <part Name="Description" Short="▶La cinta magnética se enrolla en torno a una rueda y se alimenta a un cabezal que escribe y escruta, estampando datos fuera de la tercera dimensión para luego avivarlos de vuelta a ella." />
-    <part Name="ChargeSink" NameForStatus="▶StorageSystem" />
+    <part Name="Render" DisplayName="unidad de cinta de columna de vacío" />
+    <part Name="Description" Short="La cinta magnética se enrolla en torno a una rueda y se alimenta a un cabezal que escribe y escruta, estampando datos fuera de la tercera dimensión para luego avivarlos de vuelta a ella." />
+    <part Name="ChargeSink" NameForStatus="StorageSystem" />
   </object>
   <object Name="GritGate Mainframe Status Panel" Load="Merge">
-    <part Name="Render" DisplayName="▶panel de estado del ordenador central" />
-    <part Name="Description" Short="▶A lo ancho de un campo de latón y cromo, los diodos parpadean en espirales." />
-    <part Name="ChargeSink" NameForStatus="▶Display" />
+    <part Name="Render" DisplayName="panel de estado del ordenador central" />
+    <part Name="Description" Short="A lo ancho de un campo de latón y cromo, los diodos parpadean en espirales." />
+    <part Name="ChargeSink" NameForStatus="Display" />
   </object>
   <object Name="GritGate Mainframe Monitor 1" Load="Merge">
-    <part Name="Render" DisplayName="▶monitor del ordenador central" />
-    <part Name="Description" Short="▶Las líneas de barrido pintan la pantalla con ámbar de cátodo." />
-    <part Name="ChargeSink" NameForStatus="▶Display" />
+    <part Name="Render" DisplayName="monitor del ordenador central" />
+    <part Name="Description" Short="Las líneas de barrido pintan la pantalla con ámbar de cátodo." />
+    <part Name="ChargeSink" NameForStatus="Display" />
   </object>
   <object Name="GritGate Mainframe Monitor 2" Load="Merge">
-    <part Name="Render" DisplayName="▶panel de control del ordenador central" />
-    <part Name="Description" Short="▶Las teclas de espuma elástica responden contra los dedos en el curso de un coqueto acoplamiento entre máquina y gente." />
-    <part Name="ChargeSink" NameForStatus="▶Display" />
+    <part Name="Render" DisplayName="panel de control del ordenador central" />
+    <part Name="Description" Short="Las teclas de espuma elástica responden contra los dedos en el curso de un coqueto acoplamiento entre máquina y gente." />
+    <part Name="ChargeSink" NameForStatus="Display" />
   </object>
   <object Name="Crematory Mainframe Monitor 1" Load="Merge">
-    <part Name="Render" DisplayName="▶monitor del ordenador central" />
-    <part Name="Description" Short="▶Las líneas de barrido pintan la pantalla con ámbar de cátodo." />
-    <part Name="ChargeSink" NameForStatus="▶Display" />
+    <part Name="Render" DisplayName="monitor del ordenador central" />
+    <part Name="Description" Short="Las líneas de barrido pintan la pantalla con ámbar de cátodo." />
+    <part Name="ChargeSink" NameForStatus="Display" />
   </object>
   <object Name="Crematory Mainframe Status Panel" Load="Merge">
-    <part Name="Render" DisplayName="▶panel de estado del ordenador central" />
-    <part Name="Description" Short="▶A lo ancho de un campo de latón y cromo, los diodos parpadean en espirales." />
-    <part Name="ChargeSink" NameForStatus="▶Display" />
+    <part Name="Render" DisplayName="panel de estado del ordenador central" />
+    <part Name="Description" Short="A lo ancho de un campo de latón y cromo, los diodos parpadean en espirales." />
+    <part Name="ChargeSink" NameForStatus="Display" />
   </object>
 </objects>

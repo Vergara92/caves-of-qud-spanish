@@ -15,62 +15,62 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
 -->
 <relics Lang="es" Encoding="utf-8">
   <relictypemappings>
-    <relictypemapping Name="▶axe,▶hacha" Type="Axe" />
-    <relictypemapping Name="▶dagger,▶daga" Type="ShortBlade" />
-    <relictypemapping Name="▶dirk,▶puñal" Type="ShortBlade" />
-    <relictypemapping Name="▶sword,▶espada" Type="LongBlade" />
-    <relictypemapping Name="▶hammer,▶martillo" Type="Cudgel" />
-    <relictypemapping Name="▶mace,▶maza" Type="Cudgel" />
-    <relictypemapping Name="▶hammers,▶martillos" Type="Cudgel" />
-    <relictypemapping Name="▶pummel,▶pomo" Type="Cudgel" />
-    <relictypemapping Name="▶helm,▶yelmo" Type="Head" />
-    <relictypemapping Name="▶helmet,▶casco" Type="Head" />
-    <relictypemapping Name="▶armor,▶armadura" Type="Body" />
-    <relictypemapping Name="▶vest,▶jubón" Type="Body" />
-    <relictypemapping Name="▶breastplate,▶coraza" Type="Body" />
-    <relictypemapping Name="▶mask,▶máscara" Type="Face" />
-    <relictypemapping Name="▶bracelet,▶brazalete" Type="Arm" />
-    <relictypemapping Name="▶pair of boots,▶par de botas" Type="Feet" />
-    <relictypemapping Name="▶boot,▶bota" Type="Feet" />
-    <relictypemapping Name="▶boots,▶botas" Type="Feet" />
-    <relictypemapping Name="▶iron gauntlet,▶guantelete de hierro" Type="Hands" />
-    <relictypemapping Name="▶pair of gloves,▶par de guantes" Type="Hands" />
-    <relictypemapping Name="▶glove,▶guante" Type="Hands" />
-    <relictypemapping Name="▶gloves,▶guantes" Type="Hands" />
-    <relictypemapping Name="▶gauntlet,▶guantelete" Type="Hands" />
-    <relictypemapping Name="▶gauntlets,▶guanteletes" Type="Hands" />
-    <relictypemapping Name="▶floating orb,▶orbe flotante" Type="Floating" />
-    <relictypemapping Name="▶artifact,▶artefacto" Type="Artifact" />
-    <relictypemapping Name="▶star-tool,▶herramienta estelar" Type="Artifact" />
-    <relictypemapping Name="▶rifle,▶rifle" Type="Rifle" />
-    <relictypemapping Name="▶long arm,▶arma larga" Type="Rifle" />
-    <relictypemapping Name="▶pistol,▶pistola" Type="Pistol" />
-    <relictypemapping Name="▶gun,▶arma de fuego" Type="Pistol" />
-    <relictypemapping Name="▶short arm,▶arma corta" Type="Pistol" />
-    <relictypemapping Name="▶treatise,▶tratado" Type="Book" />
-    <relictypemapping Name="▶chronology,▶cronología" Type="Book" />
-    <relictypemapping Name="▶philosophy,▶filosofía" Type="Book" />
-    <relictypemapping Name="▶hypothesis,▶hipótesis" Type="Book" />
-    <relictypemapping Name="▶account,▶relato" Type="Book" />
-    <relictypemapping Name="▶horoscope reading,▶lectura de horóscopo" Type="Book" />
-    <relictypemapping Name="▶allegory,▶alegoría" Type="Book" />
-    <relictypemapping Name="▶wintry truth,▶verdad invernal" Type="Book" />
-    <relictypemapping Name="▶meal,▶comida" Type="Food" />
-    <relictypemapping Name="▶feast,▶festín" Type="Food" />
-    <relictypemapping Name="▶skull,▶calavera" Type="Curio" />
-    <relictypemapping Name="▶one-sided die,▶dado de una cara" Type="Curio" />
-    <relictypemapping Name="▶two-sided die,▶dado de dos caras" Type="Curio" />
-    <relictypemapping Name="▶three-sided die,▶dado de tres caras" Type="Curio" />
-    <relictypemapping Name="▶four-sided die,▶dado de cuatro caras" Type="Curio" />
-    <relictypemapping Name="▶five-sided die,▶dado de cinco caras" Type="Curio" />
-    <relictypemapping Name="▶six-sided die,▶dado de seis caras" Type="Curio" />
-    <relictypemapping Name="▶seven-sided die,▶dado de siete caras" Type="Curio" />
-    <relictypemapping Name="▶eight-sided die,▶dado de ocho caras" Type="Curio" />
-    <relictypemapping Name="▶nine-sided die,▶dado de nueve caras" Type="Curio" />
-    <relictypemapping Name="▶ten-sided die,▶dado de diez caras" Type="Curio" />
-    <relictypemapping Name="▶twelve-sided die,▶dado de doce caras" Type="Curio" />
-    <relictypemapping Name="▶twenty-sided die,▶dado de veinte caras" Type="Curio" />
-    <relictypemapping Name="▶coin,▶moneda" Type="Curio" />
-    <relictypemapping Name="▶shield,▶escudo" Type="Shield" />
+    <relictypemapping Name="axe,hacha" Type="Axe" />
+    <relictypemapping Name="dagger,daga" Type="ShortBlade" />
+    <relictypemapping Name="dirk,puñal" Type="ShortBlade" />
+    <relictypemapping Name="sword,espada" Type="LongBlade" />
+    <relictypemapping Name="hammer,martillo" Type="Cudgel" />
+    <relictypemapping Name="mace,maza" Type="Cudgel" />
+    <relictypemapping Name="hammers,martillos" Type="Cudgel" />
+    <relictypemapping Name="pummel,pomo" Type="Cudgel" />
+    <relictypemapping Name="helm,yelmo" Type="Head" />
+    <relictypemapping Name="helmet,casco" Type="Head" />
+    <relictypemapping Name="armor,armadura" Type="Body" />
+    <relictypemapping Name="vest,jubón" Type="Body" />
+    <relictypemapping Name="breastplate,coraza" Type="Body" />
+    <relictypemapping Name="mask,máscara" Type="Face" />
+    <relictypemapping Name="bracelet,brazalete" Type="Arm" />
+    <relictypemapping Name="pair of boots,par de botas" Type="Feet" />
+    <relictypemapping Name="boot,bota" Type="Feet" />
+    <relictypemapping Name="boots,botas" Type="Feet" />
+    <relictypemapping Name="iron gauntlet,guantelete de hierro" Type="Hands" />
+    <relictypemapping Name="pair of gloves,par de guantes" Type="Hands" />
+    <relictypemapping Name="glove,guante" Type="Hands" />
+    <relictypemapping Name="gloves,guantes" Type="Hands" />
+    <relictypemapping Name="gauntlet,guantelete" Type="Hands" />
+    <relictypemapping Name="gauntlets,guanteletes" Type="Hands" />
+    <relictypemapping Name="floating orb,orbe flotante" Type="Floating" />
+    <relictypemapping Name="artifact,artefacto" Type="Artifact" />
+    <relictypemapping Name="star-tool,herramienta estelar" Type="Artifact" />
+    <relictypemapping Name="rifle,rifle" Type="Rifle" />
+    <relictypemapping Name="long arm,arma larga" Type="Rifle" />
+    <relictypemapping Name="pistol,pistola" Type="Pistol" />
+    <relictypemapping Name="gun,arma de fuego" Type="Pistol" />
+    <relictypemapping Name="short arm,arma corta" Type="Pistol" />
+    <relictypemapping Name="treatise,tratado" Type="Book" />
+    <relictypemapping Name="chronology,cronología" Type="Book" />
+    <relictypemapping Name="philosophy,filosofía" Type="Book" />
+    <relictypemapping Name="hypothesis,hipótesis" Type="Book" />
+    <relictypemapping Name="account,relato" Type="Book" />
+    <relictypemapping Name="horoscope reading,lectura de horóscopo" Type="Book" />
+    <relictypemapping Name="allegory,alegoría" Type="Book" />
+    <relictypemapping Name="wintry truth,verdad invernal" Type="Book" />
+    <relictypemapping Name="meal,comida" Type="Food" />
+    <relictypemapping Name="feast,festín" Type="Food" />
+    <relictypemapping Name="skull,calavera" Type="Curio" />
+    <relictypemapping Name="one-sided die,dado de una cara" Type="Curio" />
+    <relictypemapping Name="two-sided die,dado de dos caras" Type="Curio" />
+    <relictypemapping Name="three-sided die,dado de tres caras" Type="Curio" />
+    <relictypemapping Name="four-sided die,dado de cuatro caras" Type="Curio" />
+    <relictypemapping Name="five-sided die,dado de cinco caras" Type="Curio" />
+    <relictypemapping Name="six-sided die,dado de seis caras" Type="Curio" />
+    <relictypemapping Name="seven-sided die,dado de siete caras" Type="Curio" />
+    <relictypemapping Name="eight-sided die,dado de ocho caras" Type="Curio" />
+    <relictypemapping Name="nine-sided die,dado de nueve caras" Type="Curio" />
+    <relictypemapping Name="ten-sided die,dado de diez caras" Type="Curio" />
+    <relictypemapping Name="twelve-sided die,dado de doce caras" Type="Curio" />
+    <relictypemapping Name="twenty-sided die,dado de veinte caras" Type="Curio" />
+    <relictypemapping Name="coin,moneda" Type="Curio" />
+    <relictypemapping Name="shield,escudo" Type="Shield" />
   </relictypemappings>
 </relics>

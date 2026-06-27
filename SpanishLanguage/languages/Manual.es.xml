@@ -8,7 +8,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
 
 -->
 <help Lang="es" Encoding="utf-8">
-  <topic name="Quickstart" DisplayName="▶Inicio rápido">▶
+  <topic name="Quickstart" DisplayName="Inicio rápido">
 Estas son nueve cosas que conviene hacer al empezar la partida.
 Después, usa el resto de esta Ayuda como manual de consulta.
 
@@ -64,7 +64,7 @@ Basta con salir de la pantalla, o ve al mapa del mundo con ~CmdMoveU.
 Para hacer un ataque básico, basta con caminar contra una criatura hostil.
 O puedes usar una aptitud de ataque.
 </topic>
-  <topic name="Attributes" DisplayName="▶Atributos">▶
+  <topic name="Attributes" DisplayName="Atributos">
 [[{{C|Fuerza}}]]
 Tu puntuación de Fuerza determina cuánto daño cuerpo a cuerpo infliges (al mejorar
 tu penetración de armadura), tu capacidad para resistir el movimiento forzado y tu
@@ -149,7 +149,7 @@ base es 0. A 100, eres inmune al daño por calor y tu
 temperatura no puede aumentarse.
 
 </topic>
-  <topic name="Skills" DisplayName="▶Habilidades">▶
+  <topic name="Skills" DisplayName="Habilidades">
 Tus habilidades representan las aptitudes que has aprendido a lo largo de tu
 vida. Cada árbol de habilidades tiene varias habilidades asociadas. Empiezas con
 varias habilidades determinadas por tu casta o vocación. Puedes adquirir otras
@@ -164,7 +164,7 @@ sin tener su habilidad de entrada si tu casta o vocación te la ha concedido.
 Las habilidades suelen otorgarte aptitudes activadas. Una vez adquirida una habilidad,
 podrás acceder a tu nueva aptitud activada desde el menú Gestionar aptitudes ('~CmdAbilities').
 </topic>
-  <topic name="Mutations and Defects" DisplayName="▶Mutaciones y defectos">▶
+  <topic name="Mutations and Defects" DisplayName="Mutaciones y defectos">
 Las mutaciones son poderes biológicos especiales concedidos a los moradores de Qud:
 los true kin de las arcologías exteriores no poseen mutaciones. Hay dos
 tipos de mutaciones: físicas y mentales. Cada mutación lleva asociada una puntuación
@@ -194,7 +194,7 @@ acceder a tu nueva aptitud activada desde el menú Gestionar aptitudes ('~CmdAbi
 Los defectos son mutaciones con efectos principalmente negativos. Ciertos mutantes
 empiezan con un único defecto. Los defectos no llevan asociada ninguna puntuación.
 </topic>
-  <topic name="Artifacts" DisplayName="▶Artefactos">▶
+  <topic name="Artifacts" DisplayName="Artefactos">
 Los artefactos son objetos tan complejos a nivel tecnológico que pocos moradores de Qud
 los entienden. Un artefacto sin identificar se te mostrará como un
 "Artefacto Extraño". Puedes examinar un artefacto para intentar identificarlo. Si
@@ -205,7 +205,7 @@ que intentes identificar algo y falles hay una pequeña
 probabilidad de que lo rompas. Tu probabilidad de identificar con éxito un
 artefacto depende de tu puntuación de Inteligencia.
 </topic>
-  <topic name="Tonics" DisplayName="▶Tónicos">▶
+  <topic name="Tonics" DisplayName="Tónicos">
 Los tónicos son brebajes químicos que potencian tus estadísticas mentales y físicas
 de diversas maneras. Son artefactos, así que debes identificarlos
 con éxito para entender qué hacen. Ingerir un tónico mientras estás bajo
@@ -222,7 +222,7 @@ un efecto no deseado.
 Los tónicos pueden prepararse con la habilidad Manitas. Además de bits,
 preparar un tónico suele requerir un ingrediente natural.
 </topic>
-  <topic name="Weapons and Armor" DisplayName="▶Armas y armadura">▶
+  <topic name="Weapons and Armor" DisplayName="Armas y armadura">
 [[{{C|Armas}}]]
 Toda arma tiene un valor de penetración y un valor de daño
 (por ejemplo, {{C|→}}4, {{R|♥}}1d4). El valor de penetración de las armas cuerpo a cuerpo depende
@@ -238,7 +238,7 @@ La mayoría de las piezas de armadura tienen un valor de armadura y un valor de 
 Las piezas de armadura pueden modificar otras estadísticas; 'o'bserva una pieza de armadura para
 determinar del todo lo que hace.
 </topic>
-  <topic name="Combat" DisplayName="▶Combate">▶
+  <topic name="Combat" DisplayName="Combate">
 [[{{C|Combate cuerpo a cuerpo}}]]
 El combate cuerpo a cuerpo enfrenta a dos oponentes adyacentes con armas cuerpo a cuerpo
 estándar, como espadas, dagas, hachas y porras. Para atacar a un oponente
@@ -301,7 +301,7 @@ Si estás trabado en combate cuerpo a cuerpo con más de un oponente hostil,
 hay un 50% de probabilidad de que cada ataque a distancia que hagas se desvíe (vire
 45 grados a izquierda o derecha).
 </topic>
-  <topic name="Saving Throws" DisplayName="▶Tiradas de salvación">▶
+  <topic name="Saving Throws" DisplayName="Tiradas de salvación">
 Ciertos efectos o aptitudes obligan a las criaturas a hacer tiradas de salvación o afrontar
 las consecuencias. Cada tirada de salvación lleva asociados un atributo y una dificultad.
 Para superar una tirada de salvación, se tira un 1d20 base y luego se suma el
@@ -309,7 +309,7 @@ modificador del atributo correspondiente. Si ese número iguala o supera la
 dificultad, la superas. Si no, fallas. Algunas tiradas de salvación contra
 aptitudes de criaturas suman también el modificador de atributo de la criatura a la dificultad.
 </topic>
-  <topic name="Action Costs" DisplayName="▶Coste de las acciones">▶
+  <topic name="Action Costs" DisplayName="Coste de las acciones">
 El tiempo que cuesta hacer algo se mide en términos de un
 coste de acción. La mayoría de las tareas tienen un coste de acción de 1000. Tu Presteza
 aumenta el ritmo al que recuperas ese coste, lo que te permite actuar
@@ -318,7 +318,7 @@ con más frecuencia que las criaturas más lentas.
 Algunas habilidades, mutaciones y equipos te permiten emprender acciones
 concretas con un coste de acción reducido o nulo.
 </topic>
-  <topic name="Credits" DisplayName="▶Créditos">▶
+  <topic name="Credits" DisplayName="Créditos">
 
                                  [[{{C|Creado por}}
                       Brian Bucklew and Jason Grinblat
@@ -513,7 +513,7 @@ concretas con un coste de acción reducido o nulo.
 
   ]]
 </topic>
-  <topic name="Open Source Licenses" DisplayName="▶Licencias de código abierto">▶
+  <topic name="Open Source Licenses" DisplayName="Licencias de código abierto">
 [[{{c|Licencia de Harmony (https://github.com/pardeike/Harmony)}}
   {{W|Licencia MIT}}
 
