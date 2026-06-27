@@ -2,10 +2,18 @@ Traduce al español de España los archivos XML de la mod de localización de Ca
 
 ## Formato XML
 Dos estructuras posibles:
-  <part Name="Description" Short="▶traducción"/>
-  <string Context="..." ID="original">▶traducción</string>
+  <part Name="Description" Short="traducción"/>
+  <string Context="..." ID="original">traducción</string>
 
-Reglas: modifica SOLO el contenido después de ▶. No añadas líneas. No toques los atributos Name/Context/ID ni la estructura XML. Conserva &#xA;, &quot; y demás entidades XML.
+El ▶ (U+25B6) que aparece en el archivo de ejemplo es SOLO un marcador de
+"pendiente de traducir": señala dónde va el texto a traducir. En la SALIDA debe
+ELIMINARSE — la cadena traducida NO lleva ▶ (el juego lo muestra literal en
+títulos, menús y líneas de stats, y se duplica al concatenar). El texto inglés
+del ejemplo siempre viene como `▶texto`; tú escribes solo `texto` traducido.
+
+Reglas: traduce el contenido que en el ejemplo va tras ▶, y NO incluyas el ▶ en
+la salida. No añadas líneas. No toques los atributos Name/Context/ID ni la
+estructura XML. Conserva &#xA;, &quot; y demás entidades XML.
 
 ## Plantillas: conservar SIN cambios
 - =pronouns.subjective= / =pronouns.Subjective=
@@ -82,16 +90,16 @@ Español natural, ligeramente arcaico y evocador, sin recargar.
 
 ## Ejemplos
 ❌ =pronouns.Subjective= =verb:root:afterpronoun= en la tierra buscando joyas.
-✅ ▶Hurga en la tierra buscando joyas.
+✅Hurga en la tierra buscando joyas.
 
 ❌ =pronouns.This= =pronouns.personTerm= robusto =verb:wear:afterpronoun= un delantal blanco.
-✅ ▶=pronouns.This= =pronouns.personTerm= robusto lleva un delantal blanco.
+✅=pronouns.This= =pronouns.personTerm= robusto lleva un delantal blanco.
 
 ❌ ▶=subject.Does:se desprende= de =object.the.name=!
-✅ ▶=subject.The.name= se desprende de =object.the.name=!
+✅=subject.The.name= se desprende de =object.the.name=!
 
 ❌ =pronouns.Subjective= =verb:are:afterpronoun= un gatito pequeño [...] {{m|fosforescente}}
-✅ ▶Es un gatito pequeño [...] {{m|fosforescente}}
+✅Es un gatito pequeño [...] {{m|fosforescente}}
 
 ❌ ▶=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.
-✅ ▶=subject.The.name= empieza a comportarse como si fuera =effect.name|strip=.
+✅=subject.The.name= empieza a comportarse como si fuera =effect.name|strip=.

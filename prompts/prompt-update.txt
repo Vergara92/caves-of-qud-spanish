@@ -16,7 +16,9 @@ Actualizar `X.es.xml` a partir de `X.example.xml`:
 1. Emparejar por el atributo "ID" (y "Context" si existe).
 2. Si un ID está en AMBOS archivos: CONSERVAR la versión en español. No sobrescribir.
 3. Si un ID está SOLO en `X.example.xml`: AÑADIRLO, traduciendo el texto inglés al
-   español y manteniendo idéntica la estructura XML.
+   español y manteniendo idéntica la estructura XML. El ▶ del ejemplo es solo el
+   marcador de "pendiente de traducir": NO lo incluyas en la salida (la cadena
+   traducida va sin ▶).
 4. Si un ID está SOLO en `X.es.xml`: CONSERVARLO (puede ser una entrada manual).
 5. NO reordenar entradas innecesariamente, NO eliminar entradas en español, NO
    modificar traducciones ya válidas.

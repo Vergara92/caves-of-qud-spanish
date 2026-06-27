@@ -31,7 +31,10 @@ Eliminar la concordancia donde el referente sea desconocido en runtime:
 ## Reglas duras
 * NUNCA romper ni quitar la sintaxis de plantilla (`=...=`, `{{...}}`).
 * NUNCA hardcodear valores dinámicos.
-* Solo modificar el texto tras `▶`; no tocar atributos ID/Context/Name ni la estructura XML.
+* El `▶` (U+25B6) del ejemplo es el marcador de "pendiente de traducir": señala el
+  texto a traducir y debe ELIMINARSE en la salida (el juego lo muestra literal en
+  títulos/menús/stats). Traducir el texto tras `▶`, sin incluir el `▶`.
+* No tocar atributos ID/Context/Name ni la estructura XML.
 * Conservar entidades XML (`&#xA;`, `&quot;`…).
 
 ## Flujo de trabajo
