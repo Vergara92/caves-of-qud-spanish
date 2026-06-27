@@ -94,7 +94,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Sabio,Grande,Vibrante,Abigarrado,Flexible,Gigante,Pupado" />
     <tag Name="HeroNameTitleMayorSyn" Value="▶reina,alcalde,anciano" />
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Reina,Alcalde,Anciano" />
-    <xtagTextFragments Skin="▶quitina" PoeticFeatures="▶alas diáfanas,espiráculos aéreos,ojos fotofractales" YounglingNoise="▶*bzzz*" Activity="▶zumbando para la colmena,escarbando en la tierra,hurgando en el estiércol" VillageActivity="▶anidando con esmero,multiplicándose en hordas,poniendo huevos y chasqueando" SacredThing="▶el cantar a la luz de la Luna Escarabajo,la xenofagia,los hexápodos,las larvas,la quitina,la protección de un exoesqueleto" ArableLand="▶terrenos de anidación,terrenos de colmena" ValuedOre="▶polen" />
+    <xtagTextFragments Skin="▶quitina" PoeticFeatures="▶alas diáfanas,espiráculos aéreos,ojos fotofractales" YounglingNoise="▶*bzzz*" Activity="▶zumbando para la colmena,escarbando en la tierra,hurgando en el estiércol" VillageActivity="▶anidando con esmero,multiplicándose en hordas,poniendo huevos y chasqueando" NeedsItemFor="▶para mi propia colección,para saciar mi codicia,por su valor de cambio,para anidar mejor,para mi colmena" SacredThing="▶el cantar a la luz de la Luna Escarabajo,la xenofagia,los hexápodos,las larvas,la quitina,la protección de un exoesqueleto" ArableLand="▶terrenos de anidación,terrenos de colmena" ValuedOre="▶polen" />
     <stag Name="HardMaterial" Value="▶quitina" />
     <tag Name="SimpleConversation" Value="▶{{emote|*chasquido agudo*}}~▶{{emote|*zumbido suave*}}" />
     <tag Name="PetResponse" Value="▶=subject.T= zumba." />
