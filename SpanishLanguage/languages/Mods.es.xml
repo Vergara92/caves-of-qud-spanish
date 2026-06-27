@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.24
+
+<mods>
+
+  <mod Part="Key" TinkerCategory="DisplayText" TinkerDisplayName="DisplayText" Description="DisplayText">
+
+-->
+<mods Lang="es" Encoding="utf-8">
+  <mod Part="ModLacquered" TinkerCategory="▶utilidad" TinkerDisplayName="▶con laca" Description="▶Con laca: este objeto no puede oxidarse." />
+  <mod Part="ModSturdy" TinkerCategory="▶utilidad" TinkerDisplayName="▶a prueba de roturas" Description="▶A prueba de roturas: este objeto no puede romperse." />
+  <mod Part="ModSlender" TinkerCategory="▶utilidad" TinkerDisplayName="▶de poco peso" Description="▶De poco peso: este objeto pesa menos de lo normal." />
+  <mod Part="ModWillowy" TinkerCategory="▶utilidad" TinkerDisplayName="▶de peso pluma" Description="▶De peso pluma: este objeto pesa mucho menos de lo normal." />
+  <mod Part="ModSuspensor" TinkerCategory="▶utilidad" TinkerDisplayName="▶con suspensores" />
+  <mod Part="ModJewelEncrusted" TinkerCategory="▶utilidad" TinkerDisplayName="▶con incrustaciones de joyas" Description="▶Con incrustaciones de joyas: este objeto vale mucho más de lo habitual y otorga a quien lo lleva +100 de reputación con los barones del agua." />
+  <mod Part="ModDrumLoaded" TinkerCategory="▶fusiles" TinkerDisplayName="▶con tambor" Description="▶Con tambor: esta arma puede albergar un 20% más de munición." />
+  <mod Part="ModScoped" TinkerCategory="▶fusiles" TinkerDisplayName="▶con mira" Description="▶Con mira: esta arma tiene mayor precisión." />
+  <mod Part="ModLiquidCooled" TinkerCategory="▶fusiles" TinkerDisplayName="▶de refrigeración líquida" />
+  <mod Part="ModBeamsplitter" TinkerCategory="▶fusiles" TinkerDisplayName="▶con divisor de haz" />
+  <mod Part="ModNanon" TinkerCategory="▶fusiles" TinkerDisplayName="▶nanon" />
+  <mod Part="ModSharp" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶de filo" Description="▶De filo: +1 a las tiradas de penetración" />
+  <mod Part="ModMasterwork" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶de gran maestría" Description="▶De gran maestría: esta arma asesta golpes críticos el doble de a menudo." />
+  <mod Part="ModDisplacer" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶con desplazador" />
+  <mod Part="ModMorphogenetic" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶morfogenético" />
+  <mod Part="ModSerrated" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶de sierra" Description="▶De sierra: esta arma tiene un 3% de probabilidad de desmembrar a los rivales." />
+  <mod Part="ModGigantic" TinkerCategory="▶utilidad" TinkerDisplayName="▶de tamaño gigante" />
+  <mod Part="ModElectrified" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶con electrificación" />
+  <mod Part="ModFreezing" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶con escarcha" />
+  <mod Part="ModFlaming" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶con llamas" />
+  <mod Part="ModCounterweighted" TinkerCategory="▶armas cuerpo a cuerpo" TinkerDisplayName="▶con contrapeso" />
+  <mod Part="ModReinforced" TinkerCategory="▶armadura" TinkerDisplayName="▶con refuerzo" Description="▶Con refuerzo: +1 AV" />
+  <mod Part="ModFlexiweaved" TinkerCategory="▶armadura" TinkerDisplayName="▶de tejido flexible" />
+  <mod Part="ModRecycling" TinkerCategory="▶armadura" TinkerDisplayName="▶de reciclaje" Description="▶De reciclaje: este objeto recoge, purifica y almacena hasta 8 dracmas de las aguas residuales de quien lo lleva." />
+  <mod Part="ModDisguise" TinkerCategory="▶armadura" TinkerDisplayName="▶de disfraz" />
+  <mod Part="ModVisored" TinkerCategory="▶armadura" TinkerDisplayName="▶con visera" Description="▶Con visera: +1 DV" />
+  <mod Part="ModPadded" TinkerCategory="▶armadura" TinkerDisplayName="▶con acolchado" />
+  <mod Part="ModLanterned" TinkerCategory="▶armadura" TinkerDisplayName="▶con farol" Description="▶Con farol: este objeto proporciona luz." />
+  <mod Part="ModFilters" TinkerCategory="▶armadura" TinkerDisplayName="▶con filtros" />
+  <mod Part="ModTwoFaced" TinkerCategory="▶armadura" TinkerDisplayName="▶de dos caras" Description="▶De dos caras: este objeto otorga una ranura de cara adicional." />
+  <mod Part="ModTerrifyingVisage" TinkerCategory="▶armadura" TinkerDisplayName="▶de aspecto aterrador" Description="▶Aspecto aterrador: este objeto reduce en 10 rondas los tiempos de recarga de Reprender, Intimidar y Mirada Amenazadora. Además, ocupa a la vez las ranuras de cabeza y de cara." />
+  <mod Part="ModSereneVisage" TinkerCategory="▶armadura" TinkerDisplayName="▶de aspecto sereno" Description="▶Aspecto sereno: +1 de Voluntad y reduce en 40 rondas el tiempo de recarga de Meditar. Además, este objeto ocupa a la vez las ranuras de cabeza y de cara." />
+  <mod Part="ModCoProcessor" TinkerCategory="▶armadura" TinkerDisplayName="▶con coprocesador" />
+  <mod Part="ModSpiked" TinkerCategory="▶armadura" TinkerDisplayName="▶con pinchos" />
+  <mod Part="ModRefractive" TinkerCategory="▶armadura" TinkerDisplayName="▶de superficie refractante" />
+  <mod Part="ModSixFingered" TinkerCategory="▶armadura" TinkerDisplayName="▶de seis dedos" Description="▶De seis dedos: +1 de Agilidad" />
+  <mod Part="ModGesticulating" TinkerCategory="▶armadura" TinkerDisplayName="▶de gesticulación" />
+  <mod Part="ModFeathered" TinkerCategory="▶armadura" TinkerDisplayName="▶con plumas" Description="▶Con plumas: este objeto otorga a quien lo lleva +250 de reputación con las aves." />
+  <mod Part="ModScaled" TinkerCategory="▶armadura" TinkerDisplayName="▶con escamas" Description="▶Con escamas: este objeto otorga a quien lo lleva +250 de reputación con los reptiles sin caparazón." />
+  <mod Part="ModWooly" TinkerCategory="▶armadura" TinkerDisplayName="▶de lana" Description="▶De lana: este objeto otorga resistencia al calor y al frío." />
+  <mod Part="ModSnailEncrusted" TinkerCategory="▶armadura" TinkerDisplayName="▶con caracoles incrustados" Description="▶Con caracoles incrustados: este objeto otorga a quien lo lleva +250 de reputación con los moluscos." />
+  <mod Part="ModSpringLoaded" TinkerCategory="▶armadura" TinkerDisplayName="▶con resortes" Description="▶Con resortes: +5-10 de velocidad de movimiento" />
+  <mod Part="ModCleated" TinkerCategory="▶armadura" TinkerDisplayName="▶con tacos" />
+  <mod Part="ModPolarized" TinkerCategory="▶armadura" TinkerDisplayName="▶de cristal polarizado" />
+  <mod Part="ModNav" TinkerCategory="▶armadura" TinkerDisplayName="▶nav" />
+  <mod Part="ModNulling" TinkerCategory="▶utilidad" TinkerDisplayName="▶de anulación" />
+  <mod Part="ModHighCapacity" TinkerCategory="▶munición y celdas de energía" TinkerDisplayName="▶de gran capacidad" />
+  <mod Part="ModMetered" TinkerCategory="▶munición y celdas de energía" TinkerDisplayName="▶con medidor" />
+  <mod Part="ModRadioPowered" TinkerCategory="▶munición y celdas de energía" TinkerDisplayName="▶de radioalimentación" />
+  <mod Part="ModIlluminated" TinkerCategory="▶utilidad" TinkerDisplayName="▶con miniaturas" Description="▶Con miniaturas: este libro está adornado con marginalia e ilustraciones decorativas. Vale un 30% más." />
+  <mod Part="ModExtradimensional" TinkerCategory="▶utilidad" TinkerDisplayName="▶extradimensional" Description="▶Extradimensional: este objeto se ha materializado hace poco y ha heredado algunas propiedades de su dimensión de origen." />
+  <mod Part="ModAirfoil" TinkerCategory="▶granadas" TinkerDisplayName="▶con perfil aerodinámico" />
+  <mod Part="ModPhaseConjugate" TinkerCategory="▶granadas" TinkerDisplayName="▶de fase conjugada" />
+  <mod Part="ModHardened" TinkerCategory="▶utilidad" TinkerDisplayName="▶con blindaje electromagnético" />
+  <mod Part="ModJacked" TinkerCategory="▶utilidad" TinkerDisplayName="▶con conector" />
+  <mod Part="ModOverloaded" TinkerCategory="▶utilidad" TinkerDisplayName="▶con sobrecarga" />
+  <mod Part="ModPhaseHarmonic" TinkerCategory="▶utilidad" TinkerDisplayName="▶de fase armónica" />
+  <mod Part="ModEngraved" TinkerCategory="▶utilidad" TinkerDisplayName="▶con grabado" Description="▶Con grabado: este objeto lleva grabada la representación de un acontecimiento histórico." />
+  <mod Part="ModPainted" TinkerCategory="▶utilidad" TinkerDisplayName="▶con pintura" Description="▶Con pintura: este objeto lleva pintada la representación de un acontecimiento histórico." />
+</mods>
