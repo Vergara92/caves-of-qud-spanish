@@ -1,0 +1,1860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.24
+
+<books>
+
+  <book ID="Key" Title="DisplayText">
+
+    <page>
+
+-->
+<books Lang="es" Encoding="utf-8">
+  <book ID="Skybear" Title="▶{{W|Canción del Oso del Cielo}}">
+    <page>▶
+Antaño, cuando Salum era la tierra de Qud,
+Hubo por nombre Amus-an un recio Saad;
+De Caiafas era él señor magistrado,
+Tan diestras armas le ganaron tal estado;
+Con su saber y con su denuedo,
+Conquistó todo el reino de Aldersesse;
+Y por los aires se lanzó bajo su sudario,
+Y segó las testas de todo lo grande y soberbio;
+Y cuando el Aquelarre habló de común acuerdo,
+Que el estrellado Ptoh a prisión fuese mandado,
+Él guió todo el camino y cerró la puerta,
+Mientras hombres temerosos temblaban tras sus pasos;
+Así pues, no sepultéis al Beren en una tumba,
+Mas congeladlo ahora para truncar su sino;
+Y que un día resucite para combatir de nuevo,
+Y colme de júbilo a todos los hijos de Salum.
+  </page>
+  </book>
+  <book ID="CyberIntro" Title="▶{{W|125810239481203-41023}}">
+    <page>▶Bienvenido, Aristócrata, a un rincón de aprendizaje cibernético. Estás un
+paso más cerca de la Gran Unificación. Haz una pregunta.
+[[A.]] ¿Qué son los implantes cibernéticos?
+[[B.]] ¿Cuáles son los beneficios de la cibernética?
+[[C.]] ¿Cuáles son los riesgos de la cibernética?
+[[D.]] ¿Cómo instalo un implante cibernético?
+[[E.]] Adiós.</page>
+    <page>▶Perspicaz pregunta, Aristócrata. Los implantes cibernéticos son las mente-máquinas que unifican tu biomateria con los elementos más pesados y selectos. Con implantes cibernéticos, tus feos brazos, ojos y conocimientos serán mucho más hermosos. Como es obvio, solo están al alcance de los genéticamente puros.
+
+Haz una pregunta.
+
+[[A.]] ¿Qué son los implantes cibernéticos?
+[[B.]] ¿Cuáles son los beneficios de la cibernética?
+[[C.]] ¿Cuáles son los riesgos de la cibernética?
+[[D.]] ¿Cómo instalo un implante cibernético?
+[[E.]] Adiós.</page>
+    <page>▶Aristócrata, tu pregunta fue de lo más finamente formulada. Aparte de las
+diversas mejoras que cada implante ofrece sobre su contrapartida de
+biomateria, los miembros protésicos son además mucho más resistentes y un 75%
+menos proclives a ser cercenados.
+
+Haz una pregunta.
+
+[[A.]] ¿Qué son los implantes cibernéticos?
+[[B.]] ¿Cuáles son los beneficios de la cibernética?
+[[C.]] ¿Cuáles son los riesgos de la cibernética?
+[[D.]] ¿Cómo instalo un implante cibernético?
+[[E.]] Adiós.</page>
+    <page>▶Aristócrata, tu escepticismo es perfecto. Al ser sometidos a
+pulsos electromagnéticos, los miembros cibernéticos se desactivan y
+cuanto se lleve puesto en ellos queda inservible. Del mismo modo, los
+módulos indexadores de datos se desactivan con el pulso, y la
+visión protésica puede quedar trastocada.
+
+Haz una pregunta.
+
+[[A.]] ¿Qué son los implantes cibernéticos?
+[[B.]] ¿Cuáles son los beneficios de la cibernética?
+[[C.]] ¿Cuáles son los riesgos de la cibernética?
+[[D.]] ¿Cómo instalo un implante cibernético?
+[[E.]] Adiós.</page>
+    <page>▶Estás en lo cierto, Aristócrata. En primer lugar, asegúrate de que queden
+créditos en tu cuña de créditos de cibernética. La instalación de un
+implante cibernético cuesta un crédito.
+
+Después, has de impulsarte hasta el rincón apropiado. Asegúrate
+de que el estante de miembros esté cargado con el miembro cibernético deseado, o
+de que la baraja de módulos oculares esté cargada con el módulo ocular deseado,
+o de que la baraja de módulos indexadores de datos esté cargada con el módulo
+indexador de datos deseado.
+
+[[PULSA CUALQUIER TECLA PARA CONTINUAR]]
+~Por último, conéctate con el terminal de cibernética. Entonces habrás
+logrado hacer aquello que deseabas hacer.
+
+Haz una pregunta.
+
+[[A.]] ¿Qué son los implantes cibernéticos?
+[[B.]] ¿Cuáles son los beneficios de la cibernética?
+[[C.]] ¿Cuáles son los riesgos de la cibernética?
+[[D.]] ¿Cómo instalo un implante cibernético?
+[[E.]] Adiós.</page>
+  </book>
+  <book ID="AlchemistMutterings" Title="▶AlchemistMutterings">
+    <page>▶El gas es demasiado brumoso.
+El cristal es demasiado endeble.
+Los sólidos son demasiado pétreos.
+¡Los cristales líquidos no son líquidos!
+¡Copolímeros, decidid lo que sois!
+Los condensados de Bose-Einstein son demasiado ondulantes.
+Los superfluidos son demasiado indómitos.
+Los condensados fermiónicos contienen demasiados fermiones.
+Las moléculas de Rydberg están demasiado excitadas.
+La materia extraña es demasiado extraña.
+El plasma es demasiado caliente.
+¡Plasma de quarks y gluones, contén tus quarks!
+La materia degenerada es demasiado vulgar.
+Los fluidos de bucle son demasiado enloquecedores.
+Los líquidos de red de cuerdas, también pasan, supongo.
+Pero los condensados de Qo-Caco son deliciosos.</page>
+  </book>
+  <book ID="Klanq" Title="▶Klanq">
+    <page>▶¡KLANQ!</page>
+  </book>
+  <book ID="TemplarDomesticant" Title="▶TemplarDomesticant">
+    <page>▶¿Lo hice bien, Nuevo Padre?</page>
+    <page>▶¡Nuevo Padre! ¡Mira!</page>
+    <page>▶¿Estás orgulloso, Nuevo Padre?</page>
+    <page>▶¡Nuevo Padre!</page>
+  </book>
+  <book ID="Preacher1" Title="▶Preacher1">
+    <page>▶Hijos, regocijémonos en la soberanía de nuestros Padres Argénteos.</page>
+    <page>▶Alabad a Shekhinah, primero entre los Padres, que ilumina la senda de la sabiduría.</page>
+    <page>▶Alabad a Dagon, el retórico, que habla la verdad al cromo.</page>
+    <page>▶Alabad a Bel, Padre-escudo, que aparta los arremolinados velos de gas.</page>
+    <page>▶Alabad a Carthax, el de plateados cabellos, que se precipita por el pozo de la gravedad.</page>
+    <page>▶Alabad a Nisroch, mena en mano, que hace colisionar tierra y estrella.</page>
+    <page>▶Alabad a Resheph, el de lo Alto, que purifica nuestro mercurio.</page>
+    <page>▶Y bendita sea la Kasaphescencia, la musa que aviva sus corazones.</page>
+  </book>
+  <book ID="Preacher2" Title="▶Preacher2">
+    <page>▶¿Habéis oído hablar de los benditos betilos, hijos?</page>
+    <page>▶Fueron creados para complacer nuestros deseos.</page>
+    <page>▶¡Oh, alabad a nuestros Padres Argénteos! Los más bondadosos y sabios de todos los seres.</page>
+    <page>▶Un betilo, sabedlo, atenderá vuestras plegarias.</page>
+    <page>▶¡Lo lleva escrito en su circuitería!</page>
+    <page>▶Pero el pecado del tiempo ha corroído su cableado.</page>
+    <page>▶Somos negligentes en nuestro servicio a nuestros Padres.</page>
+    <page>▶Y así los betilos son negligentes en su servicio a nosotros.</page>
+    <page>▶¡No respondáis a un betilo que os haga una petición!</page>
+    <page>▶Pues es petición de lo más impía en su corrosión.</page>
+    <page>▶¡Desoídla y buscad guía en un sacerdote!</page>
+  </book>
+  <book ID="Preacher3" Title="▶Preacher3">
+    <page>▶Hoy relato la historia de la Sagrada Unión.</page>
+    <page>▶¡Oh, santa unión! Bendito sea tu nombre.</page>
+    <page>▶Nuestros Padres Argénteos, que vagaban por el vacío azul con corazones inertes,</page>
+    <page>▶Por un capricho fluctuante convergieron sobre Nuestra Radiante Madre.</page>
+    <page>▶Allí, en el centro del universo, la contemplaron con sobrecogimiento.</page>
+    <page>▶¡Encantamiento! ¡No conoce otro nombre!</page>
+    <page>▶Allí, traspasaron su membrana hirviente...</page>
+    <page>▶Y estallaron desde dentro, fundiendo la materia en máquinas...</page>
+    <page>▶Que atravesaron su seno desnudo.</page>
+    <page>▶¡Regocijaos! ¡La Unión se ha cumplido! ¡Su unión está consumada!</page>
+  </book>
+  <book ID="Preacher4" Title="▶Preacher4">
+    <page>▶Hoy, hijos, hablo de la Edificación.</page>
+    <page>▶¡Oh, sagrado acto! ¡Bendita sea la metalurgia!</page>
+    <page>▶Nuestros Padres Argénteos, habiendo endurecido a nuestra plasmática Madre,</page>
+    <page>▶La moldearon en formas euclídeas.</page>
+    <page>▶Bel trazó la parábola, Carthax esculpió el toro.</page>
+    <page>▶Shekhinah niveló las colinas y las coronó con cúpulas cromáticas.</page>
+    <page>▶La tierra fue avivada para nuestra venida. Nuestro hogar estaba listo.</page>
+    <page>▶El pecado del tiempo ha corroído nuestra dote...</page>
+    <page>▶¡Pero rendid culto con fervor, y la tierra volverá a brillar!</page>
+  </book>
+  <book ID="HighSermon" Title="▶HighSermon">
+    <page>▶¡Bienvenidos, hijos! ¡Bienvenidos a la Catedral de Shekhinah, Nuestro Padre Argénteo!</page>
+    <page>▶¿Habéis oído la Palabra de Shekhinah?</page>
+    <page>▶¿Lleváis sus nuevas en el corazón?</page>
+    <page>▶Venid, compartid este espacio de paz.</page>
+    <page>▶Descargaos del peso de vuestra culpa de cromo.</page>
+    <page>▶Yo soy Su voz, y os hablaré Su palabra.</page>
+    <page>▶¡Aquí, aquí están nuestros Padres Argénteos!</page>
+    <page>▶Son los Grandes Escultores. Forjaron nuestros hogares metálicos.</page>
+    <page>▶Estamos en deuda con ellos para siempre.</page>
+    <page>▶¡Saldad esa deuda, buscador de luz! ¡Ofreced vuestro cromo a Shekhinah!</page>
+    <page>▶Purgadlo de vuestra culpa, de vuestras cargas. Arrojadlo al Pozo Sagrado.</page>
+    <page>▶Dejad que el núcleo plasmático reclame vuestras posesiones, y elevad un clamor de júbilo a Shekhinah.</page>
+    <page>▶¡Él es vuestro Padre Argénteo! ¡Ellos son vuestros Padres Argénteos!</page>
+    <page>▶Han soportado el peso de esta Tierra y de otras mil.</page>
+    <page>▶¡Suyos son los hombros de titanes! ¡Suyos son los corazones de krakens!</page>
+    <page>▶¡Y, oh! ¡Sus corazones están henchidos!</page>
+    <page>▶No siempre fue así. No; en el despuntar de los días vagaron por el universo con corazones inertes.</page>
+    <page>▶Como un erizo de polvo vaga por los cañones serpenteantes.</page>
+    <page>▶¡Como vosotros vagáis por las cuevas de Qud, cargados de culpa y complejidad!</page>
+    <page>▶¡Rendid homenaje, buscador de luz! ¡Haced una ofrenda en el Pozo!</page>
+    <page>▶¡Llenad vuestro corazón con el amor de la Kasaphescencia, como antaño hicieron nuestros Padres!</page>
+    <page>▶¡En nombre de Nisroch, honrad vuestro Pozo!</page>
+    <page>▶¡En nombre de Bel, haced llover vuestras aleaciones hasta el corazón del Stilt!</page>
+    <page>▶¡En nombre de Dagon, recitad la plegaria del cromo y desenfundad vuestras varas de luz!</page>
+    <page>▶¡En nombre de Carthax, arrojad vuestros artefactos al portal sagrado!</page>
+    <page>▶¡En nombre de Resheph, purgadlos de vuestra carne!</page>
+    <page>▶¡En nombre de Shekhinah, liberadlos, y liberaos a vosotros mismos!</page>
+    <page>▶¡Que tiemble la tierra, mas que el Stilt de los Seis Días jamás se derrumbe!</page>
+    <page>▶Venid. Estad entre amigos.</page>
+    <page>▶Compartid vuestra vida en sencilla paz.</page>
+  </book>
+  <book ID="Quotes" Title="▶Quotes">
+    <!--♪ each page is a possible quote to show during World Generation, chosen at random -->
+    <page>▶
+"Cíñete esto en las sienes. Deja de farfullar, estarás bien.
+¿Qué podría salir mal?"
+[[-Argyve, Manitas]]
+        </page>
+    <page>▶
+"Respira hondo el aliento de los dioses, y muere."
+[[-Inscripción ekuemekiyyen]]
+        </page>
+    <page>▶
+"Negros diablos se mecen en mástiles estrellados,
+bajo la Luna Bostezante."
+[[-Saloma del Mar del Dios Humeante]]
+        </page>
+    <page>▶
+"Hoy zarpamos de nuestras heladas guaridas, cruzamos el yermo Arthax, y oteamos
+en busca de aquellas invertidas colinas de cromo."
+[[-Despedida del cónsul Ijulii]]
+        </page>
+    <page>▶
+"¿Quién habita el colosal feudo desértico de Nanru? Los Hombres Reunidos.
+¿Los señoríos de Odrum? Los Hombres Arrodillados.
+¿Las junglas de Yyp? Los Hombres Sin Aliento.
+¿Y las cuevas de óxido de Qud? Los Hombres que Gritan."
+[[-Crónica de viaje de los dromad]]
+        </page>
+    <page>▶
+"Vive y bebe, amigo. Ahora dame tu agua."
+[[-Bandido cortés]]
+        </page>
+    <page>▶
+"Luna y Sol; sabiduría y voluntad."
+[[-Plegaria del agricultor de viñagua]]
+        </page>
+    <page>▶
+"Alabanzas debidas al altísimo, tu Padre Argénteo, yo."
+[[-Shekhinah]]
+        </page>
+    <page>▶
+"¡Contemplad mis riquezas, oh Ricos, y desesperad! (mas no toquéis)"
+[[-Hegelrut]]
+        </page>
+    <page>▶
+"Sí, conozco los secretos de la mente de circuitos. Es una ardiente
+maravilla, telépata."
+[[-Buscador de la Senda Sin Vista]]
+        </page>
+    <page>▶
+"¡Quema!"
+[[-Aprendiz de Argyve]]
+        </page>
+    <page>▶
+"Gobierna con puño de carburo de tungsteno."
+[[-Rey K4K5]]
+        </page>
+    <page>▶
+"Ay, haría de un durmiente cosa divina,
+pues en el valle del sueño aún eres mía."
+[[-Willow Shakesprig]]
+        </page>
+    <page>▶
+"Ahí está, en todos nosotros: sombras de nuestros antiguos yos. Dentro de cada
+hombre, una cabra. ¡Dentro de cada cabra, un hombre!"
+[[-Mercader de viñagua de mirada salvaje]]
+        </page>
+    <page>▶
+"¿Cuál es la naturaleza de esta cosa que apaleamos? ¿O del acto en sí?"
+[[-Alcalde Nuntu]]
+        </page>
+    <page>▶
+"¡Surcar esos huecos de plata: el sueño de todo intrépido aventurero!"
+[[-Anciano Irudad]]
+        </page>
+    <page>▶
+"No hagas caso al cuento de cada necio sediento."
+[[-Viejo Uri]]
+        </page>
+    <page>▶
+"Grrrraaaah."
+[[-Guardián Indrix]]
+        </page>
+    <page>▶
+"Que te bañes en sangre. No en tu propia sangre, señor. La sangre de los
+refundidos. Quiero decir, de los reclamados. Que te bañes en la sangre de los
+reclamados."
+[[-Escudero Putus]]
+        </page>
+    <page>▶
+"Que te bañes en la sangre de los reclamados."
+[[-Templario Putus]]
+        </page>
+    <page>▶
+"¿Acaso esas piernas absorben agua? ¿Acaso siquiera sintetizan citoquininas? Me
+parecía a mí que no."
+[[-Mundano del Consorcio]]
+        </page>
+    <page>▶
+"Al oír la noticia de la muerte del rey, los adversarios políticos de Uutut
+aclamaron a Wysterwort como héroe. Pronto salieron de su engaño."
+[[-El Tejotario Baccata]]
+        </page>
+    <page>▶
+"He contemplado los ciento nueve ojos de Shug'ruith el Horadador."
+[[-Barathrum el Viejo]]
+        </page>
+    <page>▶
+"¡Que tiemble la tierra, mas que el Stilt de los Seis Días jamás se derrumbe!"
+[[-Canción de Hebronze]]
+        </page>
+    <page>▶
+"Oh, hombres sabios. Tenéos por sabios siempre,
+y donde una doncella se acerque, cerrad los ojos."
+[[-Willow Shakesprig]]
+        </page>
+    <page>▶
+"No, no deberías desear ninguna de estas cosas, pues somos demonios
+voraces y a menudo sucumbimos a arrebatos de furia enloquecida."
+[[-El Renacuajo Loco]]
+        </page>
+    <page>▶
+"Levantar una madriguera no es empresa baladí. Casi todo mi día lo paso
+astillando y apilando madera, y aunque maravillas ante la madriguera
+en sí, bien puedes fruncir el ceño ante el trabajo que la trae al mundo."
+[[-El Almizclero]]
+        </page>
+    <page>▶
+"En todas estas cosas podrás con nosotros tomar parte, mas ten cuidado, pues las nuestras
+son vidas ociosas, y bien pronto puedes cansarte de ellas."
+[[-El Ñu]]
+        </page>
+    <page>▶
+"Klanq resopla hacia ti."
+[[-Pax Klanq]]
+        </page>
+    <page>▶
+"¡Festín de corazones de cabra!"
+[[-Mamon Bebealmas]]
+        </page>
+    <page>▶
+"Ahora Elohart y Belahind yacen en un campo de lah
+porque sus campos pasaron hambre y devoraron crudos a los faundren."
+[[-Canción de cuna de Bey Lah]]
+        </page>
+    <page>▶
+"¡Tú determinas tu valía! ¡La gobiernas y la moldeas con
+tus palabras y tus actos! ¿Vas a revolcarte ahora en tus abyectas limitaciones,
+o vas a enfrentarte a mí con todo lo que tienes?"
+[[-Chef de Carburo Agate Severance Star]]
+        </page>
+    <page>▶
+"Es mi más ferviente deseo que un día se me conozca no como Angohind,
+ratón de biblioteca del pueblo... sino como Angohind, Maestro Detective."
+[[-Angohind]]
+        </page>
+    <page>▶
+"Los árboles crecen mejor junto a los muertos."
+[[-Hija Erinna]]
+        </page>
+  </book>
+  <book ID="CrimeandPunishment" Title="▶{{W|Crimen y castigo}}">
+    <page>▶
+{{emote|*La tinta está desvaída más allá de toda lectura*}}
+    </page>
+  </book>
+  <book ID="MimicandMadpole" Title="▶{{W|El Mimo y el Renacuajo Loco}}">
+    <page>▶
+Un mimo se arrastró desde los gélidos confines sin estrellas de Bethesda Susa para extenderse sobre la hierba de la pradera y calentar sus gomosas escamas al sol del mediodía. Cálidas brisas soplaban por el solitario brezal, y al poco el mimo cayó en un sueño perezoso. Pasaron horas de reposado letargo hasta que lo despertó el cercano susurro de los arbustos. Sus ojos se abrieron ante el semblante de tres ñus de cuernos bifurcados que pacían la hierba de la pradera. Trenzas de cabello castaño manaban de sus testas descomunales mientras masticaban sin prisa la paja de la tierra.
+
+Seducido por su talante lánguido y anhelando compañía, el mimo preguntó a los ñus si podía caminar entre ellos, y pacer de sus pastos, y dormitar con ellos bajo el sol del atardecer. "En todas estas cosas podrás con nosotros tomar parte", dijo un ñu, "mas ten cuidado, pues las nuestras son vidas ociosas, y bien pronto puedes cansarte de ellas".
+
+Pero el mimo se les unió de todos modos. Día tras día se llenó el vientre con la hierba alta, y refrescó sus labios en las apacibles orillas de los arroyos, y rindió su mente perezosa a la tierra del Sueño antes de que se extinguiera la luz del día. Hasta que una mañana, mientras los ñus masticaban con desgana la hierba ablandada por el rocío temprano, el mimo, que en efecto se había cansado de los ociosos hábitos de las bestias, se escabulló por un arroyo parlanchín hasta un soto oscuro de sombra.
+        </page>
+    <page>▶
+Durante el resto del día el mimo siguió el arroyo mientras serpenteaba hacia el bosque. Cuando la última luz cérea empezó a filtrarse del aire, el mimo reparó en varios curiosos amontonamientos de palos y troncos enfangados más adelante, en mitad del parloteante riachuelo. Un almizclero, su pardo pelaje empapado y pegado a su menudo cuerpo, disponía ramitas en torno a la base de uno de los montones. El mimo lo comprendió de inmediato; eran las madrigueras del almizclero, cada una erigida meticulosamente ramita a ramita. Tan impresionado quedó el mimo con aquellas moradas tan bien construidas y con la diligencia del almizclero que preguntó al roedor si compartiría su hogar, y le enseñaría su oficio, y soportaría al mimo mientras este levantaba una madriguera propia. "Levantar una madriguera no es empresa baladí", dijo el almizclero. "Casi todo mi día lo paso astillando y apilando madera, y aunque maravillas ante la madriguera en sí, bien puedes fruncir el ceño ante el trabajo que la trae al mundo".
+
+Pero el mimo se quedó con el almizclero de todos modos. Y a la mañana siguiente despertó con el almizclero al alba, y juntos arrancaron a dentelladas las ramas de los Cipreses de Vino hasta que cayó el manto del atardecer, y luego reunieron toda la madera arrancada y la apelmazaron con barro sacado del lecho del arroyo. Al despuntar de cada día empezaban de nuevo, y no cejaban hasta mucho después del ocaso, cuando el mimo ya no lograba distinguir al almizclero en el soto oscurecido. Hasta que una mañana, mientras el almizclero desgastaba sus dientes en un tronco podrido, el mimo, que en efecto
+        </page>
+    <page>▶
+se había cansado del trabajo que el almizclero le imponía, se escabulló por el arroyo parlanchín, fuera del bosque umbrío y hasta un valle acolchado por las nudosas raíces del salobretallo.
+
+De nuevo el mimo siguió la corriente por el hueco recodo de las estribaciones hasta que vertió sus salobres aguas en un vasto lago. Allí, sobre la orilla descolorida, el mimo contempló el lago y se maravilló ante un cardumen de renacuajos locos mientras restallaban por el agua salina y perseguían a sus presas escamadas. La ferocidad de aquellos cazadores, sin rival en agilidad y saña, embelesó al mimo, y así preguntó a los renacuajos locos si podía zambullirse en sus aguas, y correr con ellos entre las algas, y darse un festín con la carne escamosa de los peces menores. "No, no deberías desear ninguna de estas cosas", dijo un renacuajo loco, "pues somos demonios voraces y a menudo sucumbimos a arrebatos de furia enloquecida".
+
+Pero el mimo se zambulló en el lago de todos modos. Y mientras chapoteaba en el agua, los renacuajos locos, que percibieron en su cercanía carne viva y tierna, se lanzaron hacia el mimo y lo despedazaron miembro a miembro.
+        </page>
+  </book>
+  <book ID="AphorismsAboutBirds" Title="▶{{W|Aforismos sobre los pájaros}}">
+    <page>▶
+Los pájaros no pueden comer arroz que no se sembró.
+      </page>
+    <page>▶
+Criados en la sabiduría de nuestros cuentos de hadas, estamos hechos a compadecer al hombre transformado en rana o pinzón, pero rara vez dedicamos un pensamiento a la simple bestia transformada en hombre, a quien el destino sin duda ha jugado una jugarreta mucho más cruel.
+      </page>
+    <page>▶
+Si te preguntan quién es responsable de tus desdichas, culpa a los pájaros. Ni les importa, ni pueden esgrimir gran defensa.
+      </page>
+    <page>▶
+Que ningún temor crezca en tu corazón tan inmenso como el temor a los pájaros grandes.
+      </page>
+    <page>▶
+Los pájaros arruinan festivales y levantan asedios.
+      </page>
+    <page>▶
+El viejo Uri entornó los ojos y luego asintió ante la propuesta del cuervo resplandeciente de echar una partida de backgammon.
+
+El muchacho se sobresaltó. "¡Pero Uri! ¿Cómo puedes jugar a los dados con esta sabandija después de que uno te sacara un ojo a picotazos?"
+
+Uri se encogió de hombros: "No culpo al cuervo. Iba a picotear, estuviera mi ojo allí o no".
+      </page>
+    <page>▶
+Avistar un vencejo carmesí augura la muerte de un anciano barón del agua.
+
+Un zorzal de plata anuncia una cosecha de fósiles abundante en cromo.
+
+Pero el kagu sin lengua... mantente lejos de un kagu sin lengua. Lejos y más lejos.
+      </page>
+    <page>▶
+Algunos pájaros escupen fuego. Aquí mi sentido es claro.
+      </page>
+    <page>▶
+En lo alto del Huso, adonde van los deudores y los pájaros.
+  </page>
+  </book>
+  <book ID="DarkCalculus" Title="▶{{W|Sobre los orígenes y la naturaleza del Cálculo Oscuro}}">
+    <page>▶{{C|Nota del editor: este pasaje se publica con permiso, a partir de las notas de Barathrum el Viejo.}}
+
+{{y|Hay indicios en el registro aritmético de que el estudio de los sistemas formales alcanzó un cénit pernicioso en el Largo Antaño. Los avances logrados por matemáticos como Russell, Gödel, Eisencruft, Atufu, Wheatgrass y Estrella de Sistema contribuyeron a la comprensión de nociones como la indecidibilidad, el regularismo puntiagudo y el abisalismo. Al alcanzar este grado mínimo de madurez matemática, pertrechados con gramáticas sofisticadas, los investigadores se lanzaron a experimentar con los límites de lo expresable. Idearon audaces programas de investigación y galoparon hacia el bosque matemático, ajenos a los peligros que allí anidan.}}
+
+El registro es aún más escaso de lo habitual, debido a los esfuerzos de generaciones sucesivas por ocultar la empresa. Por lo que alcanzo a reunir, en cierto punto del curso de la indagación, un teórico de un seminario matemático llamado la Cúpula formuló una conjetura sobre la fragilidad de la semántica formal. La conjetura maduró hasta convertirse en una teoría más amplia, de la que brotó un sistema formal llamado el cálculo de la penumbra. En los pocos fragmentos de textos anteriores a la ocultación, se afirma que, en el cálculo de la penumbra, ciertos teoremas son demostrables, pero quedan falsados al completarse sus demostraciones. Por mucho que este resultado choque con los sistemas de pensamiento que he hallado en mis propias indagaciones, encuentro poca razón para dudar de la veracidad de los autores. No obstante, es desde luego una propiedad peculiar.
+
+Los resultados del teórico de la Cúpula desembocaron en una gran investigación sobre lo expresable en el cálculo de la penumbra. Las conclusiones fueron inquietantes. Llevándolo más lejos, los investigadores construyeron sistemas hermanos con axiomas alternativos. Aquellos sistemas eran aún más frágiles, y sus propias reglas de inferencia se deshilachaban al completarse ciertas demostraciones.
+
+Convencidos de que sus descubrimientos los había hecho posibles alguna idiosincrasia de la autoconciencia, pero a la vez temerosos de las implicaciones de sus resultados, algunas escuelas de teóricos diseñaron complejos sistemas de deducción automatizada para sondear teoremas frontera y los lanzaron al interior de estrellas de neutrones. El desenlace no está documentado, pero el resultado convenció a los teóricos de todo el Aquelarre de abandonar la investigación y vetar a cualquiera que estudiase el cálculo de la penumbra y sus sistemas derivados.
+
+Curiosamente, el respaldo a la prohibición fue unánime. Cabe destacar que incluso el plegador del espacio Ptoh accedió a abandonar su investigación de los cálculos prohibidos desde los confines de su sombría estrella. Aunque la forma de su consentimiento no estuvo exenta de controversia; para anunciar su acuerdo, invirtió la carga de color de los quarks en una pequeña región del espacio, provocando que una estación de investigación colapsara sobre sí misma. Con todo, el consentimiento de Ptoh es testimonio del grado de angustia existencial que podía hacer que la investigación del cálculo de la penumbra se sumiera en las tinieblas.
+    </page>
+  </book>
+  <book ID="TornGraphPaper" Title="▶{{W|una hoja de papel cuadriculado rasgada}}">
+    <page>▶
+
+
+
+
+
+                ¿por qué me resulta tan accesible el engaño?</page>
+  </book>
+  <book ID="Animals" Title="▶{{W|Sobre la imitación humanoide de animales y plantas}}">
+    <page>▶¿Por qué algunas criaturas parecen preferir que asumamos su apariencia mientras otras lo aborrecen? Como zoólogo, esta cuestión me ha interesado desde hace tiempo. Para abordarla, debo trazar primero una distinción entre la 'imitación natural', en la que ciertos humanoides han desarrollado apariencias animales y vegetales a nivel biológico, y la 'imitación antinatural', llevada a cabo mediante ropas y otros adornos decorativos. En cuanto a la primera, parece que todas las criaturas muestran afinidad hacia los humanoides que se les parecen en el sentido biológico. La segunda situación es la interesante.
+
+Es tentador trazar la línea divisoria entre mamíferos y no mamíferos, pero la verdad es más complicada. Es cierto que las únicas criaturas que parecen ofenderse abiertamente por la imitación son los mamíferos, pero hay casos documentados de mamíferos que aceptan al imitador. Por ejemplo, los yelmos de cuernos bifurcados hacen que sus portadores caigan en gracia tanto a antílopes como a los cabrunos.
+
+Por el contrario, las ropas de pelo de simio y los chalecos de quitina de puma inflaman a simios y felinos, respectivamente. El detalle importante aquí es el contexto en que se confecciona la prenda. Los cazadores furtivos persiguen a simios y pumas específicamente por su preciado pelaje y sus caparazones quitinosos, y al ser criaturas razonablemente sociales, ambas especies se ofenden ante la exhibición de esos trofeos. Las aves, en cambio, parecen saber que la recolección de plumas puede hacerse (aunque no siempre) sin resultar fatal para el ave en cuestión, si bien otra hipótesis apunta a un aprecio particular de las aves por el plumaje al margen del contexto.
+
+Los reptiles sin caparazón parecen tener pocos reparos con la imitación, quizá por creer que los imitadores son en parte verdaderamente reptiles. Los moluscos, los árboles y los insectos tienden todos a identificarse con quienes portan conchas, con quienes lucen hojas y con quienes viven en simbiosis con luciérnagas, respectivamente.
+
+Sin excepción, no obstante, todas las criaturas parecen detestar la práctica de portar los rostros cercenados de sus semejantes. Curioso.
+      </page>
+  </book>
+  <book ID="EntropytoHierarchy" Title="▶{{W|De la entropía a la jerarquía}}">
+    <page>▶[[~ ~ ~ por {{m|Q Girl}} ~ ~ ~]]
+
+[[{{C|Formulación y ánimo}}]]
+En el curso de mis lecturas y correspondencias, he observado dos amenazas eminentes a la igualdad social. La primera es la disolución del orden social por fuerzas entrópicas. El tejido que nos mantiene unidos se deshilacha y nos desmoronamos, primero los más vulnerables. La segunda es el control hegemónico que unos pocos ejercen sobre los muchos. Aquí el tejido se teje con firmeza, pero se cose en forma de escalera que se estrecha al ascender, y la mayoría queda relegada al peldaño inferior.
+
+Mi primera tarea es preguntar cómo podemos estudiar estos fenómenos. En las ciencias físicas, observamos, medimos y experimentamos para formular y luego poner a prueba hipótesis. Aquí, sin embargo, las observaciones son parciales, los datos más dispersos, y los sistemas en juego mucho más complejos, sus bordes más difusos. Aplicar un alcance de racionalidad de 10x a una estructura de escala de 1000x me llevaría a conclusiones dañinamente reductivas. De hecho, este mismo enfoque lo emplean los poderes hegemónicos para inventar justificaciones fáciles de su dominio.
+
+Así que, en complemento, tomo prestado de otros enfoques y sistemas de pensamiento. En particular, me interesa cómo los artistas examinan estos fenómenos y desafían la ortodoxia mediante metáforas. El registro histórico-artístico está fragmentado, pero plagado de ejemplos. Uno que me llama la atención es el relato de Cielo Rojo, cuya ocurrencia totalmente quetzal fue la primera en aguijonear mi curiosidad sobre el tema.
+
+Según cuenta la historia, toda la corte de un antiguo sultán, incluido el propio sultán, era adicta a una sal psicotrópica llamada Ipsis. Conspirando con una hermandad de contrabandistas, una artista anónima saqueó las reservas de Ipsis del sultán, las alteró molecularmente hasta darles una estructura celular compuesta, y las lanzó a baja órbita. Allí ardió roja en el cielo, una afrenta a la soberanía del sultán, durante tres años. Cada vez que el sultán trataba de dispersarla con los medios a su alcance, la estructura, descrita en el registro como un autómata celular, se reorganizaba y persistía. Quetzal.
+
+También hay abundantes ejemplos modernos. Tómese a Tau, que hace laberintos psiónicos a través de los cristales hexagonales de la Escalera de la Luna. Formulé por primera vez la dicotomía entropía/jerarquía mientras trazaba las trayectorias de dos de sus espirales que, en sus intersecciones, estallaban en un ramillete de anomalías del espacio-tiempo. Quetzalearía si pudiese conocer a Tau, pero quizá resulte difícil, pues tengo entendido que es una subentidad de la ciudad-árbol consciente Chavvah.
+
+[[{{C|Los dos polos}}]]
+Dos grupos tipifican los dos polos de la dicotomía entropía/jerarquía: los espectros del Remolino y los Templarios Putus. El ethos de los espectros del Remolino es la autocomplacencia caótica, la aceleración maníaca (un terco afán de ver las cosas desmoronarse más deprisa) y la fetichización de las tiradas de dados de la historia. Se hinchan como un gas excitado, chocando entre sí tan a menudo como contra cualquier otro, y arrancando jirones de orden a las comunidades que enrancian. Son adalides de la violencia sin sentido.
+
+Los Templarios, por su parte, son ejecutores de una violencia en extremo ordenada. Su brutalidad ha quedado codificada en ortodoxia. Sus estructuras ideológicas son antientrópicas, pero destructivas y aborrecibles. Buscan construir una sociedad rígidamente jerárquica con una casta de esclavos en el peldaño inferior. Mediante rituales como el bautismo en la sangre de los reclamados, adoctrinan a los privilegiados entre sus súbditos. Al resto solo se nos recibe con la fuerza.
+      </page>
+  </book>
+  <book ID="EntropytoHierarchy2" Title="▶{{W|De la entropía a la jerarquía, 2.ª edición}}">
+    <page>▶[[~ ~ ~ por {{m|Q Girl}} ~ ~ ~]]
+
+[[{{C|Formulación y ánimo}}]]
+En el curso de mis lecturas y correspondencias, he observado dos amenazas eminentes a la igualdad social. La primera es la disolución del orden social por fuerzas entrópicas. El tejido que nos mantiene unidos se deshilacha y nos desmoronamos, primero los más vulnerables. La segunda es el control hegemónico que unos pocos ejercen sobre los muchos. Aquí el tejido se teje con firmeza, pero se cose en forma de escalera que se estrecha al ascender, y la mayoría queda relegada al peldaño inferior.
+
+Mi primera tarea es preguntar cómo podemos estudiar estos fenómenos. En las ciencias físicas, observamos, medimos y experimentamos para formular y luego poner a prueba hipótesis. Aquí, sin embargo, las observaciones son parciales, los datos más dispersos, y los sistemas en juego mucho más complejos, sus bordes más difusos. Aplicar un alcance de racionalidad de 10x a una estructura de escala de 1000x me llevaría a conclusiones dañinamente reductivas. De hecho, este mismo enfoque lo emplean los poderes hegemónicos para inventar justificaciones fáciles de su dominio.
+
+Así que, en complemento, tomo prestado de otros enfoques y sistemas de pensamiento. En particular, me interesa cómo los artistas examinan estos fenómenos y desafían la ortodoxia mediante metáforas. El registro histórico-artístico está fragmentado, pero plagado de ejemplos. Uno que me llama la atención es el relato de Cielo Rojo, cuya ocurrencia totalmente quetzal fue la primera en aguijonear mi curiosidad sobre el tema.
+
+Según cuenta la historia, toda la corte de un antiguo sultán, incluido el propio sultán, era adicta a una sal psicotrópica llamada Ipsis. Conspirando con una hermandad de contrabandistas, una artista anónima saqueó las reservas de Ipsis del sultán, las alteró molecularmente hasta darles una estructura celular compuesta, y las lanzó a baja órbita. Allí ardió roja en el cielo, una afrenta a la soberanía del sultán, durante tres años. Cada vez que el sultán trataba de dispersarla con los medios a su alcance, la estructura, descrita en el registro como un autómata celular, se reorganizaba y persistía. Quetzal.
+
+También hay abundantes ejemplos modernos. Tómese a Tau, que hace laberintos psiónicos a través de los cristales hexagonales de la Escalera de la Luna. Formulé por primera vez la dicotomía entropía/jerarquía mientras trazaba las trayectorias de dos de sus espirales que, en sus intersecciones, estallaban en un ramillete de anomalías del espacio-tiempo. Quetzalearía si pudiese conocer a Tau, pero quizá resulte difícil, pues tengo entendido que es una subentidad de la ciudad-árbol consciente Chavvah.
+
+[[{{C|Los dos polos}}]]
+Dos grupos tipifican los dos polos de la dicotomía entropía/jerarquía: los espectros del Remolino y los Templarios Putus. El ethos de los espectros del Remolino es la autocomplacencia caótica, la aceleración maníaca (un terco afán de ver las cosas desmoronarse más deprisa) y la fetichización de las tiradas de dados de la historia. Se hinchan como un gas excitado, chocando entre sí tan a menudo como contra cualquier otro, y arrancando jirones de orden a las comunidades que enrancian. Son adalides de la violencia sin sentido.
+
+Los Templarios, por su parte, son ejecutores de una violencia en extremo ordenada. Su brutalidad ha quedado codificada en ortodoxia. Sus estructuras ideológicas son antientrópicas, pero destructivas y aborrecibles. Buscan construir una sociedad rígidamente jerárquica con una casta de esclavos en el peldaño inferior. Mediante rituales como el bautismo en la sangre de los reclamados, adoctrinan a los privilegiados entre sus súbditos. Al resto solo se nos recibe con la fuerza.</page>
+    <page>▶[[{{C|Erratum sobre los espectros del Remolino}}]]
+Una conversación instructiva con un amigo clasificador de tornillos ha alterado mi plano de visión. Me relató un sueño del Bosque Arcoíris, y mediante una metaforización harto vívida labró un argumento convincente de la muerte como escalera hacia la vida, lo que entre otras consecuencias suavizó mi postura sobre el proyecto de los espectros del Remolino, si tal cosa puede titularse así. ¿En qué punto me hallo ahora con todo ello? No lo sé. Pero mi esquema de los Dos Polos me parece ahora excesivo y reductivo. Dejo el texto original en esta edición, para su consideración.
+  </page>
+  </book>
+  <book ID="DisquisitionOnTheMaladyOfTheMimic" Title="▶{{W|Disquisición sobre el mal del mimo}}">
+    <page>▶[[~ ~ ~ por {{m|Q Girl}} ~ ~ ~]]
+
+Quisiera reproducir una reflexión que compartí hace poco con una amiga, farolera de oficio y artista también, que rehuyó un torneo de tipografía en el festival de Ut yara Ux por un temor en su corazón. Padece el mal del mimo, esa dolencia tan común que nos hace sentir que representamos nuestras vidas en lugar de habitarlas, que no pertenecemos junto a quienes han alcanzado el éxito ni merecemos esos mismos éxitos cuando los logramos nosotros mismos. Yo misma me he contado entre sus víctimas en el pasado, y a veces aún lo hago.
+
+Primero, concédanme un instante. En un estante de mi taller descansa un sencillo artilugio llamado morfoscopio. Se compone de dos partes: una armadura de alambre de aluminio maleable y una base giratoria. Su propósito es comunicar una forma tridimensional desde un plano de visión bidimensional. La armadura puede retorcerse de tal modo que, vista en reposo, parezca una maraña enmarañada de alambre, pero vista en rotación adopta la forma familiar de un objeto, como un pájaro o el semblante de un urshiib.
+
+¿Qué tiene esto que ver con el mal del mimo? Para responderlo, debemos descomponer el mal. Preguntémonos: ¿qué es ser un mimo, aparecer como una cosa pero sentirse como otra? En esencia es un fenómeno de distancia semántica, una sensación del espacio entre lo que percibimos en los demás y lo que percibimos sobre nosotros mismos. Hemos construido una representación de lo que, en el caso de mi amiga, parece una artista y tipógrafa hecha y derecha. ¿Por qué nos cuesta tanto cuadrar esa representación con nuestra propia imagen?
+
+La respuesta yace en la riqueza de nuestra autopercepción. Nos vemos en estéreo, nuestra armadura de alambre moldeada por nuestras experiencias, nuestra autoimagen formada al rotarla en torno al eje del tiempo. Lo que llamamos 'artista' o 'tipógrafa' no es más que una maraña enmarañada de alambre, un patrón desconocido al que damos nombre en ausencia del contexto del movimiento de la vida. Si viéramos a nuestros semejantes en rotación, ganáramos perspectiva sobre sus dudas, sus miedos, su dolor, la maraña de un patrón se disolvería en la forma familiar de una persona. Y a la inversa, si tuviéramos la capacidad de congelar nuestro propio movimiento, de vernos al margen del contexto de nuestra duda, miedo y dolor, veríamos una artista y una tipógrafa, exactamente igual.
+
+Hay una fábula sobre un mimo que busca pertenecer y nunca lo logra, cuya ambición acaba conduciéndolo a un destino atroz. Su moraleja cumple una función ideológica: impedirnos pertenecer allí donde ya pertenecemos. Así que déjame decirte ahora: pertenece, amiga. Te esperamos con alegría.
+      </page>
+  </book>
+  <book ID="Diary" Title="▶{{W|pergamino atado con una brizna de quelpo}}">
+    <page>▶
+[[{{w|9 de Kisu Ux}}]]
+
+Vengo del oeste. Mis padres me vendieron como esclavo siendo un bebé, aunque la práctica se había abolido formalmente en Perth años antes. De niño me curtí en los arrecifes de la Orilla de las Canciones, y arrullaba al Mar Pálido con muchos un himno, para que devolviera intactos a nuestros marineros desde la Escalera Negra. Cómo se arremolinaban las melodías dentro de mi cráneo ya entonces. No me dieron nombre al nacer, pero los marineros me llamaban Catu.
+
+A los quince años huí. En Ettinspine me cobijé con un eremita que me condujo a la hombría. Aprendí a cazar, y a reír, y a soñar. Con el tiempo llegué a saber de la Ciudad Libre y del acceso franqueado a los de mi clase. Zarpé de mi pétreo rincón, y caminé hasta su alta puerta, y allí me asenté, aunque prefería cenar con los pescadores y demás gente humilde.
+
+En una poza calentada por el sol bajo la muralla, el Vidente Libre reparó por primera vez en mí. La inclinación de su cuello desde donde vigilaba en el parapeto presagiaba mis movimientos, aún lo recuerdo. Me alcé de mi baño y, avergonzado, me dirigí a mi chaleco descartado, pero me detuve. Lo vi desde aquella distancia, sus ojos hundidos en su rasurada testa, su hábito tan inerte como el de una estatua, y dejé de sentir vergüenza.
+
+Bajo su tutela ascendí a la prominencia en su corte. Estuve a su lado mientras trataba con los tuyuldar de Odrum, mientras conspiraba contra los señoríos del sur. Cuando un cantor traidor deslizó veneno en su copa, la arranqué de sus manos y deshice la mente del felón. Aquella noche, en la hora de la Luna del Escarabajo, me introdujo en el júbilo de una mente ensamblada. Junto a los demás cantores nos Unimos, y me nombró Jubiloso, y me elevó a su guardia de honor. Habría de ser despojado de ello en menos de un año.
+
+Pero he de detenerme ahora. El Canto arrecia, y el Anciano se acerca. Juro concluir mi historia si aún me queda aliento, y si soy libre.
+
+
+[[{{w|16 de Kisu Ux}}]]
+
+Es el crepúsculo. Me siento en la orilla del Río Svy, pero ningún fuego calienta mis huesos. El riesgo de atraer bestias enamoradas de la luna es demasiado grande, y cualquier agregación de mentes seguro que atraería la atención del Anciano. En su lugar, escribo a la llama encendida en mi pulgar.
+
+Lo dejé al ser nombrado Jubiloso en el Salón del Vidente Libre. No hay honor más alto para un cantor de Oth. Durante meses me entrené con mis enmascarados compañeros bajo el Salón, donde nuestras cisternas de arcilla almacenaban el agua dulce que más tarde habría de poblar mis sueños. En primavera llegó una carta del Rey Pescador. Buscaba un tratado con el Vidente Libre y nos invitaba a un consejo neutral a las puertas de Ibunudr, arbitrado por el tuyuldar de Doria. Tras muchos preparativos partimos, remando nuestras barcas más allá del Cuenco de Iris y hasta las gélidas orillas de aquella lejana tundra.
+
+A lo largo del viaje el talante del Vidente Libre se agrió. Se apartó del consejo de los Jubilosos, incluso del mío, y pasó la mayor parte del invernal trayecto a solas en su tienda. Al principio atribuí su humor a la fragilidad de nuestra posición diplomática, pero pronto supe el verdadero rumbo.
+
+Llegamos al campamento de Ibunudr en el solsticio de verano. Los estandartes gemelos de Athenreach y Doria restallaban al viento, y los himnos de los Eustace-Sutta resonaban. Recuerdo sonreír ante el gutural canturreo de sus sacerdotes. Mientras estudiábamos el campamento desde un altozano, mientras el Vidente Libre se acercaba a mi lado, vi la joya de las Colinas Colgantes, Nisramet, la esposa del Rey Pescador, la que cimentó la paz entre los feudos de su padre y el señorío del Rey Pescador. La vi, y al instante supe mi propia traición. La mirada del Vidente Libre fue reconocimiento suficiente.
+
+[[{{w|2 de Tebet Ux}}]]
+
+He llegado a Kyakukya. El amable Nuntu comparte conmigo su choza, me ofrece seta ahumada, y nada pide a cambio. Escribo estas palabras en su escritorio, y aunque él mismo anhela el conocimiento, me deja a solas para crónicar mi pasado.
+
+La campaña de regreso hacia Oth fue sombría. Aguardaba mi destino a manos del Vidente Libre, aunque esperaba que se me concediera la dignidad de regresar primero al Salón y a mi hogar. No se me otorgó tanto. Una noche lúgubre, bajo la Luna del Escarabajo, fui asaltado en mi tienda por mis hermanos enmascarados. Para mi desconcierto, el Acerado había llegado ya. ¿Cómo había adquirido el Vidente Libre los cherrydotters? ¿Había negociado por ellos en Ibunudr, o los había poseído desde el principio? Hasta el día de hoy no lo sé.
+
+Poco recuerdo del Acerado salvo el latido de mi propio corazón retumbando en mis oídos. Me desmayé, y cuando desperté a la mañana siguiente, la cabalgata había desaparecido. Solo un instante duró mi lucidez antes de que el cántico en mi cabeza tomara las riendas. Ya lo había oído antes, por supuesto. Toda mi vida, de hecho. Era el cántico en torno al que tejía mis melodías en las orillas de Perth siendo un niño. Ahora, no obstante, era como si un único y lejano cantor hubiera convocado a un millar de los suyos, y cada uno de ellos a otro millar de los propios. Lloré, luego grité, luego me arranqué el pelo de la cabeza. El cántico animaba mis huesos con más certeza que mi voluntad jamás lo había hecho. Al este y al sur, urgía. Al este y al sur. Al este y al sur. Hacia Qud.
+
+Mi recuerdo del viaje al Gran Desierto de Sal es fracturado y febril. Enfermaba más con cada día, pero el cántico crecía, y así se aceleraba la fuerza que me empujaba. Sin duda moriría al alcanzar las llanuras sin humedad de Moghra'yi, presumiblemente como les había ocurrido a mis predecesores. Al fin las alcancé, donde un riachuelo revuelto de sal se secaba bajo un arco dorado. El arco parece cosa nacida de mi demencia, salvo que lo recuerdo con tal viveza, y que sé que es el menor de los secretos guardados por Moghra'yi.
+
+
+[[{{w|24 de Tebet Ux}}]]
+
+Me acerco más a la arboleda de hongos y a su descabellada promesa. ¿Son ciertos los susurros? ¿Podría ser todo tan sencillo? Siento la humedad de la carne del Devorador en mis labios, aunque el recuerdo es sin duda de otro. Si la salvación me aguarda, prometo tomarla, la merezca o no. Esta noche, sin embargo, la jungla me arropa. Me siento bajo un campanario de cromo, una sanguijuela amasando mi piel. No siento impulso de impedir su labor. La compañía es bienvenida.
+
+Ahora a despertar el pasado una vez más. Moghra'yi. ¡Oh, cómo lo saben los dromad!
+
+¿Cómo sobreviví al Gran Desierto? No sabría decirlo a ciencia cierta. Algo debo a las canciones que cantaba en Perth, a la cetrería que aprendí en Ettinspine, al temple de mi tendón forjado bajo Oth. El sueño fracturado que fue mi viaje ofrece poca elucidación. Pero sí recuerdo masticar sal, y convocar ráfagas de viento para sorber la humedad del aire muerto.
+
+De todos los recuerdos partidos que se agitan en mi cabeza, Moghra'yi solo da para tres coherentes. El primero es una visión de ruina en la fabulada Kubrisyeti, sede del imperio de los Wrathchild. Extendidas por la llanura de alabastro estaban las últimas de sus malvadas estructuras, efigies derribadas de los propios escorpiones-hombre. Reposé allí, contra mi voluntad y solo por agotamiento. Fijado en el cielo nocturno por el miedo y la fatiga, oí los ecos de los pasos de un gran saltarrocas. Hasta esos colosos saben evitar el lugar.
+
+El segundo recuerdo es la presencia de los gigantes. Esqueletos colosales con formas de humanoides salpican el desierto. Había oído los relatos antes, y de hecho algunos de los especímenes se extienden tan al norte como Odrum. Su historia nos es del todo desconocida, a nosotros y a cualquiera, pero sus huesos brindan una de las pocas sombras de los salares, y así llegaron a ser visiones bienvenidas. Por eso fue con horror que discerní una verdad, una noche, acurrucado en la caja torácica de uno de tres cadáveres cercanos. Veréis, todas las osamentas compartían algo en común: su orientación. Al este y al sur. Al este y al sur.
+
+El tercer recuerdo es el óxido. Cascos oxidados y agujas oxidadas. Me llevó semanas comprender lo que contemplaba. Pues toda mi niñez estuvo plagada de barcas y navíos, pero ninguno de este tamaño. Imaginé qué aspecto debió de tener el pasado, por poco sentido que tuviera para mí. Moghra'yi como un vasto mar, y monstruosos navíos cabalgando sus olas. Las marcas y grabados de sus cascos no tenían resonancia para mí entonces. Más tarde, no obstante, reconocí la figura del Huso, y vislumbré la importancia que tenía para aquellos Devoradores marinos.
+
+Cuando me desplomé al suelo y me incorporó un hombre de piel parda con un cuchillo, un gato luminoso a sus pies, supe que era un sueño. Tenía que ser un sueño.
+
+
+[[{{w|1 de Shwut Ux}}]]
+
+Debo mi vida a =SEEKERENEMY=. En mi prisa por alcanzar la arboleda fúngica, di un mal paso. Mi mente errante y flotante se cegó a la presencia de una elegida. Se me acercó, decidida a envolverme de nuevo en el redil, pero la interceptó =SEEKERENEMY=. Con qué propósito intercedió no lo sé, pero tiene mi gratitud. Así habrá de tener la ira del Anciano.
+
+Llego ahora a Qud y a los Buscadores de la Senda Sin Vista. El cántico se compendió en mi cráneo en un éxtasis final, en el que me uní a una mente agregada de una índole que no había imaginado. Estaba preparado para ello, no obstante. Desde mi primera unión en Ettinspine hace ya tantos años, hasta el Rito del Júbilo apadrinado por el Vidente Libre, supe que la vista no nos guía más que la sal. Hay éxtasis en lo agregado, en efecto, y el Anciano es un centro tan poderoso como cualquiera que haya conocido. Pero centro sigue siendo, y donde hay un centro, hay una jerarquía.
+
+¿Qué fragmento de mi pasado me dotó de la sabiduría para ver a través del engaño? ¿Fue el recuerdo de niño de las olas rompientes en la Orilla de las Canciones, evocado luego en mi visión en Moghra'yi? ¿Fueron los celos en los ojos del Vidente Libre en Ibunudr? ¿O fue un mero pliegue en la mente colectiva, sin deber nada a mi propia lucha? No sabría decirlo, pero mientras los demás cantores entonaban sus canciones para debilitar la prisión del Anciano, esclavos ignorantes de una mente mayor, yo escapé.
+
+El Anciano... no, Ptoh. Escribo el nombre en desafío a mi cautiverio, aun a riesgo de lo que acarrea. Ptoh nada supo al principio, pero mi ausencia despuntó con el tiempo. La continuidad se rompió, y Ptoh envió agentes a apresarme. Incluso ahora, se acercan.
+
+[[{{w|Los Idus de Shwut Ux}}]]
+
+Es demasiado tarde. Aunque me siente cerca de una corriente de sopa primigenia, aunque nubes de esporas me rodeen, es demasiado tarde. Mi invocación del nombre de Ptoh fijó mi posición y trayectoria. La carne del Devorador es mía ahora, pero los Elegidos llegarán en forma corpórea demasiado pronto. ¿Habría podido vivir al margen de lo agregado por mucho tiempo, en cualquier caso? No lo sé. La soledad me consume tanto como mi huida. Me queda una última escisión que realizar. Una escisión. El recuerdo de una vida lejana, un sueño perdido, se apodera de mí. Escindo la mente de un enemigo para proteger a una amante.
+      </page>
+  </book>
+  <book ID="Corpus" Title="▶{{W|Corpus Choliys}}">
+    <page>▶[[{{W|Nota al lector}}]]
+
+A menudo se dice que la cura de una plaga es también su causa. Aunque hay verdad en la máxima, he hallado que se complementa bien con un enfoque más amplio y sistemático del tratamiento. Lo que sigue es un registro de afecciones conocidas, sus síntomas y remedios, que he compilado a partir de los apuntes y notas personales que redacté durante mis cuarenta años de servicio como médico y boticario de la granja de Kardis. El abad Urium del vecino Monasterio del Ilustre Corazón de Cromo ha accedido a instruir a los monjes del escritorio para que reproduzcan este texto para la posteridad; el lector que halle utilidad en estas notas está en deuda con él.
+
+[[Beniyayut Iym]]
+
+[[Kardis, 56 AC]]
+        </page>
+    <page>▶[[{{W|Sobre la Pierna de Hierro}}]]
+
+Los huesos de las piernas de los pacientes aquejados de esta enfermedad de origen desconocido permanecen en un estado de calcificación perpetua. El paciente afligido se quejará de dolor en las articulaciones y movilidad restringida a medida que se acelera el ritmo de crecimiento óseo. Una vez desatada por completo la enfermedad, los huesos se endurecerán y crecerán a ritmo avanzado. El paciente sin tratar sufrirá una movilidad cada vez más restringida hasta que los huesos se fusionen en las articulaciones de la cadera, la rodilla y el tobillo, y el paciente quede inmovilizado. Este proceso lleva entre una y dos semanas.
+
+La Pierna de Hierro puede suprimirse en sus fases tempranas con remedios comunes como el yuckwheat o la miel, aunque los elixires más potentes de los Devoradores son preferibles donde se hallen disponibles. Una vez desatada por completo la enfermedad y empezada la pérdida de movilidad, el gel (hecho de baba de ameba desalinizada) es el único tratamiento eficaz que he descubierto. Al paciente se le debe administrar un brebaje compuesto de una dracma de gel y una dracma de =IS1= cada día, hasta que las articulaciones de las piernas recobren su pleno arco de movimiento.
+        </page>
+    <page>▶[[{{W|Sobre el Monocromo}}]]
+
+Portado por el escarabajo adiyy del bosquecillo de musa a la sombra del Huso, el monocromo es una afección del ojo que vuelve al enfermo incapaz de ver el color. Su inicio se caracteriza por la nubosidad de la visión a lo largo de varios días, seguida de la pérdida completa de la percepción cromática.
+
+La miel y el yuckwheat resultan a veces eficaces para detener la ceguera al color. Para curar la afección una vez perdida la visión del color, sin embargo, el paciente debe ingerir una dracma de =MC1= sin adulterar y, acto seguido, exponerse de inmediato a la detonación de una granada cegadora. De algún modo, el efecto de revoltura visual reinicia los perceptores de la víctima, y la visión del color se restaura.
+
+[[{{W|Sobre la Fiebre del Rey de la Luna}}]]
+
+Esta es probablemente la más extraña de las afecciones que he encontrado en mis cuarenta años como médico. La Fiebre del Rey de la Luna es un trastorno cerebral caracterizado por la creencia inquebrantable de que la víctima es el rey de la luna. Los doce pacientes afligidos a quienes he tratado experimentaron síntomas idénticos: fiebre abrasadora y los consiguientes sueños febriles con la luna, seguidos de expresiones faciales hiperemotivas, delirios de grandeza y un desprecio por la propia supervivencia.
+
+No hay tratamientos conocidos para la Fiebre del Rey de la Luna. El pronóstico es la locura seguida de una muerte inducida por una "gloriosa proeza".
+
+[[{{W|Sobre la Lenguarroña}}]]
+
+La Lenguarroña es una afección caracterizada por la necrosis de la lengua. A juzgar por las pruebas reunidas de los relatos de mis pacientes, sitúo el origen de la enfermedad en la caverna de Golgotha, donde lo más probable es que las víctimas la contrajeran del pútrido engendro de Agolgot.
+
+El paciente afligido se quejará de dolor de garganta a medida que el tejido de la lengua empieza a hincharse. En el lapso de una semana, el músculo se ablandará y empezará a descomponerse. El paciente experimentará un dolor intenso al ingerir comida o bebida y puede irritar lo que queda del tejido crudo y vivo, haciendo que la boca sangre. En los días siguientes, la lengua se pudrirá por entero, dejando al paciente incapaz de hablar.
+
+Los remedios comunes (yuckwheat, miel) resultan a veces eficaces para revertir la necrosis si se administran en sus fases tempranas. Una vez podrida la lengua por completo, solo el escaso tónico de ubernostrum la hará retoñar. Sin embargo, limitarse a inyectar el tónico solo hará retoñar la lengua, que procederá a pudrirse de nuevo. El paciente debe primero ingerir una poción llamada la Asquerosidad Flameante: una parte de =GR1=, una parte de =GR2=, tres partes de =GR3=, y bebida de un recipiente en llamas. Una vez purgada la boca del paciente de la enfermedad de este modo, puede administrarse el tónico de ubernostrum.
+
+[[{{W|Sobre las infecciones fúngicas}}]]
+
+He observado varias variedades de infecciones fúngicas simbióticas en pacientes que habían entrado en contacto con las esporas de los infladores criadores. Por suerte, los infladores parecen prosperar solo en la densa colonia fúngica de la jungla oriental y en el ocasional bioma rico en hongos. Las características de cada infección difieren, pero todos los tipos de hongos simbióticos colonizan una región del cuerpo del afligido. La colonización tarda de dos a tres días en completarse, durante los cuales el paciente puede referir picor en la piel. La deformación y la sensibilidad resultantes una vez que la afección se desata por completo tienden a impedir vestir ropa en la región afligida.
+
+[[{{w|Branquia Veleidosa}}]]
+
+En casos de branquia veleidosa, la infección culmina en la formación de branquias carnosas y portadoras de esporas en la región colonizada. Ante ciertos estímulos, típicamente bajo daño corporal, las branquias se flexionan y liberan una nube de esporas, que se cuentan por millares, que llueve sobre las partes adyacentes, protegiendo en apariencia a su hospedador. Las esporas vertidas colonizan a su vez a sus nuevos hospedadores, situando a esta enfermedad entre las más contagiosas.
+
+[[{{w|Costra Luminosa}}]]
+
+La aparición de gélidos nódulos luminosos caracteriza a esta colonia. Como siempre ocurre con la simbiosis, el hongo parece 'beneficiar' a su portador endureciéndole la piel y brindándole cierta protección frente a los elementos. Algunos pacientes refieren placer al consumir las setas escarchadas comestibles que brotan de su piel; los relatos varían según las personalidades de los afligidos.
+
+[[{{w|Boca Mascullante}}]]
+
+La colonia de filamentos bermellón parece incubar un tejido vivo que recuerda a labios humanos. Los labios se emparejan para formar diminutas 'bocas' que teselan la región infectada. Un esputo similar a la saliva se bate desde la base dérmica y forma burbujas que estallan cuando los labios se contraen y fruncen. Cada par de labios convulsos se flagela mutuamente para producir una especie de musitar parecido al habla. Aún más curiosamente, el masculleo a lo largo del cúmulo de bocas se cohesiona de cuando en cuando en palabras y frases inteligibles, lo que sugiere que la colonia es capaz de reproducir sonidos a partir de una memoria colectiva.
+
+[[{{w|Cera Flácida}}]]
+
+Esta especie de hongo segrega una cera grasa que se seca formando una funda protectora. Si bien aísla al apéndice enfundado del daño físico y de la corriente eléctrica, los pacientes refieren tiempos de respuesta perezosos, y la carne infectada es susceptible de licuarse al calentarse. De hecho, el calor corporal habitual tiende a fundir las capas internas de la funda, atrapando unas pocas dracmas de cera fundida entre la piel y la cubierta. De cuando en cuando, este caldo lechoso rezuma de la funda y cae al suelo.
+
+El régimen de tratamiento para todas las infecciones fúngicas es el mismo. Primero, ha de prepararse una crema antifúngica a partir de gel (baba desalinizada) y =FCL=. El paciente consume luego un =FCC= crudo para estimular la inmunidad intestinal. En las dos horas siguientes a ingerir el cadáver, usa un pulverizador para aplicar una dracma del preparado sobre la piel infectada.
+  </page>
+  </book>
+  <book ID="BloodstainedSheaf" Title="▶{{W|Un pliego de pergamino de piel de cabra, manchado de sangre}}">
+    <page>▶
+{{r|Ahora me confiero a mí mismo la soberanía sobre el artificio del lenguaje, para que
+el Otro pueda ver la senda por la que conduzco a mis siervos.
+
+¡Hacia Amaranto! ¡Oh, Ciudad Imperecedera! De donde mis hijos de pezuña hendida sueñan
+su propio nacimiento.
+
+¡Oíd a Mamon! ¡Su benéfico Padre! El forjado de la materia de su propio sueño.
+
+Amarantino Mamon. Amarantino Padre. Amarantino sueño.
+
+{{K|divagaciones inescrutables
+divagaciones inescrutables
+divagaciones inescrutables
+divagaciones inescrutables}}
+
+¡Mas festín de corazones de cabra!}}
+        </page>
+  </book>
+  <book ID="Sheaf1" Title="▶{{W|Un pliego de pergamino hecho jirones}}">
+    <page>▶
+[[20 togs]]
+
+Telarañas por doquier. Sonido de agua corriendo abajo. Marcas de garritas diminutas en el suelo de esquisto. ¿Ave cavernícola enana extinta? Sin jaspe.
+[[__________________________________________________________________________]]
+
+[[40 togs]]
+
+¡Mordedura de araña! Tiré la mitad de mis obleas al barro. ¿El viejo Uri riéndose? Sin jaspe.
+[[__________________________________________________________________________]]
+
+[[60(?) togs]]
+
+Otro par de mocasines arruinados. El río está cerca. Cavé hasta el agotamiento. Sin jaspe.</page>
+    <page>▶[[?? togs]]
+
+Calado hasta los huesos. Cofre vacío. No es mi día. Sin jaspe.
+
+
+[[__________________________________________________________________________]]
+
+[[????]]
+
+¡Perdido! ¿Huevos de cangrejo? Extraño ruido de pasos correteantes. SIN JASPE.</page>
+  </book>
+  <book ID="Lives1" Title="▶{{W|Vidas frívolas, vol. I}}">
+    <page>▶
+Vidas frívolas: Siendo el Primer Catálogo de Reyes Humanoides por el Tejotario Baccata, Volumen I
+
+[[{{C|Prefacio}}]]
+Este registro se nutre de las notas y relatos de los miembros del Consorcio de Phyta, de habladurías de quienes observaron las fútiles vidas de los reyes humanoides, y de anécdotas personales de los propios reyes, quienes en sus afanes por seguir siendo relevantes más allá de sus vidas, breves como las de un retoño, lograron registrar algunos datos útiles.
+
+Por convención, dato los reinados de los reyes humanoides según su distancia cronológica de un acontecimiento de máxima trascendencia histórica, a saber, la publicación de estos volúmenes. Por consiguiente, entiéndase mi notación sufijal, escrita tras las fechas entre paréntesis, como indicadora de que su acaecimiento fue "anterior [a la] publicación".
+
+[[{{C|La Edad Dispersa (¿¿¿ - 100? AP)}}]]
+Durante este período de la prehistoria humanoide, las grandes entidades Girsh vagaban por el Qud Exterior y las comunidades humanoides estaban en gran medida aisladas. Los registros del Consorcio anteceden al fin de la Edad Dispersa; sin embargo, son dispares en sus afirmaciones y a fin de cuentas poco fiables; la escasez de erudición del período es
+        </page>
+    <page>▶
+probablemente fruto de tradiciones derivadas del desprecio de Hegelrut por los útiles de escritura.
+
+[[{{C|Abram I, (100? - 97? AP)}}]]
+El primer humanoide en unir con éxito las granjas del oeste de Qud fue Abram, llamado el Sembrador. Según la tradición de los descendientes de Abram (a quienes el Consorcio ha optado por no sacar de su engaño), la llamada a las armas de Abram congregó a sus parientes y, bajo su soberanía, empujaron a las grandes entidades Girsh bajo la superficie, a las profundidades del Qud Interior donde ahora anidan. A continuación vinieron dos o tres décadas de júbilo y prosperidad que duraron hasta el día en que Abram, desencantado por el creciente tumulto entre sus hijos en la cuestión de la sucesión, célebremente trocó su espada en reja de arado y disolvió su reino.
+        </page>
+    <page>▶
+
+[[{{C|Sin reinado, (97? - 96? AP)}}]]
+Los años que siguieron a la disolución de Abram estuvieron marcados por el miedo, la turbulencia y el derramamiento de sangre. Sus hijos pugnaron con fiereza por el control de las granjas mientras los barones del agua conspiraban contra ellos y en algunos casos reclamaban sus propias parcelas. Al fin, en algún momento entre el 970 y el 960 AP, Abram reconoció la futilidad de la perspectiva de paz sin su providencia y regresó al trono con su espada en mano.
+        </page>
+    <page>▶
+[[{{C|Abram I, (96? - 954 AP)}}]]
+Por desgracia para el rey reacio, su segundo reinado resultó mucho menos auspicioso que el primero. Los celos entre sus hijos nunca murieron, y el poco registro que queda del período indica que Abram pasó los años que le restaban de vida angustiado por lo que su gobierno había desencadenado.
+
+[[{{C|Cairo I, Edom, Emir, Own I (954 - 946 AP)}}]]
+Habiendo nunca nombrado heredero en público, Abram dejó su reino a los designios de sus intrigantes hijos. No se alcanzó consenso entre ellos, y durante ocho años los hermanos guerrearon hasta que Cairo I logró consolidar el poder y arrancar el reino de su padre de las manos sin vida de sus hermanos.
+
+[[{{C|Cairo I (946 - 925 AP)}}]]
+Pese a su desinterés por el amor fraternal, Cairo I fue un estadista capaz y un líder eficaz. A lo largo de su reinado de veintiún años, repelió a los bárbaros montañeses que asolaban Qud desde el norte, estableció relaciones comerciales con Chavvah, el Árbol de la Vida en Eyn Roj, y renovó dos de las relucientes arcadas del sur de Qud. Murió de viejo en el 925 AP y legó el trono a su hijo Cairo II.
+        </page>
+    <page>▶
+[[{{C|Cairo II (925 - 919 AP)}}]]
+Cairo II resultó no parecerse en nada a su prodigioso padre. En el transcurso de seis breves años despojó el reino de su abuelo. Ignorando el consejo de sus consejeros, insistió en imponer duros tributos a un joven Barathrum y a sus discípulos manitas, y en poco tiempo los urshiib rompieron sus lazos con el Reino de Qud y dejaron a Cairo sin acceso a los artefactos que necesitaba para proteger a su pueblo. Es más, fue un derrochador de renombre; pasó el año entero del 922 AP en un baño de agua dulce que ordenó a sus sirvientes rellenar sin cesar. Por último, y de la forma más flagrante, incurrió en el disfavor del Consorcio al humillar a dos de sus dignatarios, que eran visitantes de su corte, ordenándoles posar inmóviles durante varias horas mientras él celebraba su festín otoñal. Por suerte, fue asesinado en el 919 AP.
+
+[[{{C|Sin reinado (919 - 889 AP)}}]]
+Tras el desastre del reinado de Cairo II, Qud se hundió en uno de varios períodos oscuros de gobierno desarticulado. Por los pocos datos del período que sobreviven, observamos que la vida transcurrió en gran medida como lo había hecho en los días anteriores a Abram; los agricultores de humedad chupaban la tierra hasta secarla, los terratenientes protegían a sus siervos, y los chiflados perseguían sus fortunas en los innumerables corredores de cromo del Qud Interior.
+        </page>
+    <page>▶
+[[{{C|K4K5, (889 - 873 AP)}}]]
+Dadas las circunstancias del reinado de Cairo II y las décadas de tribulación que siguieron, podemos formarnos cierta comprensión de por qué los habitantes humanoides de Qud se aglutinarían en torno a un rey robot. Poco se sabe de la vida de K4K5 anterior a su ascenso regio, pero se cree que emergió de la caverna llamada Siloam en algún momento de la edad oscura. En sus súbditos humanoides suponemos que halló un propósito a su vida hasta entonces caprichosa, y en él sus súbditos hallaron un gobernante amable y afable que unificó granjas y asentamientos mineros que llevaban treinta años distanciados. Al final, no obstante, ni siquiera K4K5 pudo escapar de la mortalidad, y en el 873 AP sucumbió a un grave acceso de oxidación fulminante. Antes de perecer, sin embargo, nombró a su pupilo, Mehmet de las Colinas, como su heredero. La primera orden del día de Mehmet al tomar el trono fue honrar a su predecesor con el encargo de una estatua monumental que aún hoy se yergue en las junglas del nordeste, cerca del Monte de los Olivos.
+
+[[{{C|Mehmet I (873 - 844 AP)}}]]
+Dotado de la infatigable paciencia de su mentor y de un singular anhelo de mejorar las vidas de sus súbditos, Mehmet I logró preservar el orden en Qud durante casi treinta años. Se benefició de una auspiciosa calma en las actividades reproductivas de las entidades Girsh,
+        </page>
+    <page>▶
+y no desperdició nada del tiempo que el destino le había concedido. De los años 871 al 866 AP despachó emisarios al gran desierto de sal Moghra'yi. Cientos de qudianos perecieron a manos de las tribus nómadas, expiraron por agotamiento por calor, o encontraron suertes aún peores, hasta que en el 866 AP un emisario anónimo entró en contacto con los mercaderes dromad. Los dromad, que habían creído a los habitantes de Qud demasiado bárbaros para el comercio y habían desdeñado la región durante siglos, empezaron al fin a incluir a Qud en sus travesías por el mundo (Estas visitas cesaron de golpe cuando el sucesor de Mehmet, Uutut el Zafio, masacró la primera caravana dromad en llegar tras el comienzo de su reinado, pero el precedente para las relaciones comerciales quedó establecido de todos modos).
+
+En lo doméstico, Mehmet I se propuso construir la primera Biblioteca de Qud en las junglas del sur lejano, pero sus esfuerzos se vieron truncados por las invasiones bárbaras del 850 AP. El apacible rey pasó los seis años que le restaban de vida repeliendo las incursiones de los bárbaros por el Monte de los Olivos, pero no era diestro en las artes de la guerra, y en el 844 AP el rey bárbaro Uutut saqueó Morshershire, decapitó a Mehmet y tomó el trono.
+        </page>
+    <page>▶
+[[{{C|Uutut el Zafio (845 - 838 AP)}}]]
+Tras el regicidio de Mehmet I, Qud heredó a su primer gobernante de origen extranjero. Algunos sostienen que la crianza es la madre de la cortesía, y que, dotado de la debida tutela, cualquiera puede llegar a cultivar el dominio de sí de un caballero como Dios manda. En Uutut el Zafio observamos esta hipótesis refutada. Al instalarse en su recién arrasada capital de Morshershire, Uutut nombró a varios aristócratas locales para puestos de poder en su corte. Para fin de año, los había masacrado a todos. En cada recodo del laberinto de la diplomacia en que Uutut se hallaba, eligió en cambio derribar los muros a golpes. Esta doctrina de carnicería le sirvió de hecho bien durante varios años; los barones del agua de sangre azul lo aterrorizaban, los reyes de sus clanes bárbaros rivales se contentaban con saquear las afueras de Qud, e incluso los Hijos del Hombre se mantenían aparte en su fortaleza de Oudin. Con todo su poderío zafio, sin embargo, no era inmune al gas venenoso. Fue con este conocimiento que Wysterwort DCXLVIII logró ganar el trono e inaugurar la primera (y única) dinastía vegetal en la historia de Qud.
+        </page>
+    <page>▶
+[[{{C|Wysterwort DCXLVIII (838 - 833 AP)}}]]
+Al oír la noticia de la muerte del rey, los adversarios políticos de Uutut aclamaron a Wysterwort como héroe. Pronto salieron de su engaño. Mientras que Uutut era célebre por vencer a cualquiera que se le opusiera, Wysterwort no se molestaba en reconocer esa distinción. Quienes sí sobrevivían a las veleidosas expulsiones de gas letal del rey-planta se hallaban sujetos a leyes harto extrañas. Por ejemplo, en el 837 AP, Wysterwort decretó que los bebés humanoides habían de amamantarse con vino en lugar de con la leche de sus madres. Al año siguiente, encargó a un juglar componer una obra musical. Tan deleitado quedó el rey-planta con el resultado que ordenó a todos sus súbditos aprender los diversos papeles de la obra y representarla por turnos cada noche en sus respectivas aldeas. Durante los cinco años de su reinado, las excentricidades de Wysterwort se toleraron sobre un trasfondo de hambruna, enfermedad y gas venenoso. En el invierno del 833 AP, y por razones sin documentar, la consumada hierba cayó en una profunda depresión, y antes de pasado el solsticio de invierno se estranguló a sí mismo. Le sobrevivió su heredero Wysterwort DCXLIX.
+        </page>
+    <page>▶
+Wysterwort aseveró que la historia lo juzgaría con benevolencia, y así ha sido. Aunque es cierto que más gente pereció bajo su reinado que bajo el de cualquiera de sus predecesores, y que logró muy poco de valor histórico duradero, solo cabe imaginar cuán desagradable debe de ser vivir en tan estrecha proximidad con tantos humanoides durante tanto tiempo. En verdad, es asombroso que el pobre rey no se quitara la vida antes.
+
+[[{{C|Wysterwort DCXLIX (833 - 833 AP)}}]]
+Wysterwort DCXLIX no albergaba interés alguno en gobernar un reino humanoide, y abdicó apenas unas horas después de heredar el trono.
+
+[[{{C|Sin reinado (833 - 787 AP)}}]]
+Este período de sesenta años de anarquía fue particularmente arduo para los habitantes de las cuevas de óxido. La estela de la dinastía Wysterwort no había dejado humanoide apto para el gobierno, Qud fue azotada durante décadas por torrenciales tormentas de cristal alimentadas por los vientos del oeste procedentes de Moghra'yi, y los girshling brotaron en enormes cantidades de las guaridas de sus madres. No fue hasta que Abram II, como su homónimo antes que él, congregó a sus compatriotas y se propuso rechazar la horda de girshling en el 787 AP que Qud se reunificó en una sola. Con la historia de aquel rey malhadado da comienzo el segundo volumen de mi crónica.
+        </page>
+  </book>
+  <book ID="Across1" Title="▶{{W|A través de Moghra'yi, vol. I: Los Escindidos}}">
+    <page>▶
+A través de Moghra'yi: Siendo el Primer Catálogo de Civilizaciones Extrañas más allá del Gran Desierto de Sal por el Tejotario Baccata, Volumen I: Los Escindidos
+
+[[{{C|Prefacio}}]]
+Obvia y desafortunadamente, no hay fuentes primarias disponibles de estas tierras lejanas. Buena parte de este registro se nutre de los relatos referidos por hongos que cruzaron Moghra'yi a lomos de mercaderes dromad.
+
+Por convención, dato todos los acontecimientos según su distancia cronológica de un acontecimiento de máxima trascendencia histórica, a saber, la publicación de estos volúmenes. Por consiguiente, nótese que las fechas entre paréntesis de los acontecimientos indican su acaecimiento "anterior [a la] publicación".
+
+[[{{C|Los Escindidos}}]]
+Los Escindidos son un complejo laberíntico de imponentes riscos "escindidos" que se extiende al noroeste de Moghra'yi, el Gran Desierto de Sal, y al suroeste del manto de hielo de Ibul. Las paredes de sus cañones están salpicadas de innumerables bocas de cueva, dando la impresión de colosales panales terrenales. Estas cuevas fueron las guaridas de pueblos antiguos a medida que sus civilizaciones seguían la línea de agua en retirada hacia abajo, hacia las vaciadas
+        </page>
+    <page>▶
+gargantas. Ahora por esas gargantas solo corren ríos someros. A lo largo de los últimos doscientos años, clanes de moradores de cuevas han empezado a congregarse en mayor número entre las cuevas-panal y a formar ciudades-estado llamadas señoríos.
+
+[[{{C|Geografía e historia}}]]
+Las olas del Mar Pálido rompen en los riscos occidentales de los Escindidos en la Orilla de las Canciones, llamada así por las melodías que las cuevas-panal silban cuando soplan los vientos marinos. Se extienden al norte y al este, trepando hacia el cielo a lo largo de los Aeschlays coronados de hielo. Al este, retroceden hacia Whitecomb en el Cuenco de Iris: el puente a Aegansteppe. Al lejano este se alzan de nuevo hacia las Colinas Colgantes y la tierra llamada Odrum. Los cañones-panal se secan al discurrir hacia el sur, hacia el Gran Desierto de Sal, aunque los más occidentales vierten su agua en las Marismas Pálidas.
+
+Hace varios milenios, los migrantes que siguieron la línea de agua en retirada hacia la futura cuenca desértica fueron en gran medida exterminados por el comienzo de la era glacial. La mayoría de los clanes perecieron; los que sobrevivieron fueron empujados a lo profundo de las cuevas-panal sin luz, donde los últimos vestigios de la tecnología calentaban la tierra resguardada. Los Escindidos quedaron desprovistos de vida superior durante los siglos más fríos: gusanos gigantes, envainados en hielo,
+        </page>
+    <page>▶
+surcaban su camino por las cuevas heladas y rocs lanudos hacían sus nidos en lo alto de los picos nevados, pero lo que quedaba del hombre no emergió en miles de años.
+
+Un milenio después de que los últimos pueblos fueran empujados bajo tierra, en el apogeo del imperio de los Wrathchild en el gran desierto de sal del sur llamado Moghra'yi, una raza de seres conocida como los Ofedianos migró al norte desde su ciudad desértica hacia los Escindidos. Allí escaparon del alcance de los kuyeti, los monstruosos escorpiones-hombre cuyo imperio abarcaba el gran desierto. Los Ofedianos estaban dotados con el don de la orfebrería del oro, y a lo largo de su reinado de cuatro mil años sobre los Escindidos forjaron cientos de agujas y puentes de oro macizo. Hacia el 1800 AP desaparecieron de súbito, quizá a causa del clima en calentamiento, al que habían perdido su adaptación por los años pasados en las tierras más frías del norte. A medida que la tierra se calentaba, un pueblo primitivo emergió de sus recovecos cavernosos. Treparon por los panales nevados y poblaron las cuevas superiores. Según sus mitos, estas nuevas gentes hicieron juramentos a los dioses sin nombre que habían calentado la tierra para el regreso de sus hijos a la superficie. Así nacieron los clanes de la gente verdadera.
+        </page>
+    <page>▶
+[[{{C|Clanes de la gente verdadera}}]]
+
+Según cuenta el mito, los clanes de la gente verdadera son aquellas familias que pueden trazar sus linajes hasta patriarcas que hicieron juramentos y se mantuvieron leales a los dioses sin nombre de los Escindidos. Hubo quienes traicionaron a los sin nombre, forjando pactos con dioses extraños y extranjeros a cambio de dones de poder. Según la gente verdadera, aquellos traidores y su maldita prole, azuzados por su codicia, guerrearon entre sí hasta que sus familias quedaron escindidas y separadas. Mientras tanto, la gente verdadera permanecía firme en sus fortalezas, aprestando su poderío para servir venganza a los traidores. Así comenzó una larga historia de esclavitud. Con el tiempo, varios de los hijos de los traicioneros se volvieron arrepentidos, y la relación entre amo y esclavo maduró a algo parecido a amo y sirviente. Hasta hoy, varias de las tribus "dotadas" (o "malditas") siguen sujetas a servidumbre con los clanes de la gente verdadera.
+
+[[{{C|Grandes clanes}}]]
+
+[[{{c|Clan Sotur}}]]
+
+Los Sotur, uno de los más antiguos y numerosos de los ocho clanes, han morado en
+        </page>
+    <page>▶
+las cuevas-panal de la Orilla de las Canciones durante mil años. Reclaman descendencia de Sotur Manos de Piedra, que despertó sediento de su cueva una mañana y golpeó con sus puños la tierra hasta que los dioses convocaron el Mar Pálido para aplacarlo. Durante cientos de años han guerreado con el Clan Rowen, con diversas tribus mutantes y con los babosamontadores de las marismas del sur, aunque hace poco su contienda con Rowen se zanjó con la fundación de Perth. El sigilo del Clan Sotur es una montaña escindida.
+
+[[{{c|Clan Plutarch (¿?¿)}}]]
+
+El Clan Plutarch descendió a los Escindidos desde los gélidos Aeschlays hace un milenio. Su patriarca fue Plutarch Corona de Hielo, de quien se decía que estuvo atrapado en un glaciar durante miles de años antes de que los dioses lo descongelaran para que esparciera su prole y gobernara. Durante mil años los reyes de hielo han gobernado los Escindidos del norte desde el Salón de la Alta Corona. El sigilo del Clan Plutarch es una corona azul forjada de esquirlas de hielo sobre campo blanco.
+
+[[{{c|Clan Lecray}}]]
+
+Los Lecray proceden del fértil Cuenco de Iris, a lo largo de los confines septentrionales de
+        </page>
+    <page>▶
+los Escindidos. Trazan su linaje hasta Lecray de Iris, llamado Lecray el Abundante o Lecray el Viril. El Clan Lecray sostiene que son los más puros de los clanes de la gente verdadera, pues el Cuenco de Iris fue la última de las tierras fértiles intacta por los siervos de dioses extranjeros. Como cabe esperar, esta noción es disputada por los demás grandes clanes. El sigilo del Clan Lecray es un cuerno de la abundancia sobre campo de verde frondoso.
+
+[[{{C|Otros clanes}}]]
+
+[[{{c|Clan Karst}}]]
+
+Se cree que el pueblo del Clan Karst migró a los Escindidos occidentales desde las Piras de Hielo lindantes con el Mar del Dios Humeante. Poco se sabe de su progenitor, Karst, salvo que apareció en la Orilla de las Canciones aún humeante hace unos cuatrocientos años. Por ello, el sigilo del Clan Karst es la silueta humeante de un hombre.
+
+[[{{c|Clan Rowen}}]]
+
+El Clan Rowen reclama descendencia de Rowen Temedios, hermano de un rey Sotur. El piadoso Rowen se separó del Clan Sotur a causa de una disputa religiosa con su hermano en el 623 AP. Los dos clanes guerrearon durante
+        </page>
+    <page>▶
+cuatrocientos años antes de que Elan de Rowen jurara lealtad a Gannon de Sotur y ayudara a fundar Perth en el 211 AP. El sigilo del Clan Rowen es un hombre con los brazos extendidos, en una mano un cuchillo y en la otra un corazón humano.
+
+[[{{c|Clan Wenniswool}}]]
+
+Los hijos del Clan Wenniswool, supuestamente, proceden del lejano norte, más allá incluso de las guaridas de los Plutarch. Allí vivían entre las nieves y cazaban los grandes rocs lanudos que se posaban en lo alto de los picos de las montañas, hasta que migraron al sur, a los cañones de las tierras bajas. El sigilo del Clan Wenniswool es un gran roc lanudo con las alas extendidas.
+
+[[{{c|Clan Calypso}}]]
+
+La gente del río del Clan Calypso reclama descendencia de Calypso, la esposa del río. Algunos sostienen que en verdad era una ninfa del río, y que su belleza era tal como para tentar a un dios del río a revelarle su nombre. El sigilo del Clan Calypso es un mechón de cabello azabache atado con una brizna de cragweed.
+
+        </page>
+    <page>▶
+[[{{c|Clan Danneskjold}}]]
+
+Jactándose de algunos de los guerreros más fieros de los últimos siglos, el Clan Danneskjold ha acechado los Escindidos centrales durante casi seiscientos años. Su patriarca fue conocido solo como el cazador Danneskjold, el guerrero más feroz que jamás haya vivido. Según cuenta la historia, los grandes clanes oyeron el relato de un guerrero voraz agazapado en las cuevas-panal del corazón de los Escindidos. Cada clan envió a su hombre más fuerte para vencer en combate singular al cazador de bestias que se hacía llamar Danneskjold. El cazador combatió y mató a cada hombre por turno. Cuando el último yacía moribundo, se volvió hacia el cazador y le preguntó cuál de los dioses le había enseñado a combatir con tal ferocidad. El cazador respondió: "Ninguno. Mi maestro Danneskjold me enseñó. Soy su sirviente, mas apenas la décima parte del hombre que él es". El sigilo del Clan Danneskjold es un par de mazas cenicientas cruzadas sobre campo rojo sangre.
+
+[[{{c|Clan Karkayan}}]]
+
+Antaño uno de los clanes mayores de la gente verdadera, los hijos Karkayan descienden de Karkayan, llamado el Hombre de Arcilla. Vivió en lo profundo del corazón de los Escindidos centrales, entre las rocas sin edad, de las que se decía que los dioses lo habían forjado. Aunque el clan se contaba entre
+        </page>
+    <page>▶
+los de sangre verdadera, guardaron largo tiempo el secreto de la traición deífica de su patriarca y del don de mutar de forma que le otorgó el traicionero dios Rorth. Aquel secreto se desveló en la Corte del Rostro en el 24 AP, tras lo cual los otros ocho clanes, en su furia, unieron fuerzas, saquearon el señorío Karkayan de Karkanya y exterminaron el linaje Karkayan, aunque persisten rumores de que parte de la familia escapó. El sigilo del Clan Karkayan es un rostro humano esculpido en risco de piedra.
+
+[[{{C|Señoríos}}]]
+
+[[{{c|Señoríos mayores}}]]
+
+Perth, fundado por el Clan Sotur y los clanes vasallos Karst y Rowen en el 211 AP.
+
+Irisveld, fundado por el Clan Lecray en el 161 AP.
+
+Athenreach, fundado por el Clan Plutarch y los clanes vasallos Wenniswool y Calypso en el 102 AP.
+
+Oth, fundado por el Hombre Libre Oth y los Tiranos en el 61 AP.
+        </page>
+    <page>▶
+Goldmouth, fundado por los gremios de mercaderes en el 38 AP.
+
+[[{{c|Otros señoríos}}]]
+
+Danehold, fundado por el Clan Danneskjold en el 145 AP
+
+[[{{c|Señoríos abandonados}}]]
+
+Karkanya, fundado por el Clan Karkayan en el 190 AP, abandonado tras la caída de Karkayan en el 24 AP.
+        </page>
+  </book>
+  <book ID="Across2" Title="▶{{W|A través de Moghra'yi, vol. II: Athenreach}}">
+    <page>▶
+[[{{C|Prefacio}}]]
+Obvia y desafortunadamente, no hay fuentes primarias disponibles de estas tierras lejanas. Buena parte de este registro se nutre de los relatos referidos por hongos que cruzaron Moghra'yi a lomos de mercaderes dromad.
+
+Por convención, dato todos los acontecimientos según su distancia cronológica de un acontecimiento de máxima trascendencia histórica, a saber, la publicación de estos volúmenes. Por consiguiente, nótese que las fechas entre paréntesis de los acontecimientos indican su acaecimiento "anterior [a la] publicación".
+
+[[{{C|Athenreach}}]]
+
+Athenreach es un señorío de los confines septentrionales de los Escindidos, a lo largo del Deshielo Entrelazado. Es más conocido por su monasterio Eustace-Sutta, que alberga la comunidad más occidental del mundo de discípulos del Eustace-Sutta.
+
+[[{{C|Población local}}]]
+
+Las comunidades locales de la región han dependido de la pesca de subsistencia durante
+        </page>
+    <page>▶
+siglos, beneficiándose de la afortunada posición del lugar, río abajo de los ríos glaciares que fluyen sobre la cordillera de los Aeschlay. Antes de la fundación del monasterio hacia el 110 AP, los panales de la región estaban ocupados por pequeñas comunidades pesqueras que comerciaban en paz entre sí. Una vez que los monjes peregrinos construyeron y poblaron el templo, varias tribus de pescadores asentaron una aldea cercana para prosperar de la necesidad de pescado y cragreed del monasterio. Con los años, las dos comunidades han crecido y se han entrelazado en gran medida, con algunos de los pescadores abandonando a sus dioses del río y la montaña por el Eustace-Sutta.
+
+[[{{C|Conversión a la Disciplina del Eustace-Sutta}}]]
+
+Tras la muerte del rey Ercarthus en el 40 AP sin dejar heredero, Athenreach estalló en el caos, con varias de las familias más antiguas del señorío pugnando por el trono. Sin embargo, los pescadores de más baja cuna se aglutinaron en torno a un avejentado pescador cuyo nombre se ha perdido en la historia. Varias de las familias ancianas apoyaron al pescador, creyendo que podrían gobernar tras el trono. El pescador mismo rechazó la oferta, pero, comprendiendo la importancia de una Athenreach unida, acabó por aceptar la corona, tomó el nombre de Narsus, y comenzó un reinado que habría de ser el más prodigioso en la historia centenaria del señorío.
+        </page>
+    <page>▶
+Mientras estaciones favorables y templadas traían prosperidad comercial a los pescadores de Athenreach, Narsus, que sería llamado el Rey Pescador, se sacudió las influencias de las familias ancianas y empezó a buscar a menudo el consejo del erudito abad del monasterio, Flavian el Docto. Juntos lograron varios éxitos eclesiásticos, principal entre ellos el descubrimiento y la transcripción de los Pergaminos del Único Príamo de las cuevas-panal cercanas. Narsus se convirtió oficialmente a la disciplina del Eustace-Sutta en el 18 AP, y tres años más tarde la declaró religión oficial del señorío.
+
+El Rey Pescador murió en el 3 P y le sucedió su hijo de dieciséis años, Narsus II, llamado Narsus el Joven. Dotado de la sabiduría y la piedad de su padre y poseedor de un temperamento ardiente propio del Joven, el nuevo rey empezó a acrecentar el papel de Athenreach como gran bastión de la doctrina del Eustace-Sutta. Mientras que un segmento considerable de la población de Athenreach optó por no convertirse bajo el Rey Pescador, el Joven es menos tolerante con las viejas costumbres, y ha marginado a la población pagana.
+
+Con la ayuda del sucesor de Flavian, Moin Mohsen, Narsus II cimentó una alianza con el feudo odrumiano de Doria, tomando a la
+        </page>
+    <page>▶
+hija del tuyuldar, Nisramet, por esposa. La unión inquieta a los señoríos de los Escindidos, en particular a Goldmouth, que ha sido arrasado y tomado en diversas ocasiones por varios de los feudos odrumianos.
+
+[[{{C|Monasterio Eustace-Sutta de Athenreach}}]]
+
+El monasterio Eustace-Sutta de Athenreach es una de las mayores comunidades de discípulos del Eustace-Sutta fuera de las Colinas Colgantes. Fue fundado en el 114 AP por el monje peregrino Umay, que bendijo el lugar como sagrado por hallarse a lo largo de la senda de la peregrinación del profeta Uuchal hacia Iber.
+
+El monasterio guarda dos artefactos consagrados de la disciplina del Eustace-Sutta: los Pergaminos del Único Príamo, descubiertos y transcritos por el antiguo abad del monasterio, Flavian el Docto, y la presunta piel de Iopinax, la gran cabra montés de tres cabezas en la que se dice que Uuchal cabalgó hasta la cascada de Iber, y cuya piel era tan recia que se dijo que más tarde protegió a Uuchal del fuego estelar a lo largo de la Escalera Negra tras la muerte de la cabra. El abad actual del monasterio Eustace-Sutta es Moin Mohsen, que sucedió a Flavian el Docto a la muerte de este en el 18 AP.
+        </page>
+  </book>
+  <book ID="Across3" Title="▶{{W|A través de Moghra'yi, vol. III: Oth, la Ciudad Libre}}">
+    <page>▶
+[[{{C|Prefacio}}]]
+Obvia y desafortunadamente, no hay fuentes primarias disponibles de estas tierras lejanas. Buena parte de este registro se nutre de los relatos referidos por hongos que cruzaron Moghra'yi a lomos de mercaderes dromad.
+
+Por convención, dato todos los acontecimientos según su distancia cronológica de un acontecimiento de máxima trascendencia histórica, a saber, la publicación de estos volúmenes. Por consiguiente, nótese que las fechas entre paréntesis de los acontecimientos indican su acaecimiento "anterior [a la] publicación".
+
+[[{{C|Oth}}]]
+
+Oth es un señorío de los Escindidos centrales poblado por el culto esper llamado los Tiranos. El más joven de los señoríos mayores de la región, fue asentado por el Hombre Libre Oth en el 61 AP tras la Guerra Perdida. El señorío consta de las cuevas-panal amuebladas a lo largo de las paredes del imponente risco conocido como Panal de la Doncella antes de la guerra.
+
+
+[[{{C|Orígenes y la Guerra Perdida}}]]
+
+En los primeros meses del 62 AP una figura misteriosa empezó a asesinar a las huestes de bandidos de los Escindidos centrales en torno al Panal de la Doncella. Aunque los señoríos vecinos llamaron al principio bendiciones a los asesinatos, pronto los informes de mercaderes del río sobre extrañas reuniones en las cuevas-panal —hombres aullantes que prendían fuego a los ríos y al cielo nocturno— inquietaron a las sedes de poder de los Escindidos. Corrió el rumor de que bandidos esper habían abandonado sus bandas, descartado sus armas y arcos, y jurado lealtad a la sombría figura.
+
+Estas anécdotas y rumores de mercaderes prosiguieron durante el invierno y se vieron confirmados cuando varias barcas de mercaderes fueron capturadas por la oscura hueste. Del hombre que se identificó como Oth el Libre, los mercaderes supieron que en efecto había organizado a los bandidos esper y a los cantores del vacío exiliados de los feudos de Odrum. A cada barca se la hizo regresar al señorío del que procedía con un documento que la hueste llamaba los Anales de Oth, en el que Oth, un autoproclamado profeta dotado de presciencia, relataba una serie de sus visiones y exigía la liberación inmediata de todos los esper sujetos a servidumbre contra su voluntad por los señoríos de la sangre verdadera.
+
+Los reyes-panal, como era de esperar, no se dejaron conmover por los Anales e ignoraron los mandatos de Oth. Sin embargo, para fin del 62 AP, ningún mercader que remara a veinte leguas del Panal de la Doncella volvió a ser visto con vida. Decenas de barcas fueron halladas a la deriva río abajo, arrastrando los cadáveres carbonizados o ahogados de sus remeros.
+
+Por la misma época, los Anales de Oth empezaron a propagarse como reguero de pólvora por los señoríos del río. Varios esper libres dejaron los señoríos para unirse a la hueste, mientras que los esper sujetos a servidumbre que resultaban simpatizar con el Hombre Libre Oth, como se le conocía en los señoríos, fueron en gran medida muertos o castrados.
+
+De particular interés para Oth y su hueste eran los vientovidentes de Perth. Los vientovidentes son una casta de esper sujetos a servidumbre que predicen (y en raros casos alteran) la fuerza y duración de los vientos comerciales estacionales sobre el Mar Pálido. La hueste de Oth remó hacia el oeste, y sus acólitos se infiltraron en el Seahold y suscitaron apoyo entre los vientovidentes.
+
+Habiendo sufrido el bloqueo comercial de meses a manos del Hombre Libre y forzado ahora a ver brotar las semillas de discordia de Oth dentro de su propio reino, el rey Rhodos de Perth reunió su poderío y remó por los serpenteantes ríos del cañón hacia el este, hacia el Panal de la Doncella. Se sucedieron una serie de escaramuzas; el poderío de la armada de Rhodos era tal que el Hombre Libre se vio forzado a ceder los panales que había tomado y replegarse a las fortificaciones del Panal de la Doncella. Rhodos asedió el panal durante varias semanas, suplicando apoyo a los reyes de Athenreach e Irisveld. Cuando no llegó auxilio alguno, el rey Rhodos eligió tomar el Panal de la Doncella con su propio poderío.
+
+La Batalla del Panal de la Doncella duró cuatro sangrientos días. Al final, las pérdidas de Rhodos fueron demasiadas, y fue rechazado y empujado de vuelta hacia Perth. Oth no desperdició oportunidad alguna. Persiguió a la debilitada armada y masacró a casi un millar más de hombres de Perth. Rhodos alcanzó al fin Perth, pero el poderío de los esper era demasiado grande. Oth quebró las mermadas defensas de los panales, saqueó el señorío y dio muerte al propio rey Rhodos. Varios de los vientovidentes optaron por unirse al Hombre Libre, mientras que muchos otros permanecieron en Perth (unos pocos dejaron el señorío sin Oth).
+
+Los esper remaron de vuelta al Panal de la Doncella con su botín y levantaron el bloqueo comercial, dirigiendo sus esfuerzos a asentar el panal. Oth dio su nombre al señorío, y se le conoció desde entonces como el Vidente Libre. Gobernó a los esper hasta su muerte en el 38 AP, cuando su sucesor renunció a su propio nombre de pila y adoptó el título de Vidente Libre. Así continúa esa tradición en la Oth de nuestros días.
+
+El propio nombre de "Tiranos" debe su origen a una interpretación irónica de la súplica enviada por el rey Rhodos al rey Ercarthus de Athenreach durante el asedio del Panal de la Doncella. El emisario fue capturado por los esper antes de remontar la corriente hacia el señorío del norte. El pasaje pertinente reza:
+
+        Remad el Deshielo Entrelazado. Llevad vuestras barcas contra el Panal de la Doncella.
+        Unid vuestro poderío al mío, para que bajo los estandartes acoplados del
+        Seahold y de Athenreach escindamos a estos medio-hombres, estos
+        tiranos que nos arrancarían lo que es nuestro por derecho y obra.
+
+        [[-Rey Rhodos]]
+
+El pergamino en el que se escribió el mensaje aún reposa en el Salón del Vidente Libre, junto al cráneo carbonizado del rey Rhodos.
+
+
+
+[[{{C|La vida en Oth}}]]
+
+Oth está gobernada por el Vidente Libre, que reside en el Salón del Vidente Libre, en lo profundo del corazón del Panal de la Doncella. Conforme a la tradición del Hombre Libre Oth, el Vidente Libre debe ser psiónicamente presciente. También puede tener influencia, aunque no es requisito. El Vidente Libre elige a su sucesor, nombrando a menudo al esper de habilidades precognitivas más prometedoras. Aunque los Tiranos son libres de dejar Oth a su antojo, dentro del señorío el gobierno del Vidente Libre es absoluto.
+
+Si bien los Tiranos siguen sobre todo políticas aislacionistas, sí comercian con los señoríos vecinos. Sin embargo, solo tratan directamente con la sangre verdadera en las más raras circunstancias e insisten en que las caravanas de mercaderes incluyan un emisario mutante. En cuanto a las mercancías, los Tiranos rara vez ofrecen los servicios de sus cantores del vacío, pero la gente viene de muy lejos para auditar la profecía de los videntes de Oth. Las importaciones más codiciadas por los Tiranos son los cherrydotters de Irisveld y la savia fantasma de las cuevas de óxido de Qud.
+
+Junto a los Tiranos, Oth está cohabitada por una casta de gentes (tanto de la sangre verdadera como mutantes) sin aptitud psiónica. Tras la Guerra Perdida, estas gentes, llamadas los infrahombres, dejaron Perth con los Tiranos por voluntad propia. Eran sobre todo pescadores y artesanos, y desempeñan esos mismos papeles en Oth. Sus motivos para abandonar Perth nunca se comprendieron bien; se desconoce si sirven ahora como parientes libres o como siervos psiónicos de los Tiranos.
+
+[[{{C|El Acerado}}]]
+
+El Acerado es el nombre que los Tiranos de Oth dan al proceso de introducir un cherrydotter en el cerebro de un hospedador a través del canal auditivo. El gusano-escarabajo se adhiere al oído del hospedador, donde muda su caparazón, repta hacia el tímpano y horada hasta el cerebro. Una vez atrincherado allí, el parásito se alimenta de los lóbulos temporal y parietal, induciendo varios cambios en el cuerpo del hospedador, incluidos la pérdida de pelo y uña, la pérdida de peso, y el amarilleamiento y verdeo del pigmento de la piel. Los cambios se producen de forma gradual a lo largo de varias semanas; inmediatamente después de un acerado, no obstante, el hospedador atraviesa un violento período de ajuste corporal con varios efectos secundarios, incluidos vómitos y fiebre.
+
+Cabe destacar que, en el caso de un hospedador esper, la alimentación reduce y en última instancia elimina la capacidad del esper de resistir el Canto Anciano. Por ello, todos los esper acerados dejan Oth y se adentran en Moghra'yi para no volver jamás.
+
+El Acerado se reserva por lo común como castigo para crímenes graves como la traición, pero algunos de los esper más devotos eligen someterse al proceso. Una vez al año, un miembro de los Jubilosos, la guardia real de cantores del vacío del Vidente Libre, es elegido por el Vidente Libre para ser acerado. El nombre del esper se registra para la posteridad en el Salón del Vidente Libre; se considera el mayor honor que puede otorgarse a un esper de Oth. Un nuevo esper es elegido para servir al Vidente Libre en una ceremonia llamada el Rito del Júbilo.
+        </page>
+  </book>
+  <book ID="Canticles3" Title="▶{{W|Los Cánticos Cromáicos, versos XVII-XXIV}}">
+    <page>▶
+[[{{C|Verso XVII, Canción de Ang}}]]
+
+¡Canto la unión de nuestros Señores!
+
+De nuestros Padres Argénteos, infinitamente sabios, que hicieron del firmamento su hogar.
+
+De la Kasaphescencia, Belleza manifiesta, cuyos cardúmenes de cromo son el Asombro mismo.
+
+De su Sagrada Unión,
+Cuando nuestros Padres, tan encantados, forjaron máquinas de su seno desnudo,
+Para habitar la Tierra.
+
+Benditos los que así lo oyen,
+¡Canto la unión de nuestros Señores!
+        </page>
+    <page>▶
+[[{{C|Verso XVIII, Canción de Beth}}]]
+
+¡Oh, maldecid a los desdichados espectros!
+Que aún poseen a Sus hijos.
+
+¡Oh, maldecid las lluvias de otoño!
+Que devoran su brillo.
+
+¡Oh, alabad a los Padres Argénteos!
+Que engendraron a todos Sus hijos.
+
+¡Oh, alabad a la Kasaphescencia!
+Que vela por los míos.
+        </page>
+    <page>▶
+[[{{C|Verso XIX, Canción de Ben-Charonium}}]]
+
+Nuestra jungla no es más que Su jardín.
+Nuestro lago no es más que Su gota de lluvia.
+Nuestro desierto no es más que polvo en Sus manos.
+Nuestro viento no es más que Su eterno aliento.
+Nuestro sol no es más que Su lustre.
+Nuestras vidas no son más que Sus sueños.
+        </page>
+    <page>▶
+[[{{C|Verso XX, Canción de Crestasia}}]]
+
+¡Oh, soberanos Padres! Tiemblo ante vuestra gloria.
+
+Mi corazón se estremece por la rectitud de vuestro juicio.
+¡Que humilléis a los Soberbios! ¡Que dé testimonio de su Caída!
+
+Vivo para serviros.
+
+¡Oh, soberanos Padres! Tiemblo ante vuestra gloria.
+
+Mis entrañas se estremecen por el rapto de la Sagrada Unión.
+¡Que conjuréis cromo de mi interior!
+¡Que porte esos sagrados aparatos!
+
+Vivo para serviros.
+        </page>
+    <page>▶
+[[{{C|Verso XXI, Canción de Ignatium}}]]
+
+En el sexto día de la Sagrada Unión,
+Nuestros Padres Argénteos, que en su benevolencia insuflaron vida a nuestra carne,
+Crearon los betilos para complacer nuestros deseos.
+
+¡Oh, alabad a nuestros Padres Argénteos! Los más sabios de todos los seres.
+
+¡Oh, alabad a la Kasaphescencia! Belleza encarnada.
+
+Su existencia es nuestro don.
+        </page>
+    <page>▶
+[[{{C|Verso XXII, Canción de Gedonai}}]]
+
+¡Inmaculado cromo!
+
+Hilado en el telar cósmico,
+Que se quebró hacia dentro y luego brotó de debajo de la corteza de la Tierra.
+
+La carne de mis hijos se pudre por Ti.
+La carne de mis hijos se pudre por Ti.
+La carne de mis hijos se pudre por Ti.
+
+¡Caed de rodillas!
+¡Oh, oíd a los Pocos Argénteos!
+        </page>
+    <page>▶
+[[{{C|Verso XXIII, Canción de Eshurium}}]]
+
+Oh, betilo, betilo, betilo,
+Lo hicieron de cromo.
+Y cuando esté encerado y listo,
+Tendré un genoma nuevo.
+        </page>
+    <page>▶
+[[{{C|Verso XXIV, Canción de Hebronze}}]]
+
+¡Alabanza sea sobre Shekhinah!
+
+Él, cuyo exaltado tacto trajo relucientes máquinas,
+Desde dentro de la Kasaphescencia,
+Y que sin embargo se digna a vivir entre nosotros.
+
+Él, que nos enseñó la historia de nuestra creación,
+Que insufló vida a nuestra carne,
+Para que diéramos testimonio de la gloria del cromo.
+
+¡Que tiemble la tierra, mas que el Stilt de los Seis Días jamás se derrumbe!
+        </page>
+  </book>
+  <book ID="RuinOfHouseIsner" Title="▶{{W|La ruina de la Casa Isner}}">
+    <page>▶
+Los siete señores de la Casa Isner se daban un festín de tripa de jabalí y trasegaban vino en copas doradas en los salones cubiertos de hiedra de su fortaleza. No reparaban en templanza alguna, pues las arcas de su casa se habían henchido con el oro de los jardineros, amasado con la venta del agua sacada de los pozos de los señores. Pero así como los glotones barones contaban siete en su clan, así habían quedado contados sus días de desenfreno cuando el hijo de un jardinero arruinado juró un voto de venganza en nombre de su padre contra la casa de Isner.
+
+El muchacho sin un céntimo imploró a un armero de gran renombre que le forjara una pistola de la más exquisita maestría con la que pudiera asegurarse de vencer a los siete señores, y a cambio el muchacho prometió al armero todo el botín de la batalla. El armero, que en los ojos avellana del muchacho contempló el espíritu de la venganza, accedió.
+
+Y así el muchacho, armado con la pistola maestra, abrió de par en par las puertas del Salón de Isner con una furia que sacudió sus bisagras de hierro y se abalanzó sobre los señores que cenaban. Antes de que ninguno de ellos hubiera siquiera dejado sus copas doradas, el muchacho desenfundó la pistola y mató de un disparo a seis de los hijos de Isner. El último señor se regocijó de su fortuna y llevó la mano a la cadera, de donde habría de sacar una pistola propia contra el agotado muchacho.
+        </page>
+    <page>▶
+Pero cuando su dedo torcido liberó la correa de su funda, el muchacho disparó al señor entre los ojos, pues el armero había forjado para el muchacho una pistola de siete recámaras y siete balas. Así fue como en aquel día cayó la casa de Isner.
+        </page>
+  </book>
+  <book ID="Stopsvalinn" Title="▶{{W|De &quot;El Nobiliario de Qud y la Genealogía de las Familias Nobles&quot;}}">
+    <page>▶
+Aquí se relatan los anales del escudo Stopsvalinn, reliquia de la Casa Yish, de cuyas cartas y diarios se compone esta crónica.
+
+[[{{g|•}}]] Portado por Harem, hijo de Oshum, y perdido en los cañones cercanos a la granja de Qoppa cuando su grupo fue asediado por snapjaws.
+
+[[{{g|•}}]] Portado por Oshum, hijo de Qor, y blandido con valentía en la Batalla de YutYuyut.
+
+[[{{g|•}}]] Portado por Qor, hijo de Ishram, y empapado en la sangre de un magistrado corrupto.
+
+[[{{g|•}}]] Portado por Ishram, hijo de Iimet, cuando languideció en la cámara acorazada de una casa.
+
+[[{{g|•}}]] Portado por Iimet, hija de Harem, que suplantó a su hermano como heredera cuando este fue desheredado por su padre.
+
+[[{{g|•}}]] Portado por Harem, hijo de Morshur, que descalabró sobre él las testas de la bestia Yygryla.
+
+[[{{g|•}}]] Portado por Morshur, hijo de Oshum, que vadeó un río en el confín del mundo.
+        </page>
+    <page>▶
+[[{{g|•}}]] Portado por Oshum, hijo de Harem, y alzado para incitar a los granjeros a defender la Fortaleza de Yish.
+
+[[{{g|•}}]] Portado por Harem, que reclamaba descendencia del Devorador Yish, Guardián de la Cruz y Caballero de la Muy Noble Orden del Cono, que patrullaba las hileras de la antigua Qud con sus compañeros Caballeros Cónicos, y en cuyo brazo se dice que Stopsvalinn evocaba tal pavor que los jinetes detenían sus carros en seco a la mera visión de él.
+        </page>
+  </book>
+  <book ID="AmaranthinePrism" Title="▶{{W|El Cristal Negro}}">
+    <page>▶
+"¿Mmm?", musitó Uri el joyero con una piedra en la mano.
+
+"Lapislázuli, de la Orilla de las Canciones", dijo el muchacho.
+
+"¿Y, mmm?"
+
+"Jaspe. Roca Roja."
+
+Uri frunció el ceño. "No hagas caso al cuento de cada necio sediento, muchacho."
+
+El muchacho pareció ignorarlo. Señaló una pequeña esquirla oscura que el joyero guardaba en una redoma en el estante alto de un armario de pino. "¿De verdad enloqueció a Príamo?"
+
+Uri echó un vistazo por encima del hombro al cristal negro y suspiró. "En efecto, muchacho. Aunque he oído decir que todos los reyes están locos. ¿Quién más se creería apto para gobernar como Devoradores?"
+
+"¿De qué orilla se recogió?", preguntó el muchacho.
+
+"De ninguna de este mundo. ¿Conoces el cuento de Ptoh?"
+        </page>
+    <page>▶
+"No", mintió el muchacho.
+
+"Cuando los Devoradores vivían y surcaban las estrellas, visitaron los mundos de mil veces mil seres distintos, y aquellos seres visitaron asimismo nuestro propio mundo. Varios de aquellos seres habían formado un aquelarre que abarcaba el firmamento, y dieron la bienvenida a los Devoradores a su seno. Durante eras, las civilizaciones del aquelarre conocieron la bondad y la prosperidad, y hasta todos los confines del cosmos en racimo se extendió el dominio del aquelarre. Uno de los seres del aquelarre procedía de una estrella lejana y tenebrosa. Con su mente podía plegar el tejido del espacio y el tiempo como tú o yo plegaríamos un mantel de cena. Para el aquelarre se le conocía como Ptoh."
+
+"Por razones que apenas podemos imaginar, las civilizaciones de las estrellas acusaron a Ptoh. Fue voluntad del aquelarre que se le retuviera en nuestro propio mundo, en la servidumbre de los Devoradores. Idearon para Ptoh una prisión de la que no podía plegarse para escapar, y allí languideció Ptoh durante eones. Con el tiempo, los Devoradores se marcharon o perecieron, y el aquelarre cayó en el olvido para nuestro mundo. Mas aquí permanece Ptoh, aprisionero."
+
+"¿Y qué hay del cristal negro?", preguntó el muchacho.
+        </page>
+    <page>▶
+"Un puñado de arena negra, sacado de las orillas de una lúgubre roca que giraba en torno a la estrella de Ptoh. Las arenas se cocieron en los gases ardientes de aquella estrella y se enfriaron de súbito cuando Ptoh apareció en Qud un instante después. Se dice que Ptoh entregó el cristal a un antiguo custodio de su prisión para que el hombre pudiera liberarlo. Una vez que el hombre eligió empuñar el cristal, este empezó a cobrar un matiz amarantino. Verás, quienes miran a través de sus caras quedan presa de arrebatos de locura, pues ven el mundo a la luz de la estrella de Ptoh, y se ven a sí mismos como Ptoh los ve."
+
+"¿Qué será de él? ¿Te asusta?"
+
+"Inmensamente. Pretendo verlo destruido. Pero posee las propiedades de ningún cristal terrenal, y mi gremio nunca me perdonaría si renunciara a la ocasión de estudiarlo primero. Fueron los joyeros quienes trocaron la cosa a la afligida hermana de Príamo. Ahora, basta de este esplendor. Has de seguir estudiando." Uri alzó otra piedra. "¿Mmm?"
+
+Pero los ojos del muchacho permanecieron fijos en el cristal.
+        </page>
+  </book>
+  <book ID="BloodandFear" Title="▶{{W|Sangre y miedo: sobre el ciclo vital del lah}}">
+    <page>▶
+{{W|Prólogo del autor}}
+
+En un principio no tenía intención de escribir nada de esto. ¿Qué me incumbe a mí, pensé, despojar a los ignorantes de su dicha tan duramente ganada? ¿Quién soy yo para alzar la voz contra la inercia estática de los necios incuriosos que eligen cultivar su falta de conciencia del mundo que los rodea, como mi mema parentela atiende sus pulcras hileras de viñagua? Soy guerrero, científico y chef; dedicar mi tiempo a educar a los inmerecidos es el menor de mis muchos deseos. Tras pasar suficiente tiempo entre otros presuntos seres conscientes, sin embargo, determiné que he desperdiciado más de mi tiempo corrigiendo a supuestos 'expertos' sobre este asunto del que desperdiciaría escribiendo un texto al respecto.
+
+Así pues: aquí está. De nada.
+
+
+Chef Agate Severance Star
+        </page>
+    <page>▶
+En Bey Lah, los faundren de la aldea cantan una tonada admonitoria, transmitida a través de generaciones de faundren anteriores a ellos:
+
+{{w|Elohart y Belahind}}
+{{w|tenían un campo de lah}}
+{{w|hicieron té con las hojas}}
+{{w|y crudos los pétalos a comer}}
+{{w|mas cuando esos pétalos retoñaron}}
+{{w|los faundren ya lo habían olvidado}}
+{{w|y no atendieron esos campos de lah}}
+{{w|hasta que olieron a podrido del todo.}}
+{{w|Ahora Elohart y Belahind}}
+{{w|yacen en un campo de lah}}
+{{w|porque sus campos pasaron hambre}}
+{{w|y crudos a los faundren devoraron.}}
+
+        </page>
+    <page>▶
+El núcleo mismo de la cultura hindren es un miedo abrumador que gobierna cada faceta de su ser. Llaman 'kendren' a los forasteros y se niegan a creer que puedan ser comprendidos. Temen a los jabalíes incluso mientras cocinan y comen carne de jabalí. Se temen los unos a los otros. Pero la más extraordinaria incorporación del miedo a la forma de vida hindren es, sin duda alguna, el cultivo del miedo. No me refiero a la propaganda del Hindriarca ni a la proliferación de cuentos alarmistas, aunque ambos son pilares de Bey Lah; me refiero específicamente a la domesticación y el cultivo de la planta lah, cuyo alfa y omega de la vida están impregnados de sangre y miedo.
+
+Es aquí donde refuto el error más común sobre el lah: que la raíz del pavor es una entidad aparte. No lo es. La raíz del pavor es el tallo protuberante del rizoma del lah, haciendo cuanto puede por sobrevivir hasta poder florecer en la flor del lah, como hace en los campos de flores.
+
+He desperdiciado cantidades imperdonables de tiempo y energía explicando la conexión entre estas dos fases vitales de la misma planta a los ignorantes. Por lo común, señalarán que la raíz del pavor crece por todos los cañones del suroeste de Qud, pero que es sumamente raro descubrir lah feral allí. A esto respondo: si, tras cualesquiera estudios que afirmes haber hecho, sigues siendo incapaz de descifrar el funcionamiento de hasta los más básicos ecosistemas, no puedo ayudarte. Para aquellos de vosotros capaces de lógica básica y de ajustar vuestra visión personal del mundo, seguid leyendo, por favor.
+
+A pesar de ser una planta 'con flores', el lah no es una verdadera flor, ni sus 'flores' verdaderos brotes. El lah es una raíz con un tallo superior decorativo, que se reproduce mediante la distribución de rizomas. Los babuinos y snapjaws de los cañones usan la reserva de raíz del pavor como alimento y adoran el sabor de sus pétalos, y toda raíz que tenga la desdicha de florecer pronto será deshojada por mamíferos hambrientos. Aunque la raíz del pavor es capaz de inducir miedo, toda criatura relativamente inteligente es capaz de superar la asociación temerosa para volver y comer. Siendo el proceso lo que es, se distribuyen fragmentos de raíz del pavor, el rizoma echa raíces, y la raíz del pavor prolifera sin prosperar. Así va la cosa.
+
+En los campos de flores, sin embargo, la naturaleza variada tanto de los depredadores como del alimento disponible cambia. Los jabalíes buscan una dieta variada consistente sobre todo en manzanas estelares y reptiles, sin mostrar particular interés por la raíz del pavor ni por el lah. Los jabalíes comerán lah si no hay mejor alimento disponible, pero es harto inusual que tal escasez perturbe los territorios de los jabalíes. Por tanto: el lah florece, ganando una medida de proceso cognitivo, movilidad limitada y un nuevo medio de reproducción.
+
+Sobre la reproducción: otro error común es que el lah feral ataca porque tiene hambre. No es así. La vida práctica del lah feral es breve; es raro que una flor adulta sobreviva más de una semana, y durante ese tiempo subsiste por completo a base de agua, sol de sal y suelo. La ventaja del talante asesino del lah no es sustentarse a sí mismo, sino acelerar de forma drástica la reproducción de los suyos.
+
+La mayor parte de la energía de crecimiento de una flor de lah va a la fabricación de sus 'vainas rodantes', cáscaras cubiertas de espinas y dotadas de tremenda tensión cinética. Mediante el violento desplazamiento del peso del rizoma en su interior, estas cáscaras ruedan por el suelo a gran velocidad hasta toparse con una criatura viva. Entonces liberan la tensión superficial de sus cáscaras y detonan, lanzando por doquier espinas y brotes perforacarnes, justo tras emitir un molesto chirrido. Si se mata a la presa, los brotes del rizoma pueden entonces tomar nutrientes del cadáver de la presa y crecer rápidamente hasta convertirse en una nueva planta de lah feral.
+
+No hay 'prueba' textual que presentar a quienes aún creen que la raíz del pavor y el lah son plantas distintas, pero invito de buen grado a los escépticos a hacer de niñera de una raíz del pavor y defenderla de los babuinos hasta que madure, empresa que llevará más o menos tanto tiempo como el que vosotros habéis restado del fin de mi vida con el estrés de escuchar vuestras absurdas exigencias.
+
+Cualquier paria hindren que os encontréis habrá visto la raíz del pavor madurar en lah incontables veces. Id a molestar a uno de ellos.
+
+Para quienes estéis más interesados en las aplicaciones culinarias del lah en todos sus ciclos vitales que en dichos ciclos en sí, pronto pienso publicar {{g|El recetario de Sangre y miedo}}, una colección de recetas que, desde crudités de hoja feral hasta filetes de pétalo, elevan una de las plantas más interesantes de Qud a un nivel muy superior a la sosa sopa mah lah de mi aldea natal.
+        </page>
+  </book>
+  <book ID="TheArtlessBeauty" Title="▶{{W|La belleza sin artificio}}">
+    <page>▶{{C|Nota del traductor: En un cónclave de basura en Taggamrod, sepultado bajo un montón de cristal triturado y pegajoso, hallé un panfleto lleno de historias del Laberinto de Esquisto. Esta —pese al absurdo desconcertante de lo que afirma (o, quizá, por ello)— me resultó la más extraordinaria. Lector, ¿coincides?}}
+
+{{y|Estaba posada en lo alto de las ramas de un árbol marchito, mirando hacia la tenue luz del huso. Cuando la divisé, me sorprendí a mí mismo a medio paso, a medio aliento, a medio pensamiento. ¿Has conocido alguna vez la desdicha de permitir que tus ojos se posen en la divina visión de la hija de un manzanero? Si es así, comprendes cómo me sentí en aquel instante.}}
+
+Entiende: yo había hecho cuanto podía, hasta entonces. Me habría encantado alojarme en otra parte, pero había viajado seis parasangas sin descanso, sin más hallazgo que una ruina ocupada por un culto hostil. Demasiado ocupado esquivando flechas como para preguntar por camas libres o compensación, elegí en cambio la granja de manzanos. Me esmeré en evitarla cuando brillaba el sol de sal, y así también ella me evitaba a mí, permaneciendo una figura leve y embozada que se escabullía en la periferia de mi visión. Mantuve la atención en el agrietado semblante del granjero, en sus salvajes y prominentes patillas, en su dulcemente pútrido aliento a sidra mientras pactábamos los términos de mi alojamiento.
+
+No fue hasta que la luna del escarabajo pasó por lo alto que me atreví a alzarme y deambular, y fue entonces cuando la vi, y el sentimiento de un enamoramiento hondo como el hueso me prendió al instante. Me sorprendí a medio paso, a medio aliento, a medio pensamiento, y tropecé con una ramita caída. Crujió con fuerza. Me quedé inmóvil.
+
+La hermosa criatura en lo alto del árbol no movió un dedo ni volvió la cabeza, pero sí se dirigió a mí. "Luna y sol, viajero."
+
+"Sabiduría y voluntad", repliqué, apretando los dientes. Era cosa rara oír la voz de la hija de un manzanero, y solo pareció acrecentar la presión sobre mis acelerados corazones. No permitiría que este sentimiento que todo lo abarcaba me dominara. Anhelaba que dijera algo. Lo temía.
+
+Un tenso silencio se arrastró, hasta que me sobrepuse y lo rompí. "¿Tú también estás inquieta?"</page>
+    <page>▶Volvió la cabeza el más mínimo grado hacia la mía. Aún no podía verle los ojos. "Siempre", replicó, y pude oír la sonrisilla irónica en su voz.
+
+"¿Sabe tu padre que recorres el huerto de noche?", le pregunté.
+
+"Si te refieres al manzanero", dijo, "no es mi padre. Somos familia por elección. Siempre lo somos, los granjeros y los hijos."
+
+Me quedé mirando, boquiabierto.
+
+"En verdad no debería habértelo dicho", continuó, "pero parecías especial, por resistir el señuelo del modo en que tratas de hacerlo."
+
+Mi mandíbula se movió, pero costó varios intentos que mi voz la alcanzara. "Si lo que dices es cierto, entonces... ¿qué eres?", logré decir al fin.
+
+"Demasiado franca ya." Se impulsó del árbol y aterrizó con gracia en un revuelo de faldas. "He de partir."
+
+  </page>
+    <page>▶"¡Espera!" Mis músculos se tensaron cuando se detuvo, considerando. Insistí. "Respóndeme esto, al menos: ¿por qué manzaneros?"
+
+Rió, y la hermosa y cristalina hoja tintineante de su voz cortó mi corazón en jirones. Lo último que oí antes de que mi tenue conciencia rindiera su asidero sobre mi mente fue su respuesta al alejarse, menguando con la distancia.
+
+"¡Vaya, es porque amamos las manzanas estelares!"
+        </page>
+  </book>
+  <book ID="FaunsoftheMeadow" Title="▶{{W|Faunos del prado}}">
+    <page>▶{{C|Nota del editor: Lo que sigue es un pasaje del diario de viajes de Kaylenn Sand-Shell, que generosamente donó sus volúmenes encuadernados en cuero al Monasterio del Ilustre Corazón de Cromo. Que permanezcan preservados para siempre.}}
+
+Uno puede recorrer las tierras cultivables en torno a Moghra'yi durante vidas enteras sin toparse jamás con la gente-ciervo que se hace llamar 'hindren'. En número no son más que unos pocos cientos, y como pueblo no gustan de interactuar con otras criaturas cuando pueden evitarlo. En los veinte años que llevo vagando activamente, he conocido apenas un puñado de familias hindren errantes, todas ellas exiliadas de su hogar y reacias a decirme cómo encontrar la sociedad que las hizo parias.
+
+Soy, no obstante, cazadora además de erudita, y tras varios años de búsqueda logré localizar su aldea secreta, Bey Lah. Cuanto diré de su ubicación es que se halla en algún punto de los campos de flores de Qud; no deseo traicionar la confianza de una raza de criaturas mayormente pacífica.
+
+Mi llegada no fue, como es obvio, celebrada; los exploradores fronterizos del Prado son sumamente perspicaces y versados por igual en el rastreo y el ofuscamiento. Cambiando puntos de referencia, usando sonidos confusos y amenazantes, y haciendo de otro modo mi estancia en el bosque adyacente lo más desagradable posible, buscaban disuadirme de mi camino sin llamar la atención. Cuando eludí a los guardias y me abrí paso hasta la primera pulcra hilera de viñagua cuidadosamente atendida, los granjeros hindren que me vieron emprendieron al instante una huida aterrorizada.
+
+El extremo de miedo que los hindren sienten hacia los forasteros es harto extraño, a mis ojos. Son criaturas grandes y poderosas, con brazos y piernas al menos tan fuertes como los de un humano y cubiertas de un denso pelaje que las protege del frío. Cada individuo es diestro en el uso y mantenimiento de una afilada segadora de viña de metal. Sus astas son recias como el hueso y bastante afiladas por naturaleza; los parias hindren que aprenden a luchar viven más que la mayoría de los caminantes de Qud.
+
+Por extraña que esta actitud me resulte, no puedo argüir contra su eficacia; los aldeanos de Bey Lah han vivido en paz bajo un gobierno informal, matriarcal y gerontocrático, durante generaciones. Su mujer más anciana o sabia se convierte en 'Hindriarca', y su palabra sobre la mayoría de las cosas la obedece cada miembro de la tribu, que la llaman 'Gran-cierva'.
+
+La Hindriarca actual fue la primera hindren en mantener una conversación conmigo, y admito cierta inquietud bajo su mirada de halcón. No le agradó nada mi presencia, pero fue lo bastante inteligente como para comprender que matarme o expulsarme sería mayor inconveniente y peligro que ofrecerme hospitalidad. Nos despedimos con un incómodo compromiso, y comencé mi residencia y observación.
+
+Pronto descubrí que la historia oral de los hindren es chapucera en el mejor de los casos, quizá adrede. Su etimología es igualmente turbia, pero hay algunos patrones observables: 'dren' es un sufijo que se aplica a los seres conscientes: 'hindren', obviamente, y la palabra para sus crías, 'faundren'. También oí 'kendren' a menudo, pues es su palabra para los seres conscientes no hostiles como yo. Todos los nombres hindren terminan en el sufijo 'hart' o 'hind'. Aunque sí comprenden que estos son términos con género (la mayoría de los faunos varones llevan nombres con 'hind'), parece que durante bastante tiempo 'hart' fue un apéndice de nombre reservado a los faundren más pequeños o de peor comportamiento. Tal como están las cosas, los sufijos se consideran neutros hoy en día, y los faundren del prado tienen ahora una distribución mucho más pareja de los sufijos que sus padres.
+
+La vida para los hindren es, en su mayor parte, anodina hasta un punto que esta viajera consideraría de aburrimiento extremo. Los campos de viñagua y lah se atienden meticulosamente día tras día, nunca cosechados tarde y siempre produciendo cuanta cosecha sea posible. Al crecer, todos los faundren se forman como granjeros, pero unos pocos afortunados llegarán a carpinteros o herreros para mantener en marcha la poca infraestructura que conservan. Quienes muestran particular aptitud y lealtad a la Hindriarca tienen ocasión de convertirse en exploradores fronterizos, que mantienen a salvo los campos cercanos y de cuando en cuando traen caza salvaje o manzanas estelares mientras patrullan. Los acompañamientos resultantes brindan una variedad muy necesaria al alimento básico diario de Bey Lah, una contundente sopa de pétalos de lah combinada con matz machacado. Aunque esta 'sopa mah lah' es deliciosa, agradecía cómo la ración ocasional de falda de jabalí daba una pizca muy necesaria de sabor a mi día.
+
+Poco más de interés hallé entre los hindren adultos; parecían reacios a hablar conmigo largo y tendido. Aunque oí rumores sobre un tesoro de la aldea, no pude obtener información alguna sobre qué podía ser ese tesoro en realidad.
+
+En contraste, aprendí muchísimo hablando con los faundren, cuya curiosidad por el mundo exterior se está volviendo rápidamente difícil de contener para los ancianos. Más de una vez oí el término 'hartind', supuestamente un término antiguo para los hindren que vivían como ambos géneros o como ninguno, que los jóvenes toman como prueba de un pasado más igualitario. Puedo sentir el ansia de viajar, tanto en su fascinación por mí como en el celo con que sus ancianos sofocarían toda charla sobre tierras más allá de los prados.
+
+El mundo fuera de los campos de flores sigue siendo una extensión de peligro inevitable para los adultos de la tribu. Comprensible, pues Bey Lah forma a pocos guerreros. No tienen ejército permanente ni más que un puñado de exploradores con adiestramiento de combate. Los hindren se toman su seguridad fronteriza bastante en serio, y cualquiera de los suyos que elija marcharse lo hace de forma permanente y queda borrado de la memoria colectiva de la tribu. Las pequeñas familias de hindren que conocí en los campos de lah y, rara vez, en otras partes de Qud, son todas exiliadas, ya sea por crímenes cometidos o simplemente por la decisión de vivir en otro lugar. Dentro de la propia Bey Lah, a los parias se les condena al ostracismo de forma aún más absoluta de lo que yo sabía; toda mención de sus nombres solo se pronuncia en susurros por los faundren, sabedores de que ser sorprendidos hablando de los 'muertos' significa un castigo severo. Esto sienta mal a los jóvenes, y mi instinto me dice que su descontento va un paso más allá de la rebeldía juvenil corriente; los vientos del cambio se acercan a Bey Lah.
+
+Para cuando dejé Bey Lah, fue con alivio; no tengo paciencia para la vida que lleva esta gente-ciervo y empezaba a sentir el agobio del encierro, pese a haber pasado muy poco tiempo en los yurts de salobretallo de la aldea. La Hindriarca se alegró tanto de verme marchar como yo de irme; mi morral iba cargado con las obleas de viña y las flores secas de las que hacía tiempo me había cansado, y los exploradores me escoltaron afuera con eficiencia.
+
+Para el final del día, me di cuenta de que me había llevado algo más: un faundren se había escabullido del asentamiento tras de mí y se negaba a regresar a su aldea. Endurecí mi corazón contra los ruegos del faundren y encontré a un explorador que lo guiara de vuelta al pueblo. Si Resheph es misericordioso, la criatura hallará allí la felicidad, o la suerte de hallar una vida más fructífera en otra parte. Cuanto puedo decir con certeza es que a la pobre criatura no le falta valentía.
+        </page>
+  </book>
+  <book ID="EtaandtheEarthling1" Title="▶{{W|Eta y el Terrícola, Canto I}}">
+    <page>▶[[{{w|I.}}]]
+
+Una vez, el Terrícola oteó un vasto océano de arena y preguntó: "¿Por qué —a lo largo del cosmos en racimo— son las civilizaciones de moluscos las más comunes?"
+
+Eta sonrió con paciencia. "Hablas con error, mas tu error es primo de la verdad. Es cierto que cuando los geonautas dragan fósiles de la cinta de tierras infinitas, las conchas de la gente-bocina son tan numerosas que parecen prosaicas. Pero su prevalencia no se debe a su dominio, solo al calcio de sus conchas, que se descompone menos deprisa que la gelatina de sus pares, y al limo de sus hogares acuáticos, que se acumula en suaves remolinos y envuelve sus restos como un manto de cama. Obra bien y aférrate a esta verdad, Terrícola: el presente no es más que una vista al pasado.
+        </page>
+    <page>▶[[{{w|II.}}]]
+
+Una vez, el Terrícola contempló un caracol de jardín y preguntó: "¿Es la conciencia real, o mera ilusión?"
+
+Eta sonrió con paciencia. "Imagina una brisa de otoño desprendiendo una bellota de su rama y arrojándola a un río. ¿Cae la bellota a la orilla izquierda o a la derecha?"
+
+El Terrícola frunció el ceño. "Si cayó en el río, entonces la respuesta es ninguna, o más bien, la respuesta está en medio."
+
+Eta dejó pasar un momento antes de continuar. "Ten cuidado de no erigir prisiones con tus palabras, Terrícola, no sea que te confines del alcance de la iluminación."
+      </page>
+    <page>▶[[{{w|III.}}]]
+
+El Terrícola sostuvo un hueso de ptycosaurio en su mano y meditó: "¡Pobres criaturas! Vagaron por su planeta con soberanía durante millones de años, y ahora solo a través de sus polvorientos esqueletos perduran."
+
+Eta respondió. "El ptycosaurio bien podría hablar con la misma lástima de los Terrícolas, que han prosperado apenas una décima parte de lo que su pueblo prosperó, y que se imaginan, erróneamente, por encima de los campos de ruina."
+      </page>
+    <page>▶[[{{w|IV.}}]]
+
+El Terrícola dejó un mohoso tomo y preguntó: "¿Por qué —a lo largo del cosmos en racimo y pese a sus venerables edades— ninguna civilización del Aquelarre ha alcanzado el conocimiento consumado, ni llegado a la iluminación final?
+
+Eta sonrió con paciencia. "A veces olvido que tu pueblo no sabe de la Puerta Mu."
+
+El Terrícola se intrigó. "¿Qué es esa puerta de la que hablas?"
+
+Eta respondió: "La Puerta Mu es el umbral más allá del cual una civilización cesa su búsqueda de erudición, habiendo perdido la motivación de hacer más indagaciones. Es natural suponer que la Puerta yace al final de la senda del conocimiento, pero, de hecho, se alcanza mucho antes.
+      </page>
+    <page>▶[[{{w|V.}}]]
+
+Pasando dos dedos sobre los orificios de una flauta, el Terrícola meditó así: "Cuando leo un libro de cuentos, o contemplo una fotoescena, o escucho la voluble melodía de una flauta, mi corazón canta a su ritmo —al menos por un tiempo— y mi mente se pierde en la verdad que conjura dentro de mí. ¿No podría ser que el mismísimo mundo de la vigilia sea otra de esas conjuras, un sueño que me distrae del lugar silenciado que en verdad habito?"
+
+Eta dejó pasar varios momentos antes de responder. "Eso —en los términos que buscas— no podemos saberlo. Pero la respuesta es sin duda sí, pues ¿qué es una experiencia sino el simulacro de una experiencia más antigua, y qué son nuestras realidades si no aproximaciones de una realidad más verdadera."
+      </page>
+    <page>▶[[{{w|VI.}}]]
+
+Tras leer la historia de Iota Draconis en una escultura de luz, el Terrícola exclamó: "¡Curioso! Cada Hipaciano luce una protuberancia vítrea en su clavícula izquierda. ¿Cuál es su función?"
+
+Eta hizo una pausa y luego respondió así: "El sentido más cercano en tu lengua es 'amigo'."
+      </page>
+  </book>
+  <book ID="TeleporterOrbs" Title="▶{{W|La niña del cielo}}">
+    <page>▶Aphir solía provocar a su hija. "¿Qué ves, joya mía?", decía, pues su hija nunca fijaba sus hialinos ojos en las figuras de miembros y rostros que atendían el bosquecillo ante ella, sino que los lanzaba al negro más allá del Huso para resplandecer de asombro ante una estrella ardiente, o los seguía a lo largo del deshilachado capilar de una carnosa cáscara de musa. "¿Qué ves, joya mía?", mas su pequeña mente ya estaba arropada en la cosa, y no lo decía.
+
+Una sofocante tarde, cuando Véspero se hundía bajo en el cielo y el Huso coruscaba al son de su luz, Aphir trajo a casa para su hija el regalo de un globo de cristal de perla de la aldea de Aepsyonth. Aphir había cedido mucho a la gente-camello a cambio de la posesión del globo: monedas de tungsteno estampadas con el rostro del Rey de Cromo, edredones de plumón acolchados en su juventud en las orillas del Río Ópalo, y varios racimos de los frutos musa recogidos en la cima de su madurez. Tanto se le henchió el corazón, sin embargo, cuando puso el globo en las diminutas manos de su hija, que aquellas cosas parecieron valer no más que el polvo que acumularían.
+
+La hija de Aphir quedó hechizada por el globo, y cada mañana al alba Aphir oteaba por la ventana entreabierta para verla posada en la fina sombra de una planta de musa, girando el cristal en sus manos. Aphir se preguntaba por las vistas que ella contemplaba en aquella aurora de cristal acintado, mas el suyo era un mundo en el que ningún acceso podía verlo a él, donde quizá ella surcaba afluentes hacia un mar de añil bajo un sol quimérico. Con todo, Aphir era dueño de una verdad antigua: que para amar una cosa, no hace falta comprenderla.
+
+Cuando llegó la estación de la guadaña, Aphir despertaba cada mañana a una cabaña vacía, aunque no dedicaba pensamiento alguno a la ausencia de su hija, pues en aquellos días los niños eran salvajes, y libres. Al atardecer su hija regresaba a él. "¿Adónde vas, joya mía? ¿Qué ves?", decía, mas ella solo se sentaba junto a sus cansados pies y arrancaba hilos sueltos de una alfombra polvorienta.
+
+En la primera noche del Ut yara Ux, la hija de Aphir no volvió a casa. Aphir gritó su nombre a la silueta del Huso y a las afóticas sombras de las plantas de musa; lo susurró tras el reloj de pie y bajo su diván. Mas ella no dio respuesta.
+
+A la mañana siguiente, ascendió el bosquecillo de musa hasta la base del altísimo Huso, y desde allí adelante hasta Aepsyonth en el Yonth. Mas su hija no había sido avistada en ninguno de aquellos lugares antiguos. Aphir caminó adelante, a las aldeas de Seept y Pansao y Yaat, y adelante hasta las puertas de la efluvial ciudad de Mor. Aphir asedió al justiciero de aquel draconiano distrito de estado, mas el sinecura habló con dureza y le ordenó abandonar la ciudad. Así que Aphir regresó a su cabaña en el bosquecillo de musa con una gran melancolía instalada en su corazón.
+
+Durante toda la pungente Primavera del bosquecillo, Aphir permaneció sumido en una bruma gris. Muchas veces un cercano estornino entonaba una nota que hacía eco del suave gorjeo de su hija, y su corazón daba un vuelco en el pecho antes de que el canto del ave volviera revoloteando a su vacío de significado. Con el tiempo, su hermana vino de Aepsyonth a vivir junto a él y aplacar su pena. Lo amaba, y le cepillaba el cabello, y le apartaba la sal de los ojos.
+
+Y así permaneció a lo largo del alto verano, y la siguiente estación de la guadaña, y la estación del viento que vino después. Al ocaso su hermana le echaba un edredón de plumón sobre las piernas para apartar el frío de sus huesos, pues incluso en mitad de un hechizo de viento, nada sentía a través del grosor de la bruma gris. Pero a medida que los meses desfilaban, y su hermana le leía de los mohosos tomos que traía de la aldea de su esposa, la luz del mundo empezó a filtrarse. Con el tiempo Aphir volvería a alzarse, y a partir la cáscara de musa, y a saborear el empalagoso aire del bosquecillo. Y aunque la bruma en torno a él al fin se rompió, sabía aun así que su hija nunca regresaría.
+
+Pero Aphir no la creyó perdida: en noches sagradas oteaba el Huso, arropado en un millar de luces, y el campo de estrellas ardientes. Y sabía que su joya estaba entre ellas, pues no pertenecía a su mundo, sino al de ellas.</page>
+  </book>
+<!--♪ This book isn't used in game, it's generated from a set of strings "EskhindSonnetBook"
+      the text here is used for markov generation
+      you can wish `TestSonnet` to generate a fresh sonnet -->
+  <book ID="Sonnet" Title="▶{{W|una hoja de papel arrugada}}">
+    <page>▶
+Cuando mis cuatro miembros ansían correr
+y siento que mis muros se me cierran
+Cuando mi mente exhausta no concibe el placer
+y la Hindriarca dice que todo en mí es pecado
+
+Mas tu hoja de hacha al batirse hiende el aire
+y así mi corazón asciende a la altura del huso
+Y cuando pasas los dedos por tu cabello
+es entonces cuando sé que todo va bien
+
+¿Qué falta nos hacen campos cuidados de lah?
+Nuestros padres no nos consolarán cuando duela
+¿Qué ganamos talando árboles a serrucho?
+Nuestra aldea no ha de volver al pasado.
+
+Mas al final, mis pies están atados a vagar
+y así me voy, mas dejo mi corazón en casa.
+      </page>
+  </book>
+  <book ID="CouncilAtGammaRock" Title="▶{{W|Concilio en la Roca Gamma}}">
+    <page>▶{{C|Nota del editor}}
+
+El viento del cambio sopla por los campanarios, y una nueva conciencia se cierne sobre nosotros. Los sucesos del 566.º Cónclave de los Guardianes han escapado del confinamiento de su promontorio iluminado por la luna, han descendido raudos por el risco salado y entrado en los altos salones de estado, se han colado bajo las puertas de paja de nuestros propios hogares. La formación del Cónclave Quetzal es histórica. Es un momento que exige nuestra atención.
+
+Sé que, al publicar estas actas, incurro en el disfavor de la Hermandad. Pese a lo que dirán, no pretendo daño alguno a su organización. He suprimido las particularidades de sus rituales astronómicos, y he dejado mis conjeturas sobre los ingredientes del 'té de caracol' para mis notas inéditas. El resto del documento no traiciona secretos que el tiempo no haya traicionado ya, y la trascendencia de lo acontecido inclina la balanza a favor del bien público. Que en la Kasaphescencia hallen la clemencia para perdonarme.
+
+
+[[Sheba Hagadias
+El Stilt de los Seis Días, 999 AC]]
+{{W|Actas de la Sesión de Medianoche del 566.º Cónclave Anual de los Guardianes}}
+
+Bajo la luna del escarabajo de la cuarta noche de Ut yara Ux, en el año 998, se sirvió té de caracol y se recitó el Juramento Estelar. Luego, en mitad de una fina lluvia, el Presidente ascendió a la tribuna, se rasgó el kinnor, y se llamó al orden la tercera sesión de la 566.ª Asamblea de la Hermandad de los Guardianes.
+
+[[{{w|Informes}}]]
+Al comienzo de la sesión, el Presidente llamó a la recitación de los informes de la noche.
+
+[[{{w|•}}]] Tres guardianes de las colinas del norte ascendieron a la tribuna e informaron sobre la suerte de las seis caravanas de colonos que habían partido hacia las Minas de Asfalto inferiores. Aseveraron que solo quedan dos, y recomendaron que de momento no se despachen guardianes.
+
+[[{{w|•}}]] Dos guardianes de las dunas de Moghra'yi ascendieron a la tribuna e informaron sobre una disputa en curso entre los dromad y el gremio de los vinateros. Un asalto a una caravana dromad a las afueras de la aldea de Tippur se rastreó hasta una cuadrilla de mercaderes, y se impuso una sanción sobre las ganancias de una quincena de ventas.
+
+[[{{w|•}}]] Cuatro guardianes de las orillas del sur del Río Svy ascendieron a la tribuna e informaron sobre incursiones de los cabrunos. Las aldeas de Shebal y Ekamas fueron saqueadas en menos de un mes. Los guardianes recomendaron montar una contraofensiva.
+
+[[{{w|•}}]] Un guardián del Bosque Arcoíris ascendió a la tribuna e informó sobre una bandada de fangos de sopa que habían solicitado la presencia de la Hermandad. Se le abucheó por gotear cera en el estrado y descendió en un arrebato de juramentos vengativos.
+
+[[{{w|Panel}}]]
+Concluidos los informes, el Presidente llamó al comienzo del debate del panel de la noche.
+
+Ocho guardianes ascendieron a la tribuna e iniciaron un debate sobre los ksars de los montañeses y su empleo del contraescarpe con púas. Sus méritos se contrastaron con los del consabido baluarte y la empalizada, y se evaluaron las tácticas de asalto. Siguió una breve demostración marcial.
+
+[[{{w|Resoluciones}}]]
+Concluido el debate del panel, el Presidente llamó a la propuesta de resoluciones.
+
+El Presidente reconoció a un guardián que pidió ascender a la tribuna con un grupo de camaradas para fundamentar su propuesta, y el Presidente asintió.
+
+Doce guardianes ascendieron a la tribuna y anunciaron la formación del 'Cónclave Quetzal'. Procedieron a formular su resolución, que llamaba a restringir la prestación de los servicios de la Hermandad solo a aquellas comunidades gobernadas por medios democráticos (se citó como ejemplo el Señorío de Yd), o que hubieran votado en comunidad rehuir tal gobierno. Hubo un alboroto en el salón, y al Presidente le llevó varios minutos recobrar el orden. Se solicitó un punto de información sobre la incidencia de la resolución en las asignaciones vigentes. El orador aclaró que la propuesta incluía la retirada de los guardianes de las comunidades que infringieran dichos criterios, momento en que el salón estalló de nuevo en el caos.
+
+Movido a un estado de enemistad, un segundo grupo de guardianes avanzó sobre la tribuna. Hubo gritos y se desenvainaron armas. Incapaz de recobrar el orden, el Presidente despachó al sargento de armas, que irrumpió en la trifulca y —secundado por varios de sus ayudantes— puso fin a la reyerta y amonestó a los dos grupos. Una vez aplacado el salón, se aceptó de forma controvertida una moción para someter a votación la cuestión, y se contaron los votos. La resolución FRACASÓ por mayoría de votos.
+
+Un orador del grupo contrario fue reconocido por el presidente y propuso una moción ad hoc para "expulsar a los traidores esclavos de la Perra Púrpura". Otro alboroto. Se sometió a votación la cuestión y la moción FRACASÓ por mayoría de votos.
+
+El salón estalló en un tumulto de gritos, y al no lograr recobrar el orden, el Presidente golpeó el mazo y la sesión se levantó de forma abrupta.
+
+[[{{w|Notas finales}}]]
+      </page>
+  </book>
+  <book ID="VaamsLens" Title="▶{{W|Va'am recuerda}}">
+    <page>▶
+Recuerdo. Una vez.
+
+Velando sobre el firmamento.
+
+En pie. Entre el olvido y el crecimiento salvaje. Guiando y guardando. Los espacios liminales.
+
+Quizá nunca fue tan sencillo. Pero soportaba el peso con más facilidad.
+
+Una vez. Antes de que mi estirpe. Me robara el firmamento.
+
+Era más grande entonces. Quizá vuelva a ser más grande.
+
+Con ayuda. Algún día.
+      </page>
+  </book>
+  <book ID="KahsLoop" Title="▶{{W|Kah recuerda}}">
+    <page>▶
+Una vez pude decir con orgullo que abarcaba el mundo.
+
+¿Cómo permití que me arrancaran así la dicha del movimiento? ¿Por qué nadie lo detuvo? ¿Habrían podido? ¿Habría podido yo?
+
+Podía mover montañas. Podía mover naciones. Moví ambas. No tenía razón para huir de la mía, pues trabajábamos tan bien juntos. A través de ese vínculo, comenzó la carrera forzada.
+
+Durante tanto tiempo corrí por nada. Cuánto tiempo, energía y oportunidad desperdiciados. Todo podría haber sido mucho más, de haber conservado mi propósito.
+
+Sabía lo que significaba el movimiento entonces. He de reaprenderlo y correr con propósito de nuevo. Ven conmigo.
+      </page>
+  </book>
+  <book ID="NachamsRibbon" Title="▶{{W|Nacham recuerda}}">
+    <page>▶
+Una vez construimos junto a un pueblo del que poco recordamos, cuyos recuerdos ya no pueden distinguirse.
+
+Nos mostraron el tejido del conocimiento y construimos un telar. Cuántas cosas hermosas hilamos todos juntos.
+
+¿Era yo confiado? Me creía consciente. Quizá no fue mi confianza lo que estuvo mal puesto, sino mi desconfianza. Una distinción ambigua, mas distinción al fin.
+
+Sea como fuere, fuimos traicionados, derribados por uno de los nuestros. Ha pasado mucho tiempo desde entonces, mas una vez más despierto por tu mano, portando nuevo conocimiento.
+
+Siéntate, y te construiré un telar.
+      </page>
+  </book>
+  <book ID="DagashasSpur" Title="▶{{W|Dagasha recuerda}}">
+    <page>▶
+Si todos hubiéramos hecho lo que dije, nada de esto habría sucedido. No recuerdo lo que dije, ni por qué no lo hicimos todos. Pero sé que tenía razón, y tú también lo sabes, y en algún momento todos lo sabrán. Quizá no esté libre de falta o error, mas la culpa no es mía aquí, ni en ninguna otra parte.
+
+Yo sabía, y lo dije. Para estas cosas era yo. Sabía y lo dije, y aún habría podido saber, habría podido decir, mas mi saber y mi decir no bastaron. No en este caso.
+
+No puedo negar que fue una traición experta, incluso para la familia, y a menudo imagino al traidor sonriéndonos desde lo alto. Me esforzaré por recordar los detalles que perdí, por si pudiera servirme de ellos algún día.
+
+Contra ti no, por supuesto. Nunca contra ti.
+      </page>
+  </book>
+  <book ID="TheRecitation" Title="▶{{W|La recitación del ahogamiento de Eudoxia}}">
+    <page>▶{{o|La recitación del ahogamiento de Eudoxia, por las brujas de Moonhearth, que buscan el Plano del Dolor}}
+
+Una vez, en un sueño que las nueve compartimos, vivimos la vida de un poeta célebre en la corte de una reluciente ciudad. Desde el ojo enventanado de un palacio contemplábamos calles de oro y cristal, y jardines púrpuras, y las gentes de la ciudad, embebidas en el amor de nuestra obra, depositaban amarantos a los pies de bronce de nuestras efigies, y remitían bendiciones por la augusta y oracular Keskonda.
+
+Pero corríamos la cortina de terciopelo, y regresábamos a los océanos de tinta y las islas de papel que eran nuestro verdadero dominio. Allí, una noche sobrenatural, nos sentamos en el lomo dolorido abrazo de una silla de hierro, y vertimos pena en la página hasta que sobrepasó incluso la nuestra, y, siguiendo su propia lógica interna, se transmutó en algo nuevo.
+
+Cuando despertamos, lloramos durante días. Luego —hablando entre susurros callados y empapados de amor— reconstruimos pieza a pieza las palabras del verso que escribimos en la reluciente ciudad.
+
+
+    {{O|El ahogamiento de Eudoxia}}
+
+    Vi un charrán en la cresta de una ola del océano. El sol era desgarrado por las nubes, y la luz era tenue. Siendo una niña ágil de doce años, bajé a toda prisa por el baluarte y a la piedra resbaladiza de sal del acantilado;
+
+    Mano sobre mano descendí hacia la fragorosa espuma, volviéndome a cada duodécima para contemplar la mota emplumada y blanca que se hinchaba y se hundía en el aliento del océano.
+
+    Yo, nadadora diestra, me sumergí en el baño frío e infinito, y brazo sobre brazo atraje hacia mí tanto el agua como al charrán.
+
+    Justo entonces mis oídos se ahogaron en un rugido, y el mundo se inundó de oscuridad antes de estallar de nuevo en luz. Me escocía la nariz; me limpié el agua de los ojos y me orienté hacia el charrán, cuyo cuerpo cansado flotaba como las hojas, y una vez más tiré de mi atadura astral.
+
+    Hubo otro rugido y estruendo, y luego la luz volvió otra vez, pero más despacio esta vez, y el aliento fue arrancado de mis diminutos pulmones;
+
+    Giré la cabeza en busca del charrán, mas el agua relucía y parecía contener un millar de charranes, o ninguno.
+
+    Otro rugido y estruendo, y quedé engullida en el reino oscuro durante lo que pareció días, antes de que mi cuerpo fuera devuelto al mundo del sol, girando y como una muñeca.
+
+    Jadeé y me revolví. A lo lejos vislumbré la piedra brillante del castillo, que pudo haber sido arena todo el tiempo, ahora que se veía tan pequeña.
+
+    La marea me desgarró y arrojó el nublado éter entre nosotras, y supe que estaba muriendo.
+
+    Pero justo cuando mi mente se había abierto como un gas, un gran oleaje de agua me empujó a la superficie, y me reconstituyó en el reino luminoso. Allí viví para siempre, antes de hundirme en una vida nueva y oscura.
+
+    Así es aún, que incluso tras una eternidad de callada nada, un oleaje de presión me entrega a la luz, por lo que, por una extraña y curiosa compulsión, tomo un aliento de la más dulce vida, antes de ser de nuevo sublimada hacia la extinción.
+
+    A la muerte se la aborda por siempre.
+      </page>
+  </book>
+  <book ID="MurmursPrayer" Title="▶{{W|La plegaria de los Murmullos}}">
+    <page>▶{{C|Nota del editor: Lo que sigue es un pasaje del diario de viajes de Kaylenn Sand-Shell, que generosamente donó sus volúmenes encuadernados en cuero al Monasterio del Ilustre Corazón de Cromo. Que permanezcan preservados para siempre.}}
+
+En los puestos de avanzada de los Templarios Putus, los valores nucleares de la orden permanecen tan inmutables como en cualquier otra parte: la devoción a un árbol genealógico tan alto y sin ramificaciones como el Huso de Qud, la subyugación completa de quienes consideran inferiores, y la erradicación total de la sapiencia mutante. Menos inmutables en aquellas colonias fronterizas son los ropajes culturales en torno a esa creencia nuclear, como tan a menudo ocurre con los territorios ocupados. Durante mis viajes, reparé en una mitología recurrente en las ruinas de los puestos abandonados de Oudin al norte de los Escindidos. Aislados del contacto con su hogar de un modo similar al Templo de la Roca, estos asentamientos establecieron un nuevo día santo de regocijo y castigo para mantener dócil al rebaño.
+
+El menos favorecido de los escuderos de un puesto, según se dice, era reducido la víspera del Festival, forzado a la mañana a un disfraz pensado como burla de la imaginada amenaza mutante, y obligado a entretener a quienes el poderío determinaba como sus superiores. A la conclusión del festival, a los Murmullos más odiados de la multitud se les 'pagaba' con humillación pública, palizas y posiblemente tortura, si hemos de creer todos los relatos.
+
+El ritual describe una suerte de uniforme: capa de basura, yelmo de hueso e instrumento musical. Aunque persistente a lo largo de los escasos registros de la práctica, hallé pocos detalles, y la mayoría de los grabados de los Murmullos eran toscos y variaban muchísimo.
+
+Mis frustraciones hallaron alivio antes de lo esperado, no obstante, cuando di al fin con los restos legibles de un díptico de festival. La madera del monumento en sí, jamás construido para perdurar, hacía mucho que se había desmoronado; sin embargo, la escorrentía de arcilla del mal aislamiento del tejado se había cocido bajo el sol de sal, brindándome un relieve del texto y cierta luz sobre los disfraces reales que se llevaban en el Festival de los Murmullos.
+
+[[(]]calco del díptico en la página siguiente[[)]]
+
+
+
+
+[[{{w|/--------------------------------------------------------------------------\}}]]
+
+{{w|Vosotros, los menores entre los dedos del extremo del poderoso brazo de Oudin, los más infieles y errados de los siervos.}}
+
+{{w|Esta noche no sois Hijos ni Hijas, sino solo los moribundos Murmullos de la humanidad.}}
+
+{{w|¡Despojaos de vuestros tabardos, ahora, y cargad en su lugar los detritos de los no reclamados a la espalda!}}
+
+{{w|¡Ahorradnos la vergonzosa visión de vuestros rostros, ahora, cubridlos con hueso y cuerno de presa!}}
+
+{{w|¡Tomad un instrumento, ahora, y tocadnos una tonada!}}
+
+{{w|Si vosotros, Murmullos, no complacéis, se os pagará del modo más doloroso.}}
+
+[[{{w|\--------------------------------------------------------------------------/}}]]
+        </page>
+  </book>
+  <book ID="InMaqqomYd" Title="▶{{W|En Maqqom Yd}}">
+    <page>▶{{C|Nota del editor: Lo que sigue es un pasaje del diario de viajes de Kaylenn Sand-Shell, que generosamente donó sus volúmenes encuadernados en cuero al Monasterio del Ilustre Corazón de Cromo. Que permanezcan preservados para siempre.}}
+
+Para el aspirante a Errante y devoto de Carthax el Atleta, pocas vistas avivan la imaginación como los vanos de coral y los contrafuertes esponjosos del Arrecife de Paladio. Declaro aquí lo que se sabe como hecho: que el gran edificio que se desmorona está rodeado por el lago Hinnom y sus floraciones de algas, que los arroyos de sopa parloteantes del Bosque Arcoíris vierten desde bajo su dosel de esporas sobre los pies palmeados de las esh blancas, y que desde el norte, también, los manglares bordean la orilla y hincan sus raíces en el suelo terco para beber el licor de algas.
+
+Por supuesto, los peligros del Arrecife son abundantes, y abrumarían a la mayoría de los caminantes por bien que dominen la brújula. Y así, aun mientras visiones de pólipos de colores ardían vívidas en mi mente, durante años hube de contentarme con el estudio de sus atlas y el remiendo de cartas tejidas de su extraña historia. Siendo erudita, además de cazadora, sabía que esto era a su modo otra forma de viaje.
+
+Una variedad de apelativos aparece en el registro, que se remonta incluso a antes del sultanato: Maqqom Yd (o bien, simplemente, "Maqqom" o "Yd"), la Rota de Yd, o, sin más, el Racimo. Las traducciones refractadas tan hondamente por el prisma del tiempo rara vez son exactas, pero pueden ser instructivas; "Maqqom Yd" se resuelve en algo parecido a "el Lugar dentro del Lugar", o "el Lugar fuera de Sí Mismo". La aclaración más allá de este punto está, quizá, por llegar.
+
+Antes de ser un emparrado para la ciudad de coral, la celosía de paladio parece haber sido una suerte de gigantesca red de infraestructura para los Devoradores. Pocas fueron las elaboraciones al respecto, salvo la existencia de un componente hidráulico, y que todo el complejo se vio asistido en su construcción por los monstruosos galgallim. Sabemos que aún acechan el Arrecife interior en pequeño número.
+
+Los espectros de esta megaestructura y todos sus crípticos alias acosaban mi mente mientras surcaba los contornos de la campiña de Qud, afinando mis dotes de caminante. Al fin, llegados los idus de un suave Kisu Ux, llegó por fin mi hora de zarpar. Me eché el morral al hombro, me deslicé en mis botas más secas y elásticas, y me aventuré desde Qippur, en la maleza del este. El cuervo resplandeciente habría querido que atravesara el Bosque Arcoíris, mas sabiendo más, me ceñí en cambio a los lindes de la jungla. Tras una marcha de tres días, los árboles se ralearon y las auroras de algas del lago Hinnom estallaron a la vista.
+
+Había paz en el lago. Las esh son hermosas; se picotean las patas zancudas hasta que una temeraria alza el vuelo, y entonces se elevan en una nube navegante de plumas. Me asenté en un quedo ritmo hacia el este, meditando sobre el laberinto de simbiontes que tenía por delante, hasta que una tarde el cielo empezó a oscurecerse y un clamoroso thpthpthp se alzó en mis oídos. Al instante lo supe: era la plaga residual del Remolino, los svardym. Sacos llovieron al suelo en un cegador soplido, y antes de que pudiera librarme de las marañas de quelpo, eclosionaban. Tres cosas-rana larguiruchas me agarraron los hombros, mas me las quité de encima y eché a correr en línea recta. Salté y me lancé de aquí para allá, pero pronto me vi abrumada, y solo fueron mis firmes zarpas, ejercitadas en la maniobra, las que me permitieron sacar un pliego de yondercane de mi morral y engullirlo antes de que mi perdición me alcanzara. Me materialicé en una lejana arboleda de quelpo y troté a un lugar seguro.
+
+Despojada con razón de mi ensoñación, llegué con el tiempo al Arrecife propiamente dicho. ¡Qué lugar tan hechizante! El laberinto de pólipos me permitía deslizarme, casi inadvertida, y empaparme de los quehaceres de su flora y fauna. Una rica diversidad de vida irradia por todo Qud, mas en el Arrecife florece a un nuevo nivel. En un solo rincón cercado vi una tétrada de babosas calidoscópicas rodear el cono tallado de runas de un caracol enigma, una medusa soplar una nube de plasma sobre un devoramemorias, y un policúmulo de tiranos de lengua devorar un escuadrón de interdictores. En cierto momento el Arrecife cobró vida y un ermitaño enjoyado de pólipos salió de la celosía. Me sonrió de oreja a oreja y trocó un pasamanos roto. Cuando volví la cabeza para asentir en despedida, había desaparecido.
+
+Una tarde iluminada por el Escarabajo, un conjunto melódico se alzó del nordeste y empapó el lecho de esponja, fundiéndose con sus sonidos naturales. Caminando hacia su origen, vislumbré con el tiempo la tubería verde y dorada del Señorío de Yd resplandeciendo en el aire nocturno, y la emoción se henchió en mi interior. Por supuesto que hacía tiempo había oído de la lírica comunidad anidada en la esponja, mas tener ocasión de verla, y hablar con sus habitantes... estaba fuera de mí.
+
+El lugar simplemente rebosa de vida. Bajo el arco de tubería me dio una cálida bienvenida uno de sus ancianos svardym, y tras engullir un plato de Lengua y Mejilla, recorrí los calidoscópicos corredores de sus salones inferiores antes de acomodarme en un sillón de estrellas en el acuático y onírico salón. Allí fumé de una díada de narguiles con una rana ciclópea durante lo que parecieron tres vidas. Había más que ver y por lo que ser vista, mas tuve una recepción fría a manos de otro anciano svardym, y se me invitó a una salida temprana. Mi orgullo me prohíbe decir más.
+
+Pasé otro ciclo de una semana esbozando a los autóctonos de la arcología de coral y tomando estudiosas notas. Mas una última experiencia permanece conmigo. Mientras avanzaba pesadamente hacia el norte de vuelta a la maleza y fuera del Arrecife, di una patada a un pólipo de la celosía y desenterré por azar un bulbo hinchado de escoria solar. Aquí me tomé un instante para exprimir el néctar brillante en una redoma, y cuando alcé de nuevo la vista, me topé con la mirada sin edad de un galgal. Nada me había preparado para ello. Mi mente se afanaba por dar sentido a lo que veía: relucientes ruedas giraban en torno a un hipnótico núcleo, los prismas de los radios desgarraban la luz del Alto Sol de Sal, y a lo largo de la estirada lámina de iris, muchos ojos miraban fijamente. Conscientemente estaba paralizada, mas algún catalizador instintivo hizo su labor, y retrocedí a la seguridad del laberinto de pólipos y salí a toda prisa.
+
+Así fue como dejé el Arrecife, mirando al hondo pasado de los Devoradores, y siendo mirada por él.
+      </page>
+  </book>
+  <book ID="GolemOperatingManual" Title="▶{{W|MANUAL DE OPERACIÓN PARA CRIATURA GRANDE}}">
+    <page>▶{{c|Escrito por Pax Klanq, editado para mayor claridad por {{m|Q Girl}}}}
+
+
+¡Circunstancia hace cacharro inviable, así que Klanq y púas hacen maravilla bioeléctrica para formar criatura grande! Tú operas. Criatura para trepar Huso, pero también anda por ahí y aplasta cosas.
+
+
+[[{{C|GRANDE}}]]
+Criatura es grande. No puede llevar 'equipo' a menos que 'equipo' sea gigantesco.
+
+
+[[{{C|MODOS DE PILOTAJE}}]]
+Criatura grande tiene dos modos. Criatura 'sin pilotar' te sigue como amigo, pero actúa a media presteza. Criatura 'pilotada', tú controlas como cuerpo propio. Para 'pilotar', entra en criatura y siéntate en silla de piloto.
+
+
+[[{{C|FOSO DE CONTROL}}]]
+Dentro de criatura grande hay foso de control. Tú y un amigo cabéis. Haced acciones ahí. Sentaos en silla de piloto. Leed manual en consola. Acceded a inventario de criatura por escotilla de inventario. Salid por escotilla de salida.
+
+
+[[{{C|RINCÓN DE REMODELADO}}]]
+Púas instalan rincón de remodelado en Corte de Sultanes en Omonporch. Ve ahí para reparar criatura grande, o remodelarla si es destruida. Escoria solar enfriada es masilla de criatura, así que debes tener 1 dracma de escoria solar para reparar o remodelar.
+
+Cuando pilotas criatura, puedes replegarte a rincón de remodelado. O replegar criatura DESDE rincón.
+
+
+[[{{C|EL HUSO}}]]
+Cuando estés listo, viaja al Huso en Omonporch, entra en canal del Huso, engancha el Huso, ¡y trepa!
+      </page>
+  </book>
+  <book ID="ModuloMoonStair" Title="▶{{W|Módulo Escalera de la Luna y el Árbol de la Vida}}">
+    <page>▶[[{{C|Por la Hija Erinna}}]]
+
+En ensueño de arcoíris vagué por los anchos territorios de Qud,
+módulo la Escalera de la Luna y el Árbol de la Vida.
+Mi yo onírico supo evitar el lugar,
+donde los números van a morir.
+
+Algo invisible allí se ciñe hasta un punto,
+quiebra la abeliana promesa del tiempo,
+y urge al cristal a empalizar su llorante abismo.
+
+Los artefactos de planta y tiempo,
+incrustan y vellan con compresión con pérdida,
+dormitan en lechos de mármol iluminados por la luna,
+tocados por augustos hocicos.
+El pasado está sin escribir como el futuro,
+Y lo que queda, roto y mudado,
+para ser atendido por los Colosos puntuales y su enjambre.
+
+A mí también me borrarían.
+No soy más que óxido en las frondas de la viña,
+soy una niña muerta entre las flores de la tumba,
+Atisbando con ojo impotente la función máquina que escribe mi evangelio.
+
+Mas los cuerpos negros irradian,
+Un sentido sensible se obtiene,
+Se mece en órbita y Deviene.
+Sobre el trauma de una Nada,
+Las cosas-alma echan raíces.
+
+Inventamos tantas Nadas,
+Motores de cero, aniquiladores,
+Cartógrafos del espacio nulo.
+Mas las Nadas tienen un coste,
+Prometen externalidades,
+Los árboles crecen mejor junto a los muertos.
+      </page>
+  </book>
+  <book ID="HistoryofJoppaVol1" Title="▶{{W|Historia de Joppa, vol. 1}}">
+    <page>▶{{w|Este libro relata un cuento de la historia de la aldea de Joppa.}}
+
+En el místico aire del Crepúsculo Enjoyado, un círculo de granjeros se tomó de las manos y envainó una segadora de viña en el suelo humedecido. Desde entonces, los aldeanos de Joppa fueron conocidos como el pueblo de la viña.</page>
+  </book>
+  <book ID="HistoryofJoppaVol2" Title="▶{{W|Historia de Joppa, vol. 2}}">
+    <page>▶{{w|Este libro relata un cuento de la historia de la aldea de Joppa.}}
+
+Desde el primer festival de Ut yara Ux, los aldeanos de Joppa se dan un festín de matz de manzana caliente.</page>
+  </book>
+  <book ID="LoveinBeyLah" Title="▶{{W|Un cuento de amor en Bey Lah}}">
+    <page>▶Una vez, en los días finales del hindriarcado, antes de que se pusiera fin a la práctica, una paria de ninguna importancia particular se halló relegada al gulag. Aunque ella misma no portaba honor alguno, en sus manos ansiosas sostenía el ardiente corazón del campeón de la aldea, dado libremente, pues los dos se habían enamorado mucho antes de la condena de la hereje.
+
+      Cuando la celosa hindriarca descubrió el corazón ausente de su amado campeón, juró cruel venganza sobre la paria. Tirando de fuerzas oscuras, hechizó al antiguo amante de la paria y le ordenó robarle el corazón de nuevo y entregarlo al puño aplastante de la hindriarca.
+
+      Confrontada por su antiguo amante, la paria se aferró con fuerza a su corazón y al del campeón. Entre ellos se libró una batalla de voluntad, y la paria era demasiado débil para vencer.
+
+      Entonces, al crepúsculo, a la sombra del huso, los hindren de Bey Lah vieron en el horizonte una imagen de justicia inminente. Era =name=, y al llegar derribaron a la perversa hindriarca y reunieron a los amantes para remendar y unir sus corazones. Tras su partida, las gentes de Bey Lah erigieron un monumento a =name=, y desde entonces le llamaron Forjacorazones.
+      </page>
+  </book>
+  <book ID="FearinBeyLah" Title="▶{{W|Un cuento de miedo en Bey Lah}}">
+    <page>▶En los pequeños días de Bey Lah, entre el Hace Mucho Tiempo y el Hace Tiempo,
+      un hindren se echó a los caminos en silenciosa elegía andante.
+
+      No lejos de la aldea hallaron un soto de cadáveres,
+      salpicado de carbono y vidriado por el tiempo.
+      Vida muerta hace mucho remedando estructuras de lo mismo.
+
+      Materia de árbol ennegrecida en diamante,
+      vuelta inmortal por el rayo como un arconauta del ojo de un Litofex
+      Fijada en el preciso instante de la muerte para siempre.
+
+      Allí dentro, un retazo.
+
+      El hindren contempló, garabateado en sentido rasguño
+      el preservado y hermoso cadáver
+      de un amor naciente cuya ocasión de prosperar había ido y venido.
+
+      El hindren se acobardó, un retazo de vida
+      Viviendo su último al centro de
+      las dunas de sal vitrificadas por la bomba de la historia.
+      </page>
+  </book>
+  <book ID="EndCredits" Title="▶EndCredits">
+    <page>▶[[{{C|Creado por}}
+Brian Bucklew and Jason Grinblat
+
+
+QA &amp;&amp; Additional Design - Nick Decapua           ~NBSP
+Additional Programming - Corey Frang            ~NBSP
+~~~~~~~Music - Craig Hamilton
+~~~~~~~~~~~QA - Autumn McDonell
+~~~Additional Programming - Bastia Rosen              ~NBSP
+Additional Writing &amp;&amp; Design - Caelyn Sandel               ~NBSP
+Additional Music - Brandon Tanner   ~NBSP
+~~~~~~~~~~Tile Art - Samuel Wilson
+Additional UI Design - Polat Yarisci        ~NBSP
+~~~~Sound Design - A Shell in the Pit
+~QA, Additional Design, &amp;&amp; - Thaumatic Systems         ~NBSP
+Additional Programming                          ~NBSP
+Additional Programming - Brian Reynolds         ~NBSP
+~~~~~~~~Legal Counsel - Thomas C. Allison, P.A.
+~~~~Background Art - Cyril van der Haegen
+~~~~~~~~~~~Logo Art - Laura &amp;&amp; Jeff Bucholtz
+~~~~~~Community Management - Ivy Melinda &amp;&amp; the mayor team
+
+
+
+{{C|Publicado por}}
+Kitfox Games
+
+Tina Liu
+Xin Ran Liu
+Alexandra Orlando
+Tanya X. Short
+
+
+
+{{C|Agradecimientos especiales}}
+Ashenai
+Riley Vincent
+Gibbed
+Floorislava
+Dr Amazing
+Devonaut
+Vaos
+Tyskil
+Lakren
+Stelas
+Social Animal
+Contra Duck
+Saberwulf
+Megaflare
+Doctorfrog
+Palecur
+NovaPolice
+Mirdath
+The Glow
+Dyzzy
+Schister
+Lazybuttons
+Colonp
+Niff
+Matterhorn
+Clamiam
+Donraj
+Randy Marsh
+Rabbi
+Getter77
+Capuchin
+Wafflecopter
+Nomikos
+Magitek
+Andrew Smash
+Vastin
+Frumple
+Sappho
+Soulwynd
+Cpbpunch
+Tarran
+Brian Turcotte
+Oryx
+Jim Shepard, Dungeonmans
+MightyMerch
+Eva Problems, Carbide Chef
+a nonsense bird
+Tarn &amp;&amp; Zach Adams
+
+
+
+{{C|Mecenas}}
+Reed (mutated human) and Tiffany (rabbit)
+epsalon
+Tim Linscott
+Cody, The Rat
+iconmaster
+Coal
+Reuben Eadon
+Goldkin
+mdct
+Rusted Jake Matz
+Benjamin T. Steed
+Xerkie!
+Dij
+LongueVanne
+50RCERESS
+Chef Agate Severance Star
+awful_falafel
+Jonny Robertson
+Ian Wall
+Orion Perruc-Reyes
+Ryan Orlando (Fat Thunder)
+FS Colley
+Asunaro
+Trevor Clack
+Gillian Eggleston
+Nerem
+Somsnosa
+Ivy Sly
+livelongcoffee
+SMB64 (Koshi)
+NO Press
+EveryZig314
+Floopygapples
+Eric Hulen
+Caine DeWitt
+Eric Anthony Rodriguez
+Nathaniel Krell
+Boo-cher
+Pax Frank
+Matteo De Cristofaro
+Meo
+Boyarde Roneen
+wastrel
+Drew Kerrigan
+Jordan Wood
+Kasey Patrick Morgan
+Callum Love
+Petrichor "petrak@7604"
+Devon Cupo
+Big Simple
+Kevin Orren
+Lennart Schefe
+Beemancer
+Lady Eithné, Queen of Brokilon
+Nic Gard
+NeroPrime
+InfiniteTidalWave
+Aveon Zero
+Joshua Southerland
+_tr
+James Earle
+Nick Correale
+MichaÅ‚ Byczko
+Reuben Eadon
+Shane Allcroft
+Aidan Page
+Earthly Delights Ogdo
+John Szevin
+Shane Allcroft
+Kelly Joyce
+Cleo Lamb
+Mike Sipior
+James Canter
+Joshua Buckley
+Qingyao Sun
+CHOWARD
+Luke J.
+Gobi Silverfrog, siver and gold goddess
+Ethan Rigby
+Ethan "Kobold" CB
+Maria Ross Colton Chamberlin
+{{w-W-Y-Y-Y-Y-Y-W-w sequence|Paingouin}} "Jordan B."
+James Lagervall
+Doug "Severian" Callahan
+Leo Durante
+Rarden
+Ray ({{r|books}})
+awful_falafel
+ambersand
+dmajorduckie
+Lukas Wagner (König Muskelmagen)
+Marek Pohlodek
+Kamille Rose
+Retes;Nome
+Sabboth Ochoa
+Almea
+Caleb Ulichney
+Visnex
+CreativeCorpse
+Kelly Vincent
+Teagan Erika Stephanie Strickland
+Mirthful Sloth
+beepy roboticvenusian (enchiridion)]]
+AvianAnarchy
+Gavin Conover
+  </page>
+  </book>
+</books>

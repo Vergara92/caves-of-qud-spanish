@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.24
+
+<help>
+
+  <topic name="Key" DisplayName="DisplayText">
+
+-->
+<help Lang="es" Encoding="utf-8">
+  <topic name="Quickstart" DisplayName="▶Inicio rápido">▶
+Estas son nueve cosas que conviene hacer al empezar la partida.
+Después, usa el resto de esta Ayuda como manual de consulta.
+
+{{W|1. Muévete por el mapa}}
+
+{{?KB|Desplázate pulsando las teclas de dirección (~CmdMoveN, ~CmdMoveE, etc.) o haciendo clic en el mapa.}}{{?Gamepad|Indica la dirección con ~UI:Navigate y pulsa ~Take A Step para dar un paso, o mantén ~Take A Step para moverte de forma continua.}}{{?Gamepad|
+También puedes explorar el mapa automáticamente con ~CmdAutoExplore.}}
+
+{{W|2. Interactúa con las cosas}}
+
+Acércate a un PNJ u otro objeto y pulsa ~CmdUse.
+
+{{W|3. Examina las cosas}}
+
+{{?KB|Pulsa }}~CmdLook para entrar en modo Observar y luego mueve el cursor por el mapa.{{?KB|
+O bien {{hotkey|haz clic derecho}} para una observación rápida.}}
+
+{{W|4. Usa tus aptitudes}}
+
+{{?KB|Haz clic en un botón de la barra de aptitudes en la parte inferior de la pantalla
+o pulsa su tecla rápida.}}{{?Gamepad|Recorre la barra de la parte inferior de la pantalla con ~UI:Navigate/left y ~UI:Navigate/right
+y luego pulsa ~Use Ability para usar una aptitud.}}
+
+{{W|5. Consulta tu hoja de personaje}}
+
+{{?KB|Pulsa ~CmdCharacter para ver la información básica de tu personaje.
+Pulsa ~CmdEquipment para ver tu equipo.
+Pulsa ~CmdInventory para ver tu inventario.
+Pulsa ~CmdJournal para ver tu diario.
+Pulsa ~CmdQuests para ver tus misiones.
+Pulsa ~CmdSkillsPowers para ver tus habilidades.
+Pulsa ~CmdFactions para ver tus relaciones con las facciones.
+
+Puedes pasar de una página a otra con ~Page Left y ~Page Right.}}{{?Gamepad|Pulsa ~CmdCharacter para ver la información básica de tu personaje.
+Pasa a las demás páginas de tu hoja de personaje con ~Page Left y ~Page Right.}}
+
+{{W|6. Muestra una lista de puntos de interés}}
+
+Pulsa ~CmdMoveToPointOfInterest.
+
+{{W|7. Muestra información adicional sobre los objetos del mapa}}
+
+Pulsa ~Highlight para superponer datos extra, como la hostilidad de las criaturas
+(rojo = hostil, amarillo = neutral, verde = amistoso) y una vista despejada de
+los objetos de interés.
+
+{{W|8. Camina hasta otro mapa}}
+
+Basta con salir de la pantalla, o ve al mapa del mundo con ~CmdMoveU.
+
+{{W|9. Ataca a un enemigo}}
+
+Para hacer un ataque básico, basta con caminar contra una criatura hostil.
+O puedes usar una aptitud de ataque.
+</topic>
+  <topic name="Attributes" DisplayName="▶Atributos">▶
+[[{{C|Fuerza}}]]
+Tu puntuación de Fuerza determina cuánto daño cuerpo a cuerpo infliges (al mejorar
+tu penetración de armadura), tu capacidad para resistir el movimiento forzado y tu
+capacidad de carga.
+
+[[{{C|Agilidad}}]]
+Tu puntuación de Agilidad determina tu precisión con armas cuerpo a cuerpo y a
+distancia, así como tu capacidad para esquivar ataques.
+
+[[{{C|Resistencia}}]]
+Tu puntuación de Resistencia determina tu número de puntos de vida, tu ritmo de
+regeneración de puntos de vida y tu capacidad para resistir venenos y enfermedades.
+
+[[{{C|Inteligencia}}]]
+Tu puntuación de Inteligencia determina tu número de puntos de habilidad y tu
+capacidad para examinar artefactos.
+
+[[{{C|Voluntad}}]]
+Tu puntuación de Voluntad modifica las recargas de tus aptitudes activadas,
+determina tu capacidad para resistir ataques mentales y modifica tu ritmo de
+regeneración de puntos de vida.
+
+[[{{C|Ego}}]]
+Tu puntuación de Ego determina la potencia de tus mutaciones mentales, tu
+capacidad para regatear con los mercaderes y tu capacidad para dominar la voluntad
+de otras criaturas vivas.
+
+[[{{C|Valor de Armadura y Valor de Esquiva (AV / DV)}}]]
+Tu valor de armadura (AV) mide cuán protegido estás
+frente a los ataques físicos que te alcanzan. Cuanto mayor sea la puntuación, menos
+probable es que el ataque de un oponente te cause un daño grave. La mayoría de los personajes
+empiezan con un AV base de 0.
+
+Tu valor de esquiva (DV) mide cuán probable es que te alcancen
+los ataques físicos. Cuanto mayor sea la puntuación, menos probable es que el ataque
+de un oponente te acierte. Tu DV se modifica con tu modificador de Agilidad. La mayoría de los
+personajes empiezan con un DV base de 6.
+
+[[{{C|Armadura Mental (MA)}}]]
+Tu armadura mental (MA) mide cuán protegido estás
+frente a los ataques mentales, igual que el valor de armadura mide cuán
+protegido estás frente a los ataques físicos. Cuanto mayor sea la puntuación,
+menos probable es que el ataque mental de un oponente tenga un efecto grave sobre ti.
+Tu MA se modifica con tu modificador de Voluntad. La mayoría de los personajes empiezan
+con un MA base de 4.
+
+[[{{C|Presteza (QN)}}]]
+Tu puntuación de Presteza mide la rapidez con la que ejecutas todas y cada una
+de las acciones que emprendes. Tu puntuación de Presteza base es 100. Ten en cuenta que
+hay muy pocas maneras de aumentar esta puntuación.
+
+[[{{C|Velocidad de Movimiento (MS)}}]]
+Tu velocidad de movimiento mide la rapidez con la que caminas o vuelas.
+Tu velocidad de movimiento base es 100.
+
+[[{{C|Temperatura (T)}}]]
+Tu temperatura mide cuánto calor o frío tienes. Si estás
+Helado, tu puntuación de Presteza se reduce a la mitad. Si estás Congelado, no puedes
+emprender acciones físicas. Si estás En Llamas, sufres daño por calor
+cada turno hasta que reduces tu temperatura.
+
+[[{{C|Resistencia a ácido}}]]
+Tu resistencia a ácido mide cuánto daño por ácido amortiguas. Tu
+resistencia a ácido base es 0. A 100, eres inmune al daño por ácido.
+
+[[{{C|Resistencia a frío}}]]
+Tu resistencia a frío mide cuánto daño por frío amortiguas y cuán
+aislado estás de los efectos que reducen tu temperatura. Tu resistencia a frío
+base es 0. A 100, eres inmune al daño por frío y tu
+temperatura no puede reducirse.
+
+[[{{C|Resistencia eléctrica}}]]
+Tu resistencia eléctrica mide cuánto daño eléctrico
+amortiguas y cuánto te resistes a la corriente eléctrica. Tu resistencia eléctrica
+base es 0. A 100, eres inmune al daño eléctrico y no
+conduces electricidad.
+
+[[{{C|Resistencia a calor}}]]
+Tu resistencia a calor mide cuánto daño por calor amortiguas y cuán
+aislado estás de los efectos que aumentan tu temperatura. Tu resistencia a calor
+base es 0. A 100, eres inmune al daño por calor y tu
+temperatura no puede aumentarse.
+
+</topic>
+  <topic name="Skills" DisplayName="▶Habilidades">▶
+Tus habilidades representan las aptitudes que has aprendido a lo largo de tu
+vida. Cada árbol de habilidades tiene varias habilidades asociadas. Empiezas con
+varias habilidades determinadas por tu casta o vocación. Puedes adquirir otras
+habilidades gastando puntos de habilidad, que ganas al subir de nivel (cuanto
+mayor sea tu Inteligencia, más puntos de habilidad ganas).
+
+Para adquirir una habilidad nueva, primero debes adquirir la habilidad de entrada de su
+árbol. Debes cumplir los requisitos de atributo o de poder de la habilidad
+que intentas adquirir. Es posible empezar con ciertas habilidades
+sin tener su habilidad de entrada si tu casta o vocación te la ha concedido.
+
+Las habilidades suelen otorgarte aptitudes activadas. Una vez adquirida una habilidad,
+podrás acceder a tu nueva aptitud activada desde el menú Gestionar aptitudes ('~CmdAbilities').
+</topic>
+  <topic name="Mutations and Defects" DisplayName="▶Mutaciones y defectos">▶
+Las mutaciones son poderes biológicos especiales concedidos a los moradores de Qud:
+los true kin de las arcologías exteriores no poseen mutaciones. Hay dos
+tipos de mutaciones: físicas y mentales. Cada mutación lleva asociada una puntuación
+de mutación. Las puntuaciones de tus mutaciones físicas y las recargas
+de las aptitudes activadas que estas otorgan son fijas. En
+cambio, las puntuaciones de tus mutaciones mentales se modifican con tu
+modificador de Ego, y las recargas de las aptitudes que otorgan tus mutaciones
+mentales se modulan un 5% por cada punto de Voluntad que tengas por encima
+o por debajo de 16.
+
+La mayoría de los personajes empiezan con puntuaciones de mutación de 1. Ganas un punto de mutación
+al subir de nivel, que puedes gastar para aumentar en 1 la puntuación de una
+de tus mutaciones. La puntuación de mutación no puede
+superar 1 más tu nivel de personaje dividido entre 2. Además, las mutaciones
+solo pueden aumentarse con puntos de mutación hasta una puntuación máxima de 10,
+aunque tus mutaciones mentales pueden superar esa puntuación si tu Ego las
+aumenta aún más allá de 10.
+
+Como alternativa, puedes gastar 4 puntos de mutación para elegir una mutación nueva
+entre tres mutaciones seleccionadas al azar. La mutación que elijas empieza
+con una puntuación de 1. Si eres una quimera, se te ofrece a elegir entre
+mutaciones físicas; si eres un esper, se te ofrecen mutaciones mentales;
+de lo contrario, se te ofrecen tres mutaciones totalmente al azar. Las mutaciones
+suelen otorgarte aptitudes activadas. Una vez que ganas una mutación, podrás
+acceder a tu nueva aptitud activada desde el menú Gestionar aptitudes ('~CmdAbilities').
+
+Los defectos son mutaciones con efectos principalmente negativos. Ciertos mutantes
+empiezan con un único defecto. Los defectos no llevan asociada ninguna puntuación.
+</topic>
+  <topic name="Artifacts" DisplayName="▶Artefactos">▶
+Los artefactos son objetos tan complejos a nivel tecnológico que pocos moradores de Qud
+los entienden. Un artefacto sin identificar se te mostrará como un
+"Artefacto Extraño". Puedes examinar un artefacto para intentar identificarlo. Si
+lo consigues, acotarás las posibilidades de la función de ese artefacto
+(lo que antes era una "porra", por ejemplo, ahora podrías identificarlo como
+"rifle"). Con el tiempo podrás identificar el artefacto por completo. Sin embargo, cada vez
+que intentes identificar algo y falles hay una pequeña
+probabilidad de que lo rompas. Tu probabilidad de identificar con éxito un
+artefacto depende de tu puntuación de Inteligencia.
+</topic>
+  <topic name="Tonics" DisplayName="▶Tónicos">▶
+Los tónicos son brebajes químicos que potencian tus estadísticas mentales y físicas
+de diversas maneras. Son artefactos, así que debes identificarlos
+con éxito para entender qué hacen. Ingerir un tónico mientras estás bajo
+los efectos de otro es peligroso: por cada tónico nuevo que ingieres hay
+cada vez más probabilidad de que los tónicos reaccionen mal entre sí.
+Cuanto mayor sea tu Resistencia, mayor será la probabilidad de que
+puedas ingerir varios tónicos sin sufrir efectos no deseados.
+
+Los tónicos producen efectos más potentes en los true kin que en los humanos
+mutados. Además, como la química corporal de los mutantes es inherentemente inestable,
+hay un 5% de probabilidad de que un tónico ingerido por un mutante produzca, en cambio,
+un efecto no deseado.
+
+Los tónicos pueden prepararse con la habilidad Manitas. Además de bits,
+preparar un tónico suele requerir un ingrediente natural.
+</topic>
+  <topic name="Weapons and Armor" DisplayName="▶Armas y armadura">▶
+[[{{C|Armas}}]]
+Toda arma tiene un valor de penetración y un valor de daño
+(por ejemplo, {{C|→}}4, {{R|♥}}1d4). El valor de penetración de las armas cuerpo a cuerpo depende
+de tu puntuación de Fuerza, aunque está limitado según el material
+del arma ('o'bserva un arma para ver su tope de penetración). Las armas a distancia
+tienen valores de penetración fijos que no cambian con tu puntuación de Fuerza.
+Las armas pueden modificar otras estadísticas; 'o'bserva un arma para determinar del todo
+lo que hace.
+
+[[{{C|Armadura}}]]
+La mayoría de las piezas de armadura tienen un valor de armadura y un valor de esquiva
+(por ejemplo, {{b|♦}}4 {{K|○}}4) que aumentan tu propio {{b|♦}}AV y {{K|○}}DV (consulta {{g|Atributos}}).
+Las piezas de armadura pueden modificar otras estadísticas; 'o'bserva una pieza de armadura para
+determinar del todo lo que hace.
+</topic>
+  <topic name="Combat" DisplayName="▶Combate">▶
+[[{{C|Combate cuerpo a cuerpo}}]]
+El combate cuerpo a cuerpo enfrenta a dos oponentes adyacentes con armas cuerpo a cuerpo
+estándar, como espadas, dagas, hachas y porras. Para atacar a un oponente
+hostil adyacente, basta con moverte en su dirección. Para atacar
+otra cosa, como un oponente no hostil o un muro, usa '~CmdAttackDirection'
+y elige la dirección en la que deseas atacar.
+
+Cuando haces un ataque cuerpo a cuerpo contra un objetivo, ocurre la siguiente
+secuencia de eventos:
+
+[[{{c|1. Se determina si aciertas o no al objetivo.}}]]
+Tu tirada de acierto es 1d20 más tu modificador de Agilidad más cualquier bonificación que
+recibas de tu arma o de tus poderes de habilidad. Si esa tirada supera el
+valor de esquiva (DV) de tu oponente, aciertas. Un icono de círculo vacío sobre tu
+objetivo indica que tu ataque ha fallado.
+
+[[{{c|2. Se determina si se produce un bloqueo con escudo.}}]]
+Si el objetivo lleva un escudo equipado, tiene una probabilidad base del 25% de bloquear
+con él, que aumenta con la habilidad. Un bloqueo con éxito añade el valor de armadura
+(AV) del escudo al AV del objetivo para este ataque.
+
+[[{{c|3. Se determina con qué gravedad penetra tu ataque la armadura del objetivo.}}]]
+Cada arma tiene un valor de penetración ({{C|→}}4, por ejemplo). Ese valor
+representa el valor de armadura (AV) que tu arma suele penetrar
+con facilidad. Si el valor de penetración de tu arma supera con creces el AV del objetivo,
+tu arma penetrará probablemente varias veces. Cada vez que tu arma
+penetra la armadura del objetivo, el objetivo recibe un daño igual al valor de daño
+de tu arma ({{R|♥}}1d4, por ejemplo). Un icono de círculo relleno sobre tu
+objetivo indica que tu ataque ha acertado pero no ha logrado penetrar la armadura
+del objetivo. Un icono de corazón indica que tu ataque ha acertado y ha penetrado la
+armadura del objetivo.
+
+[[{{c|4. Se determina si se hacen varios ataques.}}]]
+Hay un 15% de probabilidad de que hagas un ataque adicional con tu
+mano secundaria. Los personajes con varias extremidades pueden hacer ataques adicionales
+más allá de este.
+
+[[{{C|Combate a distancia}}]]
+El combate a distancia enfrenta a dos oponentes con armas a distancia, como
+arcos, pistolas y rifles. Para hacer un ataque a distancia, pulsa '~CmdFire' para apuntar
+tu arma y luego '~CmdFire' de nuevo para disparar.
+
+Cuando haces un ataque a distancia, ocurre la siguiente secuencia de eventos:
+
+[[{{c|1. Se determina la trayectoria de tu proyectil.}}]]
+Cuánto se desviará probablemente un proyectil de su trayectoria prevista lo determinan
+tu puntuación de Agilidad y la precisión del arma.
+
+[[{{c|2. Se alcanza el primer objeto de tamaño mediano o mayor a lo largo de la}}
+{{c|trayectoria del proyectil.}}]]
+
+[[{{c|3. Se determina con qué gravedad penetra el proyectil la armadura del objetivo.}}]]
+Esto se resuelve igual que un ataque cuerpo a cuerpo.
+
+[[{{c|4. Se determina si se hacen varios ataques.}}]]
+Ciertos poderes te permiten disparar varios proyectiles con ciertas armas
+a distancia.
+
+Si estás trabado en combate cuerpo a cuerpo con más de un oponente hostil,
+hay un 50% de probabilidad de que cada ataque a distancia que hagas se desvíe (vire
+45 grados a izquierda o derecha).
+</topic>
+  <topic name="Saving Throws" DisplayName="▶Tiradas de salvación">▶
+Ciertos efectos o aptitudes obligan a las criaturas a hacer tiradas de salvación o afrontar
+las consecuencias. Cada tirada de salvación lleva asociados un atributo y una dificultad.
+Para superar una tirada de salvación, se tira un 1d20 base y luego se suma el
+modificador del atributo correspondiente. Si ese número iguala o supera la
+dificultad, la superas. Si no, fallas. Algunas tiradas de salvación contra
+aptitudes de criaturas suman también el modificador de atributo de la criatura a la dificultad.
+</topic>
+  <topic name="Action Costs" DisplayName="▶Coste de las acciones">▶
+El tiempo que cuesta hacer algo se mide en términos de un
+coste de acción. La mayoría de las tareas tienen un coste de acción de 1000. Tu Presteza
+aumenta el ritmo al que recuperas ese coste, lo que te permite actuar
+con más frecuencia que las criaturas más lentas.
+
+Algunas habilidades, mutaciones y equipos te permiten emprender acciones
+concretas con un coste de acción reducido o nulo.
+</topic>
+  <topic name="Credits" DisplayName="▶Créditos">▶
+
+                                 [[{{C|Creado por}}
+                      Brian Bucklew and Jason Grinblat
+
+
+              QA &amp;&amp; Additional Design - Nick Decapua
+              Additional Programming - Corey Frang
+                               Music - Craig Hamilton
+                                  QA - Autumn McDonell
+              Additional Programming - Bastia Rosen
+         Additional Writing &amp;&amp; Design - Caelyn Sandel
+                    Additional Music - Brandon Tanner
+                            Tile Art - Samuel Wilson
+                Additional UI Design - Polat Yarisci
+                        Sound Design - A Shell in the Pit
+            QA, Additional Design, &amp;&amp;
+              Additional Programming - Thaumatic Systems
+              Additional Programming - Brian Reynolds
+                       Legal Counsel - Thomas C. Allison, P.A.
+
+                      Background Art - Cyril van der Haegen
+                            Logo Art - Laura &amp;&amp; Jeff Bucholtz
+                Community Management - Ivy Melinda &amp;&amp; the mayor team
+
+
+                                {{C|Publicado por}}
+                                Kitfox Games
+
+                                Tina Liu
+                                Xin Ran Liu
+                                Alexandra Orlando
+                                Tanya X. Short
+
+
+                                {{C|Agradecimientos especiales}}
+                                Ashenai
+                                Riley Vincent
+                                Gibbed
+                                Floorislava
+                                Dr Amazing
+                                Devonaut
+                                Vaos
+                                Tyskil
+                                Lakren
+                                Stelas
+                                Social Animal
+                                Contra Duck
+                                Saberwulf
+                                Megaflare
+                                Doctorfrog
+                                Palecur
+                                NovaPolice
+                                Mirdath
+                                The Glow
+                                Dyzzy
+                                Schister
+                                Lazybuttons
+                                Colonp
+                                Niff
+                                Matterhorn
+                                Clamiam
+                                Donraj
+                                Randy Marsh
+                                Rabbi
+                                Getter77
+                                Capuchin
+                                Wafflecopter
+                                Nomikos
+                                Magitek
+                                Andrew Smash
+                                Vastin
+                                Frumple
+                                Sappho
+                                Soulwynd
+                                Cpbpunch
+                                Tarran
+                                Brian Turcotte
+                                Oryx
+                                Jim Shepard, Dungeonmans
+                                MightyMerch
+                                Eva Problems, Carbide Chef
+                                a nonsense bird
+                                Tarn &amp;&amp; Zach Adams
+
+
+                                {{C|Mecenas}}
+                                Reed (mutated human) and Tiffany (rabbit)
+                                epsalon
+                                Tim Linscott
+                                Cody, The Rat
+                                iconmaster
+                                Coal
+                                Reuben Eadon
+                                Goldkin
+                                mdct
+                                Rusted Jake Matz
+                                Benjamin T. Steed
+                                Xerkie!
+                                Dij
+                                LongueVanne
+                                50RCERESS
+                                Chef Agate Severance Star
+                                awful_falafel
+                                Jonny Robertson
+                                Ian Wall
+                                Orion Perruc-Reyes
+                                Ryan Orlando (Fat Thunder)
+                                FS Colley
+                                Asunaro
+                                Trevor Clack
+                                Gillian Eggleston
+                                Nerem
+                                Somsnosa
+                                Ivy Sly
+                                livelongcoffee
+                                SMB64 (Koshi)
+                                NO Press
+                                EveryZig314
+                                Floopygapples
+                                Eric Hulen
+                                Caine DeWitt
+                                Eric Anthony Rodriguez
+                                Nathaniel Krell
+                                Boo-cher
+                                Pax Frank
+                                Matteo De Cristofaro
+                                Meo
+                                Boyarde Roneen
+                                wastrel
+                                Drew Kerrigan
+                                Jordan Wood
+                                Kasey Patrick Morgan
+                                Callum Love
+                                Petrichor "petrak@7604"
+                                Devon Cupo
+                                Big Simple
+                                Kevin Orren
+                                Lennart Schefe
+                                Beemancer
+                                Lady Eithné, Queen of Brokilon
+                                Nic Gard
+                                NeroPrime
+                                InfiniteTidalWave
+                                Aveon Zero
+                                Joshua Southerland
+                                _tr
+                                James Earle
+                                Nick Correale
+                                MichaÅ‚ Byczko
+                                Reuben Eadon
+                                Shane Allcroft
+                                Aidan Page
+                                Earthly Delights Ogdo
+                                John Szevin
+                                Shane Allcroft
+                                Kelly Joyce
+                                Cleo Lamb
+                                Mike Sipior
+                                James Canter
+                                Joshua Buckley
+                                Qingyao Sun
+                                CHOWARD
+                                Luke J.
+                                Gobi Silverfrog, siver and gold goddess
+                                Ethan Rigby
+                                Ethan "Kobold" CB
+                                Maria Ross Colton Chamberlin
+                                {{w-W-Y-Y-Y-Y-Y-W-w sequence|Paingouin}} "Jordan B."
+                                James Lagervall
+                                Doug "Severian" Callahan
+                                Leo Durante
+                                Rarden
+                                Ray ({{r|books}})
+                                awful_falafel
+                                ambersand
+                                dmajorduckie
+                                Lukas Wagner (König Muskelmagen)
+                                Marek Pohlodek
+                                Kamille Rose
+                                Retes;Nome
+                                Sabboth Ochoa
+                                Almea
+                                Caleb Ulichney
+                                Visnex
+                                CreativeCorpse
+                                Kelly Vincent
+                                Teagan Erika Stephanie Strickland
+                                Mirthful Sloth
+                                beepy roboticvenusian (enchiridion)
+                                AvianAnarchy
+                                Gavin Conover
+
+  ]]
+</topic>
+  <topic name="Open Source Licenses" DisplayName="▶Licencias de código abierto">▶
+[[{{c|Licencia de Harmony (https://github.com/pardeike/Harmony)}}
+  {{W|Licencia MIT}}
+
+  Copyright (c) 2017 Andreas Pardeike
+
+{{c|Licencia de FuzzySharp (https://github.com/JakeBayer/FuzzySharp)}}
+  {{W|Licencia MIT}}
+
+  Copyright (c) 2018
+
+{{c|Licencia de UnityStandaloneFileBrowser
+ (https://github.com/gkngkc/UnityStandaloneFileBrowser)}}
+  {{W|Licencia MIT}}
+
+  Copyright (c) 2017 Gökhan Gökçe
+
+{{c|Licencia de ZString (https://github.com/Cysharp/ZString)}}
+  {{W|Licencia MIT}}
+
+  Copyright (c) 2020 Yoshifumi Kawai / Cysharp, Inc.
+
+{{c|Licencia de UniTask (https://github.com/Cysharp/UniTask)}}
+  {{W|Licencia MIT}}
+
+  Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.
+
+
+{{W|Licencia MIT}} {{c|- Texto completo}}
+  Por la presente se concede permiso, libre de cargo, a cualquier persona que obtenga una copia
+  de este software y de los archivos de documentación asociados (el "Software"), para utilizar
+  el Software sin restricción, incluidos sin limitación los derechos
+  a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender
+  copias del Software, y a permitir a las personas a las que se proporcione el Software
+  que lo hagan, con sujeción a las siguientes condiciones:
+
+  El aviso de copyright anterior y este aviso de permiso se incluirán en todas
+  las copias o partes sustanciales del Software.
+
+  EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+  IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD,
+  IDONEIDAD PARA UN FIN DETERMINADO Y NO INFRACCIÓN. EN NINGÚN CASO LOS
+  AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO U OTRA
+  RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, EXTRACONTRACTUAL O DE OTRO TIPO, QUE SURJA DE,
+  O EN RELACIÓN CON, EL SOFTWARE O EL USO U OTRAS OPERACIONES CON EL
+  SOFTWARE.]]
+
+</topic>
+</help>
