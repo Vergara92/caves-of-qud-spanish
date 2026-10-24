@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <options>
 
@@ -58,6 +58,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionDisableAllIdleTileAnimations" DisplayText="Desactivar todas las animaciones de tiles en reposo" Category="Accesibilidad" />
   <option ID="OptionDisableTextWarpEffects" DisplayText="Desactivar efectos de distorsión de pantalla basados en tiles" Category="Accesibilidad" />
   <option ID="OptionDisableFullscreenWarpEffects" DisplayText="Desactivar efectos de distorsión a pantalla completa" Category="Accesibilidad" />
+  <option ID="OptionBrighterGreyWeights" DisplayText="Mostrar los pesos en un gris más claro" Category="Accesibilidad" />
   <option ID="OptionModernUI" DisplayText="Activar interfaz moderna" Category="Interfaz" />
   <option ID="OptionPrereleaseStageScale" DisplayText="Escala de interfaz" Category="Interfaz" Values="auto|auto,auto x1.25|auto x1.25,auto x1.5|auto x1.5,.5|.5,.75|.75,1.0|1.0,1.25|1.25,1.5|1.5,2|2" />
   <option ID="OptionModernCharacterSheet" DisplayText="Activar hoja de personaje de interfaz moderna" Category="Interfaz" />
@@ -142,11 +143,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionAutogetZeroWeight" DisplayText="Autocoger objetos sin peso" Category="Autocoger" />
   <option ID="OptionAutogetIfHostiles" DisplayText="Autocoger si hay hostiles cerca" Category="Autocoger" />
   <option ID="OptionAutogetFromNearby" DisplayText="Autocoger de celdas adyacentes" Category="Autocoger" />
+  <option ID="OptionAutomationAdvancedOptions" DisplayText="Mostrar en los menús las opciones avanzadas de autocoger" Category="Autocoger" SearchKeywords="autoaccion autoexploracion fotogramas opciones" />
   <option ID="OptionAskForWorldmap" DisplayText="Preguntar antes de pasar al mapa del mundo" Category="Confirmaciones" />
   <option ID="OptionAskAutostair" DisplayText="Preguntar antes de autocaminar hacia las escaleras" Category="Confirmaciones" />
   <option ID="OptionConfirmSwimming" DisplayText="Preguntar antes de nadar" Category="Confirmaciones" />
   <option ID="OptionConfirmDangerousLiquid" DisplayText="Preguntar antes de beber ciertos líquidos peligrosos o adentrarse en ellos" Category="Confirmaciones" />
   <option ID="OptionAskForOneItem" DisplayText="Mostrar la lista de objetos al recoger del suelo, aunque solo haya uno" Category="Confirmaciones" />
+  <option ID="OptionPromptFavoriteRecipe" DisplayText="Preguntar si añadir las recetas nuevas a recetas favoritas" Category="Confirmaciones" />
   <option ID="OptionDisplayHPWarning" DisplayText="Umbral para el aviso de puntos de vida bajos" Category="Confirmaciones" Values="20%|20%,40%|40%,60%|60%,80%|80%,100%|100%,No Warning|Sin aviso" />
   <option ID="OptionDismemberAsPopup" DisplayText="Mostrar ventanas emergentes al desmembrar o decapitar a alguien" Category="Confirmaciones" />
   <option ID="OptionAbilityCooldownWarningAsMessage" DisplayText="Mostrar los avisos de habilidad en recarga como entradas del registro de mensajes en lugar de ventanas emergentes" Category="Confirmaciones" />
@@ -190,6 +193,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionShowQuickstart" DisplayText="Mostrar la opción de inicio rápido durante la creación de personaje" Category="Depuración" />
   <option ID="OptionDisablePlayerbrain" DisplayText="Desactivar el secuestro de cerebro en personajes controlados por el jugador" Category="Depuración" />
   <option ID="OptionDisableZoneCaching2" DisplayText="Desactivar la caché de zonas" Category="Depuración" />
+  <option ID="OptionDisableZoneThawRestrict" DisplayText="Desactivar las restricciones al descongelar zonas" Category="Depuración">
+    <helptext>
+      Intenta descongelar una zona desde la base de datos sea cual sea su estado en la partida actual.
+      P. ej., puedes descongelar zonas de tu visión precognitiva después de regresar.
+      </helptext>
+  </option>
   <option ID="OptionDisableTryLimit" DisplayText="Desactivar el límite de intentos de construcción de zona" Category="Depuración" />
   <option ID="OptionEnableWishRegionNames" DisplayText="Pregenerar nombres de zona para el soporte de deseos" Category="Depuración" />
   <option ID="OptionGivesRepShowsCurrentRep" DisplayText="Mostrar la reputación con las facciones de una criatura al mirarla" Category="Depuración" />
@@ -199,7 +208,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionDebugSavingThrows" DisplayText="Mostrar texto de depuración de tiros de salvación" Category="Depuración" />
   <option ID="OptionDebugGetLostChance" DisplayText="Mostrar texto de depuración de probabilidad de perderse" Category="Depuración" />
   <option ID="OptionDebugStatShift" DisplayText="Mostrar texto de depuración de los cambios de atributo" Category="Depuración" />
-  <option ID="OptionDebugEncounterChance" DisplayText="Mostrar probabilidad de depuración de encuentros" Category="Depuración" />
+  <option ID="OptionDebugEncounterChance" DisplayText="Mostrar texto de depuración de la probabilidad de encuentro" Category="Depuración" />
   <option ID="OptionDebugTravelSpeed" DisplayText="Mostrar texto de depuración de velocidad de viaje" Category="Depuración" />
   <option ID="OptionDebugInternals" DisplayText="Mostrar info de depuración en los objetos" Category="Depuración" />
   <option ID="OptionDebugAttitude" DisplayText="Mostrar info de actitud en los objetos" Category="Depuración" />
@@ -216,6 +225,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionDrawFloodVis" DisplayText="Dibujar el relleno por inundación de visibilidad" Category="Depuración" />
   <option ID="OptionDrawFloodAud" DisplayText="Dibujar el relleno por inundación de audibilidad" Category="Depuración" />
   <option ID="OptionDrawFloodOlf" DisplayText="Dibujar el relleno por inundación de olfato" Category="Depuración" />
+  <option ID="OptionDrawFloodExplore" DisplayText="Dibujar el relleno por inundación de la autoexploración" Category="Depuración" />
   <option ID="OptionDrawArcs" DisplayText="Dibujar el historial de arcos eléctricos de las últimas rondas" Category="Depuración" />
   <option ID="OptionWriteSoundsToLog" DisplayText="Escribir en el registro de mensajes los nombres de los archivos de sonido reproducidos" Category="Depuración" />
   <option ID="OptionDisableSoundPreload" DisplayText="Desactivar la precarga de sonidos" Category="Depuración" />

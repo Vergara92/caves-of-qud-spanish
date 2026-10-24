@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <options>
 
@@ -58,6 +58,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionDisableAllIdleTileAnimations" DisplayText="▶Disable all idle tile-based animations" Category="▶Accessibility" />
   <option ID="OptionDisableTextWarpEffects" DisplayText="▶Disable tile-based screen-warping effects" Category="▶Accessibility" />
   <option ID="OptionDisableFullscreenWarpEffects" DisplayText="▶Disable fullscreen screen-warping effects" Category="▶Accessibility" />
+  <option ID="OptionBrighterGreyWeights" DisplayText="▶Show weights in brighter shade grey" Category="▶Accessibility" />
   <option ID="OptionModernUI" DisplayText="▶Enable modern UI" Category="▶UI" />
   <option ID="OptionPrereleaseStageScale" DisplayText="▶UI scale" Category="▶UI" Values="auto|▶auto,auto x1.25|▶auto x1.25,auto x1.5|▶auto x1.5,.5|▶.5,.75|▶.75,1.0|▶1.0,1.25|▶1.25,1.5|▶1.5,2|▶2" />
   <option ID="OptionModernCharacterSheet" DisplayText="▶Enable modern UI character sheet" Category="▶UI" />
@@ -142,11 +143,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionAutogetZeroWeight" DisplayText="▶Autoget weightless items" Category="▶Autoget" />
   <option ID="OptionAutogetIfHostiles" DisplayText="▶Autoget if hostiles are nearby" Category="▶Autoget" />
   <option ID="OptionAutogetFromNearby" DisplayText="▶Autoget from adjacent cells" Category="▶Autoget" />
+  <option ID="OptionAutomationAdvancedOptions" DisplayText="▶Show advanced autoget options in menus" Category="▶Autoget" SearchKeywords="▶autoact autoexplore framerate options" />
   <option ID="OptionAskForWorldmap" DisplayText="▶Prompt before moving to the world map" Category="▶Prompts" />
   <option ID="OptionAskAutostair" DisplayText="▶Prompt before autowalking to stairs" Category="▶Prompts" />
   <option ID="OptionConfirmSwimming" DisplayText="▶Prompt before swimming" Category="▶Prompts" />
   <option ID="OptionConfirmDangerousLiquid" DisplayText="▶Prompt before drinking and moving into certain dangerous liquids" Category="▶Prompts" />
   <option ID="OptionAskForOneItem" DisplayText="▶Prompt list of items when getting from the ground, even if there's only one" Category="▶Prompts" />
+  <option ID="OptionPromptFavoriteRecipe" DisplayText="▶Prompt to favorite new cooking recipes" Category="▶Prompts" />
   <option ID="OptionDisplayHPWarning" DisplayText="▶Threshold for low hitpoint warning" Category="▶Prompts" Values="20%|▶20%,40%|▶40%,60%|▶60%,80%|▶80%,100%|▶100%,No Warning|▶No Warning" />
   <option ID="OptionDismemberAsPopup" DisplayText="▶Show popups when you dismember or decapitate someone" Category="▶Prompts" />
   <option ID="OptionAbilityCooldownWarningAsMessage" DisplayText="▶Show ability-on-cooldown prompts as message log entries instead of popups" Category="▶Prompts" />
@@ -184,12 +187,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionAllowReallydie" DisplayText="▶Get prompted to confirm deaths" Category="▶Debug" />
   <option ID="OptionEnableSeed" DisplayText="▶Enable world seeds (experimental)" Category="▶Debug" />
   <option ID="OptionEnablePrereleaseContent" DisplayText="▶Enable unfinished and unsupported content" Category="▶Debug" />
-  <option ID="OptionDisableDefectLimit" DisplayText="▶Allow creatures to have multiple defects " Category="▶Debug" />
+  <option ID="OptionDisableDefectLimit" DisplayText="▶Allow creatures to have multiple defects" Category="▶Debug" />
   <option ID="OptionEnableColorTextInput" DisplayText="▶Enable color menu for text input" Category="▶Debug" />
   <option ID="OptionDisableAchievements" DisplayText="▶Disable achievements" Category="▶Debug" />
   <option ID="OptionShowQuickstart" DisplayText="▶Show quickstart option during character creation" Category="▶Debug" />
   <option ID="OptionDisablePlayerbrain" DisplayText="▶Disable brain hijacking on player-controlled characters" Category="▶Debug" />
   <option ID="OptionDisableZoneCaching2" DisplayText="▶Disable zone caching" Category="▶Debug" />
+  <option ID="OptionDisableZoneThawRestrict" DisplayText="▶Disable zone thaw restrictions" Category="▶Debug">
+    <helptext>▶
+      Attempts a zone thaw from database regardless of its status in the current game.
+      E.g. you can thaw zones from your precognitive vision after reverting.
+      </helptext>
+  </option>
   <option ID="OptionDisableTryLimit" DisplayText="▶Disable limit on zone build tries" Category="▶Debug" />
   <option ID="OptionEnableWishRegionNames" DisplayText="▶Pregenerate zone names for wish support" Category="▶Debug" />
   <option ID="OptionGivesRepShowsCurrentRep" DisplayText="▶Show reputation with a creature's factions when looking at them" Category="▶Debug" />
@@ -199,7 +208,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionDebugSavingThrows" DisplayText="▶Show saving throw debug text" Category="▶Debug" />
   <option ID="OptionDebugGetLostChance" DisplayText="▶Show lost chance debug text" Category="▶Debug" />
   <option ID="OptionDebugStatShift" DisplayText="▶Show debug text for stat shifts" Category="▶Debug" />
-  <option ID="OptionDebugEncounterChance" DisplayText="▶Show encounter chance debug chance" Category="▶Debug" />
+  <option ID="OptionDebugEncounterChance" DisplayText="▶Show encounter chance debug text" Category="▶Debug" />
   <option ID="OptionDebugTravelSpeed" DisplayText="▶Show travel speed debug text" Category="▶Debug" />
   <option ID="OptionDebugInternals" DisplayText="▶Show debug info on objects" Category="▶Debug" />
   <option ID="OptionDebugAttitude" DisplayText="▶Show attitude info on objects" Category="▶Debug" />
@@ -207,7 +216,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionShowOverlandRegions" DisplayText="▶Indicate biomes on the worldmap" Category="▶Debug" />
   <option ID="OptionDrawPopulationHintMaps" DisplayText="▶Draw population placement hint maps when building zones" Category="▶Debug" />
   <option ID="OptionDrawInfluenceMaps" DisplayText="▶Draw population placement regions when building zones" Category="▶Debug" />
-  <option ID="OptionDrawPathfinder" DisplayText="▶Draw creature pathfinding " Category="▶Debug" />
+  <option ID="OptionDrawPathfinder" DisplayText="▶Draw creature pathfinding" Category="▶Debug" />
   <option ID="OptionDrawPathfinderHalt" DisplayText="▶Wait for keypress when drawing pathfinding" Category="▶Debug" />
   <option ID="OptionDrawNavigationWeightMaps" DisplayText="▶Draw navigation weight maps on each step" Category="▶Debug" />
   <option ID="OptionDrawCASystems" DisplayText="▶Draw cellular automata when used in map generation" Category="▶Debug" />
@@ -216,6 +225,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <option ID="OptionDrawFloodVis" DisplayText="▶Draw visibility flood fill" Category="▶Debug" />
   <option ID="OptionDrawFloodAud" DisplayText="▶Draw audibility flood fill" Category="▶Debug" />
   <option ID="OptionDrawFloodOlf" DisplayText="▶Draw olfaction flood fill" Category="▶Debug" />
+  <option ID="OptionDrawFloodExplore" DisplayText="▶Draw autoexplore flood fill" Category="▶Debug" />
   <option ID="OptionDrawArcs" DisplayText="▶Draw electrical arc history for last few rounds" Category="▶Debug" />
   <option ID="OptionWriteSoundsToLog" DisplayText="▶Write played sound file names to message log" Category="▶Debug" />
   <option ID="OptionDisableSoundPreload" DisplayText="▶Disable preloading of sounds" Category="▶Debug" />
