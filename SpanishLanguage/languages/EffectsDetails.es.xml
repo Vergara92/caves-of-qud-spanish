@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <templates>
 
@@ -87,14 +87,81 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <template ID="Effect.Budding.Details">
         <p>Pronto generará un clon.</p>
     </template>
+  <template ID="Effect.Burning.Details">
+        <p><stat Name="BurningDamage" /> de daño por turno.</p>
+    </template>
   <template ID="Effect.Burrowed.Details">
         <p>Se desplaza bajo tierra.</p>
+    </template>
+  <template ID="Effect.CoatedInPlasma.Details">
+        <p>-100 de Resistencia al Calor</p>
+        <p>-100 de Resistencia al Frío</p>
+        <p>-100 de Resistencia Eléctrica</p>
+        <p>La temperatura no vuelve por sí sola a la del ambiente.</p>
+        <p>Apagar el fuego a palmadas o rodando por el suelo solo tiene un 25% de eficacia.</p>
+        <p>Elimina las capas de líquido.</p>
+    </template>
+  <template ID="Effect.Confused.Details">
+        <p>Actúa de forma casi aleatoria.</p>
+        <p><stat Name="DVChange" Filters="signed" /> DV</p>
+        <p><stat Name="MAChange" Filters="signed" /> MA</p>
+        <switch Name="MentalChange">
+            <case Value="0" />
+            <default>
+                <p><stat Name="MentalChange" Filters="signed" /> a todos los atributos mentales</p>
+            </default>
+        </switch>
+    </template>
+  <template ID="Effect.ContainedAcidEating.Details">
+        <switch Name="HasValidVolume">
+            <case Value="true">
+                <p>Se disuelve por el ácido.</p>
+                <p>Recibe <stat Name="MinDamage" />-<stat Name="MaxDamage" /> de daño por turno.</p>
+            </case>
+            <default><p>Sin daño.</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.CorpseThethered.Details">
+        <p>Ocupa ahora un espacio a salvo de la teletransportación que provoca el tañido de la Campana del Descanso.</p>
+    </template>
+  <template ID="Effect.Crackling.Details">
+        <p>Sufre inestabilidad electromagnética.</p>
     </template>
   <template ID="Effect.Disguised.Details">
         <switch Name="Appearance">
           <case Value=""><p>Tiene la apariencia de otra criatura.</p></case>
           <default><p>Tiene la apariencia de <stat Name="Appearance" />.</p></default>
         </switch>
+    </template>
+  <template ID="Effect.FungalSporeInfection.Details">
+        <p>La piel se le descama y le pica. ¿Está creciendo algo ahí?</p>
+    </template>
+  <template ID="Effect.Glotrot.Details">
+        <switch Name="TongueRotting">
+            <case Value="true">
+                <p>Se le está pudriendo la lengua.</p>
+                <p>Sangra al comer o beber.</p>
+            </case>
+            <default>
+                <p>Se le ha podrido la lengua.</p>
+                <p>No puede hablar.</p>
+            </default>
+        </switch>
+    </template>
+  <template ID="Effect.GlotrotOnset.Details">
+        <p>Le duele la garganta y tiene la lengua hinchada.</p>
+    </template>
+  <template ID="Effect.Inspired.Details">
+        <p>La próxima vez que cocines una comida eligiendo los ingredientes, podrás escoger entre tres efectos generados dinámicamente. Crearás una receta para el efecto escogido.</p>
+    </template>
+  <template ID="Effect.Ironshank.Details">
+        <p>Los huesos de las piernas se le están soldando por las articulaciones.</p>
+        <p><stat Name="MoveSpeedChange" Filters="signed" /> de Velocidad de Movimiento</p>
+        <p><stat Name="AVChange" Filters="signed" /> AV</p>
+        <p>Seguirá perdiendo Velocidad de Movimiento y ganando AV hasta que la penalización a la Velocidad de Movimiento llegue a -80.</p>
+    </template>
+  <template ID="Effect.IronshankOnset.Details">
+        <p>Le duelen las piernas en las articulaciones.</p>
     </template>
   <template ID="Effect.Lovesick.Details">
         <p>-6 de Inteligencia</p>
@@ -107,6 +174,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     </template>
   <template ID="Effect.Metamorphed.Details">
         <p>Adoptando la forma de otra criatura.</p>
+    </template>
+  <template ID="Effect.Monochrome.Details">
+        <p>Solo ve tonos de un único color.</p>
+    </template>
+  <template ID="Effect.MonochromeOnset.Details">
+        <p>Se le nubla la vista.</p>
     </template>
   <template ID="Effect.Phased.Details">
         <p>No puede interactuar físicamente con criaturas ni objetos salvo que también estén desfasados.</p>

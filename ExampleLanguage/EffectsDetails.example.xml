@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <templates>
 
@@ -87,14 +87,81 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <template ID="Effect.Budding.Details">▶
         <p>Will spawn a clone soon.</p>
     </template>
+  <template ID="Effect.Burning.Details">▶
+        <p><stat Name="BurningDamage" /> damage per turn.</p>
+    </template>
   <template ID="Effect.Burrowed.Details">▶
         <p>Traveling underground.</p>
     </template>
+  <template ID="Effect.CoatedInPlasma.Details">▶
+        <p>-100 Heat Resistance</p>
+        <p>-100 Cold Resistance</p>
+        <p>-100 Electric Resistance</p>
+        <p>Temperature does not passively return to ambient temperature</p>
+        <p>Patting or rolling firefighting actions are 25% as effective</p>
+        <p>Removes liquid coatings</p>
+    </template>
+  <template ID="Effect.Confused.Details">▶
+        <p>Acts semi-randomly.</p>
+        <p><stat Name="DVChange" Filters="signed" /> DV</p>
+        <p><stat Name="MAChange" Filters="signed" /> MA</p>
+        <switch Name="MentalChange">
+            <case Value="0" />
+            <default>
+                <p><stat Name="MentalChange" Filters="signed" /> to all mental attributes</p>
+            </default>
+        </switch>
+    </template>
+  <template ID="Effect.ContainedAcidEating.Details">▶
+        <switch Name="HasValidVolume">
+            <case Value="true">
+                <p>Dissolving from acid.</p>
+                <p>Taking <stat Name="MinDamage" />-<stat Name="MaxDamage" /> damage per turn.</p>
+            </case>
+            <default><p>No damage.</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.CorpseThethered.Details">▶
+        <p>Currently occupying a tile safe from the tolling teleportation of the Bell of Rest.</p>
+    </template>
+  <template ID="Effect.Crackling.Details">▶
+        <p>Electromagnetically unstable.</p>
+    </template>
   <template ID="Effect.Disguised.Details">▶
         <switch Name="Appearance">
-          <case Value=""><p>Has the appearance of another creature.</p></case>
-          <default><p>Has the appearance of <stat Name="Appearance" />.</p></default>
+            <case Value=""><p>Has the appearance of another creature.</p></case>
+            <default><p>Has the appearance of <stat Name="Appearance" />.</p></default>
         </switch>
+    </template>
+  <template ID="Effect.FungalSporeInfection.Details">▶
+        <p>Skin flakes and itches. Is something growing there?</p>
+    </template>
+  <template ID="Effect.Glotrot.Details">▶
+        <switch Name="TongueRotting">
+            <case Value="true">
+                <p>Tongue is rotting away.</p>
+                <p>Starts bleeding when eating or drinking.</p>
+            </case>
+            <default>
+                <p>Tongue has rotted away.</p>
+                <p>Can't speak.</p>
+            </default>
+        </switch>
+    </template>
+  <template ID="Effect.GlotrotOnset.Details">▶
+        <p>Throat is sore and tongue is swollen.</p>
+    </template>
+  <template ID="Effect.Inspired.Details">▶
+        <p>The next time you cook a meal by choosing ingredients, you get a choice of three dynamically-generated effects to apply. You create a recipe for the chosen effect.</p>
+    </template>
+  <template ID="Effect.Ironshank.Details">▶
+        <p>Leg bones are fusing at the joints.</p>
+        <p><stat Name="MoveSpeedChange" Filters="signed" /> Move Speed</p>
+        <p><stat Name="AVChange" Filters="signed" /> AV</p>
+        <p>Will continue to lose Move Speed and gain AV until Move Speed penalty reaches -80.</p>
+    </template>
+  <template ID="Effect.IronshankOnset.Details">▶
+        <p>Legs ache at the joints.</p>
     </template>
   <template ID="Effect.Lovesick.Details">▶
         <p>-6 Intelligence</p>
@@ -107,6 +174,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     </template>
   <template ID="Effect.Metamorphed.Details">▶
         <p>Assuming another creature's form.</p>
+    </template>
+  <template ID="Effect.Monochrome.Details">▶
+        <p>Sees shades of only a single color.</p>
+    </template>
+  <template ID="Effect.MonochromeOnset.Details">▶
+        <p>Vision is blurred.</p>
     </template>
   <template ID="Effect.Phased.Details">▶
         <p>Can't physically interact with creatures and objects unless they're also phased.</p>
