@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <objects ExcludeFromCorpusGeneration="Key">
 
@@ -808,6 +808,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Di-Thermo Beam" Load="Merge">
     <part Name="Render" DisplayName="▶{{R|di-thermo}} beam" />
     <part Name="Description" Short="▶A coolant pipe and an antifreeze pipe are barrel-locked in symmetric geometry. Thumb flips rotate the mechanism and reverse their orientation." />
+    <part Name="DiThermoBeam" HeatName="▶{{R|di-thermo}} beam" ColdName="▶{{C|di-thermo}} beam" />
   </object>
   <object Name="ProjectileDiThermoBeamHeat" Load="Merge">
     <part Name="Render" DisplayName="▶{{R|heat beam}}" />
@@ -1177,6 +1178,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Quills" Load="Merge">
     <part Name="Render" DisplayName="▶quills" />
     <part Name="Description" Short="▶Hundreds and hundreds of fossilized hairs crown the body in a protective coat." />
+    <tag Name="AbilityName" Value="▶Quill Fling" />
+    <tag Name="DisplayNameSingular" Value="▶quill" />
   </object>
   <object Name="Wings" Load="Merge">
     <part Name="Render" DisplayName="▶wings" />
@@ -1387,7 +1390,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Plastifer Chem Vest" Load="Merge">
     <part Name="Render" DisplayName="▶{{plastifer|plastifer}} {{G|chem}} vest" />
     <part Name="Description" Short="▶A cuirass of gas-caught foam stiffens instantaneously when pressure is applied. Its karst surface is arrayed with tube sleeves and dusted with the colorful abrasions of chiliads and the chemical reactions they produce; the material has careened past the outer rings of its expected lifetime and into the unknowing void." />
-    <part Name="ReduceEnergyCosts" NameForStatus="▶StentSystem" />
+    <part Name="ReduceEnergyCosts" ScopeDescription="▶in the energy cost to apply an injector" NameForStatus="▶StentSystem" />
   </object>
   <object Name="Recycling Suit" Load="Merge">
     <part Name="Render" DisplayName="▶{{B|recycling suit}}" />
@@ -1510,7 +1513,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="▶{{b-B-Y-Y-Y-Y-Y-Y-B-b alternation|gyrocopter}} backpack" />
     <part Name="Description" Short="▶Articulated blades unfold to form an aerial screw that gets blown upward by an air thruster mounted below. On activation, the equipper takes flight." />
     <part Name="BootSequence" VerbOnBootInitialized="▶cough" VerbOnBootDone="▶whir" VerbOnBootAborted="▶sputter" />
-    <part Name="MechanicalWings" NameForStatus="▶DriveTrain" />
+    <part Name="MechanicalWings" NameForStatus="▶DriveTrain" FlightSourceDescription="▶Gyrocopter Backpack" />
   </object>
   <object Name="Helping Hands" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|{{R|h}}elping {{R|h}}ands}}" />
@@ -2021,7 +2024,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Anti-Gravity Boots" Load="Merge">
     <part Name="Render" DisplayName="▶{{K|anti-gravity boots}}" />
     <part Name="Description" Short="▶Ur-metal strips on the soles are magnetized by bosonic coils, producing a continuous ribbon of negative-mass bubbles that repel the wearer upward." />
-    <part Name="MechanicalWings" NameForStatus="▶AntiGravitySystem" />
+    <part Name="MechanicalWings" NameForStatus="▶AntiGravitySystem" FlightSourceDescription="▶Anti-Gravity Boots" />
   </object>
   <object Name="Kaleidocera Krakows" Load="Merge">
     <part Name="Render" DisplayName="▶{{kaleidoslug|kaleidocera}} krakows" />
@@ -2078,8 +2081,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="▶{{K|black}} mote" />
     <part Name="Description" Short="▶A black particle defies the light-drenched world and charts a helical orbit." />
     <part Name="EquipStatBoost" NameForStatus="▶LightWarpingSystem" />
-    <part Name="CancelRangedAttacks" NameForStatus="▶SpaceWarpingSystem" />
-    <part Name="RandomLongRangeTeleportOnDamage" NameForStatus="▶ProximitySensor" />
+    <part Name="CancelRangedAttacks" Message="▶=subject.T= =verb:swallow= =object.t=!" NameForStatus="▶SpaceWarpingSystem" />
+    <part Name="RandomLongRangeTeleportOnDamage" Message="▶=subject.T= =verb:stumble= into =object.t=!" NameForStatus="▶ProximitySensor" />
   </object>
   <object Name="BaseNephilimLightCircle" Load="Merge">
     <part Name="Render" DisplayName="▶circle of light" />
@@ -2088,6 +2091,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="LightCircleAgolgot" Load="Merge">
     <part Name="Render" DisplayName="▶circle of light in the chord of {{agolgot|Agolgot}}" />
     <part Name="Description" Short="▶Minarets of raw bile hue, blackrot, and poison jade wheel about a zeropoint and blur in iridescence to a rainbow of malady." />
+    <part Name="ArmsOnEquip" BaseHands="▶Pincers" Category="▶Arthropod" />
   </object>
   <object Name="LightCircleBethsaida" Load="Merge">
     <part Name="Render" DisplayName="▶circle of light in the chord of {{bethsaida|Bethsaida}}" />
@@ -3167,7 +3171,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="▶{{W|sheaf of bloodstained goatskin parchment}}" />
     <part Name="Description" Short="▶Sheets of flayed and stretched goatskin are bound together with sap and scrawled on with kid blood." />
     <xtagGrammar Proper="▶false" adjunctNoun="" />
-    <xtagGrammar Proper="▶false" />
   </object>
   <object Name="Corpus" Load="Merge">
     <part Name="Render" DisplayName="▶{{W|Corpus Choliys}}" />
@@ -3176,7 +3179,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="▶{{W|torn sheet of graph paper}}" />
     <part Name="Description" Short="▶A sheet of loose leaf is divided by coordinate lines in cyan. It seems to have been torn from a binder." />
     <xtagGrammar Proper="▶false" adjunctNoun="" />
-    <xtagGrammar Proper="▶false" />
   </object>
   <object Name="Sonnet" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|crumpled sheet of paper}}" />
@@ -3883,7 +3885,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Wire Strand" Load="Merge">
     <part Name="Render" DisplayName="▶{{r|wire strand}}" />
     <part Name="Description" Short="▶A cord extruded from metal ore conducts current when laid together." />
-    <part Name="DeployableInfrastructure" DeployNoun="▶wiring" MessageByCountSuffix="▶' of wire." />
+    <part Name="DeployableInfrastructure" DeployNoun="▶wiring" MessageByCountSuffix="▶' of wire" />
   </object>
   <object Name="Garbage" Load="Merge">
     <part Name="Render" DisplayName="▶trash" />
