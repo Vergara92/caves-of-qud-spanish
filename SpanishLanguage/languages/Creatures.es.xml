@@ -165,7 +165,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleWiseDescriptor" Value="Sabio,Sapiente,Cauto,Erudito,Grande,Gigante,Largo,Grueso,Macizo" />
     <tag Name="HeroNameTitleMayorSyn" Value="dios gusano,alcalde gusano,gusano anciano" />
     <tag Name="HeroNameTitleMayorSynCap" Value="Dios Gusano,Alcalde Gusano,Gusano Anciano" />
-    <xtagTextFragments Skin="anillos" PoeticFeatures="ondulación,sencillez geométrica,porte sin edad" YounglingNoise="*reptar*" Activity="excavando túneles por la tierra" VillageActivity="bañándose en nuestros guisos, haciendo guisos de gusano de nuestros guisos" SacredThing="el no tener ni brazos ni piernas" />
+    <xtagTextFragments Skin="anillos" PoeticFeatures="ondulación,sencillez geométrica,porte sin edad" YounglingNoise="*reptar*" Activity="excavando túneles por la tierra" VillageActivity="bañándose en nuestros guisos,haciendo guisos de gusano de nuestros guisos" SacredThing="el no tener ni brazos ni piernas" />
     <stag Name="HardMaterial" Value="capullo" />
     <tag Name="SimpleConversation" Value="{{emote|*ondula perezosamente*}}" />
     <tag Name="PetResponse" Value="=subject.T= repta." />
@@ -4049,6 +4049,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Brillantes destellos en los ojos engrapados de éxtasis de un anémico mercader de agua te hacen detenerte de pronto. =pronouns.Subjective= va ataviado con un mosaico de jirones de capa, y pese al lago de sudor asentado sobre el sedimento aceitoso de =pronouns.possessive= piel, =pronouns.possessive= boca está reseca en grietas tras días de negarse a beber la mismísima agua de vida que =pronouns.subjective= vende. Improbablemente, =pronouns.possessive= semblante aún logra un matiz de regocijo, reluciendo en el fuego de un secreto no compartido." />
   </object>
   <object Name="Mamon" Load="Merge">
+    <builder Name="GoatfolkHero1" ForceName="Mamon Bebealmas" />
     <part Name="Description" Short="Mamon se yergue casi una cabeza más alto que =pronouns.possessive= parientes y más ancho de hombros. Grandes matas de pelo apelmazado de sangre, parte del cual va trenzado, cuelgan a modo de borlas de =pronouns.possessive= cabeza y mentón, y un tocado carmesí hecho jirones cuelga de uno de =pronouns.possessive= colosales cuernos. En largas franjas sobre =pronouns.possessive= pecho desnudo el pelaje está chamuscado y la piel desollada. =pronouns.Subjective= viste un sarong enrollado en torno a =pronouns.possessive= cintura, con sus fibras de lana empapadas de un líquido fétido y entintado. =pronouns.Possessive= rostro es una visión de locura, a la vez el semblante de una vieja arrobada y de un niño espantado." />
     <xtagGrammar Proper="true" />
   </object>
