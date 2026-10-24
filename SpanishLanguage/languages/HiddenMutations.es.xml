@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <mutations Hidden="" ExcludeFromPool="">
 
@@ -96,7 +96,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Mayor <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Menor <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -110,7 +109,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Mayor <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Menor <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -124,7 +122,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Mayor <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Menor <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -138,7 +135,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Mayor <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Menor <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -152,7 +148,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Mayor <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Menor <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -166,7 +161,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Mayor <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Menor <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -180,7 +174,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Mayor <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Menor <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -203,7 +196,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext>
             <statline Name="Area" DisplayName="Área" />
-            <p><switch Name="LevelMatch"><case Value="true">Las criaturas son empujadas lejos del centro de la onda expansiva.</case><default>{{rules|Mayor fuerza de empuje}}</default></switch></p>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>Las criaturas son empujadas lejos del centro de la onda expansiva.</p></case>
+                        <default><p>{{rules|Mayor fuerza de empuje}}</p></default>
+                    </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
     </mutation>
