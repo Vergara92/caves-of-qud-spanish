@@ -1061,7 +1061,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Chiliad Creature Chavvah" Load="Merge">
     <part Name="Render" DisplayName="carillón =creatureRegionAdjective=" />
     <part Name="Description" Short="Un cristal inquieto rompe los rayos ambientales de luz al girar y estirarse." />
-    <xtagTextFragments PoeticFeatures="piel refractiva, dedos de prisma, fulgor lúcido" />
+    <xtagTextFragments PoeticFeatures="piel refractiva,dedos de prisma,fulgor lúcido" />
   </object>
   <object Name="Chiliad Creature Consortium" Load="Merge">
     <part Name="Render" DisplayName="=creatureRegionNoun= del Consorcio" />
@@ -1122,7 +1122,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Chiliad Creature Goatfolk" Load="Merge">
     <part Name="Render" DisplayName="goatfolk =creatureRegionNoun=" />
     <part Name="Description" Short="Se yergue con un arco de pezuña y bala con orgullo hacia el cielo." />
-    <xtagTextFragments PoeticFeatures="pecho musculoso, cuernos en espiral, gruñido profundo" />
+    <xtagTextFragments PoeticFeatures="pecho musculoso,cuernos en espiral,gruñido profundo" />
   </object>
   <object Name="Chiliad Creature Prey" Load="Merge">
     <part Name="Render" DisplayName="cabra =creatureRegionAdjective=" />
