@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <mutations Hidden="" ExcludeFromPool="">
 
@@ -94,7 +94,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <switch Name="LevelMatch">
               <case Value="raise"><p>{{rules|Aumenta <stat Name="LevelEffectDescription" />}}</p></case>
               <case Value="lower"><p>{{rules|Reduce <stat Name="LevelEffectDescription" />}}</p></case>
-              <default></default>
             </switch>
             <statline Name="Cooldown" DisplayName="Recarga" />
           </leveltext>
@@ -120,7 +119,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p>El PEM provoca una descarga involuntaria (tirada de salvación de Voluntad de dificultad 18)</p>
             <switch Name="CanDrinkTransient"><case Value="true"><p>Puedes absorber carga de fuentes de energía eléctrica.</p></case><default><p>Puedes absorber carga de células de energía y condensadores.</p></default></switch>
             <p>Ganas <stat Name="DamageAbsorbFactor" /> de carga por cada punto de daño eléctrico recibido.</p>
-            <p>Puedes suministrar carga a dispositivos equipados que tengan sistemas de energía integrados.</p>
+            <p>Puedes suministrar carga a dispositivos equipados que tengan alimentación integrada.</p>
           </leveltext>
     </mutation>
     <mutation Name="Electromagnetic Pulse" DisplayName="Pulso electromagnético" BearerDescription="quienes emiten pulsos electromagnéticos">
@@ -161,7 +160,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext>
             <p>Detectas la presencia de criaturas dentro de un radio de <stat Name="Radius" />.</p>
-            <p><switch Name="LevelMatch"><case Value="true">Probabilidad de identificar criaturas detectadas cercanas</case><default>{{rules|Aumenta la probabilidad de identificar criaturas detectadas cercanas}}</default></switch></p>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>Probabilidad de identificar criaturas detectadas cercanas</p></case>
+                        <default><p>{{rules|Aumenta la probabilidad de identificar criaturas detectadas cercanas}}</p></default>
+                    </switch>
           </leveltext>
     </mutation>
     <mutation Name="Heightened Quickness" DisplayName="Presteza agudizada" BearerDescription="quienes son veloces">
@@ -296,7 +298,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Slime Glands" DisplayName="Glándulas de baba" BearerDescription="quienes escupen baba">
       <description>
             <p>Produces una baba viscosa que puedes escupir a las cosas.</p>
-            <p></p>
+            <br />
             <p>Cubre un área de baba</p>
             <statline Name="Range" DisplayName="Alcance" />
             <statline Name="Area" DisplayName="Área" />
@@ -327,7 +329,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p>Tienes una cola con un aguijón que inyecta veneno <stat Name="VenomType" /> a tus enemigos.</p>
           </description>
       <leveltext>
-            <p>20% de probabilidad en un ataque cuerpo a cuerpo de aguijonear a tu adversario <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
+            <p>20% de probabilidad en un ataque cuerpo a cuerpo de aguijonear a tu adversario (<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
             <p>El aguijón es una hoja larga y solo puede penetrar una vez.</p>
             <p>Siempre aguijoneas al cargar o embestir.</p>
             <p>El aguijón aplica veneno al causar daño (solo un 20% de probabilidad si el aguijón es tu arma principal).</p>
@@ -342,7 +344,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
             <p>Tienes una cola con un aguijón que inyecta veneno <stat Name="VenomType" /> a tus enemigos.</p>
           </description>
       <leveltext>
-            <p>20% de probabilidad en un ataque cuerpo a cuerpo de aguijonear a tu adversario <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
+            <p>20% de probabilidad en un ataque cuerpo a cuerpo de aguijonear a tu adversario (<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
             <p>El aguijón es una hoja larga y solo puede penetrar una vez.</p>
             <p>Siempre aguijoneas al cargar o embestir.</p>
             <p>El aguijón aplica veneno al causar daño (solo un 20% de probabilidad si el aguijón es tu arma principal).</p>
@@ -425,7 +427,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Albino" DisplayName="Albino" BearerDescription="albinos">
       <description>
             <p>Tu piel, tu cabello y tus ojos carecen de pigmento.</p>
-            <p></p>
+            <br />
             <p>Regeneras puntos de golpe a un quinto de la tasa habitual a plena luz del día.</p>
           </description>
       <leveltext></leveltext>
@@ -433,7 +435,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Amphibious" DisplayName="Anfibio" BearerDescription="quienes son anfibios">
       <description>
             <p>Tu piel debe mantenerse húmeda con agua dulce.</p>
-            <p></p>
+            <br />
             <p>Para saciar la sed te viertes agua por encima en lugar de beberla.</p>
             <p>Necesitas en torno a dos tercios más de agua de lo habitual.</p>
             <p>+100 de reputación con {{w|ranas}}</p>
@@ -443,7 +445,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Brittle Bones" DisplayName="Huesos frágiles" BearerDescription="quienes tienen los huesos frágiles">
       <description>
             <p>Tus huesos son frágiles.</p>
-            <p></p>
+            <br />
             <p>Sufres un 50% más de daño por ataques contundentes, caídas y otras fuentes de daño por impacto.</p>
           </description>
       <leveltext></leveltext>
@@ -451,7 +453,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Nerve Poppy" DisplayName="Amapola nerviosa" BearerDescription="quienes no sienten dolor">
       <description>
             <p>Careces de un sentido del dolor desarrollado.</p>
-            <p></p>
+            <br />
             <p>Solo conoces tu estado de salud general y no tu número exacto de puntos de golpe.</p>
           </description>
       <leveltext></leveltext>
@@ -459,7 +461,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Carnivorous" DisplayName="Carnívoro" BearerDescription="quienes son carnívoros">
       <description>
             <p>Comes carne en exclusiva.</p>
-            <p></p>
+            <br />
             <p>No obtienes saciedad de los alimentos que no sean carne.</p>
             <p>Si comes alimentos crudos que no sean carne, hay un 50% de probabilidad de que enfermes durante 2 horas.</p>
             <p>No puedes cocinar con ingredientes vegetales ni fúngicos.</p>
@@ -471,7 +473,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Cold-Blooded" DisplayName="Sangre fría" BearerDescription="quienes son de sangre fría">
       <description>
             <p>Tu vitalidad depende de tu temperatura; a temperaturas más altas, estás más vivaz. A temperaturas más bajas, estás más aletargado.</p>
-            <p></p>
+            <br />
             <p>Tu puntuación base de Presteza se reduce en 10.</p>
             <p>Tu Presteza aumenta a medida que sube tu temperatura y disminuye a medida que baja.</p>
             <p>+100 de reputación con {{w|reptiles sin caparazón}}</p>
@@ -481,7 +483,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Electromagnetic Impulse" DisplayName="Impulso electromagnético" BearerDescription="quienes no controlan sus pulsos electromagnéticos">
       <description>
             <p>Liberas pulsos electromagnéticos de forma involuntaria, desactivando los robots y artefactos a tu alrededor.</p>
-            <p></p>
+            <br />
             <p>Pequeña probabilidad cada ronda en combate de liberar un pulso electromagnético de radio 3, desactivando robots y artefactos (incluidos los que llevas encima) durante 11-20 rondas.</p>
           </description>
       <leveltext></leveltext>
@@ -490,7 +492,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
       <description>
             <!-- will be replaced by blueprint's VariantDescription property if it exists. -->
             <p>Tienes <stat Name="BlueprintName" /> por pies.</p>
-            <p></p>
+            <br />
             <p>No puedes llevar calzado.</p>
           </description>
       <leveltext></leveltext>
@@ -498,7 +500,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Irritable Genome" DisplayName="Genoma irritable" BearerDescription="quienes tienen el genoma irritable">
       <description>
             <p>Tu genoma es irritable e impredecible.</p>
-            <p></p>
+            <br />
             <p>Cada vez que gastas un punto de mutación, el siguiente punto de mutación que obtengas se gastará al azar.</p>
             <p>Cada vez que compras una mutación nueva, obtienes una al azar en lugar de elegir entre tres.</p>
           </description>
@@ -507,7 +509,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Myopic" DisplayName="Miope" BearerDescription="quienes son miopes">
       <description>
             <p>Eres corto de vista.</p>
-            <p></p>
+            <br />
             <p>Solo puedes ver hasta un radio de 10.</p>
           </description>
       <leveltext></leveltext>
@@ -515,7 +517,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Spontaneous Combustion" DisplayName="Combustión espontánea" BearerDescription="quienes arden de forma espontánea">
       <description>
             <p>Te incendias de forma espontánea.</p>
-            <p></p>
+            <br />
             <p>Pequeña probabilidad cada ronda en combate de incendiarte de forma espontánea.</p>
           </description>
       <leveltext></leveltext>
@@ -523,7 +525,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Tonic Allergy" DisplayName="Alergia a los tónicos" BearerDescription="quienes son alérgicos">
       <description>
             <p>Eres alérgico a los tónicos.</p>
-            <p></p>
+            <br />
             <p>La probabilidad de que tu fisiología mutante reaccione mal a un tónico aumenta al 33%.</p>
             <p>Si reaccionas mal de esta forma a un tónico de bálsamo o de ubernóstrum, el efecto de la reacción adversa se elige al azar entre otros efectos de tónico. Aun así te curarás.</p>
           </description>
@@ -643,7 +645,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Kindle" DisplayName="Prender" BearerDescription="prendedores" BiomeAdjective="prendedor">
       <description>
             <p>Prendes un pequeño fuego con la mente.</p>
-            <p></p>
+            <br />
             <statline Name="Range" DisplayName="Alcance" />
             <statline Name="Cooldown" DisplayName="Recarga" />
           </description>
@@ -668,10 +670,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext>
             <p>Reinicia todas las mutaciones mentales</p>
-            <statline Name="CooldownNoWillpower" Unit="ronda" DisplayName="Recarga sin Voluntad" />
+            <statline Name="CooldownNoWillpower" DisplayName="Recarga" Unit="ronda" />
             <p>La recarga no se ve afectada por la Voluntad.</p>
             <p>Cada uso atrae algo más la atención de intrusos psíquicos.</p>
-            <p><switch Name="LevelMatch"><case Value="true">Pequeña probabilidad cada ronda de que otro esper robe tus poderes</case><default>{{rules|Reduce la probabilidad de que otro esper robe tus poderes}}</default></switch></p>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>Pequeña probabilidad cada ronda de que otro esper robe tus poderes</p></case>
+                        <default><p>{{rules|Reduce la probabilidad de que otro esper robe tus poderes}}</p></default>
+                    </switch>
             <p>-200 de reputación con {{w|los Seekers of the Sightless Way}}</p>
           </leveltext>
     </mutation>
@@ -726,7 +731,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Sense Psychic" DisplayName="Detectar psíquicos" BearerDescription="quienes son sensibles a lo psíquico" BiomeAdjective="desnudo">
       <description>
             <p>Puedes detectar a otros mutantes mentales a través del éter psíquico.</p>
-            <p></p>
+            <br />
             <p>Detectas la presencia de enemigos psíquicos dentro de un radio de <stat Name="Radius" />.</p>
             <p>Hay una probabilidad de que identifiques a los enemigos detectados.</p>
           </description>
@@ -738,10 +743,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
           </description>
       <leveltext>
             <p>Invoca un vórtice que engulle todo a su paso.</p>
-            <switch Name="BonusDuration">
-              <case Value="0"></case>
-              <default><statline Name="BonusDuration" DisplayName="Duración adicional" Unit="ronda" /></default>
-            </switch>
+                    <statline Name="BonusDuration" DisplayName="Duración adicional" Unit="ronda" HideValue="0" />
             <statline Name="Cooldown" DisplayName="Recarga" />
             <p>Puedes entrar en el vórtice para teletransportarte a una ubicación al azar de Qud.</p>
             <p>+200 de reputación con {{w|seres de alta entropía}}</p>
@@ -791,7 +793,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Telepathy" DisplayName="Telepatía" BearerDescription="quienes son telépatas" BiomeAdjective="telepático">
       <description>
             <p>Puedes comunicarte con otros a través del éter psíquico.</p>
-            <p></p>
+            <br />
             <p>Habla con cualquiera que tengas a la vista</p>
             <p>Tardas mucho menos en dar órdenes a tus compañeros</p>
           </description>
@@ -843,7 +845,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Amnesia" DisplayName="Amnesia" BearerDescription="quienes no recuerdan" BiomeAdjective="sin pasado">
       <description>
             <p>Olvidas cosas y lugares.</p>
-            <p></p>
+            <br />
             <p>Cada vez que aprendes un secreto nuevo, hay una pequeña probabilidad de que olvides un secreto.</p>
             <p>Cada vez que regresas a un mapa que ya visitaste, hay una pequeña probabilidad de que olvides su distribución.</p>
           </description>
@@ -852,7 +854,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Blinking Tic" DisplayName="Tic de parpadeo" BearerDescription="quienes se teletransportan de forma compulsiva" BiomeAdjective="parpadeante">
       <description>
             <p>Te teletransportas sin control.</p>
-            <p></p>
+            <br />
             <p>Pequeña probabilidad cada ronda en combate de teletransportarte al azar a una ubicación cercana.</p>
           </description>
       <leveltext></leveltext>
@@ -860,7 +862,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Dystechnia" DisplayName="Distecnia" BearerDescription="quienes se aturullan ante la complejidad tecnológica" BiomeAdjective="regresivo">
       <description>
             <p>Te aturulla la complejidad tecnológica.</p>
-            <p></p>
+            <br />
             <p>Eres mucho peor examinando artefactos.</p>
             <p>No puedes hacer que te identifiquen artefactos porque no entiendes las explicaciones.</p>
             <p>Cuando fallas gravemente al examinar un artefacto, este explota.</p>
@@ -870,7 +872,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Evil Twin" DisplayName="Gemelo malvado" BearerDescription="quienes tienen un doble" BiomeEpithet="asamblea de uno mismo">
       <description>
             <p>Movida por algún impulso inescrutable, una versión paralela de ti misma viaja por el espacio y el tiempo para destruirte.</p>
-            <p></p>
+            <br />
             <p>Cada vez que llegas a una ubicación nueva, hay una pequeña probabilidad de que tu gemelo malvado te haya seguido hasta allí e intente matarte.</p>
           </description>
       <leveltext></leveltext>
@@ -878,7 +880,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Narcolepsy" DisplayName="Narcolepsia" BearerDescription="quienes son narcolépticos" BiomeAdjective="somnoliento">
       <description>
             <p>Te quedas dormido sin querer de vez en cuando.</p>
-            <p></p>
+            <br />
             <p>Pequeña probabilidad cada ronda en combate de quedarte dormido durante 20-29 rondas.</p>
           </description>
       <leveltext></leveltext>
@@ -886,7 +888,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Psionic Migraines" DisplayName="Migrañas psiónicas" BearerDescription="quienes sufren migrañas psiónicas" BiomeAdjective="estridente">
       <description>
             <p>Sufres potentes migrañas psiónicas que vuelven tu cabeza extremadamente sensible.</p>
-            <p></p>
+            <br />
             <p>No puedes llevar sombreros ni cascos.</p>
           </description>
       <leveltext></leveltext>
@@ -894,7 +896,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Quantum Jitters" DisplayName="Temblores cuánticos" BearerDescription="quienes son cuánticamente inciertos" BiomeAdjective="tembloroso">
       <description>
             <p>Tus actos voluntarios a veces abollan el espaciotiempo.</p>
-            <p></p>
+            <br />
             <p>Cada vez que usas una habilidad activable, hay una pequeña probabilidad de que se te escape la concentración y abolles el espaciotiempo en la región local, haciendo aparecer de 1 a 2 vórtices espaciotemporales. Esta probabilidad aumenta cuanto más tiempo pasas sin usar una habilidad activable.</p>
           </description>
       <leveltext></leveltext>
@@ -902,7 +904,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <mutation Name="Socially Repugnant" DisplayName="Repugnancia social" BearerDescription="quienes son socialmente repugnantes" BiomeEpithet="asamblea de miserables">
       <description>
             <p>A los demás les cuesta tolerarte en entornos sociales.</p>
-            <p></p>
+            <br />
             <p>-50 de reputación con todas las facciones</p>
           </description>
       <leveltext></leveltext>
