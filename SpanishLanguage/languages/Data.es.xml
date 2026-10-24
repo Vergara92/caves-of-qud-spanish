@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <objects ExcludeFromCorpusGeneration="Key">
 
@@ -325,9 +325,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="ProceduralCookingIngredient_density" Load="Merge">
     <tag Name="Description" Value="a base de densidad volátil" />
   </object>
-  <object Name="ProceduralCookingIngredient_dissociation" Load="Merge">
-    <tag Name="Description" Value="a base de disociación" />
-  </object>
   <object Name="ProceduralCookingIngredient_attributes" Load="Merge">
     <tag Name="Description" Value="a base de atributos inciertos" />
   </object>
@@ -432,5 +429,48 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="BitType_8_M_Data" Load="Merge">
     <tag Name="DisplayName" Value="{{M|metacristal}}" />
     <tag Name="DisplayCharacter" Value="8" />
+  </object>
+  <object Name="Data_Asterisk_SpiceVillage" Load="Merge">
+    <tag Name="Postfix" Value="Lleva grabados iconos que veneran =spice.entity:sacredThing:el acto de procrear=." />
+  </object>
+  <object Name="Data_Asterisk_Joppa" Load="Merge">
+    <tag Name="DisplayName" Value="Joppa" />
+    <tag Name="Postfix" Value="Lleva tallada en relieve viñagua que trepa por cada una de sus puntas." />
+  </object>
+  <object Name="Data_Asterisk_GritGate" Load="Merge">
+    <tag Name="DisplayName" Value="Grit Gate" />
+    <tag Name="Postfix" Value="Lleva repujadas líneas angulosas que evocan esquemas y circuitos." />
+  </object>
+  <object Name="Data_Asterisk_BeyLah" Load="Merge">
+    <tag Name="DisplayName" Value="Bey Lah" />
+    <tag Name="Postfix" Value="Lleva grabadas huellas de pezuñas de ciervo que van desde los brazos hasta el centro." />
+  </object>
+  <object Name="Data_Asterisk_Kyakukya" Load="Merge">
+    <tag Name="DisplayName" Value="Kyakukya" />
+    <tag Name="Postfix" Value="Lleva grabadas por todas partes setas diminutas." />
+  </object>
+  <object Name="Data_Asterisk_Ezra" Load="Merge">
+    <tag Name="DisplayName" Value="Ezra" />
+    <tag Name="Postfix" Value="Lleva tallados en relieve diversos tipos de musa." />
+  </object>
+  <object Name="Data_Asterisk_YdFreehold" Load="Merge">
+    <tag Name="DisplayName" Value="Yd Freehold" />
+    <tag Name="Postfix" Value="Lleva talladas en relieve figuras de svardym que saltan desde los brazos hacia el centro." />
+  </object>
+  <object Name="Data_Asterisk_SixDayStilt" Load="Merge">
+    <tag Name="DisplayName" Value="Six Day Stilt" />
+    <tag Name="Postfix" Value="Lleva grabado en cada brazo un predicador con la mano tendida." />
+  </object>
+  <object Name="Data_Asterisk_Mopango" Load="Merge">
+    <tag Name="DisplayName" Value="mopango" />
+    <tag Name="Postfix" Value="Lleva repujados destellos estelares a lo largo de cada brazo y un cerco redondo en torno al centro." />
+  </object>
+  <object Name="Data_Asterisk_Pariahs" Load="Merge">
+    <tag Name="DisplayName" Value="parias" />
+    <tag Name="Postfix" Value="Lleva grabados caminos sinuosos por los que anda una única figura solitaria." />
+  </object>
+  <object Name="Data_Asterisk_Chavvah" Load="Merge">
+    <tag Name="DisplayName" Value="Chavvah" />
+    <tag Name="Postfix" Value="Lleva grabadas raíces cristalinas que se enroscan en cada brazo." />
   </object>
 </objects>
