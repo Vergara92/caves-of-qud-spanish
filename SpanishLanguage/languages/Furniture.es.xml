@@ -379,7 +379,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="turbina {{B|hidráulica}}" />
     <part Name="Description" Short="Rotores de cromo de corte perfecto se apilan a lo largo del eje de un generador, y anchas aspas con aletas atrapan el empuje del fluido e hilan electricidad." />
     <tag Name="HeroNameTitleDescriptor" Value="Acuosa,Pródiga,Nutricia,Copiosa,Restauradora" />
-    <tag Name="HeroNameTitleClientele" Value="redes eléctricas, bombas" />
+    <tag Name="HeroNameTitleClientele" Value="redes eléctricas,bombas" />
   </object>
   <object Name="Hydraulic Press" Load="Merge">
     <part Name="Render" DisplayName="prensa hidráulica" />
@@ -610,7 +610,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="BaseBed" Load="Merge">
     <tag Name="HeroNameTitleDescriptor" Value="Reparadora,Mullida,Grumosa,Firme,Lujosa,Cómoda,De-Sábanas-Cortas,Sin-Muelles" />
-    <tag Name="HeroNameTitleClientele" Value="los Fatigados, los Cansados" />
+    <tag Name="HeroNameTitleClientele" Value="los Fatigados,los Cansados" />
     <xtagTextFragments Skin="sábanas" PoeticFeatures="estatura reclinada,superficies blandas,llanura acogedora" />
     <tag Name="QuestableVerb" Value="dormir en" />
   </object>
