@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 -->
 <inventoryActions Lang="example" Encoding="utf-8">
@@ -544,6 +544,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <display>▶remove</display>
     <key>▶r</key>
   </inventoryAction>
+  <inventoryAction Name="LoadoutOn">
+    <display>▶add to current equipment set</display>
+    <key>▶q</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadoutOff">
+    <display>▶remove from current equipment set</display>
+    <key>▶q</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadoutCreate">
+    <display>▶create equipment set</display>
+    <key>▶q</key>
+  </inventoryAction>
+  <inventoryAction Name="UnequipSwap">
+    <display>▶swap out</display>
+    <key>▶s</key>
+  </inventoryAction>
   <inventoryAction Name="CommandTakeObject">
     <display>▶get</display>
     <key>▶g</key>
@@ -790,5 +806,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <inventoryAction Name="TelekineticMoveOne">
     <display>▶telekinetically move one</display>
     <key>▶M</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStart">
+    <display>▶start autogetting</display>
+    <preferToHighlight>▶start</preferToHighlight>
+    <key>▶S</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStop">
+    <display>▶stop autogetting</display>
+    <preferToHighlight>▶stop</preferToHighlight>
+    <key>▶S</key>
   </inventoryAction>
 </inventoryActions>

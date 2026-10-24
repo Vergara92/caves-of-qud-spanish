@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 -->
 <inventoryActions Lang="es" Encoding="utf-8">
@@ -544,6 +544,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <display>quitar</display>
     <key>r</key>
   </inventoryAction>
+  <inventoryAction Name="LoadoutOn">
+    <display>añadir al conjunto de equipo actual</display>
+    <key>q</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadoutOff">
+    <display>quitar del conjunto de equipo actual</display>
+    <key>q</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadoutCreate">
+    <display>crear conjunto de equipo</display>
+    <key>q</key>
+  </inventoryAction>
+  <inventoryAction Name="UnequipSwap">
+    <display>sustituir</display>
+    <key>s</key>
+  </inventoryAction>
   <inventoryAction Name="CommandTakeObject">
     <display>coger</display>
     <key>g</key>
@@ -790,5 +806,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <inventoryAction Name="TelekineticMoveOne">
     <display>mover telequinéticamente uno</display>
     <key>M</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStart">
+    <display>activar autocoger</display>
+    <preferToHighlight>activar</preferToHighlight>
+    <key>S</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStop">
+    <display>desactivar autocoger</display>
+    <preferToHighlight>desactivar</preferToHighlight>
+    <key>S</key>
   </inventoryAction>
 </inventoryActions>
