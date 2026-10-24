@@ -14,6 +14,7 @@ removed, and each line is unindented.
 
 -->
 <strings Lang="es" Encoding="utf-8">
+  <!-- ** Super common strings, these are basically conversation "globals". -->
   <string ID="...">...</string>
   <string ID="Live and drink.">Vive y bebe.</string>
   <!-- ** End super common-->
@@ -567,7 +568,7 @@ Pax Klanq ha accedido a construir la trepadora. ¿Y ahora qué?
   <string Context="Conversation Barathrum.Welcome.TombExplain1Choice.Text" ID="Could you tell me again about the Tomb of the Eaters?">
 ¿Podrías hablarme de nuevo de la Tumba de los Devoradores?
   </string>
-  <string Context="Conversation Barathrum.Welcome.GolemChoice.Text" ID="The magnetic field has been disable and the Spindle is free to ascend. What now?">
+  <string Context="Conversation Barathrum.Welcome.GolemChoice.Text" ID="The magnetic field has been disabled and the Spindle is free to ascend. What now?">
 El campo magnético ha sido desactivado y el Spindle está libre para ascender. ¿Y ahora qué?
   </string>
   <string Context="Conversation Barathrum.Welcome.Golem4Choice.Text" ID="Tell me again of the plan to mold a giant creature to ascend the Spindle.">
@@ -4152,16 +4153,10 @@ No te comas los hoarshrooms demasiado deprisa, ¿eh?
   <string Context="Conversation apothecary.Start.Text.Text9" ID="Have you got enough tonics?">
 ¿Llevas tónicos suficientes?
   </string>
-  <string Context="Conversation apothecary.Start.Text.Text10" ID="Got a fungal infection? You'll want one of my spray bottles to apply the cure.">
+  <string Context="Conversation apothecary.Start.Text" ID="Got a fungal infection? You'll want one of my spray bottles to apply the cure.">
 ¿Tienes una infección por hongos? Querrás uno de mis pulverizadores para aplicar la cura.
   </string>
-  <string Context="Conversation apothecary.Start.Text.Text11" ID="Got a fungal infection? You'll want one of my spray bottles to apply the cure.">
-¿Tienes una infección por hongos? Querrás uno de mis pulverizadores para aplicar la cura.
-  </string>
-  <string Context="Conversation apothecary.Start.Text.Text12" ID="Get your hands on the Corpus Choliys for disease and fungus cures.">
-Hazte con el Corpus Choliys para curas de enfermedades y hongos.
-  </string>
-  <string Context="Conversation apothecary.Start.Text.Text13" ID="Get your hands on the Corpus Choliys for disease and fungus cures.">
+  <string Context="Conversation apothecary.Start.Text.2" ID="Get your hands on the Corpus Choliys for disease and fungus cures.">
 Hazte con el Corpus Choliys para curas de enfermedades y hongos.
   </string>
   <string Context="Conversation herbalist.Start.Text.Text" ID="I've the cure for what ails you.">
@@ -4829,8 +4824,8 @@ Sí.
   <string Context="Conversation Otho.Start5.EndChoice.Text" ID="No.">
 No.
   </string>
-  <string Context="Conversation Otho.Signal.Text" ID="The signal is a repeat transmission being broadcast from an unknown source.=V0tinkeraddendum= One of our tinkers, {{m|Q Girl}}, discovered it while rigging a long wave detector. Unfortunately, it's encrypted, and we do not have the means here to decrypt it. You may be of some help in this matter, however.&#xA;&#xA;We've long known the location of a fully functioning {{W|baetyl}} within the bowels of the great hall {{C|Bethesda Susa}}. The Mechanimists have consecrated the site around it and built a temple there. Q Girl claims to have developed a means to decrypt the signal, but she needs the computing power of the baetyl. If you can infiltrate the Mechanimist compound, you may be able to engage the baetyl and decode the signal.">
-La señal es una transmisión repetida que se emite desde una fuente desconocida.=V0tinkeraddendum= Una de nuestras manitas, {{m|Q Girl}}, la descubrió mientras montaba un detector de onda larga. Por desgracia, está cifrada, y aquí no tenemos medios para descifrarla. Tú, sin embargo, podrías ser de ayuda en este asunto.
+  <string Context="Conversation Otho.Signal.Text" ID="The signal is a repeat transmission being broadcast from an unknown source. =V0tinkeraddendum= One of our tinkers, {{m|Q Girl}}, discovered it while rigging a long wave detector. Unfortunately, it's encrypted, and we do not have the means here to decrypt it. You may be of some help in this matter, however.&#xA;&#xA;We've long known the location of a fully functioning {{W|baetyl}} within the bowels of the great hall {{C|Bethesda Susa}}. The Mechanimists have consecrated the site around it and built a temple there. Q Girl claims to have developed a means to decrypt the signal, but she needs the computing power of the baetyl. If you can infiltrate the Mechanimist compound, you may be able to engage the baetyl and decode the signal.">
+La señal es una transmisión repetida que se emite desde una fuente desconocida. =V0tinkeraddendum= Una de nuestras manitas, {{m|Q Girl}}, la descubrió mientras montaba un detector de onda larga. Por desgracia, está cifrada, y aquí no tenemos medios para descifrarla. Tú, sin embargo, podrías ser de ayuda en este asunto.
 
 Hace tiempo que conocemos la ubicación de un {{W|baetyl}} plenamente funcional en las entrañas del gran salón {{C|Bethesda Susa}}. Los Mechanimists han consagrado el lugar a su alrededor y han levantado allí un templo. Q Girl asegura haber ideado un medio para descifrar la señal, pero necesita la potencia de cálculo del baetyl. Si logras infiltrarte en el recinto Mechanimist, quizá puedas activar el baetyl y decodificar la señal.
   </string>
@@ -5107,7 +5102,7 @@ Vive y bebe, discípulo.
 
 Te alegrará saber que los slynth han demostrado ser dignos del rango de aprendiz. Residirán aquí mientras sostengan y sirvan los preceptos de nuestra orden.
   </string>
-  <string Context="Conversation Otho.SlynthSettled.StartChoice.Text" ID="My thanks again, Otho">
+  <string Context="Conversation Otho.SlynthSettled.StartChoice.Text" ID="My thanks again, Otho.">
 De nuevo, mi gratitud, Otho.
   </string>
   <string Context="Conversation Gritgate Mainframe Intercom.Start.Text" ID="It's as I feared, =name=. Grit Gate is being assailed. The Putus Templar must have followed you back from Omonporch.&#xA;&#xA;Let us use the precious little time we have before they arrive to prepare our defenses.">
