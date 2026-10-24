@@ -2081,8 +2081,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="mota {{K|negra}}" />
     <part Name="Description" Short="Una partícula negra desafía al mundo anegado de luz y traza una órbita helicoidal." />
     <part Name="EquipStatBoost" NameForStatus="SistemaDeAlabeoLumínico" />
-    <part Name="CancelRangedAttacks" Message="¡=subject.T= =verb:engullir= =object.t=!" NameForStatus="SistemaDeAlabeoEspacial" />
-    <part Name="RandomLongRangeTeleportOnDamage" Message="¡=subject.T= =verb:tropezar= con =object.t=!" NameForStatus="SensorDeProximidad" />
+    <part Name="CancelRangedAttacks" Message="¡=subject.T= se traga =object.t=!" NameForStatus="SistemaDeAlabeoEspacial" />
+    <part Name="RandomLongRangeTeleportOnDamage" Message="¡Encontronazo con =object.t=!" NameForStatus="SensorDeProximidad" />
   </object>
   <object Name="BaseNephilimLightCircle" Load="Merge">
     <part Name="Render" DisplayName="círculo de luz" />
