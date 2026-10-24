@@ -1079,10 +1079,10 @@
         "[x3]Sucumbió a la desesperación tras perder =item.a.name:asIfKnown|strip="
       ],
       "itemDeath2=": [
-        "Aplastado por =item.name|strip= al caer",
-        "[x3]Aplastado por =item.name:asIfKnown|strip= al caer",
-        "Cayó por un precipicio al intentar recobrar =item.name|strip= perdido",
-        "[x3]Cayó por un precipicio al intentar recobrar =item.name:asIfKnown|strip= perdido"
+        "Aplastamiento por caída de =item.name:includeAdjunctNoun|strip=",
+        "[x3]Aplastamiento por caída de =item.name:asIfKnown:includeAdjunctNoun|strip=",
+        "Cayó por un precipicio al intentar recobrar su =item.name:includeAdjunctNoun|strip=, que había perdido",
+        "[x3]Cayó por un precipicio al intentar recobrar su =item.name:asIfKnown:includeAdjunctNoun|strip=, que había perdido"
       ],
       "factionDeath=": [
         "Asesinado en circunstancias misteriosas por =faction.the.name=",
@@ -1348,7 +1348,7 @@
           "changedWays=": [ "cambiamos nuestras =spice:commonPhrases.ways.!random=" ],
           "composedRituals=": [ "=spice:commonPhrases.composed.!random= nuevos =spice:commonPhrases.rituals.!random=" ],
           "lostOur=": [
-            "=villager.the.basename|strip= perdió nuestro =item.name=",
+            "por culpa de =villager.basename|strip= nos quedamos sin =item.name=",
             "nos robaron nuestro =item.name=",
             "=spice:instancesOf.fate.!random= nos ha separado de nuestro =item.name="
           ],
@@ -1382,7 +1382,7 @@
           ],
           "someoneLearned=": [
             "=spice:commonPhrases.learned.!random= que =^:itemAtPlace.!random=",
-            "=villagerName= =spice:commonPhrases.learned.!random= que =^:itemAtPlace.!random=",
+            "=villager.basename|strip= =spice:commonPhrases.learned.!random= que =^:itemAtPlace.!random=",
             "me hicieron saber que =^:itemAtPlace.!random="
           ],
           "itemAtPlace=": [
