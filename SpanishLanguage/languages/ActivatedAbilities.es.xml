@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <activatedabilities>
 
@@ -259,7 +259,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <description>
         <p>Una energía creativa acelera tu mente.</p>
         <br />
-        <p><stat Name="RefreshDescription" /></p>
+              <switch Name="AbilityAmount">
+                  <case Value="1"><p>Reinicia la recarga de una habilidad al azar.</p></case>
+                  <default><p>Reinicia todas tus recargas.</p></default>
+              </switch>
         <statline Name="Cooldown" DisplayName="Recarga" />
       </description>
   </ability>
@@ -279,8 +282,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <description>
         <p>Fijas una temperatura objetivo y, cada ronda, te calientas o te enfrías hasta alcanzarla.</p>
         <br />
-        <statline Name="TemperatureChange" DisplayName="Cambio de temperatura por ronda" />
-        <statline Name="ChargeUse" DisplayName="Consumo de carga por ronda" />
+              <p>Cambio de temperatura por ronda: aproximadamente <stat Name="TemperatureChange" />%</p>
+              <p>Consumo de carga por ronda: cambio de temperatura x<gametext>=chargeuse:0.??=</gametext></p>
       </description>
   </ability>
   <ability Command="ActivatePaxInfection">
@@ -911,13 +914,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
       </description>
   </ability>
   <ability Command="CommandToggleProvideCharge">
-    <description>Alimentas los dispositivos equipados que tengan sistemas de energía integrados.</description>
+    <description>Alimentas los dispositivos equipados que tengan alimentación integrada.</description>
   </ability>
   <ability Command="CommandElectromagneticPulse">
     <description>
         <p>Generas un pulso electromagnético que inutiliza los artefactos y las máquinas cercanas.</p>
         <br />
-        <statline Name="Area" Unit="centrada en ti" DisplayName="Área" />
+              <p>Área: <stat Name="Area" />, con centro en ti</p>
         <statline Name="Duration" DisplayName="Duración de la inutilización" Unit="rondas" />
         <statline Name="Cooldown" DisplayName="Recarga" />
       </description>
@@ -1076,12 +1079,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
         <br />
         <statline Name="StingerPen" DisplayName="Penetración del aguijón" />
         <statline Name="StingerDamage" DisplayName="Daño del aguijón" />
-        <p><switch Name="VenomType">
+              <switch Name="VenomType">
           <!-- These values for the case statement should match the strings for "Stinger VenomType" strings. -->
-          <case Value="paralyzing">El veneno paraliza a los oponentes durante <stat Name="Duration" />.</case>
-          <case Value="confusing">El veneno confunde a los oponentes durante <stat Name="Duration" />.</case>
-          <case Value="poisonous">El veneno envenena a los oponentes durante <stat Name="Duration" />.</case>
-        </switch></p>
+                  <case Value="paralyzing"><p>El veneno paraliza a los oponentes durante <stat Name="Duration" />.</p></case>
+                  <case Value="confusing"><p>El veneno confunde a los oponentes durante <stat Name="Duration" />.</p></case>
+                  <case Value="poisonous"><p>El veneno envenena a los oponentes durante <stat Name="Duration" />.</p></case>
+              </switch>
         <statline Name="Cooldown" DisplayName="Recarga" />
       </description>
   </ability>
@@ -1147,8 +1150,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </ability>
   <ability Command="CommandAcrobaticsJump">
     <description>
-        <p><switch Name="IsRangeIncreased"><case Value="true">Saltas <switch Name="Rocket"><case Value="true">con propulsión </case></switch>a un espacio libre dentro de un alcance de <stat Name="MinimumRange" />-<stat Name="Range" />.</case>
-        <default>Saltas <switch Name="Rocket"><case Value="true">con propulsión </case></switch>a un espacio libre a <stat Name="Range" /> espacios de distancia.</default></switch></p>
+              <switch Name="IsRangeIncreased">
+                  <case Value="true"><p>Saltas <switch Name="Rocket"><case Value="true">con propulsión </case></switch>a un espacio libre dentro de un alcance de <stat Name="MinimumRange" />-<stat Name="Range" />.</p></case>
+                  <default><p>Saltas <switch Name="Rocket"><case Value="true">con propulsión </case></switch>a un espacio libre a <stat Name="Range" /> espacios de distancia.</p></default>
+              </switch>
         <switch Name="CanJumpOverCreatures">
           <case Value="true"><p>Puedes saltar por encima de criaturas.</p></case>
           <default><p>No puedes saltar por encima de criaturas.</p></default>
@@ -1177,8 +1182,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <description>
         <p>Haces un ataque con hacha contra un oponente. Si impactas y penetras, le amputas al azar uno de sus miembros y empieza a sangrar.</p>
         <br />
-        <statline Name="BleedDamage" DisplayName="Daño por sangrado" />
-        <statline Name="BleedSave" DisplayName="Tiro de sangrado" />
+              <statline Name="BleedDamage" DisplayName="Daño por sangrado" Unit="por ronda" />
+              <p>Tiro contra el sangrado: <gametext>=statistics[Toughness].title=</gametext> <stat Name="BleedSave" /></p>
         <statline Name="Cooldown" DisplayName="Recarga" />
       </description>
   </ability>
@@ -1188,8 +1193,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
         <p>Si lo logras, cada vez que te mueves arrastras a tu oponente contigo y haces un ataque gratuito con el hacha.</p>
         <p>Tu oponente tiene una probabilidad de resistir el desplazamiento y otra de liberarse al inicio de su turno.</p>
         <br />
-        <statline Name="DurationSpecial" DisplayName="Duración especial" />
-        <statline Name="ResistSave" DisplayName="Tiro de resistir el movimiento / liberarse" />
+              <p>Duración: 9 rondas o hasta que el oponente pierda un miembro</p>
+              <p>Tiro para resistir el arrastre / liberarse: <gametext>=statistics[Strength].title=</gametext> <stat Name="ResistSave" /></p>
         <statline Name="Cooldown" DisplayName="Recarga" />
       </description>
   </ability>
@@ -1317,7 +1322,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
         <br />
         <p>{{W|Postura de duelo}}: Atacas a un oponente e intentas desarmarlo (tiro de Fuerza; dificultad 25 + modificador de Agilidad). El ataque tiene garantizado impactar y penetrar al menos una vez.</p>
         <br />
-        <p>Debes empuñar una hoja larga en la mano principal para usar Estocada.</p>
+        <p>Debes empuñar una hoja larga en la mano principal para usar Tajo.</p>
         <br />
         <statline Name="Cooldown" DisplayName="Recarga" />
       </description>
@@ -1481,5 +1486,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </ability>
   <ability Command="CommandSeatEject">
     <description>Tú y tus compañeros sentados sois expulsados a la fuerza del vehículo en el que estáis.</description>
+  </ability>
+  <ability Command="CommandPickLoadout">
+    <description>
+          <p>Elige tu conjunto de equipo activo o gestiona tus conjuntos de equipo.</p>
+          <br />
+          <p>Los conjuntos de equipo te permiten ponerte de una vez varias piezas de equipo y cambiar rápidamente de un conjunto a otro.</p>
+          <br />
+          <p>Puedes crear conjuntos de equipo y añadirles piezas en la pantalla de Equipo.</p>
+      </description>
   </ability>
 </activatedabilities>
