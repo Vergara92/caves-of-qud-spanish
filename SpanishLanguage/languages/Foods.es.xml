@@ -348,6 +348,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Vinewafer Sheaf" Load="Merge">
     <part Name="Render" DisplayName="{{g|gavilla de obleas de viñagua}}" />
     <part Name="Description" Short="Obleas en racimo cosechadas de la viñagua, esa planta que absorbe la humedad, y atadas con cordel." />
+    <xtagGrammar massNoun="false" />
   </object>
   <object Name="Pickled Mushrooms" Load="Merge">
     <part Name="Render" DisplayName="{{K|setas en escabeche}}" />
@@ -375,7 +376,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Salthopper Chip" Load="Merge">
     <part Name="Render" DisplayName="patata de salthopper" />
     <part Name="Description" Short="La quitina se raspó del flanco exoesquelético de un salthopper capturado y se batió en seco hasta dejarla bien crujiente." />
-    <xtagGrammar iArticle="una" adjunctNoun="" />
+    <xtagGrammar iArticle="una" adjunctNoun="" massNoun="false" />
   </object>
   <object Name="Phase Silk" Load="Merge">
     <part Name="Render" DisplayName="{{Y|seda de fase}}" />
@@ -448,6 +449,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Food Cube" Load="Merge">
     <part Name="Render" DisplayName="cubo de comida" />
     <part Name="Description" Short="Alimento esponjoso moldeado en un cubo color pizarra de proporciones perfectas. ¿Qué fuerzas casaron el desorden del comer con la precisión de los cubos?" />
+    <xtagGrammar massNoun="false" />
   </object>
   <object Name="Fermented Tongue" Load="Merge">
     <part Name="Render" DisplayName="{{r|lengua fermentada}}" />
