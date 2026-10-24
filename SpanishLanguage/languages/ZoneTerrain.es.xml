@@ -86,6 +86,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Yuckwheat" Load="Merge">
     <part Name="Render" DisplayName="trigo asqueroso" />
     <part Name="Description" Short="Pétalos color coral brotan de la cima de un tallo endeble. Una pezuña de metal o hueso ha aplastado a sus hermanos y esparcido sus fibras ácidas por el suelo." />
+    <stag Name="Fiber" Value="cordón" />
     <stag Name="FiberMaterial" Value="paja" />
   </object>
   <object Name="Watervine" Load="Merge">
@@ -355,6 +356,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="paseo de mármol" />
     <part Name="Description" Short="Rectángulos de mármol teselan la senda." />
   </object>
+  <object Name="CyanMarbleWalkway" Load="Merge">
+    <part Name="Render" DisplayName="paseo de mármol" />
+    <part Name="Description" Short="Rectángulos de mármol teselan la senda." />
+  </object>
   <object Name="BlackMarbleWalkway" Load="Merge">
     <part Name="Render" DisplayName="paseo de mármol negro" />
     <part Name="Description" Short="Rectángulos de mármol negro teselan la senda." />
@@ -430,6 +435,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="aire libre" />
     <part Name="StairsDown" PullMessage="¡Caes!" JumpPrompt="Parece una caída tremendamente larga. ¿Seguro que quieres saltar?" />
     <part Name="Description" Short="El espacio está vacío de obstáculos sólidos." />
+    <tag Name="FallPreposition" Value="por" />
     <xtagGrammar massNoun="true" />
   </object>
   <object Name="Pit" Load="Merge">

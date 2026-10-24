@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.24
+Caves of Qud - Generated Localizable XML 2.0.212.30
 
 <objects ExcludeFromCorpusGeneration="Key">
 
@@ -86,6 +86,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Yuckwheat" Load="Merge">
     <part Name="Render" DisplayName="▶yuckwheat" />
     <part Name="Description" Short="▶Coral petals sprout from the top of a flimsy stem. A metal or bone hoof has crushed its siblings and spread their acid fibers across the soil." />
+    <stag Name="Fiber" Value="▶cord" />
     <stag Name="FiberMaterial" Value="▶thatch" />
   </object>
   <object Name="Watervine" Load="Merge">
@@ -275,15 +276,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Chavvah Chime Left" Load="Merge">
     <part Name="Render" DisplayName="▶chiming rock" />
-    <part Name="Description" Short="▶Its corners were waxed off by static and its crystal corms burn with tranduced moonlight. It chimes in near and far keys." />
+    <part Name="Description" Short="▶Its corners were waxed off by static and its crystal corms burn with transduced moonlight. It chimes in near and far keys." />
   </object>
   <object Name="Chavvah Chime Right" Load="Merge">
     <part Name="Render" DisplayName="▶chiming rock" />
-    <part Name="Description" Short="▶Its corners were waxed off by static and its crystal corms burn with tranduced moonlight. It chimes in near and far keys." />
+    <part Name="Description" Short="▶Its corners were waxed off by static and its crystal corms burn with transduced moonlight. It chimes in near and far keys." />
   </object>
   <object Name="Chavvah Taproot Floor" Load="Merge">
     <part Name="Render" DisplayName="▶crystalline taproot" />
-    <part Name="Description" Short="▶Little crystal shoots were crushed by pure ego-weight to a girthful, stout, and equant tranducer of transient thoughtsoft. Decohered emotion and memory crystallize as they shoot up the root." />
+    <part Name="Description" Short="▶Little crystal shoots were crushed by pure ego-weight to a girthful, stout, and equant transducer of transient thoughtsoft. Decohered emotion and memory crystallize as they shoot up the root." />
   </object>
   <object Name="Crystalline Root" Load="Merge">
     <part Name="Render" DisplayName="▶crystalline root" />
@@ -352,6 +353,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="▶Brick rectangles tesselate the path." />
   </object>
   <object Name="MarbleWalkway" Load="Merge">
+    <part Name="Render" DisplayName="▶marble walkway" />
+    <part Name="Description" Short="▶Marble rectangles tesselate the path." />
+  </object>
+  <object Name="CyanMarbleWalkway" Load="Merge">
     <part Name="Render" DisplayName="▶marble walkway" />
     <part Name="Description" Short="▶Marble rectangles tesselate the path." />
   </object>
@@ -430,6 +435,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="▶open air" />
     <part Name="StairsDown" PullMessage="▶You fall down!" JumpPrompt="▶It looks like an awfully long fall. Are you sure you want to jump?" />
     <part Name="Description" Short="▶Space is emptied of solid impediments." />
+    <tag Name="FallPreposition" Value="▶through" />
     <xtagGrammar massNoun="▶true" />
   </object>
   <object Name="Pit" Load="Merge">
