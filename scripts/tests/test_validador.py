@@ -102,15 +102,25 @@ class Formas(unittest.TestCase):
     """6 · XML aparte de formas (raíz <concordancia>): no rompe el validador y se comprueba."""
 
     def test_se_encuentra_solo_y_se_valida(self):
+        # formato de _equipo/prototipo_c/FORMATO.md (CAV-24.E2/E4)
         rep = validate(FIX / "formas/en", FIX / "formas/es")
         err = kinds(rep.errors, "Forms entry")
-        self.assertTrue(any("Incomplete forms" in e for e in err))
-        self.assertTrue(any("without fallback text" in e for e in err))
-        self.assertEqual(len(err), 2)
-        nokey = kinds(rep.warnings, "Forms key not in Strings")
+        for frag in ("Incomplete forms", "Literal without Texto", "without forms, clase or respaldo",
+                     "Unknown clase 'rara'", "Unknown element", "Variable not in incoming text"):
+            self.assertTrue(any(frag in e for e in err), frag)
+        self.assertEqual(len(err), 6)
+        nokey = kinds(rep.errors, "Forms key not in Strings")
         self.assertEqual(len(nokey), 1)
         self.assertIn("ID='keen'", nokey[0])
-        self.assertEqual(len(kinds(rep.warnings, "Duplicate key")), 2)  # Strings y formas
+        self.assertEqual(len(kinds(rep.errors, "Forms in Strings")), 1)  # fs= en Strings.es.xml
+        warn = kinds(rep.warnings, "Forms entry")
+        self.assertTrue(any("English-looking literal without respaldo" in w and "smart" in w for w in warn))
+        self.assertFalse(any("mojado" in w for w in warn))
+        self.assertTrue(any("Unknown attrs" in w and "fem" in w for w in warn))
+        self.assertTrue(any("Template without visible letters" in w for w in warn))
+        self.assertEqual(len(warn), 3)
+        # Strings (dup) y formas: Verb/sword dos veces («acuchillar») y keen con otro respaldo
+        self.assertEqual(len(kinds(rep.warnings, "Duplicate key")), 3)
 
     def test_lang_y_xml_mal_formado(self):
         fuera = FIX / "formas/fuera"

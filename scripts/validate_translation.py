@@ -30,7 +30,9 @@ placeholder_pattern = re.compile(r"\{\d+\}|%[sd]")
 
 FORMS_ROOT = "concordancia"
 FORMS_ATTRS = ("ms", "fs", "mp", "fp")
-FORMS_EXTRA_ATTRS = {"clase"}
+FORMS_EXTRA_ATTRS = {"clase", "respaldo"}
+FORMS_CLASES = {"delante", "relacional", "calificativo", "de", "con"}
+TEMPLATE_VAR = re.compile(r"=[^=\s]+=")
 STRINGS_FILE = "Strings.es.xml"
 
 
@@ -214,20 +216,42 @@ def compare_elements(en_elem, it_elem, file, rep):
         compare_elements(ec, ic, file, rep)
 
 
-def strings_keys(it_dir):
+def strings_texts(it_dir):
+    """(ID, Context) → texto de cada <string> de Strings.es.xml (si se repite, gana el último, como en el juego)."""
     path = Path(it_dir) / STRINGS_FILE
     if not path.exists():
         return None
     root = etree.parse(str(path)).getroot()
-    keys = {}
-    for s in root.iter("string"):
-        keys.setdefault(s.get("ID") or "", set()).add(s.get("Context") or "")
-    return keys
+    return {(s.get("ID") or "", s.get("Context") or ""): s.text or "" for s in root.iter("string")}
 
 
-def check_forms_file(path, rep, skeys, label=None):
-    """XML aparte de formas (raíz <concordancia>). Formato provisional hasta CAV-36.2:
-    el de _equipo/prototipo_c/mod/datos/ (<string ID Context ms fs mp fp [clase]>B</string>)."""
+def check_strings_no_forms(it_dir, rep):
+    """Las formas y la clase van en el XML de formas: en Strings el juego avisa de cada atributo que no lee."""
+    path = Path(it_dir) / STRINGS_FILE
+    if not path.exists():
+        return
+    for s in etree.parse(str(path)).getroot().iter("string"):
+        extra = [a for a in (*FORMS_ATTRS, *FORMS_EXTRA_ATTRS) if s.get(a) is not None]
+        if extra:
+            rep.error("Forms in Strings", STRINGS_FILE,
+                      f"[Line {s.sourceline}] Forms attrs in {STRINGS_FILE} (go in {FORMS_ROOT}.es.xml): "
+                      f"ID='{s.get('ID')}' {extra}")
+
+
+def _visible(text):
+    """Texto sin el marcado de color {{x|…}}."""
+    return re.sub(r"\{\{[^|{}]*\||\}\}", "", text)
+
+
+def _looks_english(text):
+    vis = _visible(text).strip()
+    return bool(vis) and not re.search(r"[áéíóúñü]", vis, re.I) and not re.search(r"[oa]s?$", vis)
+
+
+def check_forms_file(path, rep, stexts, label=None):
+    """XML aparte de formas (raíz <concordancia>), formato de _equipo/prototipo_c/FORMATO.md (CAV-24.E2):
+    <string Context ID …> remite al <string> de Strings.es.xml; <literal Texto …> es el texto tal cual llega.
+    Atributos: ms fs mp fp (las cuatro o ninguna), clase, respaldo. Elementos vacíos."""
     file = label or path
     tree = load_xml(path, rep)
     if tree is None:
@@ -242,40 +266,68 @@ def check_forms_file(path, rep, skeys, label=None):
     if raw.startswith(b"\xef\xbb\xbf") and (tree.docinfo.encoding or "").lower() not in ("utf-8", "utf8"):
         rep.error("BOM", file, f"BOM in {file} but encoding '{tree.docinfo.encoding}'")
 
-    seen = Counter()
+    seen = {}   # texto que llega → (contenido, línea)
     for el in element_children(root):
         line = f"[Line {el.sourceline}]"
-        if el.tag != "string":
-            rep.warn("Forms entry", file, f"{line} Unknown element in forms file {file}: <{el.tag}>")
+        if el.tag == "string":
+            id_, ctx = el.get("ID"), el.get("Context") or ""
+            if not id_:
+                rep.error("Forms entry", file, f"{line} Forms entry without ID in {file}")
+                continue
+            what = f"ID='{id_}'"
+            known = {"ID", "Context"}
+            if stexts is None:
+                incoming = None
+            elif (id_, ctx) not in stexts:
+                rep.error("Forms key not in Strings", file,
+                          f"{line} Forms key not in {STRINGS_FILE} ({file}): ID='{id_}' Context='{ctx}'")
+                continue
+            else:
+                incoming = stexts[(id_, ctx)]
+        elif el.tag == "literal":
+            incoming = el.get("Texto")
+            if not incoming:
+                rep.error("Forms entry", file, f"{line} Literal without Texto in {file}")
+                continue
+            what = f"Texto='{incoming}'"
+            known = {"Texto"}
+            if el.get("respaldo") is None and _looks_english(incoming):
+                rep.warn("Forms entry", file, f"{line} English-looking literal without respaldo in {file}: {what}")
+        else:
+            rep.error("Forms entry", file, f"{line} Unknown element in forms file {file}: <{el.tag}>")
             continue
-        id_, ctx = el.get("ID"), el.get("Context") or ""
-        if not id_:
-            rep.error("Forms entry", file, f"{line} Forms entry without ID in {file}")
-            continue
-        seen[(id_, ctx)] += 1
-        if seen[(id_, ctx)] == 2:
-            rep.warn("Duplicate key", file, f"{line} Duplicate key in {file}: ID='{id_}' Context='{ctx}'")
-        if not (el.text or "").strip():
-            rep.error("Forms entry", file, f"{line} Forms entry without fallback text (B) in {file}: ID='{id_}'")
+
         present = [a for a in FORMS_ATTRS if el.get(a) is not None]
         if present and len(present) != len(FORMS_ATTRS):
-            rep.error("Forms entry", file,
-                      f"{line} Incomplete forms in {file}: ID='{id_}' has {present}")
+            rep.error("Forms entry", file, f"{line} Incomplete forms in {file}: {what} has {present}")
         for a in present:
             if not el.get(a).strip():
-                rep.error("Forms entry", file, f"{line} Empty form '{a}' in {file}: ID='{id_}'")
-        unknown = set(el.attrib) - {"ID", "Context"} - set(FORMS_ATTRS) - FORMS_EXTRA_ATTRS
+                rep.error("Forms entry", file, f"{line} Empty form '{a}' in {file}: {what}")
+        clase = el.get("clase")
+        if clase is not None and clase not in FORMS_CLASES:
+            rep.error("Forms entry", file, f"{line} Unknown clase '{clase}' in {file}: {what}")
+        if not present and clase is None and el.get("respaldo") is None:
+            rep.error("Forms entry", file, f"{line} Entry without forms, clase or respaldo in {file}: {what}")
+        unknown = set(el.attrib) - known - set(FORMS_ATTRS) - FORMS_EXTRA_ATTRS
         if unknown:
-            rep.warn("Forms entry", file, f"{line} Unknown attrs in {file}: ID='{id_}' {sorted(unknown)}")
-        if skeys is None:
+            rep.warn("Forms entry", file, f"{line} Unknown attrs in {file}: {what} {sorted(unknown)}")
+        if incoming is None:
             continue
-        if id_ not in skeys:
-            rep.warn("Forms key not in Strings", file,
-                     f"{line} Forms key not in {STRINGS_FILE} ({file}): ID='{id_}' Context='{ctx}'")
-        elif ctx not in skeys[id_]:
-            rep.warn("Forms key not in Strings", file,
-                     f"{line} Forms key not in {STRINGS_FILE} ({file}): ID='{id_}' Context='{ctx}' "
-                     f"(ID exists with Context {sorted(skeys[id_])})")
+
+        variables = set(TEMPLATE_VAR.findall(incoming))
+        for a in (*present, "respaldo"):
+            stray = set(TEMPLATE_VAR.findall(el.get(a) or "")) - variables
+            if stray:
+                rep.error("Forms entry", file,
+                          f"{line} Variable not in incoming text in {file}: {what} {a} {sorted(stray)}")
+        if variables and not re.search(r"[^\W\d_]", _visible(TEMPLATE_VAR.sub("", incoming))):
+            rep.warn("Forms entry", file, f"{line} Template without visible letters in {file}: {what}")
+        content = tuple(el.get(a) for a in (*FORMS_ATTRS, "clase", "respaldo"))
+        prev = seen.get(incoming)
+        if prev and prev[0] != content:
+            rep.warn("Duplicate key", file,
+                     f"{line} Same incoming text with different content in {file} (also {prev[1]}): {what}")
+        seen[incoming] = (content, line)
 
 
 def validate(en_dir=EN_DIR, it_dir=IT_DIR, forms_files=(), verbose=False):
@@ -309,7 +361,8 @@ def validate(en_dir=EN_DIR, it_dir=IT_DIR, forms_files=(), verbose=False):
         compare_elements(en_tree.getroot(), it_root, rel, rep)
 
     # XML de formas: los que haya en it_dir (por raíz) y los pasados a mano
-    skeys = strings_keys(it_dir)
+    stexts = strings_texts(it_dir)
+    check_strings_no_forms(it_dir, rep)
     forms = []
     for f in sorted(it_dir.rglob("*.xml")):
         try:
@@ -323,7 +376,7 @@ def validate(en_dir=EN_DIR, it_dir=IT_DIR, forms_files=(), verbose=False):
                 forms.append(f)
     forms += [Path(f) for f in forms_files if Path(f).resolve() not in {x.resolve() for x in forms}]
     for f in forms:
-        check_forms_file(f, rep, skeys, label=f.relative_to(it_dir) if it_dir in f.parents else f)
+        check_forms_file(f, rep, stexts, label=f.relative_to(it_dir) if it_dir in f.parents else f)
     return rep
 
 

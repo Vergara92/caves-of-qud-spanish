@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <concordancia Lang="es" Encoding="utf-8">
-  <string Context="Item" ID="sword" ms="espadero" fs="espadera" mp="espaderos" fp="espaderas">de espada</string>
-  <string Context="Literal C# ModKeen" ID="keen" ms="aguzado" fs="aguzada" mp="aguzados" fp="aguzadas">de filo aguzado</string>
-  <string Context="Item" ID="sword" ms="a" fs="b">incompleta</string>
-  <string ID="sword" Context="Verb" clase="delante"></string>
+  <string Context="Item" ID="sword" ms="espadero" fs="espadera" mp="espaderos" fp="espaderas" />
+  <string Context="Literal C# ModKeen" ID="keen" ms="aguzado" fs="aguzada" mp="aguzados" fp="aguzadas" />
+  <string Context="Verb" ID="sword" ms="a" fs="b" />
+  <string ID="sword" Context="Verb" clase="delante" />
+  <literal Texto="keen" respaldo="de filo aguzado" ms="aguzado" fs="aguzada" mp="aguzados" fp="aguzadas" />
+  <literal Texto="smart" ms="listo" fs="lista" mp="listos" fp="listas" />
+  <literal Texto="{{B|mojado}}" ms="{{B|mojado}}" fs="{{B|mojada}}" mp="{{B|mojados}}" fp="{{B|mojadas}}" />
+  <literal ms="x" fs="x" mp="x" fp="x" />
+  <literal Texto="vacío" />
+  <literal Texto="raro" clase="rara" />
+  <literal Texto="con =a=" respaldo="de =b=" fem="si" />
+  <literal Texto="{{=c=|=d=}}" respaldo="=d=" />
+  <literal Texto="keen" respaldo="de filo agudo" />
+  <adjetivo Texto="x" />
+  <string Context="Stain" ID="=liquid=-stained" respaldo="con manchas de =liquid=" ms="manchado de =liquid=" fs="manchada de =liquid=" mp="manchados de =liquid=" fp="manchadas de =liquid=" />
 </concordancia>

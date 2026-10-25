@@ -5,4 +5,5 @@
   <string ID="hit {0}">▶You hit {0}.</string>
   <string ID="dup" Context="Twice">▶twice</string>
   <string ID="dup" Context="Twice">▶twice again</string>
+  <string ID="=liquid=-stained" Context="Stain">▶=liquid=-stained</string>
 </strings>
