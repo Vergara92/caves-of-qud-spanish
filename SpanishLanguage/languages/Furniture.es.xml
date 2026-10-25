@@ -26,6 +26,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="panel de comunicaciones" />
     <part Name="Description" Short="Unas láminas de metal difuminan el volumen de un altavoz bidireccional. Un botón pequeño asoma por la esquina inferior." />
     <part Name="ChargeSink" NameForStatus="Interfono" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GritGateMainframeRoomCommPanel" Load="Merge">
     <part Name="Render" DisplayName="panel de comunicaciones" />
@@ -34,9 +35,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Bell of Rest" Load="Merge">
     <part Name="Render" DisplayName="Campana del Descanso" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Switch" Load="Merge">
     <part Name="Render" DisplayName="interruptor" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DoorSwitch" Load="Merge">
     <part Name="Render" DisplayName="interruptor de control" />
@@ -53,14 +56,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Platform" Load="Merge">
     <part Name="Render" DisplayName="plataforma cromada" />
     <part Name="Description" Short="Una plataforma de metal negro y enrejado está cubierta por el polvo del tiempo. La entrecruzan las huellas de criaturas diminutas." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="StiltWell" Load="Merge">
     <part Name="Description" Short="Escenas de esfinges con el esplendor de la post-Edificación se despliegan en oro y relieve hundido alrededor del borde de la fuente de mármol negro. El trazado de sus venas brillantes atrae la mirada pero, pozo abajo, se desvanece en una profundidad sin estrellas." />
     <part Name="Render" DisplayName="pozo sagrado" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Marble Dais" Load="Merge">
     <part Name="Render" DisplayName="estrado de mármol" />
     <part Name="Description" Short="El liso mármol cerúleo parece luz holográfica recocida en roca sólida. Está bordeado y rematado en oro." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="NW Marble Dais" Load="Merge">
     <part Name="Render" DisplayName="estrado de mármol" />
@@ -110,6 +116,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Archway" Load="Merge">
     <part Name="Render" DisplayName="arcada" />
     <part Name="Description" Short="Es un portal abierto de piedra apilada." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Door" Load="Merge">
     <part Name="Render" DisplayName="puerta" />
@@ -117,6 +124,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleDescriptor" Value="Entreabierta,Cerrada,Atrancada,Golpeada-Una-Vez,Abierta,Golpeada-Tres-Veces,Golpeada-Dos-Veces,Inquebrantable,Sin-Golpear,Sin-Atrancar" />
     <xtagTextFragments Skin="panel" PoeticFeatures="molduras encantadoras,goznes engrasados,pomo acogedor" />
     <tag Name="QuestableVerb" Value="abrir,cerrar" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Windowed Door" Load="Merge">
     <part Name="Render" DisplayName="puerta" />
@@ -249,6 +257,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="PowerLine" Load="Merge">
     <part Name="Render" DisplayName="línea eléctrica" />
     <part Name="Description" Short="Cobre, aluminio y fibra de vidrio se trenzaron en un conducto eléctrico." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="HeavyPowerLine" Load="Merge">
     <part Name="Render" DisplayName="línea eléctrica de alto voltaje" />
@@ -257,6 +266,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="GlassHydraulicPipe" Load="Merge">
     <part Name="Render" DisplayName="tubería hidráulica de cristal" />
     <part Name="Description" Short="Se sopló el vidrio para formar una arteria de máquina." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="YdFreeholdGlassHydraulicPipe1" Load="Merge">
     <part Name="Description" Short="Se sopló el vidrio para formar una arteria de máquina y se le dio color iónico verde amarillento fluorescente con uranio." />
@@ -264,7 +274,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="WoodenMechanicalTransmission" Load="Merge">
     <part Name="Render" DisplayName="maquinaria de madera" />
     <part Name="Description" Short="Se cepilló la madera, se cortó en ejes de volumen liso y se encajó en cajas de engranajes para transmitir el movimiento sin interrupción." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="fs" massNoun="true" />
   </object>
   <object Name="HighTechInstallation" Load="Merge">
     <xtagTextFragments Skin="maquinaria" PoeticFeatures="estatura imponente,pose mecánica,tubería rítmica" />
@@ -275,12 +285,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Circuitry" NameForStatus="Caja de engranajes" />
     <tag Name="HeroNameTitleDescriptor" Value="Cíclica,Generosa,Rotatoria,Aspada" />
     <tag Name="HeroNameTitleClientele" Value="molineros" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Millstone" Load="Merge">
     <part Name="Render" DisplayName="muela de molino" />
     <part Name="Description" Short="Círculos de piedra caliza, porosos y de un gris ostra por las conchas de criaturas antiguas, se disponen en losas verticales y giran una contra otra para moler granos fibrosos hasta convertirlos en harina." />
     <tag Name="HeroNameTitleDescriptor" Value="Molinera,Trituradora,Proveedora" />
     <tag Name="HeroNameTitleClientele" Value="Chefs,Cocineros,Granos,los Hambrientos" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Wooden Water Wheel" Load="Merge">
     <part Name="Render" DisplayName="rueda hidráulica {{w|de madera}}" />
@@ -288,6 +300,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Circuitry" NameForStatus="Caja de engranajes" />
     <tag Name="HeroNameTitleDescriptor" Value="Cíclica,Generosa,Hidrológica,Pródiga,Derrochadora,Restauradora,Rotatoria" />
     <tag Name="HeroNameTitleClientele" Value="Mecanismos,Ingenieros,Molineros" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Powered Orrery" Load="Merge">
     <part Name="Render" DisplayName="esfera armilar motorizada" />
@@ -297,12 +310,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="horno de cocción" />
     <part Name="Description" Short="Una camisa de acero bruñido abraza un hoyo de fuego humeante. Marcas de chamuscado de mil materiales recubren sus costados." />
     <part Name="ChargeSink" NameForStatus="Calentamiento" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Electric Generator" Load="Merge">
     <part Name="Render" DisplayName="generador eléctrico" />
     <part Name="Description" Short="Un rotor encerrado recibe carga mediante una manivela y se complementa con calor solar. Sus superficies de metal rayado vibran a la frecuencia del suelo." />
     <tag Name="HeroNameTitleDescriptor" Value="Generoso,Pródigo,Microestelar,Copioso,Potente,Derrochador,Restaurador" />
     <tag Name="HeroNameTitleClientele" Value="Aparatos,Celdas de Energía,Redes Eléctricas,los Agotados,los Conectados,los Ávidos de Energía,Manitas" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Induction Charging Station" Load="Merge">
     <part Name="Render" DisplayName="estación de carga por inducción" />
@@ -310,6 +325,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Container" Preposition="en" />
     <tag Name="HeroNameTitleDescriptor" Value="Gaussiana,Inductiva,Potente,Restauradora,Recuperadora" />
     <tag Name="HeroNameTitleClientele" Value="Celdas de Energía,los Agotados,los Cerebros de Láser,los Ávidos de Energía,Manitas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Hydraulic Irrigator" Load="Merge">
     <part Name="Render" DisplayName="irrigador {{B|hidráulico}}" />
@@ -318,6 +334,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="ChargeSink" NameForStatus="Servomotores" />
     <tag Name="HeroNameTitleDescriptor" Value="Acuoso,Generoso,Pródigo,Nutricio,Copioso,Portador-de-Agua" />
     <tag Name="HeroNameTitleClientele" Value="cultivos,granjeros,plantas,la granja" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Clockthing_QGirl" Load="Merge">
     <part Name="Render" DisplayName="reloj de Barathrum con {{Y|péndulo}} de {{M|Q Girl}}" />
@@ -333,6 +350,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="quemador de gas" />
     <part Name="Description" Short="El gas se empuja por una manguera y se enciende en llama. El rocío da textura a las roscas de la manguera." />
     <part Name="ChargeSink" NameForStatus="Llama piloto" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Powered Telescope" Load="Merge">
     <part Name="Render" DisplayName="telescopio motorizado" />
@@ -342,11 +360,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="pulidora de rocas" />
     <part Name="Description" Short="El caucho reviste la topología interior de un barril motorizado. En la cámara inferior aguarda un puchero de granalla de carburo de ébano lista para desbastar." />
     <part Name="ItemConvertor" NameForStatus="Pulido" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Lathe" Load="Merge">
     <part Name="Render" DisplayName="torno" />
     <part Name="Description" Short="El volante y el husillo giran para lijar la materia y obsequiar al mundo con hélices y formas redondas. El polvo de metal se acumula en el suelo debajo." />
     <part Name="ChargeSink" NameForStatus="Rotación" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Solar Power Station" Load="Merge">
     <part Name="Render" DisplayName="estación de energía {{W|solar}}" />
@@ -354,6 +374,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="ChargeSink" NameForStatus="Gestor de pérdida cinética" />
     <tag Name="HeroNameTitleDescriptor" Value="Tomadora-de-Sol,Fototrópica,Fotovoltaica,Copiosa,Restauradora" />
     <tag Name="HeroNameTitleClientele" Value="aparatos,baterías,redes eléctricas,los agotados,los conectados,manitas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Solar Pumping Station" Load="Merge">
     <part Name="Render" DisplayName="{{c|estación de bombeo}} {{W|solar}}" />
@@ -361,12 +382,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="ChargeSink" NameForStatus="Gestor de pérdida hidráulica" />
     <tag Name="HeroNameTitleDescriptor" Value="Linfática,Fluyente,Restauradora,Tomadora-de-Sol,Fototrópica,Fotovoltaica,Copiosa" />
     <tag Name="HeroNameTitleClientele" Value="hidráulica,flujo,fluido,manitas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Food Processor" Load="Merge">
     <part Name="Render" DisplayName="procesador de alimentos" />
     <part Name="Description" Short="El metal con cableado encuadra un armario de cajones y quemadores para tostar, encurtir y liofilizar." />
     <tag Name="HeroNameTitleDescriptor" Value="Carnicero,Encurtidor,Conservador" />
     <tag Name="HeroNameTitleClientele" Value="chefs,los hambrientos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Universal Charging Station" Load="Merge">
     <part Name="Render" DisplayName="estación de carga universal" />
@@ -374,12 +397,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Container" Preposition="en" />
     <tag Name="HeroNameTitleDescriptor" Value="Universal,Potente,Restauradora,Recuperadora" />
     <tag Name="HeroNameTitleClientele" Value="Celdas de Energía,los Agotados,los Cerebros de Láser,los Ávidos de Energía,Manitas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Hydraulic Turbine" Load="Merge">
     <part Name="Render" DisplayName="turbina {{B|hidráulica}}" />
     <part Name="Description" Short="Rotores de cromo de corte perfecto se apilan a lo largo del eje de un generador, y anchas aspas con aletas atrapan el empuje del fluido e hilan electricidad." />
     <tag Name="HeroNameTitleDescriptor" Value="Acuosa,Pródiga,Nutricia,Copiosa,Restauradora" />
     <tag Name="HeroNameTitleClientele" Value="redes eléctricas,bombas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Hydraulic Press" Load="Merge">
     <part Name="Render" DisplayName="prensa hidráulica" />
@@ -387,15 +412,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleDescriptor" Value="Compresora,Trituradora,Aplanadora,Aplastadora,Estrujadora" />
     <tag Name="HeroNameTitleClientele" Value="manitas,carroñeros,demoledores" />
     <tag Name="QuestableVerb" Value="entrar" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Force Projector" Load="Merge">
     <part Name="Render" DisplayName="proyector de fuerza" />
     <part Name="Description" Short="Dentro del chasis de cristal y acero, un mar de fluido de fuerza se agita en turbulencia. Luego el dinamo lo pulveriza en materia sólida y lo proyecta al espacio como un campo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Fluxthing" Load="Merge">
     <part Name="Render" DisplayName="medidor de flujo" />
     <part Name="Description" Short="Cuatro acoplamientos con brida forman una cruz con una lectura de ondas en el centro. A medida que los líquidos y gases circulan, las lecturas de flujo aparecen en cadenas de neón." />
     <part Name="ChargeSink" NameForStatus="Condensador de flujo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Electrothing" Load="Merge">
     <part Name="Render" DisplayName="electrodicus" />
@@ -406,6 +434,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="unicomputadora" />
     <part Name="Description" Short="Dentro de un chasis de metal, glifos ámbar cabalgan las líneas de barrido pintadas por un rayo catódico. Teclas troncocónicas se disponen en filas silenciosas." />
     <part Name="ChargeSink" NameForStatus="Procesador" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Liquid-Cooled Unicomputer" Load="Merge">
     <part Name="Render" DisplayName="unicomputadora refrigerada por líquido" />
@@ -414,43 +443,51 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="altavoz" />
     <part Name="Description" Short="Sus entrañas magnetizadas digieren señales eléctricas y eructan la forma de onda, mientras un diafragma exhala polvo sobre una rejilla de latón." />
     <part Name="ChargeSink" NameForStatus="Altavoz" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Glass Furnace" Load="Merge">
     <part Name="Render" DisplayName="horno de vidrio" />
     <part Name="Description" Short="La ceniza de sosa y la piedra caliza descienden por una serie de crisoles y canales ardientes hacia la capa de hornada, de donde luego se recupera y refina el vidrio." />
     <part Name="ChargeSink" NameForStatus="Fundición" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Wire Extruder" Load="Merge">
     <part Name="Render" DisplayName="extrusora de cable" />
     <part Name="Description" Short="Un husillo reluciente de acero está espiralado con surcos para extraer cable de pepitas y lingotes en bruto." />
     <part Name="ItemConvertor" NameForStatus="Extrusión" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Broadcast Power Station" Load="Merge">
     <part Name="Render" DisplayName="estación de energía por transmisión" />
     <part Name="Description" Short="El metal se trenzó en un andamiaje electromagnético, y a través de él el modulador moldea la arcilla de la banda base y revela la forma de la nueva señal." />
     <tag Name="HeroNameTitleDescriptor" Value="De-Sostén-Total,Generosa,Pródiga,Copiosa,Potente,Derrochadora,De-Radiofrecuencia,Restauradora,Transmisora,Inalámbrica" />
     <tag Name="HeroNameTitleClientele" Value="Aparatos,los Bobinados,los Agotados,los Ávidos de Energía,los Receptivos,Manitas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Fusion Power Station" Load="Merge">
     <part Name="Render" DisplayName="estación de energía de {{C|fusión}}" />
     <part Name="Description" Short="Pizcas de materia diminuta chocan entre sí tras la luna de un cilindro de cromo, y el calor se usa para bombear electricidad por la red." />
     <tag Name="HeroNameTitleDescriptor" Value="De-Sostén-Total,Corazón-de-Fuego,Generosa,Pródiga,Microestelar,Copiosa,Potente,Derrochadora,Restauradora" />
     <tag Name="HeroNameTitleClientele" Value="Aparatos,Celdas de Energía,Redes Eléctricas,los Agotados,los Conectados,los Ávidos de Energía,Manitas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Fusion Pumping Station" Load="Merge">
     <part Name="Render" DisplayName="estación de bombeo de {{C|fusión}}" />
     <part Name="Description" Short="Pizcas de materia diminuta chocan entre sí tras la luna de un cilindro de cristal, y el calor se usa para bombear agua hacia las tuberías para su distribución." />
     <tag Name="HeroNameTitleDescriptor" Value="Linfática,Fluyente,Restauradora,Microestelar,Fusora" />
     <tag Name="HeroNameTitleClientele" Value="hidráulica,flujo,fluido,manitas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Industrial Fan" Load="Merge">
     <part Name="Render" DisplayName="ventilador industrial" />
     <part Name="Description" Short="Aspas ciclópeas con forma de perfil alar se alojan dentro de un anillo metálico marcado por las cicatrices del tiempo. En el pasado remoto, alguien dirigió el curso del aire a gran escala." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Glass Printer" Load="Merge">
     <part Name="Render" DisplayName="impresora de vidrio" />
     <part Name="Description" Short="Tras el cristal de un marco broncíneo aguardan los instrumentos programables de la vidriería: estufa y caña de soplar para el trabajo en caliente, aceitera y rueda para el frío." />
     <part Name="ChargeSink" NameForStatus="Fabricación de vidrio" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Regen Tank" Load="Merge">
     <part Name="Render" DisplayName="tanque de regeneración" />
@@ -461,33 +498,39 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleDescriptor" Value="Terapéutico,Sanador,Restaurador,Milagroso" />
     <tag Name="HeroNameTitleClientele" Value="los Cansados,los Fatigados,los Heridos" />
     <tag Name="QuestableVerb" Value="entrar" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Psiamp Sarcophagus" Load="Merge">
     <part Name="Render" DisplayName="sarcófago psiónico" />
     <part Name="Description" Short="Está trabajado en piedra caliza de otro mundo. La piedra se extrajo de un mundo errante que orbitaba una estrella tenebrosa cuya luminiscencia débil no blanqueó la materia del vacío del coral de la roca. Ahora aísla a quien duerme dentro de los rayos de la materialidad y los conduce al éter psíquico." />
     <part Name="Enclosing" NameForStatus="Amplificador psiónico" />
     <tag Name="QuestableVerb" Value="entrar" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Base Ring Gate" Load="Merge">
     <part Name="Render" DisplayName="puerta" />
     <part Name="Description" Short="Cintas de agua trepan por columnas de mármol blanqueadas como hueso en alto relieve. Suben por la arquivolta y serpentean entre anillos helicoidales antes de un giro brusco hacia arriba en la clave. Aquí se vuelve allá." />
-    <xtagGrammar iArticle="la" />
+    <xtagGrammar concord="fs" iArticle="la" />
   </object>
   <object Name="Ruined Ring Gate" Load="Merge">
     <part Name="Render" DisplayName="puerta en ruinas" />
     <part Name="Description" Short="Cintas de agua en alto relieve se desmoronan del mármol roto. Las piezas del arco que en otro tiempo ceñían el avance de los viajeros yacen ahora bocarriba en algún otro lugar." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="CyberneticsTerminal2" Load="Merge">
     <part Name="Render" DisplayName="rincón del devenir" />
     <part Name="Description" Short="Un rectángulo de neutroespuma impreso con la forma humana cuelga bajo un arco de cristal. A lo largo de la espuma, a la altura de los ojos, glifos giran en una pantalla elíptica. Una maquinaria quirúrgica, oculta por una luz cegadora, asoma desde la cara inferior de una cúpula envolvente." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ConveyorDrive" Load="Merge">
     <part Name="Render" DisplayName="unidad motriz de transporte" />
     <part Name="Description" Short="La grasa gotea de un motor de cromo brillante y mancha los rodillos. Las ruedas de polea se sitúan en ángulos extraños para hacer girar cintas planas de caucho por el espacio." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="ConveyorPad" Load="Merge">
     <part Name="Render" DisplayName="cinta transportadora" />
     <part Name="Description" Short="La escoria pútrida se pega a los surcos del di-caucho negro y plano." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="CrematoryConveyorPad" Load="Merge">
     <part Name="Description" Short="La ceniza gris hueso se pega a los surcos del di-caucho negro y plano." />
@@ -495,23 +538,26 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="BeltCurtains" Load="Merge">
     <part Name="Render" DisplayName="cortinas de caucho" />
     <part Name="Description" Short="Bajo un marco de metal deslustrado cuelga una lámina de caucho negro cortada en tiras flexibles de cortina." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="fp" massNoun="true" />
   </object>
   <object Name="Catchbasin" Load="Merge">
     <part Name="Render" DisplayName="cuenco de recogida" />
     <part Name="Description" Short="La loza capta la pizca de humedad que cede el aire reseco." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Air Well" Load="Merge">
     <part Name="Render" DisplayName="pozo de aire" />
     <part Name="Description" Short="La piedra se talló y moldeó en una cúpula tosca con ventanas cuadradas y equidistantes para dejar pasar el aire. La pequeña diferencia de temperatura dentro de la cúpula hace que el rocío se condense del aire y se acumule en un cuenco de recogida debajo." />
     <tag Name="HeroNameTitleDescriptor" Value="Acuoso,Condensador,Rociado,Hidratador,Irrigador,Húmedo" />
     <tag Name="HeroNameTitleClientele" Value="los Resecos,los Secos,los Salados,los Sedientos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Solar Still" Load="Merge">
     <part Name="Render" DisplayName="alambique solar" />
     <part Name="Description" Short="El calor del sol de sal evapora el agua salobre. Cuando el agua vuelve a condensarse, se separa en sus elementos puros e impuros: la sal se adhiere al alambique, mientras que el agua dulce se recoge en el cuenco." />
     <tag Name="HeroNameTitleDescriptor" Value="Acuoso,Condensador,Rociado,Hidratador,Irrigador,Húmedo" />
     <tag Name="HeroNameTitleClientele" Value="los Resecos,los Secos,los Salados,los Sedientos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Solar Condenser" Load="Merge">
     <part Name="Render" DisplayName="condensador solar" />
@@ -520,38 +566,46 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="LiquidProducer" NameForStatus="Sistema de recogida" />
     <tag Name="HeroNameTitleDescriptor" Value="Acuoso,Condensador,Rociado,Hidratador,Irrigador,Húmedo" />
     <tag Name="HeroNameTitleClientele" Value="los Resecos,los Secos,los Salados,los Sedientos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GritGateChromeBeacon" Load="Merge">
     <part Name="Render" DisplayName="repetidor de señal de cromolinos" />
     <part Name="Description" Short="Ondas senoidales que rompen sobre la luna de cristal codifican las primitivas conductuales de los hijos mecánicos del enclave. El campo de electrones los absorbe a través de la antena y los lanza al éter." />
     <part Name="ZoneAdjust" NoAdjustSpecFailureDescription="NeedsSignalTemplate" NameForStatus="Generador de señal" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Reclamation Cist" Load="Merge">
     <part Name="Render" DisplayName="{{r|cisterna de recuperación}}" />
     <part Name="Description" Short="Un ataúd de acero, latón y tubo catódico oculta un conjunto de instrumentos de precisión que sirven para extraer la materia orgánica de los muertos y devolverla a parientes y allegados." />
     <tag Name="HeroNameTitleDescriptor" Value="Biocíclica,Carmesí,Cubista,Ecológica,Sanguínea" />
     <tag Name="HeroNameTitleClientele" Value="Arcologías,Proteína,Recicladores,Sostenibilidad,los Hambrientos,los Verdaderos" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="FactoryArm" Load="Merge">
     <part Name="Render" DisplayName="brazo mecánico rotatorio" />
     <part Name="Description" Short="La metaloespuma se compacta y enchapa en un simulacro colosal del brazo biológico, donde relucen las cabezas del bíceps y el tríceps braquial. Articulaciones colosales rechinan por el esfuerzo de la rotación." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GrabberArm" Load="Merge">
     <part Name="Render" DisplayName="brazo mecánico de sujeción" />
     <part Name="Description" Short="La metaloespuma se compacta y enchapa en un simulacro colosal del brazo biológico, donde relucen las cabezas del bíceps y el tríceps braquial. Pinzas de latón le arrancan la cinesis a su objetivo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Exit Teleporter" Load="Merge">
     <part Name="Render" DisplayName="teletransportador de escalera" />
     <part Name="Description" Short="Un borde de latón rodea una almohadilla de derivación de espuma, y el calado superior se trenza en los glifos antaño familiares de la simbología de salida." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Quantum Rippler" Load="Merge">
     <part Name="Render" DisplayName="ondulador cuántico" />
     <part Name="Description" Short="De una caja chapada en oro, teselas y tonos caleidoscópicos se armonizan a través de varias dimensiones." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="NormCore" Load="Merge">
     <part Name="Render" DisplayName="núcleo de normalidad" />
     <part Name="Description" Short="Colectores de diamante presurizan el cuarzo hasta su forma Ω, cristalizando el espaciotiempo a lo largo de las líneas ley de la región local. Gotas de normalidad se condensan en el conducto y refractan la luz hacia una dimensión interior." />
     <part Name="DeploymentMaintainer" NameForStatus="Proyector de campo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="NormCore1" Load="Merge">
     <part Name="Render" DisplayName="núcleo de normalidad mk I" />
@@ -565,24 +619,29 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Full-Scale Recompositer" Load="Merge">
     <part Name="Render" DisplayName="recompositor a escala real" />
     <part Name="Description" Short="Un borde de fullerita rodea una almohadilla de aterrizaje de espuma, y el calado superior se trenza en los glifos antaño familiares de la simbología de recomposición y retorno." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Melted Pad" Load="Merge">
     <part Name="Render" DisplayName="almohadilla de espuma cubierta de maleza" />
     <part Name="Description" Short="El trazado del borde de fullerita se ha derretido en blanco brillante y gotea sobre la almohadilla de espuma agrietada. Brotes de lirio prenden en las grietas y empujan hacia fuera; la vida se abre paso." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Reshaping Nook" Load="Merge">
     <part Name="Render" DisplayName="rincón de remodelación" />
     <part Name="Description" Short="El característico arco de cristal marca el recinto como un rincón del devenir vaciado y despojado de cables para un nuevo propósito. Una garra se extiende para soldar y dar forma, y en el tambor inferior, una rueda gira arcilla húmeda, fresca y lista para la fermentación de escoria solar." />
     <property Name="VehicleTerm" Value="gólem" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Reshaping Pad" Load="Merge">
     <part Name="Render" DisplayName="almohadilla de remodelación" />
     <part Name="Description" Short="Un borde de piedra tosca rodea una almohadilla de aterrizaje de espuma, y el calado superior se trenza en los glifos novedosos de la simbología de remodelación y retorno." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseBookshelf" Load="Merge">
     <part Name="Render" DisplayName="estantería de madera" />
     <part Name="Description" Short="Tablones de madera están clavados en ángulos ortogonales, y el polvo duerme sobre las cubiertas de papel." />
     <part Name="Container" Preposition="en" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Joppa Bookshelf" Load="Merge">
     <part Name="Render" DisplayName="estantería de madera" />
@@ -617,46 +676,55 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Bed" Load="Merge">
     <part Name="Render" DisplayName="cama" />
     <part Name="Description" Short="Se rellenaron telas con cascarilla de viñagua y se tendieron sobre listones de madera al estilo de los montañeses." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Bedroll" Load="Merge">
     <part Name="Render" DisplayName="petate" />
     <part Name="Description" Short="Un lecho de lana de cabra ceñido con ataduras de lona." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Crib" Load="Merge">
     <part Name="Render" DisplayName="cuna" />
     <part Name="Description" Short="Los listones de madera son megalitos para una criatura. Las almohadas de pluma son praderas frías. Aquí están las fronteras de su mundo crepuscular." />
     <tag Name="HeroNameTitleDescriptor" Value="Nutricia,Reparadora,Cómoda,Protectora,Acogedora" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Folding Cot" Load="Merge">
     <part Name="Render" DisplayName="catre plegable" />
     <part Name="Description" Short="Lona de viñagua tensada y plegada sobre patas de madera." />
     <tag Name="QuestableVerb" Value="dormir sobre" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Hammock" Load="Merge">
     <part Name="Render" DisplayName="hamaca" />
     <part Name="Description" Short="La paja de salmuera se trenzó en una red de cuerda para colgarla entre dos viejos robles y echar la siesta. Las fibras del comba central están más deshilachadas por la tensión del peso de un trasero reclinado." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Four-Poster Bed" Load="Merge">
     <part Name="Render" DisplayName="cama con dosel" />
     <part Name="Description" Short="La madera se torneó con esmero en columnas y se talló como ornamento. Plumones acolchados se trocaron con las costureras de las riberas del Río Svy, se dispusieron en capas como un pastel y se cubrieron de almohadas. Aquí quien duerme y tiene dineros halla un ingreso predilecto al valle de los sueños." />
     <tag Name="HeroNameTitleDescriptor" Value="Reparadora,Mullida,Grumosa,Firme,Lujosa,Espléndida,De-Ensueño" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Medical Bed" Load="Merge">
     <part Name="Render" DisplayName="cama péptica" />
     <part Name="Description" Short="El plástico, blanco como la lejía de sal, se contorneó para el sueño apacible, la convalecencia y la realineación de los humores." />
     <tag Name="HeroNameTitleDescriptor" Value="Firme,Cuidadora,Ajustable,Samaritana,Péptica,Terapéutica,Restauradora" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Waterbed" Load="Merge">
     <part Name="Render" DisplayName="cama de agua" />
     <part Name="Description" Short="Listones de madera se disponen en ángulos rectos al estilo de los montañeses. En lugar de un cojín de cascarilla, sin embargo, yace un colchón de plástico bombeado de agua untuosa, una alternativa que prefieren los balseros que añoran las olas del lago." />
     <tag Name="HeroNameTitleDescriptor" Value="Hidráulica,Húmeda,Ondulante,De-Flujo-y-Reflujo" />
     <tag Name="HeroNameTitleClientele" Value="los Fatigados,los Cansados,el Flujo y Reflujo,Marineros" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Bedger" Load="Merge">
     <part Name="Render" DisplayName="camoso" />
     <part Name="Description" Short="Los historiadores del ocio dividen todas las épocas en tres edades: el lapso anterior a que evolucionen criaturas ursinas o surjan civilizaciones que las admiren, el lapso entre la prominencia ursina y la capacidad de una civilización de labrar divanes a su semejanza, y de ahí el lapso hasta la caída de esa civilización." />
     <part Name="Bed" NameForStatus="Adaptaciones ortopédicas" />
     <tag Name="HeroNameTitleDescriptor" Value="Mullido,Acogedor,Peludo,Cálido,Adorable" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Hyperbiotic Bed" Load="Merge">
     <part Name="Render" DisplayName="cama hiperbiótica" />
@@ -664,6 +732,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Bed" NameForStatus="Sistemas hiperbióticos" />
     <tag Name="HeroNameTitleDescriptor" Value="Terapéutica,Sanadora,Restauradora,Milagrosa" />
     <tag Name="HeroNameTitleClientele" Value="los Fatigados,los Cansados,los Heridos" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseChair" Load="Merge">
     <tag Name="HeroNameTitleDescriptor" Value="Comodona,De-Patas-Cortas,De-Respaldo-Recto,Robusta,De-Tres-Patas" />
@@ -673,11 +742,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Chair" Load="Merge">
     <part Name="Render" DisplayName="silla" />
     <part Name="Description" Short="Tablones de madera se clavan en ángulos rectos al estilo de los moradores del pantano." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Floor Cushion" Load="Merge">
     <part Name="Render" DisplayName="cojín de suelo" />
     <part Name="Description" Short="Relleno de cascarilla de viñagua y plumas de cuervo lumínico, este cojín abotonado deja reposar a la gente con las piernas cruzadas." />
     <tag Name="HeroNameTitleDescriptor" Value="Comodón,Reclinado,Sibarítico,Mullido,Voluptuoso,Epicúreo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Kline" Load="Merge">
     <part Name="Render" DisplayName="kline" />
@@ -687,51 +758,61 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Bench" Load="Merge">
     <part Name="Render" DisplayName="banco" />
     <part Name="Description" Short="Tablones de madera se clavan sin más para formar el asiento austero." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Stool" Load="Merge">
     <part Name="Render" DisplayName="taburete" />
     <part Name="Description" Short="Nada está en su sitio, todo está en movimiento, y quien se sienta debe prepararse para el instante siguiente, en que el recuerdo del ocio arde en efigie neurótica. El taburete acata estas verdades." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Canvas Folding Chair" Load="Merge">
     <part Name="Render" DisplayName="silla plegable de lona" />
     <part Name="Description" Short="Madera articulada y viñagua tejida hacen un muelle móvil para el trasero." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Throne" Load="Merge">
     <part Name="Render" DisplayName="trono" />
     <part Name="Description" Short="La ornamentación de metal grabado y piedras preciosas designa el axis mundi." />
     <tag Name="HeroNameTitleDescriptor" Value="Regio,Imperial,Magnífico,Magnánimo,Pomposo,Ceremonioso,Imponente,Majestuoso,Solemne,Grandioso,Fastuoso,Espléndido,Excelso" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Armchair" Load="Merge">
     <part Name="Render" DisplayName="sillón" />
     <part Name="Description" Short="Amasado bajo el sol de sal por un guarnicionero y relleno de plumas de cuervo lumínico para el reposo de su dueño." />
     <tag Name="HeroNameTitleDescriptor" Value="Lujoso,Decadente,Comodón,Reclinado,Perezoso,Sibarítico,Mullido,Voluptuoso,Epicúreo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Medical Chair" Load="Merge">
     <part Name="Render" DisplayName="silla péptica" />
     <part Name="Description" Short="El plástico, blanco como la lejía de sal, se contorneó para la digestión ideal y la armonía de los humores." />
     <tag Name="HeroNameTitleDescriptor" Value="Cuidadora,Ajustable,Salvavidas,Samaritana,Ortótica,Higiénica,Antiséptica,Terapéutica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Massage Chair" Load="Merge">
     <part Name="Render" DisplayName="amasadora de cuerpos" />
     <part Name="Description" Short="Lleva montado un cigüeñal que hace girar una lámina de caucho con hoyuelos y deshace los nudos de las partes traseras de quien se sienta." />
     <tag Name="HeroNameTitleDescriptor" Value="Lujosa,Decadente,Sibarítica,Mullida,Voluptuosa,Epicúrea,Amasadora" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Work Chair" Load="Merge">
     <part Name="Render" DisplayName="silla rodante" />
     <part Name="Description" Short="Una malla negra bien ajustada endereza la columna. Unas ruedas descienden de las pivotantes y se desplazan." />
     <tag Name="HeroNameTitleDescriptor" Value="Diligente,Ergonómica,Productiva,De-Rodaje-Suave,De-Respaldo-Recto,Comodona" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ergomax Chair" Load="Merge">
     <part Name="Render" DisplayName="silla ergo" />
     <part Name="Description" Short="El plástico, blanco como la lejía de sal, se contorneó a la postura para la rumia ideal." />
     <part Name="Chair" NameForStatus="Sistemas ergonómicos" />
     <tag Name="HeroNameTitleDescriptor" Value="Diligente,Ergonómica,Productiva,De-Rodaje-Suave,De-Respaldo-Recto,Comodona,Flexible,Sensible" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chairbear" Load="Merge">
     <part Name="Render" DisplayName="silloso" />
     <part Name="Description" Short="Los historiadores del ocio dividen todas las épocas en tres edades: el lapso anterior a que evolucionen criaturas ursinas o surjan civilizaciones que las admiren, el lapso entre la prominencia ursina y la capacidad de una civilización de labrar divanes a su semejanza, y de ahí el lapso hasta la caída de esa civilización." />
     <part Name="Chair" NameForStatus="Adaptaciones ergonómicas" />
     <tag Name="HeroNameTitleDescriptor" Value="Lujosa,Decadente,Comodona,Reclinada,Perezosa,Sibarítica,Mullida,Voluptuosa,Epicúrea" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Torture Chair" Load="Merge">
     <part Name="Render" DisplayName="silla de tortura" />
@@ -739,42 +820,50 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Chair" NameForStatus="Sistemas de interrogatorio reforzado" />
     <tag Name="HeroNameTitleDescriptor" Value="Agonizadora,Atroz,Sangradora,Carnicera,Cruel,Destructora,Desangradora,Empaladora,Perforadora" />
     <tag Name="HeroNameTitleClientele" Value="Inquisidores,Interrogadores,Sádicos,los Crueles,los Penitentes,Torturadores" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Hyperbiotic Chair" Load="Merge">
     <part Name="Render" DisplayName="silla hiperbiótica" />
     <part Name="Description" Short="Microrreactores ocultos hacen chocar partículas, generan calor y alimentan el aparato de máquina biótica que devuelve la vida a quien se reclina herido." />
     <part Name="Chair" NameForStatus="Sistemas hiperbióticos" />
     <tag Name="HeroNameTitleDescriptor" Value="Cuidadora,Ajustable,Ortótica,Terapéutica,Sanadora,Restauradora" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Gravchair" Load="Merge">
     <part Name="Render" DisplayName="silla {{K|grav}}" />
     <part Name="Description" Short="El plástico, alisado en un torno de calor, se amasó en un diseño que evoca la intuición de un Devorador sobre cómo una esfera perfecta deforma el espaciotiempo a su alrededor." />
     <part Name="Chair" NameForStatus="Sistemas contragrav" />
     <tag Name="HeroNameTitleDescriptor" Value="Lujosa,Decadente,Comodona,Perezosa,Sibarítica,Mullida,Voluptuosa,Epicúrea,Cinética" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ornate Chair" Load="Merge">
     <part Name="Render" DisplayName="silla recargada" />
     <part Name="Description" Short="La rolliza del cojín se ajusta a quien se sienta a pensar, arcos apuntados se hunden en el respaldo juguetón, y las patas de garra y bola sugieren una vida oculta dentro de la propia pieza. Es una silla cargada de significado." />
     <tag Name="HeroNameTitleDescriptor" Value="Comodona,Decadente,Epicúrea,Perezosa,Lujosa,Reclinada,Mullida,Sibarítica,Voluptuosa" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ornate Bench" Load="Merge">
     <part Name="Render" DisplayName="banco recargado" />
     <part Name="Description" Short="Carpinteros del gremio, conspirando en un taller luminoso bajo el sol de los Devoradores, estiraron un cojín hasta el tamaño exacto de dos amantes fervorosos y dispusieron un agradable rombo de malla en su ángulo recto. Las patas de garra y bola sugieren movimiento." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Scrapasan" Load="Merge">
     <part Name="Render" DisplayName="silla scrapasan" />
     <part Name="Description" Short="Esta cesta en forma de cuenco hecha de textiles y relleno rebuscados bosteza con la promesa de un abrazo humilde y cómodo seguido de una huida laboriosa." />
     <tag Name="HeroNameTitleDescriptor" Value="Comodona,Campechana,Humilde,Idiosincrática,Ladeada,Grumosa,De-Retazos,Acolchada,Rara" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Starmchair" Load="Merge">
     <part Name="Render" DisplayName="estrellón" />
     <part Name="Description" Short="Brazos de estrella de mar rellenos de materia vegetal, endurecidos y fijados alrededor de un disco cóncavo con la forma exacta de un cojín de suelo para bípedos. El brazo axial mantiene el cuello recto y erguido, y una pradera de púas inferiores administra una sutil punción terapéutica." />
     <part Name="Chair" NameForStatus="Adaptaciones ergonómicas" />
     <tag Name="HeroNameTitleDescriptor" Value="Lujosa,Decadente,Comodona,Reclinada,Perezosa,Sibarítica,Mullida,Voluptuosa,Epicúrea" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sofa" Load="Merge">
     <part Name="Render" DisplayName="sofá" />
     <part Name="Description" Short="Penachos de un verde intenso se tejen en una retícula densa y blanda, se rellenan de cascarilla de viñagua y plumas de cuervo lumínico, y luego se cuelgan de un armazón de madera en ángulo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sofa L" Load="Merge">
     <part Name="Render" DisplayName="sofá" />
@@ -788,6 +877,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Chest" Load="Merge">
     <part Name="Render" DisplayName="arcón" />
     <part Name="Description" Short="Una caja de almacenaje de madera con tapa abisagrada y pestillo. Las muescas rayadas en la superficie insinúan todo el abanico de probabilidades del lenguaje, y también su ausencia." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ChestIsner" Load="Merge">
     <part Name="Description" Short="Una caja de almacenaje de madera con tapa abisagrada y pestillo. Las muescas rayadas en la superficie insinúan todo el abanico de probabilidades del lenguaje, y también su ausencia. Una gota de agua derramada está grabada sobre una cerradura abierta." />
@@ -820,22 +910,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="FossilizedRemains" Load="Merge">
     <part Name="Render" DisplayName="restos fosilizados" />
     <part Name="Description" Short="Dientes, conchas y huesos ennegrecidos en estasis por el limo terroso." />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="RustLocker" Load="Merge">
     <part Name="Render" DisplayName="taquilla roída por el {{r|óxido}}" />
     <part Name="Description" Short="Bandas de latón enmarcan una vieja caja de hierro comida de rojo por el aire y la lluvia." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="MedLocker" Load="Merge">
     <part Name="Render" DisplayName="taquilla médica" />
     <part Name="Description" Short="Superficies de acero mate manchadas por el roce de los dedos con los años. La tapa está pintada con una cruz roja y cerrada con pestillo." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Locker" Load="Merge">
     <part Name="Render" DisplayName="taquilla" />
     <part Name="Description" Short="Una taquilla de metal que parece desgastada por los años." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Scrapable Deposit Box 6" Load="Merge">
     <part Name="Render" DisplayName="caja de depósito desguazable" />
     <part Name="Description" Short="Láminas de metal dividen el cartón de cromo en rectángulos áureos. Dentro, los artefactos aguardan su desbaste planificado y su retorno a forma mineral." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Weapon Rack" Load="Merge">
     <part Name="Render" DisplayName="soporte de armas" />
@@ -863,10 +958,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="BaseWedgeChest" Load="Merge">
     <part Name="Render" DisplayName="caja de caudales" />
     <part Name="Description" Short="Una caja con pestillo de metal pulido e inmune al tiempo está marcada con rectángulos numerados." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Reliquary" Load="Merge">
     <part Name="Render" DisplayName="relicario" />
     <part Name="Description" Short="En un rincón polvoriento del pasado, trabajadores sin nombre vidriaron mármol veteado y lo incrustaron de oro para albergar las reliquias y bienes funerarios de un Devorador de hombros caídos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SultanReliquaryW" Load="Merge">
     <part Name="Render" DisplayName="relicario" />
@@ -888,58 +985,72 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cesta tejida" />
     <part Name="Description" Short="La caña de pantano se entrecruzó a mano por urdimbre y trama en un recipiente para gavillas y otros artículos secos." />
     <tag Name="QuestableVerb" Value="meter algo en" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Multicabinet" Load="Merge">
     <part Name="Render" DisplayName="armario de cajones deslizantes" />
     <part Name="Description" Short="Cajones deslizantes de metal galvanizado se disponen en un armario como rectángulos de dimensiones diversas. El almacenaje es fractal." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Brazier" Load="Merge">
     <part Name="Render" DisplayName="brasero de bronce" />
     <part Name="Description" Short="El bronce bruñido arde hasta la luz-en-ceremonia con carbón candente." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Tall Brazier" Load="Merge">
     <part Name="Render" DisplayName="brasero de bronce" />
     <part Name="Description" Short="El bronce bruñido arde hasta la luz-en-ceremonia con carbón candente." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sconce" Load="Merge">
     <part Name="Render" DisplayName="aplique para antorcha" />
     <part Name="Description" Short="Un fuego de mano que arde con brillo cuelga sobre madera y hierro." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Torchpost" Load="Merge">
     <part Name="Render" DisplayName="aplique para antorcha" />
     <part Name="Description" Short="Un fuego de mano que arde con brillo cuelga sobre madera y hierro." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Unlit Torchpost" Load="Merge">
     <part Name="Render" DisplayName="aplique para antorcha" />
     <part Name="Description" Short="Un aplique de madera y hierro cuelga sin luz." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Techlight1" Load="Merge">
     <part Name="Render" DisplayName="aplique de arco" />
     <part Name="Description" Short="Puntas afiladas de cromo son los vértices de esta lámpara utilitaria. El brillo estalla por sus bordes e ilumina el mundo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Techlight2" Load="Merge">
     <part Name="Render" DisplayName="aplique de arco" />
     <part Name="Description" Short="Puntas afiladas de cromo son los vértices de esta lámpara utilitaria. El brillo estalla por sus bordes e ilumina el mundo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Techlight3" Load="Merge">
     <part Name="Render" DisplayName="aplique de arco" />
     <part Name="Description" Short="Puntas afiladas de cromo son los vértices de esta lámpara utilitaria. El brillo estalla por sus bordes e ilumina el mundo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Full-Spectrum Techlight" Load="Merge">
     <part Name="Render" DisplayName="aplique brillante de espectro completo" />
     <part Name="Description" Short="Puntas afiladas de cromo son los vértices de esta lámpara utilitaria. El brillo de espectro completo estalla por sus bordes e ilumina el mundo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Half Candelabra" Load="Merge">
     <part Name="Render" DisplayName="candelabro" />
     <part Name="Description" Short="La cera llora de las velas tercas, gotea sobre los apliques y forma una cascada de cera por los pisos de bronce." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Candelabra" Load="Merge">
     <part Name="Render" DisplayName="candelabro" />
     <part Name="Description" Short="La cera llora de las velas tercas, gotea sobre los apliques y forma una cascada de cera por los pisos de bronce." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Tomb Techlight1" Load="Merge">
     <part Name="Render" DisplayName="aplique de arco" />
     <part Name="Description" Short="Puntas afiladas de cromo son los vértices de esta lámpara ornamental. El brillo estalla por sus bordes y enciende el mundo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Vessel" Load="Merge">
     <tag Name="QuestableVerb" Value="beber de" />
@@ -947,6 +1058,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Vase" Load="Merge">
     <part Name="Render" DisplayName="tinaja" />
     <part Name="Description" Short="Una gran tinaja de almacenaje con un engobe decorativo. El estilo insinúa que se coció en el horno casero de un morador de cañones." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Vase Unhandled" Load="Merge">
     <part Name="Render" DisplayName="tinaja" />
@@ -966,6 +1078,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Bottle" Load="Merge">
     <part Name="Render" DisplayName="botella de cristal" />
     <part Name="Description" Short="Un recipiente de cristal soplado al aire que se curva en el arco lunar. El estilo insinúa que procede de la costa del Mar del Dios Humeante, en el otro lado de Moghra'yi, y que probablemente lo exportaron los dromedarios." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Wide Bottle" Load="Merge">
     <part Name="Render" DisplayName="botella ancha de cristal" />
@@ -974,14 +1087,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Pitcher" Load="Merge">
     <part Name="Render" DisplayName="jarra de barro" />
     <part Name="Description" Short="Un recipiente decorado a hilo se torneó primero en el torno del alfarero en la suave tibieza de la mañana. Un morador de cañones moldeó el labio con esmero especial para preservar los preciados líquidos de la vida." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ewer" Load="Merge">
     <part Name="Render" DisplayName="aguamanil" />
     <part Name="Description" Short="El bronce se fundió y enfrió, se moldeó y grabó, para repartir el agua de la vida." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Jug" Load="Merge">
     <part Name="Render" DisplayName="cántaro de barro" />
     <part Name="Description" Short="La arcilla se redondeó y coció para guardar aceites y vino." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Jug Eastern Style" Load="Merge">
     <part Name="Render" DisplayName="cántaro de barro" />
@@ -994,6 +1110,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Long Jug" Load="Merge">
     <part Name="Render" DisplayName="recipiente" />
     <part Name="Description" Short="La arcilla se torneó en el torno del alfarero y se moldeó en ondas, se coció y se vidrió en un recipiente tradicional." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Recoming Water Jug" Load="Merge">
     <part Name="Render" DisplayName="recipiente del Primer Sorbo" />
@@ -1022,15 +1139,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Campfire" Load="Merge">
     <part Name="Render" DisplayName="fogata" />
     <part Name="Description" Short="El fósforo cálido de la tierra primigenia queda pulcramente enrejado por la leña en ladrillo, y funciona ahora como una estrella microscópica." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Campfire Remains" Load="Merge">
     <part Name="Render" DisplayName="restos de fogata" />
     <part Name="Description" Short="Un núcleo de madera quemada queda envuelto en ceniza con huellas de pasos." />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Oven" Load="Merge">
     <part Name="Render" DisplayName="horno de barro" />
     <part Name="Description" Short="El calor irradia del fuego crepitante del grueso horno de barro, y con él llega el aroma de comida deliciosa." />
     <tag Name="QuestableVerb" Value="cocinar en" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ChefOven" Load="Merge">
     <part Name="Render" DisplayName="horno de barro" />
@@ -1088,6 +1208,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleClientele" Value="Decoradores,los Relajados" />
     <xtagTextFragments Skin="esmalte" PoeticFeatures="superficies planas,arte,quietud apacible" />
     <tag Name="QuestableVerb" Value="poner algo en" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Metal Table" Load="Merge">
     <part Name="Render" DisplayName="mesa de metal" />
@@ -1097,13 +1218,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Workbench" Load="Merge">
     <part Name="Render" DisplayName="banco de trabajo" />
     <part Name="Description" Short="Madera nudosa de buen contenido de humedad sostiene el peso de la tierra en ángulos rectos. Marcas de chamuscado y sal decoran los surcos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Metal Workbench" Load="Merge">
     <part Name="Render" DisplayName="banco de trabajo de metal" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Desk" Load="Merge">
     <part Name="Render" DisplayName="escritorio" />
     <part Name="Description" Short="La madera se rescató de arboledas húmedas, se cepilló en tablones y se transportó a las propiedades por el Puente de Esquisto. Allí la recibieron carpinteros que, aclimatados al aire sin agua, tomaron con avidez la rica madera para sus propios proyectos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sleek Table" Load="Merge">
     <part Name="Render" DisplayName="mesa" />
@@ -1115,6 +1239,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Container" Preposition="en" />
     <tag Name="HeroNameTitleDescriptor" Value="Plana,Nudosa,Nivelada,En-L,Robusta,De-Tres-Patas,Tambaleante" />
     <tag Name="QuestableVerb" Value="poner algo en" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Octagonal Table" Load="Merge">
     <part Name="Render" DisplayName="mesa octogonal" />
@@ -1123,6 +1248,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleDescriptor" Value="Óctuple,Plana,Nudosa,Nivelada,En-L,Robusta,De-Tres-Patas,Tambaleante" />
     <tag Name="HeroNameTitleClientele" Value="Decoradores,los Relajados" />
     <tag Name="QuestableVerb" Value="poner algo en" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Dresser" Load="Merge">
     <part Name="Render" DisplayName="cómoda" />
@@ -1130,6 +1256,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleDescriptor" Value="Plana,Nudosa,Nivelada,En-L,Robusta,De-Tres-Patas,Tambaleante" />
     <tag Name="HeroNameTitleClientele" Value="Ropa,Dandis,los Elegantes" />
     <tag Name="QuestableVerb" Value="meter algo en" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Book Table" Load="Merge">
     <part Name="Render" DisplayName="mesa de libros" />
@@ -1138,6 +1265,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleDescriptor" Value="Plana,Nudosa,Nivelada,En-L,Robusta,De-Tres-Patas,Tambaleante" />
     <tag Name="HeroNameTitleClientele" Value="Decoradores,Lectores,los Relajados" />
     <tag Name="QuestableVerb" Value="poner algo en" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ornate Table" Load="Merge">
     <part Name="Render" DisplayName="mesa recargada" />
@@ -1149,123 +1277,153 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Grit Gate Table" Load="Merge">
     <part Name="Render" DisplayName="banco de trabajo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Grit Gate Sleek Table" Load="Merge">
     <part Name="Render" DisplayName="banco de trabajo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Grit Gate Metal Table" Load="Merge">
     <part Name="Render" DisplayName="banco de trabajo de metal" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Barathrum Table" Load="Merge">
     <part Name="Render" DisplayName="banco de trabajo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Klanq Table" Load="Merge">
     <part Name="Render" DisplayName="banco de trabajo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Globe" Load="Merge">
     <part Name="Render" DisplayName="globo terráqueo" />
     <part Name="Description" Short="En alto relieve, pliegues y nudos de formas color arena coronan la superficie zafirina del modelo esférico. La yuxtaposición de escalas, la proporción de mar y tierra, y la sabiduría colectiva empleada en idear semejante cosa te marean." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Orrery" Load="Merge">
     <part Name="Render" DisplayName="esfera armilar" />
     <part Name="Description" Short="Engranajes, bolas y anillos de latón giran en imitación precisa de mundos y estrellas." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Clockthing" Load="Merge">
     <part Name="Render" DisplayName="reloj de Barathrum" />
     <part Name="Description" Short="El invento de Barathrum registra el tiempo hasta el tic momentáneo regulando su avance con una rueda de corona. Al conocer su utilidad, los barones del agua encargaron el ensamblaje de docenas más para tomar medidas precisas de sus embalses en momentos fijos del día." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bubblething" Load="Merge">
     <part Name="Render" DisplayName="espumador de latón" />
     <part Name="Description" Short="En la empresa de la invención, a veces necesitas usar una espuma gris e informe. O, al menos, podrías necesitarla algún día, así que algún manitas se adelantó prudentemente al problema e inventó el espumador de latón. Inscrito en la base: 'Toda la espuma, nada de la tristeza de quizá necesitar espuma algún día y no tenerla'." />
     <part Name="ChargeSink" NameForStatus="Sistemas de espuma" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Telescope" Load="Merge">
     <part Name="Render" DisplayName="telescopio" />
     <part Name="Description" Short="Lunas de cristal refractan la luz y pintan imágenes en tamaño angular ficticio." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bust of K4K5" Load="Merge">
     <part Name="Render" DisplayName="busto cromado de K4K5" />
     <part Name="Description" Short="El semblante délfico del Rey de Tungsteno queda congelado en cromo, fundido a la especificación perfecta." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bust of Mehmet I" Load="Merge">
     <part Name="Render" DisplayName="busto cromado de Mehmet I" />
     <part Name="Description" Short="El cromo duro se fundió en el molde de mejillas blandas y frente redondeada; el rey patrón de la erudición queda canonizado." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Ornate Potted Plant 1" Load="Merge">
     <part Name="Render" DisplayName="planta en maceta recargada" />
     <part Name="Description" Short="Lóbulos de planta verde furtivo se despliegan del antiguo caldero de incisión cromada. Viven y respiran como sus primos arraigados en la tierra, pero sus biodatos se empalmaron con la semilla amarantina. No mueren ni siquiera mientras los Devoradores a su alrededor se descomponen." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ornate Potted Plant 2" Load="Merge">
     <part Name="Render" DisplayName="planta en maceta recargada" />
     <part Name="Description" Short="Lóbulos de planta verde furtivo se despliegan del antiguo caldero de incisión cromada. Viven y respiran como sus primos arraigados en la tierra, pero sus biodatos se empalmaron con la semilla amarantina. No mueren ni siquiera mientras los Devoradores a su alrededor se descomponen." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ornate Potted Plant 3" Load="Merge">
     <part Name="Render" DisplayName="planta en maceta recargada" />
     <part Name="Description" Short="Lóbulos de planta verde furtivo se despliegan del antiguo caldero de incisión cromada. Viven y respiran como sus primos arraigados en la tierra, pero sus biodatos se empalmaron con la semilla amarantina. No mueren ni siquiera mientras los Devoradores a su alrededor se descomponen." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ornate Potted Plant 4" Load="Merge">
     <part Name="Render" DisplayName="planta en maceta recargada" />
     <part Name="Description" Short="Lóbulos de planta verde furtivo se despliegan del antiguo caldero de incisión cromada. Viven y respiran como sus primos arraigados en la tierra, pero sus biodatos se empalmaron con la semilla amarantina. No mueren ni siquiera mientras los Devoradores a su alrededor se descomponen." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chalkboard" Load="Merge">
     <part Name="Render" DisplayName="pizarra" />
     <part Name="Description" Short="Piedra de pizarra esquilada queda espolvoreada con los restos nebulosos del pensamiento externalizado y sostenida en alto por el monstruo." />
     <tag Name="HeroNameTitleDescriptor" Value="Sabia,Sofista,Borrable,Polvorienta" />
     <tag Name="HeroNameTitleClientele" Value="Sofistas,Manitas,Eruditos,Alumnos" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Display Breadboard" Load="Merge">
     <part Name="Render" DisplayName="placa de pruebas de exhibición" />
     <part Name="Description" Short="El plástico alojado en madera granulosa está perforado en una retícula de puntos de contacto. Condensadores e inductores se sujetan en las pinzas de resorte y se enredan con un ramo de cable." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Sewing Machine" Load="Merge">
     <part Name="Render" DisplayName="máquina de coser" />
     <part Name="Description" Short="Dentro de la C de metal rayado, una aguja y una bobina se disponen a punzar un par de hilos en pespunte. Hay iniciales talladas por todo su pedestal." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Mannequin" Load="Merge">
     <part Name="Render" DisplayName="maniquí" />
     <part Name="Description" Short="La forma bípeda emerge de un capullo de madera y fibra de vidrio." />
     <tag Name="HeroNameTitleDescriptor" Value="Bien-Formado,Hermoso,Agraciado,Inmóvil,Inquietante,Verosímil" />
     <tag Name="HeroNameTitleClientele" Value="Escultores,Sombrereros,Modistos,Armeros" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HamilcrabMannequin" Load="Merge">
     <part Name="Render" DisplayName="maniquí gigantesco" />
     <part Name="Description" Short="La forma bípeda emerge de un capullo gigantesco de madera y fibra de vidrio." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Light Sculpture" Load="Merge">
     <part Name="Render" DisplayName="escultura de luz" />
     <part Name="Description" Short="Luz láser azul estalla del haz de referencia y reimagina un frente de onda esculpido en un torno de luz. El aire añade una capa de grano." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Brain Sculpture" Load="Merge">
     <part Name="Render" DisplayName="escultura de cerebro" />
     <part Name="Description" Short="El peluche de espuma se dispone en circunvoluciones y surcos para imitar el laberinto del cerebro." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Unfinished Sculpture" Load="Merge">
     <part Name="Render" DisplayName="escultura inacabada" />
     <part Name="Description" Short="Las pinturas húmedas de la tierra -- arcilla, escoria, cromo y tinte -- desploman una media idea con peso material. La transformación queda detenida por la indecisión o el descuido." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Painted Column L" Load="Merge">
     <part Name="Render" DisplayName="columna pintada" />
     <part Name="Description" Short="El mármol florece arriba como una voluta en espiral. La columna está salpicada de pintura." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Painting" Load="Merge">
     <part Name="Render" DisplayName="cuadro" />
     <part Name="Description" Short="Aceite nacarado humedece el lino crudo y ha goteado sobre el caballete. Del plano del lienzo se exprime una imagen." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mushroom Case" Load="Merge">
     <part Name="Render" DisplayName="vitrina de setas" />
     <part Name="Description" Short="Un cristal de media luna techa el subterrario y protege a los comecadáveres, que han prosperado dentro. Son una arcología de branquias." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Harp" Load="Merge">
     <part Name="Render" DisplayName="arpa" />
     <part Name="Description" Short="Cuerdas de tripa de ñu corren en estratos por la tabla armónica, y oro rosa remata la rica madera de la rodilla y la cabeza.&#xA;El armazón forma medio corazón; el favorito de los Devoradores perdura." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Rectangular Bells" Load="Merge">
     <part Name="Render" DisplayName="campanas rectangulares" />
     <part Name="Description" Short="Teclas rectangulares se disponen por la escalera inclinada para subir de tono peldaño a peldaño. Colgado del armazón hay un mazo de notas." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Hammered Dulcimer" Load="Merge">
     <part Name="Render" DisplayName="salterio de macillos" />
     <part Name="Description" Short="Cuerdas de tripa de ñu se tensan a lo largo del trapecio. La cuchara de notas cuelga en una funda de madera." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Iron Maiden" Load="Merge">
     <part Name="Render" DisplayName="dama de hierro" />
@@ -1274,86 +1432,104 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <tag Name="HeroNameTitleClientele" Value="Inquisidores,Sádicos,los Crueles,los Penitentes,Torturadores" />
     <xtagTextFragments Skin="púas" PoeticFeatures="estatura imponente,púas amenazantes,encierro asfixiante" />
     <tag Name="QuestableVerb" Value="entrar" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Hookah" Load="Merge">
     <part Name="Render" DisplayName="cachimba" />
     <part Name="Description" Short="Tallos de fumar brotan de una pipa de agua de cristal." />
     <tag Name="QuestableVerb" Value="fumar de" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cage" Load="Merge">
     <part Name="Render" DisplayName="jaula" />
     <part Name="Description" Short="La caja está forjada de alambre mordido y hierro abollado." />
     <tag Name="QuestableVerb" Value="entrar" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Forge" Load="Merge">
     <part Name="Render" DisplayName="fragua" />
     <part Name="Description" Short="El tallo salobre se astilla y humea dentro de un hogar entubado de piedra vieja." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Anvil" Load="Merge">
     <part Name="Render" DisplayName="yunque de piedra" />
     <part Name="Description" Short="Un trozo de granito tosco se ha alisado por arriba para el trabajo del metal y redondeado en el costado en forma de cuerno de moldeo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Random Statue" Load="Merge">
     <part Name="Description" Short="Esta estatua, trabajada en *material*, representa con detalle a *creature.a**creature*:&#xA;" />
   </object>
   <object Name="Random Stone Statue" Load="Merge">
     <part Name="Render" DisplayName="estatua de piedra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Marble Statue" Load="Merge">
     <part Name="Render" DisplayName="estatua de mármol" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="ImplantedEaterStatue" Load="Merge">
     <part Name="Render" DisplayName="estatua de Devorador implantado" />
     <part Name="Description" Short="La erosión ha alisado sus rasgos hasta la abstracción, pero antaño se alzaba como monumento al acoplamiento de máquina y gente." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="EaterStatue" Load="Merge">
     <part Name="Render" DisplayName="estatua de Devorador" />
     <part Name="Description" Short="Los rasgos erupcionan de un lienzo de piedra y se quiebran en una figura del pasado remoto. Pelo, piel, ceja, muslo: los detalles incuban en ti una emoción nueva, el sentido de lo extraño-familiar. Al moverte en torno a la semejanza petrificada, te asombra cómo este Devorador logró grabarse en tu trenza de espaciotiempo." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Oboroqoru Statue" Load="Merge">
     <part Name="Render" DisplayName="estatua de Oboroqoru" />
     <part Name="Description" Short="Este ídolo de piedra de Oboroqoru se alza veinte palmos de alto. Su escultor sin nombre eligió representar al dios simio sentado con las piernas cruzadas, con cada uno de sus tres pares de brazos gigantescos sujetándose entre sí. El ídolo está envuelto en enredaderas, y sus cuidadores ceden ante la naturaleza salvo donde la maleza ha amenazado con ocultar el semblante apacible de Oboroqoru. Guirnaldas de flores de cuantos matices engendra el bosque -- azur, chartreuse, índigo, cornalina -- cubren la base del santuario, ofrendas insignificantes a lo que parece ser un dios despiadado." />
     <tag Name="WorshippedAs" Value="Oboroqoru" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Keresh Statue" Load="Merge">
     <part Name="Render" DisplayName="estatua de un ciervo" />
     <part Name="Description" Short="Abandonada en una choza apartada de las afueras de Bey Lah, esta enorme estatua de hornsfel languidece bajo una capa de vegetación marchita. Representa a un majestuoso ciervo con una pezuña alzada del suelo, sus ojos humanos juzgando su entorno y hallándolo deficiente. La placa de metal de la base de la estatua no ha aguantado bien los siglos, y los únicos glifos que alcanzas a distinguir son 'K', 'R', 'S' y 'H'." />
     <tag Name="WorshippedAs" Value="Keresh" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="statue of mason" Load="Merge">
     <part Name="Render" DisplayName="estatua de Nisroch" />
     <part Name="Description" Short="Nisroch el albañil estelar aparece aquí cabalgando la tierra con sus poderosas piernas. Luce su faja predilecta, cuyos pliegues están trabajados con exquisitez en oro." />
     <tag Name="WorshippedAs" Value="Nisroch" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="statue of knight" Load="Merge">
     <part Name="Render" DisplayName="estatua de Bel" />
     <part Name="Description" Short="La estatua de Bel lleva su tremendo peso en mármol pulido. Empuña su égida epocal, célebre por haber detenido una arremolinada nube de gas en el alba estrellada." />
     <tag Name="WorshippedAs" Value="Bel" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="statue of Shekhinah" Load="Merge">
     <part Name="Render" DisplayName="estatua de Shekhinah" />
     <part Name="Description" Short="Aquí Shekhinah ha sido esculpido hasta la permanencia con magnífico mármol cerúleo. Su cuerpo está cincelado hasta la perfección bendita. Su diadema dorada lo corona Padre entre Padres." />
     <tag Name="WorshippedAs" Value="Shekhinah" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="statue of wizard" Load="Merge">
     <part Name="Render" DisplayName="estatua de Dagon" />
     <part Name="Description" Short="Dagon el orador domina el ábside occidental con su pose desvergonzada. Su corona dorada brilla espléndida en el resplandor del fuego." />
     <tag Name="WorshippedAs" Value="Dagon" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="statue of athlete" Load="Merge">
     <part Name="Render" DisplayName="estatua de Carthax" />
     <part Name="Description" Short="Carthax el atleta aparece aquí a media zancada. Su reluciente cabello plateado va atado tras la cabeza, según la tradición astral, mientras salta a través del firmamento." />
     <tag Name="WorshippedAs" Value="Carthax" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="statue of scholar" Load="Merge">
     <part Name="Render" DisplayName="estatua de Resheph" />
     <part Name="Description" Short="Resheph, a quien llaman 'el de Arriba', alza un dedo enigmático para sanar las heridas de los enfermos." />
     <tag Name="WorshippedAs" Value="Resheph" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="SultanShrine" Load="Merge">
     <part Name="Render" DisplayName="santuario" />
     <part Name="Description" Short="" />
     <tag Name="QuestableVerb" Value="rezar en,profanar" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="JoppaSultanShrine" Load="Merge">
     <part Name="Render" DisplayName="santuario" />
@@ -1379,6 +1555,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="NephilimShrine" Load="Merge">
     <part Name="Render" DisplayName="santuario nephilim" />
     <tag Name="QuestableVerb" Value="rezar en,profanar" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="AgolgotShrine" Load="Merge">
     <part Name="Render" DisplayName="santuario a Girsh Agolgot" />
@@ -1422,12 +1599,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Eater Hologram" Load="Merge">
     <part Name="Render" DisplayName="holograma de Devorador" />
     <part Name="Description" Short="Luz quemada erupciona en la placa de cromo y se quiebra en una figura del pasado remoto. Pelo, piel, ceja, muslo: los rasgos incuban en ti una emoción nueva, el sentido de lo extraño-familiar. Al moverte, la figura se mueve en paralaje; te asombra cómo este Devorador logró grabarse en tu trenza de espaciotiempo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="hologram of Shekhinah" Load="Merge">
     <part Name="Render" DisplayName="holograma de Shekhinah" />
     <part Name="Description" Short="El glorioso Shekhinah, Adonis Argénteo y Primer Padre, posa en mascarada luminosa. Con la estatura de las estrellas sin edad, fijas y permanentes, contempla el templo erigido en Su honor y ladea la cabeza en señal de aprobación. Acorde con la memoria de Su unión con la Kasafescencia, viste Su manifestación en tonos cerúleos, renunciando a los verdes y rojizos de las humildes plantas y la arcilla de la tierra." />
     <part Name="Chat" Says="[Shekhinah se vuelve hacia ti, con los brazos abiertos.]" />
     <tag Name="WorshippedAs" Value="Shekhinah" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Village Monument" Load="Merge">
     <part Name="Description" Short="" />
@@ -1435,42 +1614,52 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Village Monument Obelisk" Load="Merge">
     <part Name="Render" DisplayName="obelisco de piedra" />
     <part Name="Description" Short="La piedra afirma su importancia orientándose hacia el firmamento, de donde se agita la sabiduría más antigua." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Village Monument Amphora" Load="Merge">
     <part Name="Render" DisplayName="ánfora de cerámica" />
     <part Name="Description" Short="Los vientres de los recipientes son sagrados, pues a la vez portan las aguas de la vida y proyectan el pasado fluido sobre el presente convexo." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Village Monument Birdhouse" Load="Merge">
     <part Name="Render" DisplayName="columbario de piedra" />
     <part Name="Description" Short="Grabadas en este hidromiel para pequeños amigos alados hay historias que ellos no pueden entender." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Village Monument Diptych" Load="Merge">
     <part Name="Render" DisplayName="díptico tallado" />
     <part Name="Description" Short="Un relato queda confinado a las fronteras grabadas de esta piedra, a la dualidad reductiva de su forma." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Village Monument Stele" Load="Merge">
     <part Name="Render" DisplayName="estela de piedra" />
     <part Name="Description" Short="Los glifos inscritos en la piedra antigua se refractan hacia el presente." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Village Monument Monolith" Load="Merge">
     <part Name="Render" DisplayName="monolito de piedra" />
     <part Name="Description" Short="La materia del musgo se introduce en el mundo-relato evocado por la roca tallada." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Village Monument Sculpture" Load="Merge">
     <part Name="Render" DisplayName="escultura cromada" />
     <part Name="Description" Short="De las manos de un metalúrgico erupcionaron varillas y tiras que se enfriaron hasta tomar forma." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Village Monument Orb" Load="Merge">
     <part Name="Render" DisplayName="orbe colosal" />
     <part Name="Description" Short="Se rindió reverencia al orbe, alisado hacia la idealidad e izado sobre patas de latón." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Village Hologram 1" Load="Merge">
     <part Name="Render" DisplayName="holograma histórico" />
     <part Name="Description" Short="Patrones de interferencia parpadeante de luz forman un cuadro en cascada de muaré." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Village Hologram 2" Load="Merge">
     <part Name="Render" DisplayName="holograma histórico" />
     <part Name="Description" Short="Patrones de interferencia parpadeante de luz forman un cuadro en cascada de muaré." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Kyakukya Monument 1" Load="Merge">
     <part Name="RulesDescription" Text="Este objeto es un monumento a una escena de la historia de {{M|Kyakukya}}.&#xA;&#xA;Bajo la Luna del Escarabajo, gentes se asentaron aquí para reunir bienes de paso para el Simio Saad Oboroqoru, y así se fundó Kyakukya.&#xA;" />
@@ -1491,310 +1680,387 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="AppleSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Manzanas estrella y Sidra" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="AppleSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Sidra especiada" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="AppleSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Manzanas. Ñam." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BookSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Libros" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BookSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Sabiduría y Conocimiento" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BookSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Manchas de tinta" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BottleSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Miel dulce" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BottleSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Jugo de abeja" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BottleSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Miel pegajosa" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BootSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="¡Botas aquí!" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BootSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Bota y Zapato" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BootSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Zapatero" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HatSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Sombreros y Gorras" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HatSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Cubre tu frágil cabeza" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HatSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Sombreros con estilo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GloveSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Guantes y Manoplas" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GloveSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Abrigos de dedos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GloveSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Ponte guantes ya" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CloakSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Capas y Capotes" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CloakSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Chales, Mantos y Más" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CloakSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Capas con estilo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ArmorSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Chalecos y Cota de malla" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ArmorSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Todo tipo de armaduras" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ArmorSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Petos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GunSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Pistolas y Munición" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GunSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Pistolas, Rifles y Más" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GunSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="¡Pistolas!" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DiscSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Discos de datos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DiscSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Esquemas" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DiscSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Fabrica tus propios artefactos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="LiquidSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Líquidos exóticos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="LiquidSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Líquidos exóticos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="LiquidSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Líquidos exóticos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="JewelSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Joyas y Joyería" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="JewelSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Mercancía enjoyada" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="JewelSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Gemas y Joyería" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HookahSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Humo de menta y Vino" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HookahSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Pipa de agua y Descanso" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HookahSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Salón de humo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GrenadeSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Explosivos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GrenadeSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Esferas de estallido" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GrenadeSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Granadas y Más" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PepperSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Botica" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PepperSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Hierbas y Tónicos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PepperSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Simples" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="FoodSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Comestibles" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="FoodSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Dulce y Salado" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="FoodSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Comidas picantes" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PreserveSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Comidas en conserva" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PreserveSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Comidas y Especias" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PreserveSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Preparación de cocina" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PigSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="[garabatos indescifrables.]" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="WineSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Vino" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="WineSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Brebaje de la Bruja de la Uva" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="WineSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Vinatero" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ImplantSign1" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Cibernética" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ImplantSign2" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Tripas de cromo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ImplantSign3" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Órganos para máquina y gente" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ArgyveSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Lárgate" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="JoppaNorthSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Al cementerio y al santuario" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="EzraSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="← A Ezra" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TamSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Sal y Mercería" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YurlSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Mercancía Fina del Consorcio de Phyta" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YlaSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Reparación de Cacharros de Omonporch" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SixshrewSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Puesto Comercial del Consorcio" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="JoppaMillSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Molino Común" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdColumbariumSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Columbario" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdLivingQuartersSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Aposentos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdMedicalSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Convalecencia" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdKitchenSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Cocina" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdLibrarySign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Biblioteca" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdMarketSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Mercado" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdWorkshopSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Taller" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdManyEyesSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Muchos Ojos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="YdSalonSign" Load="Merge">
     <part Name="Render" DisplayName="cartel" />
     <part Name="Chat" Says="Salón" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CryptPlaqueTutor" Load="Merge">
     <part Name="Render" DisplayName="puerta de mármol con placa y grabados recargados" />
     <part Name="Description" Short="" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Tombstone" Load="Merge">
     <part Name="Render" DisplayName="lápida" />
     <part Name="Description" Short="" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="ReshephsCrypt" Load="Merge">
     <part Name="Render" DisplayName="cripta" />
@@ -1802,15 +2068,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Empty Urn" Load="Merge">
     <part Name="Render" DisplayName="urna funeraria" />
     <part Name="Description" Short="Formas geométricas de significado teselan las filas anilladas alrededor del recipiente crematorio: estrellas, triquetras, eneágonos y lunas." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Urn" Load="Merge">
     <part Name="Render" DisplayName="urna funeraria" />
     <part Name="Description" Short="" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Sarcophagus" Load="Merge">
     <part Name="Render" DisplayName="sarcófago" />
     <part Name="Description" Short="El mármol negro se extrajo de los vastos confines del subsuelo y se cinceló en una manta de piedra para los muertos." />
     <tag Name="QuestableVerb" Value="entrar" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SultanSarcophagusW" Load="Merge">
     <part Name="Render" DisplayName="sarcófago imperial" />
@@ -1853,19 +2122,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Golem Mound" Load="Merge">
     <part Name="Render" DisplayName="montículo de chatarra y arcilla" />
     <part Name="Description" Short="La arcilla húmeda se adhiere a una rueda y a un tablero de soldadura. Está florecida de diodos, circuitos, bombas de paletas e imanes." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="VehicleGolemSupportColumn" Load="Merge">
     <part Name="Render" DisplayName="viga de soporte" />
     <part Name="Description" Short="La arcilla se coció en torno al acero y se erigió en la caja torácica como soporte estructural." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="VehicleGolemExit" Load="Merge">
     <part Name="Render" DisplayName="escotilla de salida" />
     <part Name="Description" Short="Un par de paneles de cromo retráctiles encajan en raíles engrasados." />
-    <xtagGrammar iArticle="" />
+    <xtagGrammar concord="fs" iArticle="" />
   </object>
   <object Name="VehicleGolemSeat" Load="Merge">
     <part Name="Render" DisplayName="asiento de piloto" />
     <part Name="Description" Short="Espuma turquesa acolcha el respaldo interior y el hueco profundo del asiento, y unos diales adornan los reposabrazos curvos. La silla entera gira sobre un motor de eyección." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="VehicleGolemPassengerSeat" Load="Merge">
     <part Name="Render" DisplayName="asiento de pasajero" />
@@ -1874,6 +2146,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="VehicleConsole N" Load="Merge">
     <part Name="Render" DisplayName="consola de piloto" />
     <part Name="Description" Short="Dentro de un marco de metal humedecido por el rocío de la sopa, una luna de cristal está pintada con los glifos de datos de la navegación y la alineación de dos cuerpos. Modelos 3D de una criatura grande y otra más pequeña rotan sobre sus ejes verticales, y un escaneo psicoeléctrico muestra el estado de la fusión." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="VehicleConsole S" Load="Merge">
     <part Name="Render" DisplayName="consola de piloto" />
