@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Lang="example" Encoding="utf-8">
+  <string ID="a">▶alpha</string>
+  <string ID="b">▶beta {0}</string>
+  <string ID="c">▶gamma</string>
+</strings>

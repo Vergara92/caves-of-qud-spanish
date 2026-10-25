@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books Lang="example" Encoding="utf-8">
+  <book ID="B1" Title="▶Book">
+    <page>▶one</page>
+    <page>▶two</page>
+  </book>
+</books>

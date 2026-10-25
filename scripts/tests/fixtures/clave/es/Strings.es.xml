@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Lang="es" Encoding="utf-8">
+  <string ID="hit {0}">Golpeas.</string>
+  <string ID="sword" Context="Verb">acuchillar</string>
+  <string ID="sword" Context="Item">espada</string>
+  <string ID="dup" Context="Twice">dos veces</string>
+  <string ID="dup" Context="Twice">dos veces más</string>
+</strings>

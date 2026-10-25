@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings Lang="example" Encoding="utf-8">
+  <string ID="sword" Context="Item">▶sword</string>
+  <string ID="sword" Context="Verb">▶to sword</string>
+  <string ID="hit {0}">▶You hit {0}.</string>
+  <string ID="dup" Context="Twice">▶twice</string>
+  <string ID="dup" Context="Twice">▶twice again</string>
+</strings>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books Lang="es" Encoding="utf-8">
+  <book ID="B1" Title="Libro">
+    <page>uno</page>
+    <page>insertada</page>
+    <page>dos</page>
+  </book>
+</books>

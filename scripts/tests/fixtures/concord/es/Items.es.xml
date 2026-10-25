@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects Lang="es" Encoding="utf-8">
+  <object Name="Dagger">
+    <part Name="Render" DisplayName="daga" />
+    <xtagGrammar concord="fs" />
+  </object>
+  <object Name="Axe">
+    <part Name="Render" DisplayName="hacha" />
+    <xtagGrammar Proper="false" concord="fs" />
+  </object>
+  <object Name="Club">
+    <part Name="Render" />
+    <xtagGrammar concord="xx" />
+  </object>
+</objects>

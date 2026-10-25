@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<concordancia Lang="es" Encoding="utf-8">
+  <string Context="Item" ID="sword" ms="espadero" fs="espadera" mp="espaderos" fp="espaderas">de espada</string>
+  <string Context="Literal C# ModKeen" ID="keen" ms="aguzado" fs="aguzada" mp="aguzados" fp="aguzadas">de filo aguzado</string>
+  <string Context="Item" ID="sword" ms="a" fs="b">incompleta</string>
+  <string ID="sword" Context="Verb" clase="delante"></string>
+</concordancia>
