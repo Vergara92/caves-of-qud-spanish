@@ -35,9 +35,18 @@ namespace CavesOfQudEs.Concordancia
 					}
 					catch (Exception ex)
 					{
+						// sin formas, C no aporta nada: se apaga y los nombres salen exactamente como en el juego (B)
 						Juego.Fallo("DescriptionBuilderEspanol: no se pudo cargar la tabla", ex);
+						Juego.Apagado = true;
 					}
 					tabla = tabla ?? new TablaConcordancia();
+					if (tabla.NumEntradas == 0 && !Juego.Apagado)
+					{
+						// sin entradas (no hay XML de formas, o un parche quitó DataManager.YieldXMLStreamsWithRoot) ni siquiera
+						// se sabe qué va delante (implante): mejor el juego tal cual
+						Juego.Apagado = true;
+						Juego.Registrar("TraductorEspanol: la tabla de concordancia está vacía; se desactiva la concordancia en esta sesión (respaldo B)");
+					}
 				}
 				return tabla;
 			}
@@ -72,13 +81,17 @@ namespace CavesOfQudEs.Concordancia
 
 		private int tamanoOrden;
 
+		// true mientras corre base.Resolve(): lo que el juego añada ahí (hoy, nada) va directo al builder del juego
+		// en vez de quedarse en la lista ya montada. Protege de un parche que mueva adjetivos a Resolve().
+		private bool enBase;
+
 		public override void AddAdjective(string Adjective, int OrderAdjust = 0)
 		{
 			if (BaseOnly || string.IsNullOrEmpty(Adjective))
 			{
 				return;
 			}
-			if (Juego.Apagado)
+			if (Juego.Apagado || enBase)
 			{
 				base.AddAdjective(Adjective, OrderAdjust);
 				return;
@@ -114,16 +127,24 @@ namespace CavesOfQudEs.Concordancia
 
 		public override void ApplySizeAdjective(string Adjective, int Priority = 10, int OrderAdjust = 0)
 		{
-			if (Juego.Apagado)
+			if (Juego.Apagado || enBase)
 			{
 				base.ApplySizeAdjective(Adjective, Priority, OrderAdjust);
 				return;
 			}
-			if (tamano == null || Priority > tamanoPrioridad)
+			try
 			{
-				tamano = Adjective;
-				tamanoPrioridad = Priority;
-				tamanoOrden = OrderAdjust;
+				if (tamano == null || Priority > tamanoPrioridad)
+				{
+					tamano = Adjective;
+					tamanoPrioridad = Priority;
+					tamanoOrden = OrderAdjust;
+				}
+			}
+			catch (Exception ex)
+			{
+				Juego.Fallo("DescriptionBuilderEspanol.ApplySizeAdjective", ex);
+				base.ApplySizeAdjective(Adjective, Priority, OrderAdjust);
 			}
 		}
 
@@ -177,7 +198,15 @@ namespace CavesOfQudEs.Concordancia
 				}
 				adjetivos.Clear();
 			}
-			base.Resolve();
+			enBase = true;
+			try
+			{
+				base.Resolve();
+			}
+			finally
+			{
+				enBase = false;
+			}
 		}
 
 		private struct Montado
@@ -269,7 +298,7 @@ namespace CavesOfQudEs.Concordancia
 		public static Rasgos? RasgosDelObjeto(DescriptionBuilder db)
 		{
 			object o = Juego.ObjetoDe(db);
-			if (o == null)
+			if (o == null || !Juego.HayBasePrincipal)
 			{
 				return null;
 			}

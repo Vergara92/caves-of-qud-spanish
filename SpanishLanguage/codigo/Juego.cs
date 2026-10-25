@@ -48,6 +48,9 @@ namespace CavesOfQudEs.Concordancia
 
 		private static readonly HashSet<string> avisados = new HashSet<string>();
 
+		/// <summary>Nombre del campo del pool (PooledEvent.cs:10). El arnés lo cambia para simular un parche que lo quite.</summary>
+		public static string CampoPool = "Pool";
+
 		// ---------- registro ----------
 
 		/// <summary>Sale en Player.log (MetricsManager.LogInfo). El arnés lo cambia por la consola.</summary>
@@ -95,19 +98,52 @@ namespace CavesOfQudEs.Concordancia
 
 		public static bool Apagado { get; set; }
 
-		/// <summary>Cuenta un fallo en tiempo de ejecución; registra los primeros y apaga C si se pasa de MAX_FALLOS.</summary>
+		/// <summary>
+		/// Cuenta un fallo en tiempo de ejecución. Registra UNA línea por tipo de fallo (sitio + tipo de excepción),
+		/// no una por nombre, y apaga C si se pasa de MAX_FALLOS. Quien llama ya ha vuelto al respaldo B.
+		/// </summary>
 		public static void Fallo(string donde, Exception ex)
 		{
 			int n = System.Threading.Interlocked.Increment(ref fallos);
-			if (n <= 5)
+			Exception causa = ex;
+			while (causa is TargetInvocationException && causa.InnerException != null)
 			{
-				Registrar(donde + ": " + ex);
+				causa = causa.InnerException;
 			}
+			string tipo = causa == null ? "?" : causa.GetType().Name;
+			RegistrarUnaVez("fallo:" + donde + ":" + tipo, "TraductorEspanol: fallo en " + donde + " (" + tipo + ": " + UnaLinea(causa == null ? "" : causa.Message) + LugarDe(causa) + "); esos nombres salen con el respaldo B (aviso único para este fallo)");
 			if (n >= MAX_FALLOS && !Apagado)
 			{
 				Apagado = true;
 				Registrar("TraductorEspanol: " + n + " fallos; se desactiva la concordancia en esta sesión (respaldo B)");
 			}
+		}
+
+		public static int NumFallos
+		{
+			get { return fallos; }
+		}
+
+		private static string UnaLinea(string s)
+		{
+			return (s ?? "").Replace('\r', ' ').Replace('\n', ' ').Trim();
+		}
+
+		/// <summary>« en Clase.Metodo»: el primer marco de la pila, para saber qué tocar sin volcarla entera.</summary>
+		private static string LugarDe(Exception ex)
+		{
+			string pila = ex == null ? null : ex.StackTrace;
+			if (string.IsNullOrEmpty(pila))
+			{
+				return "";
+			}
+			string primera = UnaLinea(pila.Split('\n')[0]);
+			if (primera.StartsWith("at "))
+			{
+				primera = primera.Substring(3);
+			}
+			int i = primera.IndexOf(" in ", StringComparison.Ordinal);
+			return " en " + (i > 0 ? primera.Substring(0, i) : primera);
 		}
 
 		public static void ReiniciarFallos()
@@ -276,6 +312,24 @@ namespace CavesOfQudEs.Concordancia
 			return Leer(typeof(DescriptionBuilder), db, "PrimaryBase") as string;
 		}
 
+		private static int hayBasePrincipal;
+
+		/// <summary>
+		/// Si existe DescriptionBuilder.PrimaryBase. Sin él no se sabe si la base ha cambiado y el concord del objeto
+		/// podría no valer («arma extraña afilado»): quien llama usa B.
+		/// </summary>
+		public static bool HayBasePrincipal
+		{
+			get
+			{
+				if (hayBasePrincipal == 0)
+				{
+					hayBasePrincipal = BuscarCampoOPropiedad(typeof(DescriptionBuilder), "PrimaryBase", false) != null ? 1 : -1;
+				}
+				return hayBasePrincipal > 0;
+			}
+		}
+
 		/// <summary>GameObject.DisplayNameBase (GameObject.cs:882).</summary>
 		public static string BaseDelObjeto(object objeto)
 		{
@@ -368,26 +422,40 @@ namespace CavesOfQudEs.Concordancia
 		{
 			Type evento = Tipo("XRL.World.GetDisplayNameEvent");
 			Type pooled = Tipo("XRL.World.PooledEvent`1");
+			const string SIN_POOL = "; los eventos que ya estaban en el pool siguen con el builder del juego (respaldo B) y los nuevos usan el nuestro";
 			if (evento == null || pooled == null)
 			{
-				RegistrarUnaVez("pool", "TraductorEspanol: no encuentro PooledEvent<GetDisplayNameEvent>");
+				RegistrarUnaVez("pool", "TraductorEspanol: no encuentro PooledEvent<GetDisplayNameEvent>" + SIN_POOL);
 				return 0;
 			}
-			IList pool = Leer(pooled.MakeGenericType(evento), null, "Pool") as IList;
+			Type cerrado;
+			try
+			{
+				cerrado = pooled.MakeGenericType(evento);
+			}
+			catch (ArgumentException)
+			{
+				RegistrarUnaVez("pool", "TraductorEspanol: PooledEvent<GetDisplayNameEvent> ya no es válido" + SIN_POOL);
+				return 0;
+			}
+			// sin Leer(): un campo ausente aquí es UN fallo y lleva UNA línea, la de abajo
+			FieldInfo campo = cerrado.GetField(CampoPool, ESTATICO);
+			IList pool = campo == null ? null : campo.GetValue(null) as IList;
 			if (pool == null)
 			{
+				RegistrarUnaVez("pool.lista", "TraductorEspanol: PooledEvent<GetDisplayNameEvent>." + CampoPool + " no existe o no es una lista" + SIN_POOL);
 				return 0;
 			}
 			FieldInfo db = evento.GetField("DB", INSTANCIA);
-			if (db == null)
+			if (db == null || !typeof(DescriptionBuilder).IsAssignableFrom(db.FieldType))
 			{
-				RegistrarUnaVez("pool.DB", "TraductorEspanol: no encuentro GetDisplayNameEvent.DB");
+				RegistrarUnaVez("pool.DB", "TraductorEspanol: no encuentro GetDisplayNameEvent.DB" + SIN_POOL);
 				return 0;
 			}
 			int n = 0;
 			foreach (object e in pool)
 			{
-				if (!esNuestro(db.GetValue(e) as DescriptionBuilder))
+				if (e != null && !esNuestro(db.GetValue(e) as DescriptionBuilder))
 				{
 					db.SetValue(e, crear());
 					n++;

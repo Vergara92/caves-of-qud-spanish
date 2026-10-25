@@ -63,17 +63,35 @@ namespace CavesOfQudEs.Concordancia
 		{
 			TablaConcordancia t = new TablaConcordancia();
 			int archivos = 0;
+			// un archivo que no se puede leer se salta (lo que ya cargó se queda); sus adjetivos salen con B
 			foreach (System.Xml.XmlReader xml in Juego.XmlConRaiz(TablaConcordancia.RAIZ))
 			{
-				t.CargarFormas(xml, Juego.TextoDeStrings, delegate (string aviso) { Juego.RegistrarUnaVez("formas:" + aviso, "TraductorEspanol: " + aviso); });
-				archivos++;
+				try
+				{
+					t.CargarFormas(xml, Juego.TextoDeStrings, delegate (string aviso) { Juego.RegistrarUnaVez("formas:" + aviso, "TraductorEspanol: " + aviso); });
+					archivos++;
+				}
+				catch (Exception ex)
+				{
+					Juego.Fallo("CargarTablaDelJuego (" + xml.BaseURI + ")", ex);
+				}
 			}
 			// Solo se llama desde un nombre con GameObject, así que la fábrica ya está cargada (GameObjectFactory.cs:63-72).
+			// Si falla, se devuelve una lista vacía (no null) para no reintentarlo en cada nombre: las bases
+			// cambiadas en tiempo de ejecución salen con B.
 			t.FuenteBases = delegate
 			{
-				var pares = Juego.BasesDeLosBlueprints();
-				Juego.Registrar("TraductorEspanol: " + pares.Count + " blueprints con concord");
-				return pares;
+				try
+				{
+					var pares = Juego.BasesDeLosBlueprints();
+					Juego.Registrar("TraductorEspanol: " + pares.Count + " blueprints con concord");
+					return pares;
+				}
+				catch (Exception ex)
+				{
+					Juego.Fallo("BasesDeLosBlueprints", ex);
+					return new System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<string, string>>();
+				}
 			};
 			Juego.Registrar("TraductorEspanol: " + t.NumEntradas + " entradas (" + t.NumConFormas + " con formas) desde " + archivos + " archivos; " + t.NumAvisos + " avisos");
 			return t;
