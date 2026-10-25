@@ -30,22 +30,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Shimscale Mangrove Tree_blue" Load="Merge">
     <part Name="Render" DisplayName="mangle shimscale" />
     <part Name="Description" Short="La luz se cuela a manchas entre sus hojas húmedas, y sus raíces parecen una columnata de cera fundida en un laberinto y vuelta a solidificar." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Shimscale Mangrove Tree" Load="Merge">
     <part Name="Render" DisplayName="mangle shimscale" />
     <part Name="Description" Short="La luz se cuela a manchas entre sus hojas húmedas, y sus raíces parecen una columnata de cera fundida en un laberinto y vuelta a solidificar." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Banana Tree" Load="Merge">
     <part Name="Render" DisplayName="platanero" />
     <part Name="Description" Short="Manos de fruta trepan por los tallos del árbol embaucador. Cuando la luz prende en la superficie del cormo expuesto, el destello del Spindle lo devuelve al platanar abierto." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dogthorn Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol espino del perro" />
     <part Name="Description" Short="Un nido enmarañado de raíces se derrama por la tierra. La corteza se astilla en púas afiladas. Las hojas son grasientas y apestosas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Leafless Dogthorn Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol espino del perro" />
     <part Name="Description" Short="Un nido enmarañado de raíces se derrama por la tierra. La corteza se astilla en púas afiladas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Fracti" Load="Merge">
     <part Name="Render" DisplayName="fractus" />
@@ -57,14 +62,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Starapple Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol de manzana estelar" />
     <part Name="Description" Short="Las manzanas estelares penden de ramas cenicientas, motas de luz roja y exuberante en un cuadro descolorido." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Starapple Tree Ripe" Load="Merge">
     <part Name="Render" DisplayName="árbol de manzana estelar" />
     <part Name="Description" Short="Las manzanas estelares penden de ramas cenicientas, motas de luz roja y exuberante en un cuadro descolorido." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Witchwood Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol de madera bruja" />
     <part Name="Description" Short="Las frondas doradas se despliegan cuando el viento del desierto trae humedad. Trozos de corteza, agrupados en diminutos anillos que se cruzan, han sido roídos por los ramoneadores de madera." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dreadroot" Load="Merge">
     <part Name="Render" DisplayName="raíz del pavor" />
@@ -74,10 +82,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Sunflower" Load="Merge">
     <part Name="Render" DisplayName="girasol" />
     <part Name="Description" Short="Floretes brillantes estallan desde un disco central de floretes más oscuros y en espiral. Juntos parecen un sol diminuto." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dicalyptus Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol de diacalipto" />
     <part Name="Description" Short="Un tronco del grosor de una choza, de corteza roída por insectos, se eleva hacia el cielo etéreo y se abre en una corona de follaje." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Lahbloom" Load="Merge">
     <part Name="Render" DisplayName="lahbloom" />
@@ -88,6 +98,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Pétalos color coral brotan de la cima de un tallo endeble. Una pezuña de metal o hueso ha aplastado a sus hermanos y esparcido sus fibras ácidas por el suelo." />
     <stag Name="Fiber" Value="cordón" />
     <stag Name="FiberMaterial" Value="paja" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Watervine" Load="Merge">
     <part Name="Render" DisplayName="vid de agua" />
@@ -95,6 +106,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <stag Name="Plank" Value="paja" />
     <stag Name="Fiber" Value="cuerda" />
     <stag Name="FiberMaterial" Value="vid" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Gnawed Watervine" Load="Merge">
     <part Name="Render" DisplayName="vid de agua roída" />
@@ -106,32 +118,37 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <stag Name="Plank" Value="haz" />
     <stag Name="Fiber" Value="cuerda" />
     <stag Name="FiberMaterial" Value="fibra" />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="ms" massNoun="true" />
   </object>
   <object Name="Swarmshade Tree_blue" Load="Merge">
     <part Name="Render" DisplayName="árbol sombra de enjambre" />
     <part Name="Description" Short="Una nebulosa de hojas en forma de pala susurra con el arroyo seco y el roer de los escarabajos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Swarmshade Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol sombra de enjambre" />
     <part Name="Description" Short="Una nebulosa de hojas en forma de pala susurra con el arroyo seco y el roer de los escarabajos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Ziv Bough_blue" Load="Merge">
     <part Name="Render" DisplayName="rama ziv" />
     <part Name="Description" Short="La columna del tronco se enrosca en el camino radial de la luz y florece en una corona de laurel victorioso." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ziv Bough" Load="Merge">
     <part Name="Render" DisplayName="rama ziv" />
     <part Name="Description" Short="La columna del tronco se enrosca en el camino radial de la luz y florece en una corona de laurel victorioso." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Star Palm" Load="Merge">
     <part Name="Render" DisplayName="palmera estelar" />
     <part Name="Description" Short="Frondas saciadas de sol se apoyan en un tronco marcado por insectos con forma de estrella fundida." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Slime Grass" Load="Merge">
     <part Name="Render" DisplayName="hierba de limo" />
     <part Name="Description" Short="Las hebras relucen con una película espumosa." />
-    <xtagGrammar iArticle="algo de" adjunctNoun="mata" />
+    <xtagGrammar concord="fs" iArticle="algo de" adjunctNoun="mata" />
     <stag Name="Plank" Value="paja" />
     <stag Name="Fiber" Value="bramante" />
     <stag Name="FiberMaterial" Value="paja" />
@@ -139,7 +156,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Grave Moss" Load="Merge">
     <part Name="Render" DisplayName="musgo de tumba" />
     <part Name="Description" Short="Es incoloro y quebradizo; cruje bajo el pie. El modo en que se agrupa en mantos debe ajustarse a la forma de los lechos de cuerpos húmedos de vida de los que un día floreció, y de los que, con sangre roja y oscura, volverá a florecer." />
-    <xtagGrammar iArticle="algo de" />
+    <xtagGrammar concord="ms" iArticle="algo de" />
   </object>
   <object Name="Stillvine" Load="Merge">
     <part Name="Render" DisplayName="vid quieta" />
@@ -147,35 +164,42 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <stag Name="Plank" Value="paja" />
     <stag Name="Fiber" Value="cuerda" />
     <stag Name="FiberMaterial" Value="vid" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Nimbus Beam" Load="Merge">
     <part Name="Render" DisplayName="viga nimbo" />
     <part Name="Description" Short="Halos esponjosos de hojas verde ácido y mirto ciñen el largo de un minarete de madera que apunta al cielo. La cima rompe el dosel para ganar el juego de beber sol." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Nachash Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol nachash" />
     <part Name="Description" Short="Brotes resbaladizos de musgo se enroscan en la copa de un tronco encorvado como la medusa. El aire los revuelve en mayor desorden." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Urberry Bush" Load="Merge">
     <part Name="Render" DisplayName="arbusto de urbaya" />
     <part Name="Description" Short="A través del fondo de un emparrado abovedado de raíces, las hojas apuntan en ángulos perfectos para tamizar la luz del sol y bañar las urbayas en un cálido oro suave." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="n-Ary Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol n-ario" />
     <part Name="Description" Short="Hojas brillantes como lentejuelas tornasolan en constelaciones índigo, y las ramas se bifurcan a través del hongo de entropía." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Glitchwood Tree" Load="Merge">
     <part Name="Render" DisplayName="árbol de madera glitch" />
     <part Name="Description" Short="Raíces dobladas se canalizan hacia arriba hasta un dosel de pelusa. El ojo intenta trazar un contorno en torno a cada hoja, pero sus líneas de luz chisporrotean y pierden sus derivadas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Icosahedar" Load="Merge">
     <part Name="Render" DisplayName="icosaedro" />
     <part Name="Description" Short="Ramitas céreas se vencen bajo el peso de los tubérculos algebraicos. Cada uno es perfecto y regular, sus caras mates con un rocío platónico sin lustre." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Noisegrass" Load="Merge">
     <part Name="Render" DisplayName="hierba de ruido" />
     <part Name="Description" Short="El potencial real surfea el rizoma sobre olas picadas y se cuantiza en briznas leñosas de hierba." />
-    <xtagGrammar iArticle="algo de" />
+    <xtagGrammar concord="fs" iArticle="algo de" />
   </object>
   <object Name="Yempuris" Load="Merge">
     <part Name="Render" DisplayName="yempuris phi" />
@@ -193,18 +217,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="seta luminosa" />
     <part Name="Description" Short="Hifas relucientes vierten su luz suave hacia el sombrero orbicular de la lámpara de tierra." />
     <stag Name="HardMaterial" Value="carne" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Spotted Shagspook" Load="Merge">
     <part Name="Render" DisplayName="espantajo greñudo moteado" />
     <part Name="Description" Short="Su tallo es grueso como un tronco, y un polvillo cubre las motas de su sombrero descomunal. El pigmento de su piel es tinte líquido de una filtración cercana." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dandy Cap" Load="Merge">
     <part Name="Render" DisplayName="sombrero galán" />
     <part Name="Description" Short="La naturaleza legó un sombrero galán al tallo esbelto y arqueado y a las láminas que se pliegan en su cara inferior. El pigmento de su piel es tinte líquido de una filtración cercana." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Arsplice Hyphae" Load="Merge">
     <part Name="Render" DisplayName="hifas arsplice" />
     <part Name="Description" Short="Corros de brujas de híbridos trenzados de hierba, coral y hongo asoman a lo largo de su red de sombra y segregan puntales replicados a modo de vaina." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Coral" Load="Merge">
     <stag Name="Plank" Value="colonia" />
@@ -214,14 +242,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="PolypCache" Load="Merge">
     <part Name="Render" DisplayName="bulbo hinchado" />
     <part Name="Description" Short="Pegado a los tentáculos de un racimo de pólipos y sobresaliendo de un puntal corroído hay un bulto hinchado de película. Un caldo brillante de baba de platino fundida con carbono arde en su interior." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Coral Polyp" Load="Merge">
     <part Name="Render" DisplayName="pólipo de coral" />
     <part Name="Description" Short="Los tentáculos se mecen en círculo sobre una columna-vasija esquelética. La cara aboral está uncida a otros pólipos, formando una arcología fosilizada." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Coral and Palladium Strut" Load="Merge">
     <part Name="Render" DisplayName="puntal de paladio con coral" />
     <part Name="Description" Short="Pólipos de arco colonizan la topología cilíndrica del retículo y trazan un vecindario ortogonal en una red de vida." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Finger Coral" Load="Merge">
     <part Name="Render" DisplayName="coral dedo" />
@@ -229,10 +260,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <stag Name="Plank" Value="dedo" />
     <stag Name="Fiber" Value="pólipo" />
     <stag Name="FiberMaterial" Value="caliza" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Palladium Strut" Load="Merge">
     <part Name="Render" DisplayName="puntal de paladio" />
     <part Name="Description" Short="Una carcasa empacada de criotanques motea cilindros unidos en ángulos rectos. El brillo del metal más blando asoma, paladio blanco plateado que un día efectuaba la hidro- y electroconducción a lo largo de un vasto retículo arcológico." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sponge" Load="Merge">
     <stag Name="Plank" Value="racimo" />
@@ -245,6 +278,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <stag Name="Plank" Value="túnel" />
     <stag Name="Fiber" Value="anillo" />
     <stag Name="FiberMaterial" Value="esponja" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Bop Sponge" Load="Merge">
     <part Name="Render" DisplayName="esponja bop" />
@@ -252,6 +286,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <stag Name="Plank" Value="tira" />
     <stag Name="Fiber" Value="mejilla" />
     <stag Name="FiberMaterial" Value="esponja" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Crystal" Load="Merge">
     <stag Name="Plank" Value="prisma" />
@@ -261,34 +296,42 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Psychal Rhythm Rock" Load="Merge">
     <part Name="Render" DisplayName="roca de ritmo psíquico" />
     <part Name="Description" Short="Prismas estalactíticos tartamudean el zumbido del pensamiento comprimido de billones a través del mar psíquico." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chavvah Branch" Load="Merge">
     <part Name="Render" DisplayName="rama cristalina" />
     <part Name="Description" Short="Microcolumnas de cristal incandescente se atan en densos ramilletes, y se ramifican por el cielo como fractales magníficos. Se lanzan la luz de la luna de una a otra." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chavvah Dense Leaves" Load="Merge">
     <part Name="Render" DisplayName="hojas densas de cristal" />
     <part Name="Description" Short="Gotas de rocío estático difuminan los bordes afilados del cristal. Las superficies mismas son radiantes y susurran en una brisa psíquica. En conjunto, fluyen como lentejuelas reversibles a través de la divisoria mente/cuerpo." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Chavvah Sparse Leaves" Load="Merge">
     <part Name="Render" DisplayName="hojas ralas de cristal" />
     <part Name="Description" Short="Gotas de rocío estático difuminan los bordes afilados del cristal. Las superficies mismas son radiantes y susurran en una brisa psíquica. En conjunto, fluyen como lentejuelas reversibles a través de la divisoria mente/cuerpo." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Chavvah Chime Left" Load="Merge">
     <part Name="Render" DisplayName="roca campaneante" />
     <part Name="Description" Short="Sus esquinas fueron lijadas por la estática y sus cormos de cristal arden con luz de luna transducida. Repica en claves cercanas y lejanas." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chavvah Chime Right" Load="Merge">
     <part Name="Render" DisplayName="roca campaneante" />
     <part Name="Description" Short="Sus esquinas fueron lijadas por la estática y sus cormos de cristal arden con luz de luna transducida. Repica en claves cercanas y lejanas." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chavvah Taproot Floor" Load="Merge">
     <part Name="Render" DisplayName="raíz pivotante cristalina" />
     <part Name="Description" Short="Pequeños brotes de cristal fueron aplastados por puro peso del ego hasta convertirse en un transductor grueso, robusto y equante de pensamiento blando y fugaz. La emoción y el recuerdo descoherentes cristalizan al subir por la raíz." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Crystalline Root" Load="Merge">
     <part Name="Render" DisplayName="raíz cristalina" />
     <part Name="Description" Short="Fibras hexagonales de cristal delicado se enredan por la tierra y empujan el fulgor psíquico ambiental por el floema hacia las campanas sintientes." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Crystalline Radicle" Load="Merge">
     <part Name="Render" DisplayName="raíz cristalina joven" />
@@ -297,9 +340,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="TauSoft" Load="Merge">
     <part Name="Render" DisplayName="blando luminoso" />
     <part Name="Description" Short="Raíces de corazón se enredan en el bostezante nexo psíquico del árbol de cristal. Arden con la luz de la materia sensible gaseosa, todas las pizcas de orden ambiental en el suelo y la roca animadas por un alabeo dimensional más profundo. Esta es una orilla en el mar psíquico." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseStalagmite" Load="Merge">
     <part Name="Render" DisplayName="estalagmita" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="MiasmaticStalagmite" Load="Merge">
     <part Name="Description" Short="Un escuadrón de miembros de roca colada se aferra al suelo de la cueva, y un tronco anillado de calcita asoma al aire podrido. Su ápice giratorio está envuelto en hueso-hecho-vapor." />
@@ -307,9 +352,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="DirtFloor" Load="Merge">
     <part Name="Render" DisplayName="suelo de tierra apisonada" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DirtPath" Load="Merge">
     <part Name="Render" DisplayName="senda de tierra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="DirtRoad" Load="Merge">
     <part Name="Render" DisplayName="senda de tierra" />
@@ -332,10 +379,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="FungalTrailBrick" Load="Merge">
     <part Name="Render" DisplayName="senda de coral" />
     <part Name="Description" Short="Ladrillos de coral teselan la senda hacia otro lugar." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="CryptTrail" Load="Merge">
     <part Name="Render" DisplayName="paseo de mármol negro" />
     <part Name="Description" Short="Rectángulos de mármol negro teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="StiltTile" Load="Merge">
     <part Name="Render" DisplayName="baldosa blanca" />
@@ -343,63 +392,79 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Bridge" Load="Merge">
     <part Name="Render" DisplayName="puente" />
     <part Name="Description" Short="Rectángulos de ladrillo teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MetalWalkway" Load="Merge">
     <part Name="Render" DisplayName="paseo de metal" />
     <part Name="Description" Short="Rectángulos de metal teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BrickWalkway" Load="Merge">
     <part Name="Render" DisplayName="paseo de ladrillo" />
     <part Name="Description" Short="Rectángulos de ladrillo teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MarbleWalkway" Load="Merge">
     <part Name="Render" DisplayName="paseo de mármol" />
     <part Name="Description" Short="Rectángulos de mármol teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CyanMarbleWalkway" Load="Merge">
     <part Name="Render" DisplayName="paseo de mármol" />
     <part Name="Description" Short="Rectángulos de mármol teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BlackMarbleWalkway" Load="Merge">
     <part Name="Render" DisplayName="paseo de mármol negro" />
     <part Name="Description" Short="Rectángulos de mármol negro teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GreyMarbleWalkway" Load="Merge">
     <part Name="Render" DisplayName="paseo de mármol" />
     <part Name="Description" Short="Rectángulos de mármol gris teselan la senda." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="WoodFloor" Load="Merge">
     <part Name="Render" DisplayName="suelo de madera" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BrineBridge" Load="Merge">
     <part Name="Render" DisplayName="puente" />
     <part Name="Description" Short="Un puente hecho de tallo de salmuera seco." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SaltDune" Load="Merge">
     <part Name="Render" DisplayName="duna de sal" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="HighSaltDune" Load="Merge">
     <part Name="Render" DisplayName="duna de sal" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Sunken Room Stairs" Load="Merge">
     <part Name="Render" DisplayName="peldaños de mármol" />
     <part Name="Description" Short="Rectángulos de mármol moteado sirven de pasaderas para entrar y salir del foso." />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Primal Grass" Load="Merge">
     <part Name="Render" DisplayName="hierba primigenia" />
     <stag Name="Plank" Value="paja" />
     <stag Name="Fiber" Value="brizna" />
     <stag Name="FiberMaterial" Value="hierba" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="SmallHexFloor" Load="Merge">
     <part Name="Render" DisplayName="suelo extraño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="FoamcreteFloor" Load="Merge">
     <part Name="Render" DisplayName="suelo de espumigón" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Web" Load="Merge">
     <part Name="Render" DisplayName="telaraña" />
     <part Name="Description" Short="Seda reluciente fue hilada en espiral de captura y montada sobre una serie de hilos puente." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="FrostWeb" Load="Merge">
     <part Name="Render" DisplayName="telaraña escarchada" />
@@ -411,7 +476,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Stairs" Load="Merge">
     <part Name="Render" DisplayName="escaleras" />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="fp" massNoun="true" />
   </object>
   <object Name="StairsUp" Load="Merge">
     <part Name="Render" DisplayName="escaleras arriba" />
@@ -429,7 +494,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="OpenShaft" Load="Merge">
     <part Name="Render" DisplayName="pozo profundo" />
     <part Name="Description" Short="La oscuridad sube a raudales desde el espacio vacío." />
-    <xtagGrammar massNoun="false" />
+    <xtagGrammar concord="ms" massNoun="false" />
   </object>
   <object Name="Air" Load="Merge">
     <part Name="Render" DisplayName="aire libre" />
@@ -456,6 +521,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="PondDown" Load="Merge">
     <part Name="Render" DisplayName="grieta pequeña" />
     <part Name="Description" Short="Una hendidura en la piedra roja se abre a una rociada de agua del subsuelo." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Yd StairsDown Kitchen" Load="Merge">
     <part Name="Render" DisplayName="escaleras abajo a la cocina" />
