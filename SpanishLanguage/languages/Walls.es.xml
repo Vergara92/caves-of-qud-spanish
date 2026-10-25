@@ -620,7 +620,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="GolemInteriorWall" Load="Merge">
     <part Name="Render" DisplayName="arcilla electrococida, placas de metal y tejido" />
     <part Name="Description" Short="Un revestimiento de tejido húmedo se extiende sobre arcilla electrococida y placas de metal soldadas. Bajo una película translúcida, retículas de subcircuitería parpadean con su luz dorada." />
-    <xtagGrammar concord="fs" massNoun="true" />
+    <xtagGrammar concord="mp" massNoun="true" />
   </object>
   <object Name="GolemInteriorWall Endcap" Load="Merge">
     <part Name="Render" DisplayName="interior" />

@@ -1639,12 +1639,12 @@ alone if no match found.
   <string Context="QudAPISaves FatalSaveError QuitButton" ID="Quit">Salir</string>
   <string Context="Fungal Biome - Creature Role" ID="friend to fungi">amigo de los hongos</string>
   <string Context="Rusty Biome - Creature Role" ID="{{r|qudzu}} symbiote">simbionte de {{r|qudzu}}</string>
-  <string Context="Rusty Biome - Faction Qudzu Adjective" ID="domesticated" OrderAdjust="520">de cultivo</string>
-  <string Context="Slimy Biome - Creature Adjective (has feet)" ID="web-toed" OrderAdjust="520">de dedos palmeados</string>
-  <string Context="Slimy Biome - Creature Adjective (no feet)" ID="slimy-finned" OrderAdjust="520">de aletas viscosas</string>
+  <string Context="Rusty Biome - Faction Qudzu Adjective" ID="domesticated" OrderAdjust="515">de cultivo</string>
+  <string Context="Slimy Biome - Creature Adjective (has feet)" ID="web-toed" OrderAdjust="515">de dedos palmeados</string>
+  <string Context="Slimy Biome - Creature Adjective (no feet)" ID="slimy-finned" OrderAdjust="515">de aletas viscosas</string>
   <string Context="Slimy Biome - Creature Adjective" ID="slime-spitting" OrderAdjust="520">que escupe limo</string>
-  <string Context="Tarry Biome - Creature Adjective" ID="kindlethumbed" OrderAdjust="520">de pulgar de yesca</string>
-  <string Context="Tarry Biome - Creature Adjective" ID="firethumbed" OrderAdjust="520">de pulgar de fuego</string>
+  <string Context="Tarry Biome - Creature Adjective" ID="kindlethumbed" OrderAdjust="515">de pulgar de yesca</string>
+  <string Context="Tarry Biome - Creature Adjective" ID="firethumbed" OrderAdjust="515">de pulgar de fuego</string>
   <string Context="DynamicQuestConversationHelper reward choice dialog" ID="=spice:quests.thanks.!random|capitalize=. Our village owes you a debt. For now, please choose a reward from our stockpile as payment for your service.">=spice:quests.thanks.!random|capitalize=. Nuestra aldea está en deuda contigo. Por ahora, elige una recompensa de nuestras reservas como pago por tu servicio.</string>
   <string Context="DynamicQuestConversationHelper reward choice choice" ID="Live and drink.">Vive y bebe.</string>
   <string Context="DynamicQuestConversationHelper village zero main quest dialog" ID="They are disciples of Barathrum. Mostly they are Urshiib, like their mentor. Mutant albino cave bears. With quills to boot! A thousand years ago Barathrum and his kin crossed the Homs Delta into the heart of Qud. He has spent centuries fiddling with the tokens of antiquity in his underground workshops.">Son discípulos de Barathrum. En su mayoría son Urshiib, como su mentor. Osos de las cavernas albinos y mutantes. ¡Y con púas, además! Hace mil años, Barathrum y los suyos cruzaron el Delta de Homs hasta el corazón de Qud. Lleva siglos enredando con las reliquias de la antigüedad en sus talleres subterráneos.</string>
@@ -3488,7 +3488,7 @@ alone if no match found.
   <string Context="Hookah Fail NoWater" ID="=subject.Does:need= water in =subject.them=.">=subject.The.name= necesita agua dentro.</string>
   <string Context="Hookah Fail NoWater" ID="=object.Does:need= water in =subject.them=.">=object.The.name= necesita agua dentro.</string>
   <string Context="Hookah Puffs" ID="=subject.Does:take= a puff on =object.the.name=.">=subject.The.name= da una calada a =object.the.name=.</string>
-  <string Context="Icy DisplayName Adjective" ID="{{icy|icy}}" OrderAdjust="520">{{icy|de hielo}}</string>
+  <string Context="Icy DisplayName Adjective" ID="{{icy|icy}}" OrderAdjust="515">{{icy|de hielo}}</string>
   <string Context="Insulating RulesPostfix" ID="Severity of cooling effects reduced by =amount=%. Cold damage reduced by =amount=%.">La gravedad de los efectos de enfriamiento se reduce un =amount=%. El daño por frío se reduce un =amount=%.</string>
   <string Context="IProgrammableRecoiler Fail MerelyClicks" ID="=subject.Doesly:merely:click=.">=subject.The.name= se limita a hacer clic.</string>
   <string Context="IProgrammableRecoiler ImprintFail InsufficientCharge" ID="=subject.Does:do= not have enough charge to be imprinted with the current location.">=subject.The.name= no tiene carga suficiente para grabar la ubicación actual.</string>
@@ -3861,7 +3861,7 @@ alone if no match found.
   <string ID="=subject.Does:swim= through =object.a.name=.">=subject.The.name= nada a través de =object.a.name=.</string>
   <string ID="=subject.Does:wade= through =object.a.name=.">=subject.The.name= vadea =object.a.name=.</string>
   <string Context="Liquid Volume - Water container sorting placeholder" ID="Water Containers">Recipientes de agua</string>
-  <string Context="Liquid Volume - Pool swimming depth adjective" ID="deep" OrderAdjust="520">de gran profundidad</string>
+  <string Context="Liquid Volume - Pool swimming depth adjective" ID="deep" OrderAdjust="515">de gran profundidad</string>
   <string Context="Liquid Volume - Base name replace, less than wading depth" ID="puddle">charco</string>
   <string Context="Liquid Volume - Description Tag (empty, sealed, nocolor)" ID="[empty, sealed]" OrderAdjust="-5">[vacío, sellado]</string>
   <string Context="Liquid Volume - Description Tag (empty, sealed)" ID="{{y|[{{K|empty, {{c|sealed}}}}]}}" OrderAdjust="-5">{{y|[{{K|vacío, {{c|sellado}}}}]}}</string>
@@ -4138,7 +4138,7 @@ alone if no match found.
   <string Context="IModification Wish No Modification" ID="No modification specified.">No se especificó ninguna modificación.</string>
   <string Context="IModification Wish Modification Unfound" ID="No modification by the name '=modName=' could be found.">No se encontró ninguna modificación con el nombre '=modName='.</string>
   <string Context="IModification Wish Blueprint Unfound" ID="No blueprint by the name '=objectName=' could be found.">No se encontró ningún plano con el nombre '=objectName='.</string>
-  <string Context="ModAirfoil Adjective" ID="{{Y|airfoil}}" OrderAdjust="520">{{Y|de perfil aerodinámico}}</string>
+  <string Context="ModAirfoil Adjective" ID="{{Y|airfoil}}" OrderAdjust="515">{{Y|de perfil aerodinámico}}</string>
   <string Context="ModAirfoil Description" ID="Airfoil: This item can be thrown at +4 throwing range.">Aerodinámico: este objeto puede lanzarse con +4 de alcance de lanzamiento.</string>
   <string Context="ModBeamSplitter TechScanning NameForStatus" ID="Beamsplitter">Beamsplitter</string>
   <string Context="ModBeamSplitter Display Adjective" ID="{{R-R-r-r-g-g-G-G-B-B-b-b sequence|beamsplitter}}" OrderAdjust="0">{{R-R-r-r-g-g-G-G-B-B-b-b sequence|divisor de haz}}</string>
@@ -4146,12 +4146,12 @@ alone if no match found.
   <string Context="ModBeetlehost Techscanning NameForStatus" ID="AutomataFab">AutomataFab</string>
   <string Context="ModBeetlehost Postfix" ID="When powered, discharges a clockwork beetle friend on hit. Drains cell power quickly.">Con energía, al impactar libera un escarabajo mecánico amistoso. Agota rápido la energía de la célula.</string>
   <string Context="ModBiomech Techscanning NameForStatus" ID="Biomachinery">Biomachinery</string>
-  <string Context="ModBiomech Description Adjective" ID="{{biomech|biomech}}" OrderAdjust="520">{{biomech|con biomecánica}}</string>
+  <string Context="ModBiomech Description Adjective" ID="{{biomech|biomech}}" OrderAdjust="515">{{biomech|de tipo biomecánico}}</string>
   <string Context="ModBiomech Description" ID="Biomech: Has biomechanical power transmission systems.">Biomecánico: tiene sistemas biomecánicos de transmisión de energía.</string>
   <string Context="ModBlinkEscape Techscanning NameForStatus" ID="EmergencyTeleporter">EmergencyTeleporter</string>
   <string Context="ModBlinkEscape Description" ID="Whenever you're about to take avoidable damage, there's =chance.a.number=% chance you blink away instead.">Cada vez que estás a punto de recibir daño evitable, hay un =chance.a.number=% de probabilidad de que parpadees y desaparezcas en su lugar.</string>
   <string ID="Fate intervenes and you deal no damage to =object.the.name=.">El destino interviene y no infliges daño alguno a =object.the.name=.</string>
-  <string Context="ModCamo Display Adjective" ID="{{camouflage|camo}}" OrderAdjust="520">{{camouflage|de camuflaje}}</string>
+  <string Context="ModCamo Display Adjective" ID="{{camouflage|camo}}" OrderAdjust="515">{{camouflage|de camuflaje}}</string>
   <string Context="ModCleated Techscanning NameForStatus" ID="StabilityAssist">StabilityAssist</string>
   <string Context="ModCleated DisplayName WithClause" ID="cleats" OrderAdjust="0">tacos</string>
   <string Context="ModCleated Description" ID="Fitted with cleats: =saveVs.saveBonus#amount=">Con tacos: =saveVs.saveBonus#amount=</string>
@@ -4167,7 +4167,7 @@ alone if no match found.
   <string Context="ModCounterweighted Description" ID="Counterweighted: Adds =bonus.signed= to hit.">Contrapesado: añade =bonus.signed= al impacto.</string>
   <string Context="ModCounterweighted Description" ID="Counterweighted: Adds a bonus to hit.">Contrapesado: añade una bonificación al impacto.</string>
   <string Context="ModCybrid Techscanning NameForStatus" ID="BiomechanicalAdapter">BiomechanicalAdapter</string>
-  <string Context="ModCybrid Adjective" ID="{{biomech|cybrid}}" OrderAdjust="520">{{biomech|de tipo cíbrido}}</string>
+  <string Context="ModCybrid Adjective" ID="{{biomech|cybrid}}" OrderAdjust="515">{{biomech|de tipo cíbrido}}</string>
   <string Context="ModCybrid Description" ID="Cybrid: Can draw power from biomechanical power transmission systems in addition to an electrical power grid.">Cíbrido: puede extraer energía de sistemas biomecánicos de transmisión de energía además de una red eléctrica.</string>
   <string Context="ModDesecrated Adjective" ID="{{K|desecrated}}" OrderAdjust="520">{{K|con marcas de profanación}}</string>
   <string Context="ModDesecrated Short Description" ID="Desecrated: This object has been desecrated by vandals.">Profanado: este objeto ha sido profanado por vándalos.</string>
@@ -4182,11 +4182,11 @@ alone if no match found.
   <string Context="ModDisguise Instance Description Part1" ID="Disguise: This item makes its wearer appear to be =appearance=.">Disfraz: este objeto hace que quien lo lleva parezca =appearance=.</string>
   <string Context="ModDisguise Instance Description Reputation Lines" ID="=level.signed= reputation with =faction.formattedName=">=level.signed= de reputación con =faction.formattedName=</string>
   <string Context="ModDisplacer Techscanning NameForStatus" ID="SpatialTransposer">SpatialTransposer</string>
-  <string Context="ModDisplacer DisplayName Adjective" ID="{{displacer|displacer}}" OrderAdjust="520">{{displacer|de desplazamiento}}</string>
+  <string Context="ModDisplacer DisplayName Adjective" ID="{{displacer|displacer}}" OrderAdjust="515">{{displacer|de desplazamiento}}</string>
   <string Context="ModDisplacer Description" ID="Displacer: When powered, this weapon randomly teleports its target =min=-=max= tiles away on a successful hit.">Desplazador: con energía, al impactar esta arma teletransporta a su objetivo de forma aleatoria a =min=-=max= casillas de distancia.</string>
   <string Context="ModDisplacer Examine Failure" ID="=subject.Does:bump= into =object.the.name=.">=subject.The.name= choca con =object.the.name=.</string>
   <string Context="ModDisplacer Examine Failure Popup" ID="You are suddenly elsewhere!">¡De repente estás en otra parte!</string>
-  <string Context="ModDrumLoaded DisplayName Adjective" ID="drum-loaded" OrderAdjust="520">de tambor</string>
+  <string Context="ModDrumLoaded DisplayName Adjective" ID="drum-loaded" OrderAdjust="515">de tambor</string>
   <string Context="ModDrumLoaded Short Description" ID="Drum-loaded: This weapon may hold 20% additional ammo.">De tambor: esta arma puede albergar un 20% más de munición.</string>
   <string Context="ModElectrified Techscanning NameForStatus" ID="ArcDischarger">ArcDischarger</string>
   <string Context="ModElectrified DisplayName Adjective" ID="{{electrical|electrified}}" OrderAdjust="520">{{electrical|con carga eléctrica}}</string>
@@ -4197,7 +4197,7 @@ alone if no match found.
   <string Context="Engraved Postfix" ID="Engraved: This item is engraved with a scene from the life of the ancient =sultanTerm= {{magenta|=sultan=}}:&#xA;&#xA;=engraving=" Value="Grabado: este objeto está grabado con una escena de la vida del antiguo =sultanTerm= {{magenta|=sultan=}}:&#xA;&#xA;=engraving=" />
   <string Context="ModEngraved Story Marred" ID="&lt;marred and unreadable&gt;">&lt;estropeado e ilegible&gt;</string>
   <string Context="ModExtradimensional Techscanning NameForStatus" ID="***ERROR***">***ERROR***</string>
-  <string Context="ModExtradimensional DisplayName Adjective" ID="{{extradimensional|extradimensional}}" OrderAdjust="520">{{extradimensional|de origen extradimensional}}</string>
+  <string Context="ModExtradimensional DisplayName Adjective" ID="{{extradimensional|extradimensional}}" OrderAdjust="515">{{extradimensional|de origen extradimensional}}</string>
   <string Context="ModExtraDimensional Description" ID="Extradimensional: This item recently materialized in this dimension having inherited some properties from its home dimension, {{O|=dimensionName=}}.&#xA;" Value="Extradimensional: este objeto se materializó hace poco en esta dimensión tras heredar algunas propiedades de su dimensión de origen, {{O|=dimensionName=}}.&#xA;" />
   <string Context="ModExtraDimensional Make Popup Title" ID="Pick item">Elige un objeto</string>
   <string Context="ModFactionSlayer Techscanning NameForStatus" ID="ProfilingEngine">ProfilingEngine</string>
@@ -4213,7 +4213,7 @@ alone if no match found.
   <string Context="ModFlaming Description Tier&gt;0" ID="Flaming: When powered, this weapon deals an additional =damageRange= heat damage on hit.">En llamas: con energía, al impactar esta arma inflige =damageRange= de daño por calor adicional.</string>
   <string Context="ModFlaming Description Tier Zero" ID="Flaming: When powered, this weapon deals additional heat damage on hit.">En llamas: con energía, al impactar esta arma inflige daño por calor adicional.</string>
   <string Context="ModFlaming Instance Description" ID="Flaming: When powered, this weapon deals an additional =damageRange= heat damage on hit.">En llamas: con energía, al impactar esta arma inflige =damageRange= de daño por calor adicional.</string>
-  <string Context="ModFlexiweaved Display Adjective" ID="flexiweaved(=modLevel=)" OrderAdjust="520">de flexitrenzado(=modLevel=)</string>
+  <string Context="ModFlexiweaved Display Adjective" ID="flexiweaved(=modLevel=)" OrderAdjust="515">de flexitrenzado(=modLevel=)</string>
   <string Context="ModFlexiweaved Description Tier&gt;0" ID="Flexiweaved: This item's DV penalty is reduced by =modLevel=.">Flexitrenzado: la penalización de DV de este objeto se reduce en =modLevel=.</string>
   <string Context="ModFlexiweaved Description Tier Zero" ID="Flexiweaved: This item's DV penalty is reduced.">Flexitrenzado: la penalización de DV de este objeto se reduce.</string>
   <string Context="ModFreezing Techscanning NameForStatus" ID="HeatPump">HeatPump</string>
@@ -4225,7 +4225,7 @@ alone if no match found.
   <string Context="ModGesticulating Display Adjective" ID="{{m|gesticulating}}" OrderAdjust="520">{{m|con gesticulación}}</string>
   <string Context="ModGesticulating Description" ID="Gesticulating: This item grants +=bonus= =strength.Name= but disallows the use of the Floating Nearby equipment slot.">Gesticulante: este objeto otorga +=bonus= =strength.Name= pero impide el uso de la ranura de equipo Flotando Cerca.</string>
   <string Context="ModGigantic Techscanning NameForStatus" ID="MassEnhancement">MassEnhancement</string>
-  <string Context="ModGigantic DisplayName Adjective" ID="gigantic" OrderAdjust="520">de tamaño gigante</string>
+  <string Context="ModGigantic DisplayName Adjective" ID="gigantic" OrderAdjust="515">de tamaño gigante</string>
   <string Context="ModGigantic Description" ID="Gigantic: This item is much heavier than usual and can only be equipped by gigantic creatures.">Gigantesco: este objeto pesa mucho más de lo normal y solo pueden equiparlo criaturas gigantescas.</string>
   <string Context="ModGigantic GetDescription" ID="Gigantic: =subject.modGiganticDescription=">Gigantesco: =subject.modGiganticDescription=</string>
   <string Context="ModGlassArmor Armor Type" ID="glass">vidrio</string>
@@ -4240,15 +4240,15 @@ alone if no match found.
   <string Context="ModHeatSeeking Display Adjective" ID="homing" OrderAdjust="520">con autoguiado</string>
   <string Context="ModHeatSeeking Description" ID="Homing: This weapon ignores DV.">Autoguiado: esta arma ignora la DV.</string>
   <string Context="ModHighCapacity Techscanning NameForStatus" ID="HighCapacityStorage">HighCapacityStorage</string>
-  <string Context="ModHighCapacity Display Adjective" ID="{{c|high-capacity}}" OrderAdjust="520">{{c|de alta capacidad}}</string>
+  <string Context="ModHighCapacity Display Adjective" ID="{{c|high-capacity}}" OrderAdjust="515">{{c|de alta capacidad}}</string>
   <string Context="ModHighCapacity Description" ID="High-capacity: This item has increased charge capacity.">De alta capacidad: este objeto tiene mayor capacidad de carga.</string>
   <string Context="ModIlluminated Display Adjective" ID="[{{illuminated|illuminated}}]" OrderAdjust="520">[{{illuminated|con luz}}]</string>
   <string Context="ModIlluminated Description" ID="Illuminated: This book is adorned with decorative marginalia and illustrations. It's worth 30% more.">Iluminado: este libro está adornado con marginalia decorativa e ilustraciones. Vale un 30% más.</string>
-  <string Context="ModInduction Display Adjective" ID="{{Y|induction}}" OrderAdjust="520">{{Y|de inducción}}</string>
+  <string Context="ModInduction Display Adjective" ID="{{Y|induction}}" OrderAdjust="515">{{Y|de inducción}}</string>
   <string Context="ModInduction Description" ID="Induction: This item may be charged at induction charging stations.">Inducción: este objeto puede cargarse en estaciones de carga por inducción.</string>
   <string Context="ModJacked Display Adjective" ID="{{c|jacked}}" OrderAdjust="520">{{c|con conector}}</string>
   <string Context="ModJacked Description" ID="Jacked: When equipped by a robot, cyborg, or mutant with the ability to generate electricity or access to grid power, this item can draw power.">Enchufado: cuando lo equipa un robot, cíborg o mutante con la capacidad de generar electricidad o con acceso a la energía de la red, este objeto puede extraer energía.</string>
-  <string Context="ModJewelEncrusted Display Adjective" ID="jewel-encrusted" OrderAdjust="-20">enjoyado</string>
+  <string Context="ModJewelEncrusted Display Adjective" ID="jewel-encrusted" OrderAdjust="520">con joyas incrustadas</string>
   <string Context="ModJewelEncrusted Description" ID="Jewel-Encrusted: This item is much more valuable than usual and grants the wearer =amount.signed= reputation with water barons.">Enjoyado: este objeto vale mucho más de lo normal y otorga a quien lo lleva =amount.signed= de reputación con los barones del agua.</string>
   <string Context="ModLacquered Display Adjective" ID="{{lacquered|lacquered}}" OrderAdjust="520">{{lacquered|con laca}}</string>
   <string Context="ModLacquered Description" ID="Lacquered: This item repels liquids and cannot rust.">Lacado: este objeto repele los líquidos y no puede oxidarse.</string>
@@ -4285,29 +4285,29 @@ alone if no match found.
   <string Context="ModMagnetized Description" ID="Magnetized: This item floats around you.">Magnetizado: este objeto flota a tu alrededor.</string>
   <string Context="ModMagnetic Falls Down Picked Up" ID="=subject.Does:fall= to the ground; you pick =subject.them= up.">=subject.The.name= cae al suelo; lo recoges.</string>
   <string Context="ModMagnetic Falls Down" ID="=subject.Does:fall= to the ground.">=subject.The.name= cae al suelo.</string>
-  <string Context="ModMasterwork Display Adjective" ID="{{Y|masterwork}}" OrderAdjust="520">{{Y|de factura maestra}}</string>
+  <string Context="ModMasterwork Display Adjective" ID="{{Y|masterwork}}" OrderAdjust="515">{{Y|de factura maestra}}</string>
   <string Context="ModMasterwork Description" ID="Masterwork: This weapon scores critical hits =bonus=% of the time instead of 5%.">Obra maestra: esta arma asesta golpes críticos el =bonus=% de las veces en lugar del 5%.</string>
   <string Context="ModMercurial Techscanning NameForStatus" ID="ReactiveTeleporter">ReactiveTeleporter</string>
-  <string Context="ModMercurial Display Adjective" ID="{{Y|mercurial}}" OrderAdjust="520">{{Y|de mercurio}}</string>
+  <string Context="ModMercurial Display Adjective" ID="{{Y|mercurial}}" OrderAdjust="515">{{Y|de tipo mercurial}}</string>
   <string Context="ModMercurial Instance Description Assured" ID="Mercurial: Teleports the user to safety upon taking damage.">Mercurial: teletransporta a quien lo usa a un lugar seguro al recibir daño.</string>
   <string Context="ModMercurial Instance Description Chance" ID="Mercurial: Teleports the user to safety upon taking damage (=chance=% chance).">Mercurial: teletransporta a quien lo usa a un lugar seguro al recibir daño (=chance=% de probabilidad).</string>
   <string Context="ModMetered Techscanning NameForStatus" ID="ChargeMeter">ChargeMeter</string>
   <string Context="ModMetered Display Adjective" ID="{{c|metered}}" OrderAdjust="520">{{c|con medidor}}</string>
   <string Context="ModMetered Description" ID="Metered: This item has a readout displaying its charge percentage.">Con medidor: este objeto tiene una pantalla que muestra su porcentaje de carga.</string>
   <string Context="ModMorphogenetic Techscanning NameForStatus" ID="MorphogeneticResonator">MorphogeneticResonator</string>
-  <string Context="ModMorphogenetic Display Adjective" ID="{{m|morphogenetic}}" OrderAdjust="520">{{m|de morfogénesis}}</string>
+  <string Context="ModMorphogenetic Display Adjective" ID="{{m|morphogenetic}}" OrderAdjust="515">{{m|de morfogénesis}}</string>
   <string Context="ModMorphogenetic Description" ID="Morphogenetic: When powered and used to perform a successful, damaging hit, this weapon attempts to daze all other creatures of the same species as your target on the local map. Compute power on the local lattice increases the strength of this effect.">Morfogenético: con energía y al asestar un golpe certero que cause daño, esta arma intenta aturdir a todas las demás criaturas de la misma especie que tu objetivo en el mapa local. La potencia de cómputo de la retícula local aumenta la fuerza de este efecto.</string>
   <string Context="ModMorphogenetic Shock Message" ID="A weird=analgesic.if::, painful= shock reverberates through you.">Una sacudida extraña=analgesic.if::y dolorosa= reverbera por todo tu cuerpo.</string>
   <string Context="ModNanon Techscanning NameForStatus" ID="Nanon">Nanon</string>
-  <string Context="ModNanon Display Adjective" ID="{{K|nanon}}" OrderAdjust="520">{{K|de nanones}}</string>
+  <string Context="ModNanon Display Adjective" ID="{{K|nanon}}" OrderAdjust="515">{{K|de nanones}}</string>
   <string Context="ModNanon Description" ID="Nanon: This weapon has a chance to dismember on penetration.">Nanón: esta arma tiene una probabilidad de desmembrar al penetrar.</string>
   <string Context="ModNanon Description Non Zero Tier Single" ID="Nanon: =high=% chance to dismember on penetration">Nanón: =high=% de probabilidad de desmembrar al penetrar</string>
   <string Context="ModNanon Description Non Zero Tier Single" ID="Nanon: =low=-=high=% chance to dismember on penetration">Nanón: =low=-=high=% de probabilidad de desmembrar al penetrar</string>
   <string Context="ModNanon Instance Description" ID="Nanon: =chance=% chance to dismember upon penetration">Nanón: =chance=% de probabilidad de desmembrar al penetrar</string>
   <string Context="ModNanon Instance Description" ID="Nanon: =chance=% chance to dismember on penetration">Nanón: =chance=% de probabilidad de desmembrar al penetrar</string>
-  <string Context="ModNav Display Adjective" ID="{{r|nav}}" OrderAdjust="520">{{r|de navegación}}</string>
+  <string Context="ModNav Display Adjective" ID="{{r|nav}}" OrderAdjust="515">{{r|de navegación}}</string>
   <string Context="ModNav Description" ID="Nav: When powered and booted up, this item enhances navigation.">Nav: con energía y arrancado, este objeto mejora la navegación.</string>
-  <string Context="ModNulling Display Adjective" ID="{{K|nulling}}" OrderAdjust="520">{{K|de anulación}}</string>
+  <string Context="ModNulling Display Adjective" ID="{{K|nulling}}" OrderAdjust="515">{{K|de anulación}}</string>
   <string Context="ModNulling Generic Description" ID="Nulling: When powered on a weapon, this item astrally burdens its target on hit. When powered on a piece of armor or shield, this item astrally burdens its wearer. Compute power on the local lattice increases the effectiveness of this effect.">Anulador: con energía en un arma, al impactar este objeto carga astralmente a su objetivo. Con energía en una pieza de armadura o un escudo, este objeto carga astralmente a quien lo lleva. La potencia de cómputo de la retícula local aumenta la eficacia de este efecto.</string>
   <string Context="ModNulling Armor Description" ID="Nulling: When powered, this armor astrally burdens its wearer. Compute power on the local lattice increases the effectiveness of this effect.">Anulador: con energía, esta armadura carga astralmente a quien la lleva. La potencia de cómputo de la retícula local aumenta la eficacia de este efecto.</string>
   <string Context="ModNulling Shield Description" ID="Nulling: When powered, this shield astrally burdens its wielder. Compute power on the local lattice increases the effectiveness of this effect.">Anulador: con energía, este escudo carga astralmente a quien lo empuña. La potencia de cómputo de la retícula local aumenta la eficacia de este efecto.</string>
@@ -4324,16 +4324,16 @@ alone if no match found.
   <string Context="ModPainted Description Adjective" ID="{{painted|painted}}" OrderAdjust="520">{{painted|con pinturas}}</string>
   <string Context="Painted Postfix" ID="Painted: This item is painted with a scene from the life of the ancient =sultanTerm= {{magenta|=sultan=}}:&#xA;&#xA;=painting=" Value="Pintado: este objeto está pintado con una escena de la vida del antiguo =sultanTerm= {{magenta|=sultan=}}:&#xA;&#xA;=painting=" />
   <string Context="ModPainted Story Marred" ID="&lt;marred and unreadable&gt;">&lt;estropeado e ilegible&gt;</string>
-  <string Context="ModPhaseConjugate" ID="{{K|phase-conjugate}}" OrderAdjust="520">{{K|de conjugación de fase}}</string>
+  <string Context="ModPhaseConjugate" ID="{{K|phase-conjugate}}" OrderAdjust="515">{{K|de conjugación de fase}}</string>
   <string Context="ModPhaseConjugate Description" ID="Phase-conjugate: This explosive shifts phase immediately before detonating.">Conjugado de fase: este explosivo cambia de fase justo antes de detonar.</string>
   <string Context="ModPhaseHarmonic Techscanning NameForStatus" ID="PhaseRegulator">PhaseRegulator</string>
-  <string Context="ModPhaseHarmonic Display Adjective" ID="{{phase-harmonic|phase-harmonic}}" OrderAdjust="520">{{phase-harmonic|de armonía de fase}}</string>
+  <string Context="ModPhaseHarmonic Display Adjective" ID="{{phase-harmonic|phase-harmonic}}" OrderAdjust="515">{{phase-harmonic|de armonía de fase}}</string>
   <string Context="ModPhaseHarmonic Description" ID="Phase-Harmonic: This weapon can affect both in-phase and out-of-phase objects.">Armónico de fase: esta arma puede afectar tanto a objetos en fase como fuera de fase.</string>
-  <string Context="ModPiping Display Adjective" ID="piping" OrderAdjust="0">con tuberías</string>
+  <string Context="ModPiping Display Adjective" ID="piping" OrderAdjust="0">tuberías</string>
   <string Context="ModPiping Description" ID="Piping: Has hydraulic pipes installed.">Con tuberías: tiene instaladas tuberías hidráulicas.</string>
   <string Context="ModPolarized Display Adjective" ID="{{polarized|polarized}}" OrderAdjust="520">{{polarized|con polarización}}</string>
   <string Context="ModPolarized Description" ID="Polarized: The item offers protection against visual flash effects.">Polarizado: el objeto ofrece protección contra los efectos de destello visual.</string>
-  <string Context="ModPsionic Display Adjective" ID="{{psionic|psionic}}" OrderAdjust="520">{{psionic|de poder psiónico}}</string>
+  <string Context="ModPsionic Display Adjective" ID="{{psionic|psionic}}" OrderAdjust="515">{{psionic|de poder psiónico}}</string>
   <string Context="ModPsionic Display Remaining" ID="(=remainingDesc=)" OrderAdjust="-40">(=remainingDesc=)</string>
   <string Context="ModPsionic Disappear Message" ID="=subject.Does:disappear=.">=subject.The.name= desaparece.</string>
   <string Context="ModPsionic Description" ID="Psionic: This weapon uses the wielder's Ego modifier for penetration bonus instead of Strength mod and attacks MA instead of AV. It will dissipate from the corporeal realm after some use.">Psiónico: esta arma usa el modificador de Ego de quien la empuña como bonificación de penetración en lugar del mod de Fuerza, y ataca a MA en lugar de a AV. Se disipará del plano corpóreo tras cierto uso.</string>
@@ -4350,7 +4350,7 @@ alone if no match found.
   <string Context="ModQuantumReverb Description" ID="Quantum reverb: When fired, this weapon creates a hologram of its wielder who continues to fire along the same path.">Reverberación cuántica: al disparar, esta arma crea un holograma de quien la empuña que sigue disparando a lo largo de la misma trayectoria.</string>
   <string Context="ModRadioPowered Display Adjective" ID="{{C|radio-powered}}" OrderAdjust="520">{{C|con alimentación por radio}}</string>
   <string Context="ModRadioPowered Description" ID="Radio-powered: This item can be recharged via broadcast power.">Alimentado por radio: este objeto puede recargarse mediante energía emitida.</string>
-  <string Context="ModRecycling Display Adjective" ID="{{B|recycling}}" OrderAdjust="520">{{B|de reciclaje}}</string>
+  <string Context="ModRecycling Display Adjective" ID="{{B|recycling}}" OrderAdjust="515">{{B|de reciclaje}}</string>
   <string Context="ModRecycling Description With Liquid Volume" ID="Recycling: This item collects, purifies, and stores up to =max.cardinal.things:dram= of the wearer's wastewater.">Reciclador: este objeto recoge, purifica y almacena hasta =max.things:dracma= de aguas residuales de quien lo lleva.</string>
   <string Context="ModRecycling Description With Liquid Volume" ID="Recycling: This item collects, purifies and stores up to =max.cardinal= =max.pluralize:drams= of the wearer's wastewater.">Reciclador: este objeto recoge, purifica y almacena hasta =max.cardinal= dracmas de aguas residuales de quien lo lleva.</string>
   <string Context="ModRecycling Description Without Liquid Volume" ID="Recycling: This item collects and purifies the wearer's wastewater.">Reciclador: este objeto recoge y purifica las aguas residuales de quien lo lleva.</string>
@@ -4374,16 +4374,16 @@ alone if no match found.
   <string Context="ModSereneVisage Display Adjective" ID="{{Y|serene}} visage" OrderAdjust="0">semblante {{Y|sereno}}</string>
   <string Context="ModSereneVisage Description" ID="Serene visage: This item grants bonus Willpower, and reduces the cooldown of Meditate by 40 rounds. It requires both the head and face to wear.">Semblante sereno: este objeto otorga Voluntad adicional y reduce la recarga de Meditar en 40 turnos. Requiere tanto la cabeza como la cara para llevarse.</string>
   <string Context="ModSereneVisage Description" ID="Serene visage: This item grants bonus Willpower, reduces the cooldown of Meditate by 40 rounds, and is worn on both the head and face. It requires both the head and face to wear.">Semblante sereno: este objeto otorga Voluntad adicional, reduce la recarga de Meditar en 40 turnos y se lleva tanto en la cabeza como en la cara. Requiere tanto la cabeza como la cara para llevarse.</string>
-  <string Context="ModSerrated Display Adjective" ID="{{Y|serra{{R|t}}ed}}" OrderAdjust="520">{{Y|de filo den{{R|t}}ado}}</string>
+  <string Context="ModSerrated Display Adjective" ID="{{Y|serra{{R|t}}ed}}" OrderAdjust="515">{{Y|de filo den{{R|t}}ado}}</string>
   <string Context="ModSerrated Description" ID="Serrated: This weapon has a chance to dismember opponents.">Dentado: esta arma tiene una probabilidad de desmembrar a los oponentes.</string>
   <string Context="ModSerrated Instance Description" ID="Serrated: This weapon has =chance.a.number=% chance to dismember opponents.">Dentado: esta arma tiene un =chance.a.number=% de probabilidad de desmembrar a los oponentes.</string>
   <string Context="ModSharp Techscanning NameForStatus" ID="EdgeEnhancement">EdgeEnhancement</string>
-  <string Context="ModSharp Display Adjective" ID="sharp" OrderAdjust="520">de buen filo</string>
+  <string Context="ModSharp Display Adjective" ID="sharp" OrderAdjust="515">de buen filo</string>
   <string Context="ModSharp Description" ID="Sharp: +1 to penetration rolls">Afilado: +1 a las tiradas de penetración</string>
-  <string Context="ModSixFingered Display Adjective" ID="{{G|six-fingered}}" OrderAdjust="520">{{G|de seis dedos}}</string>
+  <string Context="ModSixFingered Display Adjective" ID="{{G|six-fingered}}" OrderAdjust="515">{{G|de seis dedos}}</string>
   <string Context="ModSixFingered Description" ID="Six-Fingered: +1 Agility">De seis dedos: +1 Agilidad</string>
   <string Context="ModSixFingered Instance Description" ID="Six-Fingered: =amount.signed= Agility">De seis dedos: =amount.signed= Agilidad</string>
-  <string Context="ModSlender Display Adjective" ID="slender" OrderAdjust="520">de perfil esbelto</string>
+  <string Context="ModSlender Display Adjective" ID="slender" OrderAdjust="515">de perfil esbelto</string>
   <string Context="ModSlender Description" ID="Slender: This item weighs less than normal.">Esbelto: este objeto pesa menos de lo normal.</string>
   <string Context="ModSnailEncrusted Display Adjective" ID="{{snail-encrusted|snail-encrusted}}" OrderAdjust="520">{{snail-encrusted|con costra de caracoles}}</string>
   <string Context="ModSnailEncrusted Description" ID="Snail-Encrusted: This item is crawling with tiny snails and grants the wearer reputation with mollusks.">Cubierto de caracoles: este objeto está plagado de caracolillos y otorga a quien lo lleva reputación con los moluscos.</string>
@@ -4398,7 +4398,7 @@ alone if no match found.
   <string Context="ModSpringLoaded Display Adjective" ID="spring-loaded" OrderAdjust="520">con resorte</string>
   <string Context="ModSpringLoaded Description" ID="Spring-loaded: This item grants bonus move speed.">Con resorte: este objeto otorga velocidad de movimiento adicional.</string>
   <string Context="ModSturdy Techscanning NameForStatus" ID="StructuralSupport">StructuralSupport</string>
-  <string Context="ModSturdy Display Adjective" ID="sturdy" OrderAdjust="520">de gran resistencia</string>
+  <string Context="ModSturdy Display Adjective" ID="sturdy" OrderAdjust="515">de gran resistencia</string>
   <string Context="ModSturdy Description" ID="Sturdy: This item cannot break or crack, though it can still be destroyed.">Resistente: este objeto no puede romperse ni agrietarse, aunque sí puede destruirse.</string>
   <string Context="ModSturdy Instance Description Can't Be Damaged" ID="Sturdy: This item cannot break or crack.">Resistente: este objeto no puede romperse ni agrietarse.</string>
   <string Context="ModSturdy Instance Description" ID="Sturdy: This item cannot break or crack, though it can still be destroyed.">Resistente: este objeto no puede romperse ni agrietarse, aunque sí puede destruirse.</string>
@@ -4411,14 +4411,14 @@ alone if no match found.
   <string Context="ModTransmute =descriptionTerm=" ID="a gemstone">una gema</string>
   <string Context="ModTransmuteOnHit Description Small Chance" ID="Small chance to transmute an enemy into =descriptionTerm= on hit.">Pequeña probabilidad de transmutar a un enemigo en =descriptionTerm= al impactar.</string>
   <string Context="ModTransmuteOnHit Description" ID="=chance=% chance to transmute an enemy into =descriptionTerm= on hit.">=chance=% de probabilidad de transmutar a un enemigo en =descriptionTerm= al impactar.</string>
-  <string Context="ModTwoFaced Display Adjective" ID="two-faced" OrderAdjust="520">de dos caras</string>
+  <string Context="ModTwoFaced Display Adjective" ID="two-faced" OrderAdjust="515">de dos caras</string>
   <string Context="ModTwoFaced Description" ID="Two-faced: This item grants an additional face slot.">De dos caras: este objeto otorga una ranura de cara adicional.</string>
-  <string Context="ModUrbanCamo Display Adjective" ID="{{urban camouflage|urban camo}}" OrderAdjust="520">{{urban camouflage|de camuflaje urbano}}</string>
+  <string Context="ModUrbanCamo Display Adjective" ID="{{urban camouflage|urban camo}}" OrderAdjust="515">{{urban camouflage|de camuflaje urbano}}</string>
   <string Context="ModVisor Techscanning NameForStatus" ID="Visor">Visor</string>
   <string Context="ModVisored Display Adjective" ID="visored" OrderAdjust="520">con visera</string>
   <string Context="ModVisored Description" ID="Visored: +1 DV">Con visera: +1 DV</string>
   <string Context="ModWeightless Display Adjective" ID="{{y-K sequence|weightless}}" OrderAdjust="520">{{y-K sequence|sin peso}}</string>
-  <string Context="ModWillowy Adjective" ID="willowy" OrderAdjust="520">de línea grácil</string>
+  <string Context="ModWillowy Adjective" ID="willowy" OrderAdjust="515">de línea grácil</string>
   <string Context="ModWillowy ShortDescription" ID="Willowy: This item weighs much less than normal.">Grácil: este objeto pesa mucho menos de lo normal.</string>
   <string Context="ModWired Techscanning NameForStatus" ID="Wiring">Wiring</string>
   <string Context="ModWired Adjective" ID="{{c|wired}}" OrderAdjust="520">{{c|con cableado}}</string>

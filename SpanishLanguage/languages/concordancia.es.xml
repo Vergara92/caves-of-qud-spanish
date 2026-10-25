@@ -7,12 +7,14 @@
 -->
 <concordancia Lang="es" Encoding="utf-8">
 
-  <!-- 1. Adjetivos de Strings.es.xml con formas (53) -->
+  <!-- 1. Adjetivos de Strings.es.xml con formas (56) -->
   <string Context="AnimatedObject DisplayName Adjective" ID="animated" ms="animado" fs="animada" mp="animados" fp="animadas" />
   <string Context="ContainedAcidEating Effect DisplayName Adjective" ID="{{Y|sizzling}}" ms="{{Y|chisporroteante}}" fs="{{Y|chisporroteante}}" mp="{{Y|chisporroteantes}}" fp="{{Y|chisporroteantes}}" />
   <string Context="Liquid Volume - Pool swimming depth adjective" ID="deep" ms="profundo" fs="profunda" mp="profundos" fp="profundas" />
   <string Context="ModAirfoil Adjective" ID="{{Y|airfoil}}" clase="relacional" ms="{{Y|aerodinámico}}" fs="{{Y|aerodinámica}}" mp="{{Y|aerodinámicos}}" fp="{{Y|aerodinámicas}}" />
   <string Context="ModBiomech Description Adjective" ID="{{biomech|biomech}}" clase="relacional" ms="{{biomech|biomecánico}}" fs="{{biomech|biomecánica}}" mp="{{biomech|biomecánicos}}" fp="{{biomech|biomecánicas}}" />
+  <string Context="ModCounterWeighted DisplayName Adjective Level&lt;=1" ID="counterweighted" ms="contrapesado" fs="contrapesada" mp="contrapesados" fp="contrapesadas" />
+  <string Context="ModCounterWeighted DisplayName Adjective Level&gt;1" ID="counterweighted(=level=)" ms="contrapesado(=level=)" fs="contrapesada(=level=)" mp="contrapesados(=level=)" fp="contrapesadas(=level=)" />
   <string Context="ModCybrid Adjective" ID="{{biomech|cybrid}}" clase="relacional" ms="{{biomech|cíbrido}}" fs="{{biomech|cíbrida}}" mp="{{biomech|cíbridos}}" fp="{{biomech|cíbridas}}" />
   <string Context="ModDesecrated Adjective" ID="{{K|desecrated}}" ms="{{K|profanado}}" fs="{{K|profanada}}" mp="{{K|profanados}}" fp="{{K|profanadas}}" />
   <string Context="ModDisplacer DisplayName Adjective" ID="{{displacer|displacer}}" ms="{{displacer|desplazador}}" fs="{{displacer|desplazadora}}" mp="{{displacer|desplazadores}}" fp="{{displacer|desplazadoras}}" />
@@ -27,6 +29,7 @@
   <string Context="ModHeatSeeking Display Adjective" ID="homing" ms="autoguiado" fs="autoguiada" mp="autoguiados" fp="autoguiadas" />
   <string Context="ModIlluminated Display Adjective" ID="[{{illuminated|illuminated}}]" ms="[{{illuminated|iluminado}}]" fs="[{{illuminated|iluminada}}]" mp="[{{illuminated|iluminados}}]" fp="[{{illuminated|iluminadas}}]" />
   <string Context="ModJacked Display Adjective" ID="{{c|jacked}}" ms="{{c|enchufado}}" fs="{{c|enchufada}}" mp="{{c|enchufados}}" fp="{{c|enchufadas}}" />
+  <string Context="ModJewelEncrusted Display Adjective" ID="jewel-encrusted" ms="enjoyado" fs="enjoyada" mp="enjoyados" fp="enjoyadas" />
   <string Context="ModLacquered Display Adjective" ID="{{lacquered|lacquered}}" ms="{{lacquered|lacado}}" fs="{{lacquered|lacada}}" mp="{{lacquered|lacados}}" fp="{{lacquered|lacadas}}" />
   <string Context="ModLiquidCooled Display Adjective" ID="{{=liquid.color=|liquid-cooled}}" ms="{{=liquid.color=|refrigerado por líquido}}" fs="{{=liquid.color=|refrigerada por líquido}}" mp="{{=liquid.color=|refrigerados por líquido}}" fp="{{=liquid.color=|refrigeradas por líquido}}" />
   <string Context="ModMagnetized Display Adjective" ID="magnetized" ms="magnetizado" fs="magnetizada" mp="magnetizados" fp="magnetizadas" />
@@ -97,7 +100,7 @@
   <!-- Gel/smearedName -->
   <literal Texto="{{Y|untuoso}}" respaldo="{{Y|con restos de gel}}" ms="{{Y|untuoso}}" fs="{{Y|untuosa}}" mp="{{Y|untuosos}}" fp="{{Y|untuosas}}" />
   <!-- GreenGoo/smearedName -->
-  <literal Texto="{{G|viscoso}}" respaldo="{{G|con restos de baba}}" ms="{{G|viscoso}}" fs="{{G|viscosa}}" mp="{{G|viscosos}}" fp="{{G|viscosas}}" />
+  <literal Texto="{{G|viscoso}}" respaldo="{{G|con restos de baba verde}}" ms="{{G|viscoso}}" fs="{{G|viscosa}}" mp="{{G|viscosos}}" fp="{{G|viscosas}}" />
   <!-- Honey/smearedName -->
   <literal Texto="{{w|pegajoso}}" respaldo="{{w|con restos de miel}}" ms="{{w|pegajoso}}" fs="{{w|pegajosa}}" mp="{{w|pegajosos}}" fp="{{w|pegajosas}}" />
   <!-- Ink/smearedName -->
@@ -107,13 +110,12 @@
   <!-- Lava/smearedAdjective -->
   <literal Texto="{{lava|magmático}}" respaldo="{{lava|con restos de lava}}" ms="{{lava|magmático}}" fs="{{lava|magmática}}" mp="{{lava|magmáticos}}" fp="{{lava|magmáticas}}" />
   <!-- NeutronFlux/smearedName -->
-  <literal Texto="{{neutronic|neutro}}" respaldo="{{neutronic|con restos de flujo}}" ms="{{neutronic|neutro}}" fs="{{neutronic|neutra}}" mp="{{neutronic|neutros}}" fp="{{neutronic|neutras}}" />
-  <!-- NeutronFlux/smearedAdjective -->
-  <literal Texto="{{neutronic|neutrónico}}" respaldo="{{neutronic|con restos de flujo}}" ms="{{neutronic|neutrónico}}" fs="{{neutronic|neutrónica}}" mp="{{neutronic|neutrónicos}}" fp="{{neutronic|neutrónicas}}" />
+  <literal Texto="{{neutronic|neutrónico}}" respaldo="{{neutronic|con restos de flujo neutrónico}}" ms="{{neutronic|neutrónico}}" fs="{{neutronic|neutrónica}}" mp="{{neutronic|neutrónicos}}" fp="{{neutronic|neutrónicas}}" />
+  <!-- NeutronFlux/smearedAdjective: igual que el anterior -->
   <!-- Oil/smearedName -->
   <literal Texto="{{K|aceitoso}}" respaldo="{{K|con restos de aceite}}" ms="{{K|aceitoso}}" fs="{{K|aceitosa}}" mp="{{K|aceitosos}}" fp="{{K|aceitosas}}" />
   <!-- Ooze/smearedName -->
-  <literal Texto="{{K|rezumante}}" respaldo="{{K|con restos de baba}}" ms="{{K|rezumante}}" fs="{{K|rezumante}}" mp="{{K|rezumantes}}" fp="{{K|rezumantes}}" />
+  <literal Texto="{{K|rezumante}}" respaldo="{{K|con restos de baba negra}}" ms="{{K|rezumante}}" fs="{{K|rezumante}}" mp="{{K|rezumantes}}" fp="{{K|rezumantes}}" />
   <!-- PrimordialSoup/smearedName -->
   <literal Texto="{{c|caldoso}}" respaldo="{{c|con restos de sopa}}" ms="{{c|caldoso}}" fs="{{c|caldosa}}" mp="{{c|caldosos}}" fp="{{c|caldosas}}" />
   <!-- Putrescence/smearedName -->
@@ -139,7 +141,7 @@
   <!-- WarmStatic/smearedName -->
   <literal Texto="{{Y|entrópico}}" respaldo="{{Y|con restos de estática cálida}}" ms="{{Y|entrópico}}" fs="{{Y|entrópica}}" mp="{{Y|entrópicos}}" fp="{{Y|entrópicas}}" />
 
-  <!-- 5. Literales de C# sin _S (24): llegan en inglés, todos con respaldo -->
+  <!-- 5. Literales de C# sin _S (25): llegan en inglés, todos con respaldo -->
   <!-- Tinkering_Mine.cs:272 -->
   <literal Texto="empty" respaldo="sin explosivo" ms="vacío" fs="vacía" mp="vacíos" fp="vacías" />
   <!-- Tinkering_Mine.cs:283 -->
@@ -188,4 +190,6 @@
   <literal Texto="stable" respaldo="en estado estable" ms="estable" fs="estable" mp="estables" fp="estables" />
   <!-- ModMetallized.cs:81 -->
   <literal Texto="{{c|metallized}}" respaldo="{{c|con metalizado}}" ms="{{c|metalizado}}" fs="{{c|metalizada}}" mp="{{c|metalizados}}" fp="{{c|metalizadas}}" />
+  <!-- PowerSwitch.cs:73,321 -->
+  <literal Texto="{{K|deactivated}}" respaldo="{{K|sin activar}}" ms="{{K|desactivado}}" fs="{{K|desactivada}}" mp="{{K|desactivados}}" fp="{{K|desactivadas}}" />
 </concordancia>

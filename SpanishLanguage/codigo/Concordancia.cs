@@ -492,13 +492,38 @@ namespace CavesOfQudEs.Concordancia
 			{
 				clase = e.ClaseExplicita ?? Clase.Calificativo;
 				string forma = e.Formas[rasgos.Value.Indice];
-				return e.Plantilla ? Rellenar(e, forma, texto) : forma;
+				return e.Plantilla ? Rellenar(e, forma, texto) : ConColorDeLlegada(texto, forma);
 			}
 			// CAV-34: en una plantilla de los datos del mod (ID = texto del juego, texto = respaldo B) el respaldo
 			// también se rellena con lo que casó: «manchado-de-{{r|sangre}}» → «con manchas de {{r|sangre}}»
-			string respaldo = e == null ? texto : e.Plantilla ? Rellenar(e, e.Respaldo, texto) : e.Respaldo;
+			string respaldo = e == null ? texto : e.Plantilla ? Rellenar(e, e.Respaldo, texto) : ConColorDeLlegada(texto, e.Respaldo);
 			clase = e != null && e.ClaseExplicita.HasValue && e.Formas == null ? e.ClaseExplicita.Value : ClaseDelTexto(respaldo);
 			return respaldo;
+		}
+
+		/// <summary>
+		/// CAV-24.E9: el texto casó sin marcas y llegó entero dentro de un color que la tabla no tiene
+		/// («{{b-B-…-g sequence|con joyas incrustadas}}», ModJewelEncrusted.cs:66-105, secuencia al azar): la forma
+		/// sale con ese mismo color. Si la forma ya trae color propio, o el texto casó tal cual, no se toca.
+		/// </summary>
+		private string ConColorDeLlegada(string texto, string forma)
+		{
+			if (forma == null || porTexto.ContainsKey(texto) || forma.IndexOf("{{", StringComparison.Ordinal) >= 0
+				|| !texto.StartsWith("{{", StringComparison.Ordinal) || !texto.EndsWith("}}", StringComparison.Ordinal))
+			{
+				return forma;
+			}
+			int barra = texto.IndexOf('|');
+			if (barra < 3 || texto.IndexOf('{', 2, barra - 2) >= 0 || texto.IndexOf('}', 2, barra - 2) >= 0)
+			{
+				return forma;
+			}
+			string dentro = texto.Substring(barra + 1, texto.Length - barra - 3);
+			if (dentro.IndexOf("{{", StringComparison.Ordinal) >= 0 || dentro.IndexOf("}}", StringComparison.Ordinal) >= 0)
+			{
+				return forma;
+			}
+			return texto.Substring(0, barra + 1) + forma + "}}";
 		}
 
 		/// <summary>
