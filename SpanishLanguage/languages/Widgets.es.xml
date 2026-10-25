@@ -39,24 +39,31 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="CoralPolypSpawner" Load="Merge">
     <part Name="Render" DisplayName="pólipo de coral" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CoralAndPalladiumSpawner" Load="Merge">
     <part Name="Render" DisplayName="puntal de paladio con coral" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PalladiumStrutSpawner" Load="Merge">
     <part Name="Render" DisplayName="puntal de paladio" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ArspliceHyphaeSpawner" Load="Merge">
     <part Name="Render" DisplayName="hifas de arsplice" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="PistonPressController" Load="Merge">
     <part Name="Render" DisplayName="prensa mecánica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="PistonPressElement" Load="Merge">
     <part Name="Render" DisplayName="prensa mecánica" />
     <part Name="Description" Short="La luz reluce en los arañazos diminutos que el metal abrió en la vasta superficie cromada del tubo allá donde machacó el hueso hasta dejarlo molido y sumiso." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="DummyTinkerScreenObject" Load="Merge">
     <part Name="Render" DisplayName="{{C|Modificaciones conocidas}}" />
+    <xtagGrammar concord="fp" />
   </object>
 </objects>
