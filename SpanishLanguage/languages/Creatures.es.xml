@@ -223,6 +223,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de mopango" />
     <part Name="Description" Short="Escamas rasguñadas yacen en un montón enroscado." />
     <part Name="Food" Message="La carne tiene un leve sabor a caza." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseSwine" Load="Merge">
     <part Name="Render" DisplayName="cerdo" />
@@ -287,36 +288,47 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="NaturalFist" Load="Merge">
     <part Name="Render" DisplayName="puño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DefaultBite" Load="Merge">
     <part Name="Render" DisplayName="mordisco" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="InorganicManipulator" Load="Merge">
     <part Name="Render" DisplayName="manipulador" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Knob" Load="Merge">
     <part Name="Render" DisplayName="pomo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Stud" Load="Merge">
     <part Name="Render" DisplayName="tachón" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Blunt End" Load="Merge">
     <part Name="Render" DisplayName="extremo romo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MetalFist" Load="Merge">
     <part Name="Render" DisplayName="puño de metal" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MetalManipulator" Load="Merge">
     <part Name="Render" DisplayName="manipulador" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SoftManipulator" Load="Merge">
     <part Name="Render" DisplayName="manipulador" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HardManipulator" Load="Merge">
     <part Name="Render" DisplayName="manipulador" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bite" Load="Merge">
     <part Name="Render" DisplayName="mordisco" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="AppleFarmer" Load="Merge">
     <part Name="Render" DisplayName="granjero de manzanas" />
@@ -331,6 +343,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Baboon Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de babuino" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Hulking Baboon" Load="Merge">
     <part Name="Render" DisplayName="babuino corpulento" />
@@ -348,6 +361,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Bat Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de murciélago" />
     <part Name="Food" Message="Sabe a carne de rata." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bear" Load="Merge">
     <part Name="Render" DisplayName="oso" />
@@ -355,10 +369,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Bear_Claw" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Bear Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de oso" />
     <part Name="Food" Message="Resultó ser un festín macabro." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Pig" Load="Merge">
     <part Name="Render" DisplayName="cerdo" />
@@ -367,6 +383,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Pig Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de cerdo" />
     <part Name="Food" Message="La carne es dura pero el ágape llena." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Boar" Load="Merge">
     <part Name="Render" DisplayName="jabalí" />
@@ -375,6 +392,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Boar Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de jabalí" />
     <part Name="Food" Message="La carne es dura pero el ágape llena." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Cannibal" Load="Merge">
     <part Name="Render" DisplayName="caníbal" />
@@ -386,9 +404,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="CaveSpider_Bite" Load="Merge">
     <part Name="Render" DisplayName="colmillos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Cave Spider Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de araña de cueva" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Ray Cat" Load="Merge">
     <part Name="Render" DisplayName="gato rayo" />
@@ -396,9 +416,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Cat Claw" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Ray Cat Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de gato rayo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Croc" Load="Merge">
     <part Name="Render" DisplayName="cocodrilo" />
@@ -406,11 +428,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Croc Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de {{g|cocodrilo}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Raw Croc Meat" Load="Merge">
     <part Name="Render" DisplayName="{{r|carne cruda de cocodrilo}}" />
     <part Name="Description" Short="Carne magra y pegajosa de las costillas, arrancada del hueso revestido de escamas." />
     <part Name="Food" Message="Es aceitosa pero saciante." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Dog" Load="Merge">
     <part Name="Render" DisplayName="perro salvaje" />
@@ -418,6 +442,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Dog Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de perro" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chromeling" Load="Merge">
     <part Name="Render" DisplayName="{{c|chromeling}}" />
@@ -431,6 +456,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de electrófugo" />
     <part Name="Description" Short="Pelillos de gasa se despliegan en ángulos rectos desde sus arrugadas cosas-que-fueron-patas." />
     <part Name="Food" Message="Está sorprendentemente delicioso." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GiantAmoeba" Load="Merge">
     <part Name="Render" DisplayName="ameba gigante" />
@@ -438,6 +464,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="GiantAmoeba_Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{g|seudópodo viscoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Giant Beetle" Load="Merge">
     <part Name="Render" DisplayName="escarabajo gigante" />
@@ -445,6 +472,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Giant Beetle Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de escarabajo gigante" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Giant Centipede" Load="Merge">
     <part Name="Render" DisplayName="ciempiés gigante" />
@@ -452,6 +480,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Giant Centipede Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de ciempiés gigante" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GiantDragonfly" Load="Merge">
     <part Name="Render" DisplayName="libélula gigante" />
@@ -459,6 +488,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Giant Dragonfly Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de libélula gigante" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Glowcrow" Load="Merge">
     <part Name="Render" DisplayName="cuervo fulgor" />
@@ -466,6 +496,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Glowcrow_Peck" Load="Merge">
     <part Name="Render" DisplayName="picotazo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Glowfish" Load="Merge">
     <part Name="Render" DisplayName="pez fulgor" />
@@ -474,6 +505,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Glowfish Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de pez fulgor" />
     <part Name="Description" Short="Motas atenuadas salpican las escamas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Glowpad" Load="Merge">
     <part Name="Render" DisplayName="hoja fulgor" />
@@ -485,10 +517,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Goat_Horns" Load="Merge">
     <part Name="Render" DisplayName="cuernos curvados" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Goat Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de cabra" />
     <part Name="Food" Message="Está cruda, con sangre y sabor a caza." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Horned Chameleon" Load="Merge">
     <part Name="Render" DisplayName="camaleón cornudo" />
@@ -497,6 +531,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Horned Chameleon Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de camaleón cornudo" />
     <part Name="Food" Message="Sabe luminoso y afrutado." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="IrritableTortoise" Load="Merge">
     <part Name="Render" DisplayName="tortuga irritable" />
@@ -508,6 +543,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Lovers_Thorns" Load="Merge">
     <part Name="Render" DisplayName="espinas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="PigFarmer" Load="Merge">
     <part Name="Render" DisplayName="granjero de cerdos" />
@@ -523,6 +559,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Qudzu_Frond" Load="Merge">
     <part Name="Render" DisplayName="fronda" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Salamander" Load="Merge">
     <part Name="Render" DisplayName="{{R|salamandra}}" />
@@ -530,6 +567,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Salamander Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de salamandra" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Scorpiock" Load="Merge">
     <part Name="Render" DisplayName="scorpiock" />
@@ -537,9 +575,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Scorpiock_Claws" Load="Merge">
     <part Name="Render" DisplayName="pinzas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Scorpiock Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de scorpiock" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Scrap-clad Hermit" Load="Merge">
     <part Name="Render" DisplayName="ermitaño revestido de chatarra" />
@@ -552,10 +592,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Seed Slingshot" Load="Merge">
     <part Name="Render" DisplayName="escupesemillas" />
     <part Name="Description" Short="Materia de semilla compactada que ha sido embutida en la manopla de hoja de un zarcillo enroscado." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileSpatSeed" Load="Merge">
     <part Name="Render" DisplayName="semilla" />
     <part Name="Projectile" PassByVerb="silba" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseWatervineFarmer" Load="Merge">
     <part Name="Render" DisplayName="granjero de viñagua" />
@@ -575,6 +617,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de snapjaw" />
     <part Name="Description" Short="Un montículo de pelo húmedo y carne en descomposición le da algo de altura al suelo." />
     <part Name="Food" Message="El bocado estalló en innumerables hebras de tendón." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Snapjaw Scavenger" Load="Merge">
     <part Name="Render" DisplayName="snapjaw carroñero" />
@@ -610,6 +653,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Beetlebum_Mandibles" Load="Merge">
     <part Name="Render" DisplayName="mandíbulas grandes" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Bloated Leech" Load="Merge">
     <part Name="Render" DisplayName="{{r|sanguijuela hinchada}}" />
@@ -640,6 +684,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Chute Crab Claw" Load="Merge">
     <part Name="Render" DisplayName="pinza de cangrejo" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Eyeless Crab" Load="Merge">
     <part Name="Render" DisplayName="cangrejo ciego" />
@@ -647,9 +692,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Eyeless Crab_Claw" Load="Merge">
     <part Name="Render" DisplayName="pinza de cangrejo" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Eyeless Crab Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de cangrejo ciego" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Feral Lah" Load="Merge">
     <part Name="Render" DisplayName="{{r|lah salvaje}}" />
@@ -658,6 +705,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="FlabbyLeaf" Load="Merge">
     <part Name="Render" DisplayName="hoja fláccida" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Feral Lah Pod" Load="Merge">
     <part Name="Render" DisplayName="{{r|vaina rodante}}" />
@@ -673,6 +721,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Glowmoth_Gaze" Load="Merge">
     <part Name="Render" DisplayName="mirada" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Projectile_GlowmothGaze" Load="Merge">
     <part Name="Render" DisplayName="{{G|destello de neón}}" />
@@ -682,6 +731,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Glowmoth Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de polilla luminosa" />
     <part Name="Description" Short="Se descompone y desprende un calor cálido y delicioso." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Hide-Sheathed Hermit" Load="Merge">
     <part Name="Render" DisplayName="ermitaño envainado en pieles" />
@@ -697,10 +747,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Knollworm_Beak" Load="Merge">
     <part Name="Render" DisplayName="pico triturador de cangrejos" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Knollworm Corpse" Load="Merge">
     <part Name="Description" Short="Anillos de cuerpo de gusano quieto y esponjoso se mezclan con pico machacado, y unas cerdas diminutas raspan la tierra." />
     <part Name="Render" DisplayName="cadáver de gusano de loma" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Leech" Load="Merge">
     <part Name="Render" DisplayName="{{r|sanguijuela}}" />
@@ -708,6 +760,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Leech Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de sanguijuela" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mechanimist Pilgrim" Load="Merge">
     <part Name="Render" DisplayName="peregrino mecanimista" />
@@ -738,9 +791,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Salthopper_Mandibles" Load="Merge">
     <part Name="Render" DisplayName="{{G|mandíbulas desgarradoras}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Salthopper Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de saltasal" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Seedsprout Worm" Load="Merge">
     <part Name="Render" DisplayName="gusano brotasemilla" />
@@ -748,9 +803,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="SeedsproutWorm_Crush" Load="Merge">
     <part Name="Render" DisplayName="bandas trituradoras" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Seedsprout Worm Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de gusano brotasemilla" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Segmented Mirthworm" Load="Merge">
     <part Name="Render" DisplayName="{{w|gusano del júbilo segmentado}}" />
@@ -758,6 +815,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="SegmentedMirthworm_Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de gusano del júbilo segmentado" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Scrapbot" Load="Merge">
     <part Name="Render" DisplayName="{{c|paleador de chatarra}}" />
@@ -765,6 +823,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Scrapbot_Scrapsaw" Load="Merge">
     <part Name="Render" DisplayName="{{c|sierra de chatarra}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Scrapbot Mechanimist" Load="Merge">
     <part Name="Render" DisplayName="{{c|paleador de chatarra}} reprogramado" />
@@ -772,6 +831,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Scrapbot_Junkshovel" Load="Merge">
     <part Name="Render" DisplayName="{{c|pala de chatarra}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Slugsnout" Load="Merge">
     <part Name="Render" DisplayName="hocicobaba" />
@@ -779,13 +839,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Slugsnout Snout" Load="Merge">
     <part Name="Render" DisplayName="babosa de hocicobaba" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Projectile_Slugsnout_Slug" Load="Merge">
     <part Name="Render" DisplayName="babosa" />
     <part Name="Projectile" PassByVerb="zumba" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Slugsnout Tusks" Load="Merge">
     <part Name="Render" DisplayName="colmillos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Waydroid" Load="Merge">
     <part Name="Render" DisplayName="{{c|waydroid}}" />
@@ -793,6 +856,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Waydroid_Shockrod" Load="Merge">
     <part Name="Render" DisplayName="vara de descarga" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Sprouting Orb" Load="Merge">
     <part Name="Render" DisplayName="orbe germinante" />
@@ -810,6 +874,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Thistle Pitcher" Load="Merge">
     <part Name="Render" DisplayName="lanzador de cardos" />
     <part Name="Description" Short="Una piel elástica se contrae en un glóbulo tenso jalonado de cardos latentes." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileThirstThistle" Load="Merge">
     <part Name="Render" DisplayName="{{Y|cardo}}" />
@@ -825,9 +890,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Earthworm_Beak" Load="Merge">
     <part Name="Render" DisplayName="pico rechinante" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Earthworm Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de gusano de tierra" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Girshling" Load="Merge">
     <part Name="Render" DisplayName="girshling" />
@@ -835,10 +902,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Girshling_Claw" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Girshling Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de {{m|girshling}}" />
     <part Name="Description" Short="Las patas-cosa pálidas se crispan con insistencia vital, y un par de colmillos pinchan la nada." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Defanged Girshling" Load="Merge">
     <part Name="Render" DisplayName="girshling sin colmillos" />
@@ -846,6 +915,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Girshling_Bite" Load="Merge">
     <part Name="Render" DisplayName="colmillos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Rank Girshling" Load="Merge">
     <part Name="Render" DisplayName="girshling pestilente" />
@@ -913,6 +983,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="BaseFangs" Load="Merge">
     <part Name="Render" DisplayName="colmillos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Girshling Fangs" Load="Merge">
     <part Name="Render" DisplayName="colmillos de {{m|girshling}}" />
@@ -940,6 +1011,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Hindren Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de hindren" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="HindrenVillager" Load="Merge">
     <part Name="Render" DisplayName="aldeano hindren" />
@@ -972,6 +1044,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Woodsprog Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de woodsprog" />
     <part Name="Description" Short="Un montículo de hojas húmedas, raíces enmarañadas y carne en putrefacción da algo de elevación al suelo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseNaphtaali" Load="Merge">
     <part Name="Render" DisplayName="naphtaali" />
@@ -1006,9 +1079,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Girshfly_Mandibles" Load="Merge">
     <part Name="Render" DisplayName="mandíbulas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Girshfly_Energy" Load="Merge">
     <part Name="Render" DisplayName="resplandor amarillento" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Projectile_Girshfly_Energy" Load="Merge">
     <part Name="Render" DisplayName="rayo de luz {{W|amarillenta}}" />
@@ -1020,6 +1095,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="YithMaggotBite" Load="Merge">
     <part Name="Render" DisplayName="{{G|mandíbulas ácidas}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Aloe Volta" Load="Merge">
     <part Name="Render" DisplayName="áloe volta" />
@@ -1034,6 +1110,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Albino ape corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de {{Y|simio albino}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseArconaut" Load="Merge">
     <part Name="Render" DisplayName="arconauta" />
@@ -1045,9 +1122,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Barkbiter_Claw" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Barkbiter Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de mordecorteza" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chitinous Puma" Load="Merge">
     <part Name="Render" DisplayName="puma quitinoso" />
@@ -1056,10 +1135,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Chitinous Puma Claw" Load="Merge">
     <part Name="Render" DisplayName="garra acorazada" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chitinous Puma Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de puma quitinoso" />
     <part Name="Food" Message="La carne es dura y crujiente, con placas astilladas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dawnglider" Load="Merge">
     <part Name="Render" DisplayName="planeador del alba" />
@@ -1068,6 +1149,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Dawnglider Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de planeador del alba" />
     <part Name="Description" Short="Escamas rotas y plumas quemadas yacen en plana teselación." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Disciple of the Sightless Way" Load="Merge">
     <part Name="Render" DisplayName="discípulo de la Senda Ciega" />
@@ -1079,6 +1161,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Drillbot_Drill" Load="Merge">
     <part Name="Render" DisplayName="{{c|taladro aullante}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Equimax" Load="Merge">
     <part Name="Render" DisplayName="equimax" />
@@ -1087,9 +1170,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Equimax_Kick" Load="Merge">
     <part Name="Render" DisplayName="coz" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Equimax Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de equimax" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Fire ant" Load="Merge">
     <part Name="Render" DisplayName="hormiga de fuego" />
@@ -1097,11 +1182,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Giant_Ant_Bite" Load="Merge">
     <part Name="Render" DisplayName="mandíbulas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Fire ant corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de {{r|hormiga de fuego}}" />
     <part Name="Description" Short="Su torso está patas arriba y brota un ramo de patas arrugadas y humeantes." />
     <part Name="Food" Message="Sabe a carbón endulzado." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Fire Snout" Load="Merge">
     <part Name="Render" DisplayName="hocico de fuego" />
@@ -1111,6 +1198,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de hocico de fuego" />
     <part Name="Food" Message="La carne de cerdo está autoasada y deliciosa." />
     <part Name="Description" Short="Un montículo de pelo achicharrado y carne en putrefacción da algo de elevación al suelo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Fork-Horned Gnu" Load="Merge">
     <part Name="Render" DisplayName="ñu de cuernos bifurcados" />
@@ -1118,6 +1206,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Gnu Hoof" Load="Merge">
     <part Name="Render" DisplayName="pezuña" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Gelatinous Wedge" Load="Merge">
     <part Name="Render" DisplayName="cuña gelatinosa" />
@@ -1129,6 +1218,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Ghost Perch Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de perca fantasma" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Giant Beetle Nest" Load="Merge">
     <part Name="Render" DisplayName="nido de escarabajo gigante" />
@@ -1140,6 +1230,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Girshworm_Crush" Load="Merge">
     <part Name="Render" DisplayName="{{Y|bandas trituradoras}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Gyre Wight of Agolgot" Load="Merge">
     <part Name="Render" DisplayName="espectro del Giro de Agolgot" />
@@ -1157,6 +1248,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de {{C|rana de hielo}}" />
     <part Name="Description" Short="Una piel de rana húmeda está aplastada contra el suelo." />
     <part Name="Food" Message="El limo frío se adhiere." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Infiltrator" Load="Merge">
     <part Name="Description" Short="Asas radiales circunscriben un inversor de espacio." />
@@ -1176,10 +1268,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="quillipede quills" Load="Merge">
     <part Name="Render" DisplayName="púas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="quillipede corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de púapiés" />
     <part Name="Description" Short="Su torso está patas arriba y brota un ramo de espinas y patas arrugadas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Rifle Turret Tinker" Load="Merge">
     <part Name="Render" DisplayName="manitas de torreta de fusil" />
@@ -1190,9 +1284,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Rustacean Crab_Claw" Load="Merge">
     <part Name="Render" DisplayName="{{r|pinza incrustada de óxido}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Rustacean Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de oxidáceo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sawhander" Load="Merge">
     <part Name="Render" DisplayName="{{W|manos-sierra}}" />
@@ -1200,6 +1296,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Sawhander_Saw" Load="Merge">
     <part Name="Render" DisplayName="{{r|sierra picada de óxido}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="SewageEel" Load="Merge">
     <part Name="Render" DisplayName="anguila de cloaca" />
@@ -1211,11 +1308,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Spark_Tick_Arc" Load="Merge">
     <part Name="Render" DisplayName="arco eléctrico" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Spark Tick Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de {{W|garrapata de chispas}}" />
     <part Name="Description" Short="Su torso está patas arriba y brota un ramo de patas arrugadas. Un residuo voltaico gotea y chisporrotea." />
     <part Name="Food" Message="Crepita y chasquea." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Two-Headed Slugsnout" Load="Merge">
     <part Name="Render" DisplayName="hocicobaba de dos cabezas" />
@@ -1231,10 +1330,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Voider_Bite" Load="Merge">
     <part Name="Render" DisplayName="colmillos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Voider Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de vaciador" />
     <part Name="Food" Message="La boca empieza a efervescerte." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Yonderbrush" Load="Merge">
     <part Name="Render" DisplayName="{{B|maleza del más allá}}" />
@@ -1248,21 +1349,25 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Goatfolk_Horns" Load="Merge">
     <part Name="Render" DisplayName="cuernos curvos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Goatfolk Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de goatfolk" />
     <part Name="Description" Short="Un montón de pelo húmedo y carne podrida da algo de relieve al suelo. Un único cuerno mellado se enrosca fuera del amasijo como un brote de hongo." />
     <part Name="Food" Message="Está crudo de sangre y con sabor a caza." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Flayed Goatfolk Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver desollado de goatfolk" />
     <part Name="Food" Message="¡Está pútrido!" />
     <part Name="Description" Short="Una osamenta arrugada y con cuernos, de tendones y músculo, se pudre en sangre negra y pútrida." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Charred Goatfolk Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver carbonizado de goatfolk" />
     <part Name="Food" Message="¡Pútrido!" />
     <part Name="Description" Short="La carne quedó chamuscada hasta volverse un mejunje negro que se desmorona de los anchos huesos. Un par de cuernos humeantes asoman a través." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Goatfolk Bully" Load="Merge">
     <part Name="Render" DisplayName="matón goatfolk" />
@@ -1276,6 +1381,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Sowers_Seed" Load="Merge">
     <part Name="Render" DisplayName="semilla del sembrador" />
     <part Name="Description" Short="Una semilla pequeña y cálida." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Goatfolk Yurtwarden" Load="Merge">
     <part Name="Render" DisplayName="guardayurta goatfolk" />
@@ -1294,6 +1400,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="SnapjawFeeder_Bite" Load="Merge">
     <part Name="Render" DisplayName="{{r|colmillos pringados de sangre}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Snapjaw Spearfiend" Load="Merge">
     <part Name="Render" DisplayName="demonio lancero snapjaw" />
@@ -1301,6 +1408,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Poison-tipped Spear" Load="Merge">
     <part Name="Render" DisplayName="lanza de punta envenenada" />
     <part Name="Description" Short="Un goteo de gérmenes calientes se adhiere a una punta de hierro oxidado." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Snapjaw Trapper" Load="Merge">
     <part Name="Render" DisplayName="trampero snapjaw" />
@@ -1322,6 +1430,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Oozing Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{K|pseudópodo rezumante}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Blue Jel" Load="Merge">
     <part Name="Render" DisplayName="{{C|gel azul}}" />
@@ -1329,6 +1438,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Luminous Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{C|pseudópodo luminoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Brown Sludge" Load="Merge">
     <part Name="Render" DisplayName="{{w|gel pardo}}" />
@@ -1336,6 +1446,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Sludgy Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{w|pseudópodo cenagoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chaingun Turret Tinker" Load="Merge">
     <part Name="Render" DisplayName="manitas de torreta de ametralladora" />
@@ -1346,6 +1457,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Cloneling_Scalpel" Load="Merge">
     <part Name="Render" DisplayName="escalpelo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Cragmensch" Load="Merge">
     <part Name="Render" DisplayName="cragmensch" />
@@ -1378,10 +1490,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="ElectricSnail_Flail" Load="Merge">
     <part Name="Render" DisplayName="{{W|mayal de caracol eléctrico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Electric Snail Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de caracol eléctrico" />
     <part Name="Food" Message="Trituras la concha en pedazos y tu boca se llena de una baba crepitante." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eyeless King Crab" Load="Merge">
     <part Name="Render" DisplayName="cangrejo rey sin ojos" />
@@ -1389,10 +1503,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Eyeless King Crab_Claw" Load="Merge">
     <part Name="Render" DisplayName="{{Y|pinza monstruosa}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Eyeless King Crab Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de cangrejo rey sin ojos" />
     <part Name="Description" Short="Su torso monstruoso y acorazado está patas arriba y brota de él un ramillete de patas arrugadas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Fire Ant Queen" Load="Merge">
     <part Name="Render" DisplayName="reina de las hormigas de fuego" />
@@ -1408,6 +1524,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Gooey Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{G|pseudópodo pegajoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Gyre Wight of Bethsaida" Load="Merge">
     <part Name="Render" DisplayName="espectro del Remolino de Bethsaida" />
@@ -1428,6 +1545,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Humor_Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{C|pseudópodo gigante}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Hyrkhound" Load="Merge">
     <part Name="Render" DisplayName="{{Y|hyrksabueso}}" />
@@ -1435,6 +1553,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Hyrkhound_Bite" Load="Merge">
     <part Name="Render" DisplayName="colmillos {{G|húmedos de ácido}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Ixlthyxl" Load="Merge">
     <part Name="Render" DisplayName="ixlthyxl" />
@@ -1450,6 +1569,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Creeper_Thorns" Load="Merge">
     <part Name="Render" DisplayName="espinas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Low-Light Laser Turret Tinker" Load="Merge">
     <part Name="Render" DisplayName="manitas de torreta láser de poca luz" />
@@ -1480,6 +1600,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Plastronoid_Whacker" Load="Merge">
     <part Name="Render" DisplayName="{{c|cardán}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Psyberneticist" Load="Merge">
     <part Name="Render" DisplayName="psibernético" />
@@ -1496,6 +1617,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="TraipsingMortar_LaunchAssembly" Load="Merge">
     <part Name="Render" DisplayName="conjunto de lanzamiento" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Twinning Lamprey" Load="Merge">
     <part Name="Render" DisplayName="lamprea gemeladora" />
@@ -1510,9 +1632,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Breather_Bite" Load="Merge">
     <part Name="Render" DisplayName="dientes tricúspides" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Breather_Claw" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseBreatherCorpse" Load="Merge">
     <part Name="Description" Short="La niebla humea de las grietas entre sus escamas que se secan." />
@@ -1524,6 +1648,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="FireBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barballama" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="IceBreather" Load="Merge">
     <part Name="Render" DisplayName="barbanieve" />
@@ -1531,6 +1656,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="IceBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barbanieve" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CorrosiveBreather" Load="Merge">
     <part Name="Render" DisplayName="barbácida" />
@@ -1538,6 +1664,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="CorrosiveBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barbácida" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="NormalityBreather" Load="Merge">
     <part Name="Render" DisplayName="barbanula" />
@@ -1545,6 +1672,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="NormalityBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barbanula" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="PoisonBreather" Load="Merge">
     <part Name="Render" DisplayName="barbahiel" />
@@ -1552,6 +1680,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="PoisonBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barbahiel" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SleepBreather" Load="Merge">
     <part Name="Render" DisplayName="barbasueño" />
@@ -1559,6 +1688,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="SleepBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barbasueño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="StunBreather" Load="Merge">
     <part Name="Render" DisplayName="barbaquieto" />
@@ -1566,6 +1696,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="StunBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barbaquieto" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ConfusionBreather" Load="Merge">
     <part Name="Render" DisplayName="barbalaberinto" />
@@ -1573,6 +1704,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="ConfusionBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de barbalaberinto" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Troll" Load="Merge">
     <part Name="Render" DisplayName="trol" />
@@ -1581,6 +1713,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de trol" />
     <part Name="Description" Short="Un gran montón de pelo húmedo y carne podrida da algo de relieve al suelo." />
     <part Name="Food" Message="La carne es dura y está cubierta de pelo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Troll Foal" Load="Merge">
     <part Name="Render" DisplayName="cría de trol" />
@@ -1612,6 +1745,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="HagHands" Load="Merge">
     <part Name="Render" DisplayName="mano {{K|adumbral}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Addling Urchin" Load="Merge">
     <part Name="Render" DisplayName="erizo aturdidor" />
@@ -1630,9 +1764,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Agolzvuv_Foreleg_Barbs" Load="Merge">
     <part Name="Render" DisplayName="pata delantera con púas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Agolzvuv_Midleg_Barbs" Load="Merge">
     <part Name="Render" DisplayName="pata media con púas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Aloe Fugues" Load="Merge">
     <part Name="Render" DisplayName="aloe fugas" />
@@ -1659,6 +1795,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Unas patas desplegadas y unas piernas agrietadas se recogen bajo un cuerpo gigante y aplanado." />
     <part Name="Render" DisplayName="cadáver de rana perla hinchada" />
     <part Name="Food" Message="La carne sabe a serrín inmemorial." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Boosterbot" Load="Merge">
     <part Name="Render" DisplayName="{{B|robot potenciador}}" />
@@ -1666,10 +1803,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Boosterbot_Claw" Load="Merge">
     <part Name="Render" DisplayName="mano servicial" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Boosterbot_Gun" Load="Merge">
     <part Name="Render" DisplayName="pistola potenciadora" />
     <part Name="Description" Short="Es una pequeña ballesta con un cañón ancho para sostener dardos." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cyclopean Gibbon" Load="Merge">
     <part Name="Render" DisplayName="gibón ciclópeo" />
@@ -1692,6 +1831,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Gyrohumor_Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{C|pseudópodo gigante}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="FungusPuffer" Load="Merge">
     <part Name="Render" DisplayName="{{Y|bufo rumiante}}" />
@@ -1735,6 +1875,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Irritable Palm Frond" Load="Merge">
     <part Name="Render" DisplayName="fronda" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Lagroot" Load="Merge">
     <part Name="Render" DisplayName="raíz rezagada" />
@@ -1748,6 +1889,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Mimic Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de mímico" />
     <part Name="Food" Message="Se disuelve en una mezcla de sabores." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Molting Basilisk" Load="Merge">
     <part Name="Render" DisplayName="muda de basilisco" />
@@ -1760,6 +1902,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Molting Basilisk Husk" Load="Merge">
     <part Name="Render" DisplayName="muda de basilisco" />
     <part Name="Description" Short="La piel mudada es de cuarzo apagado y porte estatuario." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Normality Bot" Load="Merge">
     <part Name="Render" DisplayName="extintor de anomalías" />
@@ -1769,9 +1912,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="láser de defensa puntual" />
     <part Name="RespondToEvent" NameForStatus="TrackingDataProcessor" />
     <part Name="Description" Short="Es un medio ojo robótico con párpado de chasis bifurcado y adornado de pestañas de antena. Un cañón minúsculo asoma de su pupila y vibra. El párpado interno está articulado, lo que permite al dron escanear en busca de proyectiles entrantes y derribarlos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bot Mallet" Load="Merge">
     <part Name="Render" DisplayName="{{Y|mazo}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Phase Spider" Load="Merge">
     <part Name="Render" DisplayName="araña de fase" />
@@ -1791,6 +1936,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Quartz Baboon Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de babuino de cuarzo" />
     <part Name="Food" Message="La carne es dura como la piedra." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Red Death Dacca" Load="Merge">
     <part Name="Render" DisplayName="{{r|daca de la muerte roja}}" />
@@ -1798,6 +1944,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Red Death Dacca Hand" Load="Merge">
     <part Name="Render" DisplayName="mano roja" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Rimewyk" Load="Merge">
     <part Name="Render" DisplayName="escarchawyk" />
@@ -1805,6 +1952,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Rimewyk_Bite" Load="Merge">
     <part Name="Render" DisplayName="{{icy|fauces heladas}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Slumberling" Load="Merge">
     <part Name="Render" DisplayName="dormilón" />
@@ -1812,6 +1960,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Slumberling Claw" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Snailmother" Load="Merge">
     <part Name="Render" DisplayName="caracolamadre" />
@@ -1819,14 +1968,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Snailmother Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de caracolamadre" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BrokenSnailmotherEgg" Load="Merge">
     <part Name="Render" DisplayName="huevo de caracol roto" />
     <part Name="Description" Short="Pedazos de cáscara implosionada yacen en una sopa destrozada de mucosidad." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SnailmotherEgg" Load="Merge">
     <part Name="Render" DisplayName="huevo de caracol" />
     <part Name="Description" Short="Un huevo rodeado de baba con grietas capilares." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Urchin Belcher" Load="Merge">
     <part Name="Render" DisplayName="eructador de erizos" />
@@ -1836,6 +1988,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Un montón de escamas húmedas yace en una corona de muerte hinchada." />
     <part Name="Render" DisplayName="cadáver de eructador de erizos" />
     <part Name="Food" Message="La grasa humedecida se disuelve despacio." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Waveform Worm" Load="Merge">
     <part Name="Description" Short="Anillos de carne meméricos se unen en una línea y se apretujan a lo largo de una onda. Cuando una de un billón de fluctuaciones aleatorias por segundo hace que el tejido cósmico ondule, el gusano se alinea con un patrón de interferencia constructiva y es impulsado hacia adelante." />
@@ -1843,6 +1996,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="WaveformWorm_Crush" Load="Merge">
     <part Name="Render" DisplayName="{{Y|bandas trituradoras}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="White Esh" Load="Merge">
     <part Name="Render" DisplayName="esh blanco" />
@@ -1850,6 +2004,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="WhiteEsh_Beak" Load="Merge">
     <part Name="Render" DisplayName="{{K|pico ganchudo}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mechanimist Zealot" Load="Merge">
     <part Name="Render" DisplayName="fanático Mechanimist" />
@@ -1943,10 +2098,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="BoneWorm_Crush" Load="Merge">
     <part Name="Render" DisplayName="anillas trituradoras" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Bone Worm Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de gusano de hueso" />
     <part Name="Description" Short="Anillos de cuerpo de gusano huesudo yacen aplastados e inmóviles. Pequeñas espuelas de hueso en los bordes raspan la tierra." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Caravan Guard" Load="Merge">
     <part Name="Render" DisplayName="guardia de caravana" />
@@ -1957,6 +2114,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="LightLock" Load="Merge">
     <part Name="Render" DisplayName="cerrojo de luz" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileLightLock" Load="Merge">
     <part Name="Render" DisplayName="{{W|fotón gordo}}" />
@@ -1965,6 +2123,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Eaters' Crest" Load="Merge">
     <part Name="Render" DisplayName="{{Y|cresta de los Devoradores}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Conservator" Load="Merge">
     <part Name="Render" DisplayName="conservador" />
@@ -1986,6 +2145,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Winch_Lever" Load="Merge">
     <part Name="Render" DisplayName="{{c|palanca del cabrestante}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Gelatinous Cupola" Load="Merge">
     <part Name="Render" DisplayName="cúpula gelatinosa" />
@@ -2009,6 +2169,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="CalcifiedMossCasque" Load="Merge">
     <part Name="Render" DisplayName="{{Y|yelmo de musgo calcificado}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Greater Voider" Load="Merge">
     <part Name="Render" DisplayName="vaciador mayor" />
@@ -2017,6 +2178,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Greater Voider Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de vaciador mayor" />
     <part Name="Food" Message="Tu boca empieza a efervescer." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="High Dervish of the Sightless Way" Load="Merge">
     <part Name="Render" DisplayName="alto derviche de la Vía Sin Vista" />
@@ -2041,9 +2203,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Madpole_Jaws" Load="Merge">
     <part Name="Render" DisplayName="fauces" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Madpole Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de renacuajo rabioso" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Miner Mk III" Load="Merge">
     <part Name="Render" DisplayName="minero Mk III" />
@@ -2057,6 +2221,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Ogre ape corpse" Load="Merge">
     <part Name="Render" DisplayName="{{W|cadáver de simio ogro}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Panhumor" Load="Merge">
     <part Name="Render" DisplayName="panhumor" />
@@ -2075,11 +2240,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Rhinox Hoof" Load="Merge">
     <part Name="Render" DisplayName="pezuña colosal" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Rhinox Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de rinox" />
     <part Name="Description" Short="Un montículo gigante de carne férrea en descomposición da algo de elevación al terreno." />
     <part Name="Food" Message="La carne está costrada de cisco adamantino." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Rocket Turret Tinker" Load="Merge">
     <part Name="Render" DisplayName="manitas de torreta de cohetes" />
@@ -2097,6 +2264,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="StripFly_Pincer" Load="Merge">
     <part Name="Render" DisplayName="{{c|pinzas mecánicas}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Trash Abbot" Load="Merge">
     <part Name="Render" DisplayName="abad de la basura" />
@@ -2108,6 +2276,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="UrnPorter_AshShovel" Load="Merge">
     <part Name="Render" DisplayName="pala de cenizas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Vantabud" Load="Merge">
     <part Name="Render" DisplayName="vantacapullo" />
@@ -2122,48 +2291,56 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="ElderFireBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbafuego" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ElderIceBreather" Load="Merge">
     <part Name="Render" DisplayName="anciano barbaaguanieve" />
   </object>
   <object Name="ElderIceBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbaaguanieve" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ElderCorrosiveBreather" Load="Merge">
     <part Name="Render" DisplayName="anciano barbaagria" />
   </object>
   <object Name="ElderCorrosiveBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbaagria" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ElderNormalityBreather" Load="Merge">
     <part Name="Render" DisplayName="anciano barbanula" />
   </object>
   <object Name="ElderNormalityBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbanula" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ElderPoisonBreather" Load="Merge">
     <part Name="Render" DisplayName="anciano barbahiel" />
   </object>
   <object Name="ElderPoisonBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbahiel" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ElderSleepBreather" Load="Merge">
     <part Name="Render" DisplayName="anciano barbasueño" />
   </object>
   <object Name="ElderSleepBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbasueño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ElderStunBreather" Load="Merge">
     <part Name="Render" DisplayName="anciano barbaquieta" />
   </object>
   <object Name="ElderStunBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbaquieta" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ElderConfusionBreather" Load="Merge">
     <part Name="Render" DisplayName="anciano barbalaberinto" />
   </object>
   <object Name="ElderConfusionBreatherCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de anciano barbalaberinto" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MopangoCharioteer" Load="Merge">
     <part Name="Render" DisplayName="auriga mopango" />
@@ -2193,6 +2370,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Chrome Stilt" Load="Merge">
     <part Name="Render" DisplayName="{{c|pilote de cromo}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dream Wren" Load="Merge">
     <part Name="Render" DisplayName="reyezuelo onírico" />
@@ -2200,6 +2378,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="DreamWren_Peck" Load="Merge">
     <part Name="Render" DisplayName="picotazo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Enigma Snail" Load="Merge">
     <part Name="Render" DisplayName="caracol enigma" />
@@ -2211,15 +2390,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Enigma Snail Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de caracol enigma" />
     <part Name="Food" Message="????" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="LightRondure" Load="Merge">
     <part Name="Render" DisplayName="{{Y|rotunda de luz}}" />
     <part Name="EquipCharge" NameForStatus="PowerUplink" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="ProjectileLaserColumn" Load="Merge">
     <part Name="Render" DisplayName="{{Y|columna láser}}" />
     <part Name="Projectile" PassByVerb="zumbar" />
     <part Name="TreatAsSolid" Message="¡La oscuridad consume a =subject.t=!" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Eigenturret Tinker" Load="Merge">
     <part Name="Render" DisplayName="manitas de autotorreta" />
@@ -2255,11 +2437,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Saltback_Stomp" Load="Merge">
     <part Name="Render" DisplayName="gran pisotón" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Great Saltback Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de gran lomosal" />
     <part Name="Food" Message="De la montaña de concha se preservan unas pocas tiras de carne ataudada en sal." />
     <part Name="Description" Short="Aquí una concha-mundo osificada da sombra a la cálida vida jadeante de la sobretierra. La levadura coloniza el borde de su reborde que abarca las nubes y chisporrotea." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Interdictor" Load="Merge">
     <part Name="Description" Short="Hay un óculo en el centro de la matriz sensorial del dron libélula. Se desobtura con un zumbido y emite un resplandeciente haz de fuerza." />
@@ -2273,9 +2457,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="cadáver de caleidobabosa" />
     <part Name="Description" Short="Anillos de cuerpo de babosa esponjoso yacen desinflados e inmóviles. Pequeñas cerdas raspan la tierra." />
     <part Name="Food" Message="Sabe como un prisma al difundir la luz en todo el espectro." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ReefSlug_Foot" Load="Merge">
     <part Name="Render" DisplayName="pie nacarado" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Lithofex" Load="Merge">
     <part Name="Render" DisplayName="litofex" />
@@ -2285,6 +2471,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="{{K|mirada funesta}}" />
     <part Name="Projectile" PassByVerb="crepitar" />
     <part Name="TreatAsSolid" Message="¡La oscuridad consume a =subject.t=!" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Memory Eater" Load="Merge">
     <part Name="Render" DisplayName="devorador de recuerdos" />
@@ -2293,6 +2480,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Memory Eater Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de devorador de recuerdos" />
     <part Name="Food" Message="No recuerdas a qué sabe." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mirror Bug" Load="Merge">
     <part Name="Render" DisplayName="bicho espejo" />
@@ -2312,6 +2500,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="PlasmaJelly_Sting" Load="Merge">
     <part Name="Render" DisplayName="tentáculo {{auroral|ionizado}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Red Jell" Load="Merge">
     <part Name="Render" DisplayName="{{R|gelatina roja}}" />
@@ -2324,6 +2513,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Shattered Mirror" Load="Merge">
     <part Name="Render" DisplayName="espejo hecho añicos" />
     <part Name="Description" Short="Un millar de mundos-eco yacen esparcidos por el suelo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseStatSap" Load="Merge">
     <part Name="Render" DisplayName="savia de atributo" />
@@ -2354,6 +2544,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Jumble of Tongues" Load="Merge">
     <part Name="Render" DisplayName="revoltijo de lenguas" />
     <part Name="Description" Short="Marañas de tejido de lengua flácido ensucian el espacio." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Trining Lamprey" Load="Merge">
     <part Name="Render" DisplayName="lamprea triplicante" />
@@ -2368,13 +2559,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Sultan Croc Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de {{g|cocodrilo}} sultán" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Svardym Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de svardym" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Svardym Egg Sac" Load="Merge">
     <part Name="Render" DisplayName="saco de huevos de svardym" />
     <part Name="Description" Short="=pronouns.Possessive= membrana grumosa se abulta y palpita mientras =pronouns.subjective= se esfuerza por contener la masa retorcida de vida embrionaria de rana en su interior." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Svardym Hatchling" Load="Merge">
     <part Name="Render" DisplayName="cría de svardym" />
@@ -2382,6 +2576,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Svardym_WebbedFoot" Load="Merge">
     <part Name="Render" DisplayName="pie palmeado" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Svardym Scrounge" Load="Merge">
     <part Name="Render" DisplayName="svardym gorrón" />
@@ -2389,6 +2584,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Svardym_Spit" Load="Merge">
     <part Name="Render" DisplayName="boca de pólipos triturados" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="ProjectileSvardymSpit" Load="Merge">
     <part Name="Render" DisplayName="pegote de migaja" />
@@ -2412,6 +2608,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Astral_Tabby_Claw" Load="Merge">
     <part Name="Render" DisplayName="zarpa" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chrome Pyramid" Load="Merge">
     <part Name="Render" DisplayName="{{c|pirámide de cromo}}" />
@@ -2420,6 +2617,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="ChromePyramid_SpacetimeDistortion" Load="Merge">
     <part Name="Render" DisplayName="campo de distorsión" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dawning Ape" Load="Merge">
     <part Name="Render" DisplayName="simio del alba" />
@@ -2445,10 +2643,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="{{B|mirada crungleante}}" />
     <part Name="Projectile" PassByVerb="aletear" />
     <part Name="TreatAsSolid" Message="¡La oscuridad consume a =subject.t=!" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Sated Dreamcrungle" Load="Merge">
     <part Name="Render" DisplayName="sueñocrungle saciado" />
     <part Name="Description" Short="=pronouns.Possessive= cañas se han aquietado tras el sueño-temblor; el platillo se escoriza, y el globo humea con el calor de la vida imaginada." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Galgal" Load="Merge">
     <part Name="Render" DisplayName="galgal" />
@@ -2456,6 +2656,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Naser Cannon" Load="Merge">
     <part Name="Render" DisplayName="cañón naser" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileNaserCannon" Load="Merge">
     <part Name="Render" DisplayName="{{K|haz naser}}" />
@@ -2469,6 +2670,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Gamma Moth Gaze" Load="Merge">
     <part Name="Render" DisplayName="mirada mutante" />
     <part Name="EnergyAmmoLoader" NameForStatus="GammaLensing" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="ProjectileGammaMothGaze" Load="Merge">
     <part Name="Render" DisplayName="{{M|destello de luz}}" />
@@ -2485,9 +2687,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Apotheote_Claws" Load="Merge">
     <part Name="Render" DisplayName="{{Y|garra de uña pulida}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Apotheote_Bite" Load="Merge">
     <part Name="Render" DisplayName="{{Y|colmillos limados}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Great Magma Crab" Load="Merge">
     <part Name="Render" DisplayName="{{R|gran cangrejo de magma}}" />
@@ -2495,6 +2699,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Great Magma Crab Claw" Load="Merge">
     <part Name="Render" DisplayName="{{R|garra al rojo vivo}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Leering Stalker" Load="Merge">
     <part Name="Render" DisplayName="{{r|acechador lascivo}}" />
@@ -2502,10 +2707,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="LeeringStalker_PneumaticPiston" Load="Merge">
     <part Name="Render" DisplayName="pistón neumático" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Giant Heap of Chrome Scrap" Load="Merge">
     <part Name="Render" DisplayName="montón gigante de chatarra de {{c|cromo}}" />
     <part Name="Description" Short="Láminas y formas de cromo fueron arrancadas de sus juntas soldadas y apiladas en un montón gigante de chatarra." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Monad" Load="Merge">
     <part Name="Render" DisplayName="mónada" />
@@ -2527,11 +2734,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Saltwurm_Crush" Load="Merge">
     <part Name="Render" DisplayName="bandas trituradoras" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Saltwurm Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de kraken de sal" />
     <part Name="Food" Message="¡Delicioso!" />
     <part Name="Description" Short="Colosales anillos de esponjoso cuerpo-gusano yacen deshinchados e inmóviles. Cerdas del tamaño de espadas raspan la tierra." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Kraken" Load="Merge">
     <part Name="Render" DisplayName="kraken estelar" />
@@ -2539,6 +2748,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="StarKraken_Arm" Load="Merge">
     <part Name="Render" DisplayName="brazo ciclópeo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Unimax" Load="Merge">
     <part Name="Render" DisplayName="unimax" />
@@ -2548,10 +2758,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Unimax_Kick" Load="Merge">
     <part Name="Render" DisplayName="coz" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Unimax Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de unimax" />
     <part Name="Description" Short="Una forma blanca se desploma como una ciudad-colina abandonada. Sus estandartes púrpura están inmóviles." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Vantabloom" Load="Merge">
     <part Name="Render" DisplayName="vantaflor" />
@@ -2563,12 +2775,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Entropic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{Y|seudópodo entrópico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="VehicleTemplarMech" Load="Merge">
     <part Name="RulesDescription" Text="Esta criatura no sana de forma natural y debe ser reparada." />
   </object>
   <object Name="Mech_Kick" Load="Merge">
     <part Name="Render" DisplayName="patada" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="VehicleTemplarMech1" Load="Merge">
     <part Name="Render" DisplayName="meca de templo mk Ia" />
@@ -2577,6 +2791,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="MachinedEdge" Load="Merge">
     <part Name="Render" DisplayName="{{c|filo mecanizado}}" />
     <part Name="Description" Short="" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="VehicleTemplarMech2" Load="Merge">
     <part Name="Render" DisplayName="meca de templo mk Ib" />
@@ -2584,6 +2799,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="ShoulderMountedLightCannon" Load="Merge">
     <part Name="Render" DisplayName="cañón de luz montado al hombro" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileShoulderMountedLightCannon" Load="Merge">
     <part Name="Render" DisplayName="{{Y|haz de protones}}" />
@@ -2596,14 +2812,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="GiganticMachineHull" Load="Merge">
     <part Name="Render" DisplayName="{{c|casco de máquina}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MechaPowerCore" Load="Merge">
     <part Name="Render" DisplayName="núcleo de energía de meca" />
     <part Name="Description" Short="Una jaula caliente de torrente termonuclear está arriostrada con semiconductores. Hay hendiduras en la carcasa para el transporte asistido." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Vertical Launcher" Load="Merge">
     <part Name="Render" DisplayName="lanzador vertical" />
     <part Name="Description" Short="" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileVerticalLauncher" Load="Merge">
     <part Name="Render" DisplayName="{{b|haz de puntería}}" />
@@ -2661,6 +2880,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Urshiib Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de urshiib" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Barathrumite Tinker" Load="Merge">
     <part Name="Render" DisplayName="manitas" />
@@ -2791,78 +3011,103 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Acidic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{G|seudópodo ácido}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Magmatic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{R|seudópodo magmático}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Honeyed Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{w|seudópodo de miel}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sugary Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{Y|seudópodo azucarado}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Waxen Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{Y|seudópodo de cera}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Tarry Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{K|seudópodo de alquitrán}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Watery Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{B|seudópodo acuoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Salty Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{Y|seudópodo salado}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Slimy Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{g|seudópodo de baba}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Unctuous Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{Y|seudópodo untuoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Inky Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{K|seudópodo de tinta}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Oily Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{K|seudópodo aceitoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bloody Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{r|seudópodo sanguinolento}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Lush Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{m|seudópodo exuberante}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Spiced Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{r|seudópodo especiado}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sludgy Pseudopod2" Load="Merge">
     <part Name="Render" DisplayName="{{w|seudópodo de fango}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Gooey Pseudopod2" Load="Merge">
     <part Name="Render" DisplayName="{{G|seudópodo pegajoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Putrid Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{K|seudópodo pútrido}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Oozing Pseudopod2" Load="Merge">
     <part Name="Render" DisplayName="{{K|seudópodo rezumante}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Luminous Pseudopod2" Load="Merge">
     <part Name="Render" DisplayName="{{C|seudópodo luminoso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Neutronic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="seudópodo {{neutronic|neutrónico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Homogenized Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{Y|seudópodo homogeneizado}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Nervous Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="seudópodo {{nervous|nervioso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Algal Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="seudópodo {{g|de alga}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Radiant Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="seudópodo {{radiant|radiante}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Prey Cherub" Load="Merge">
     <part Name="Render" DisplayName="querubín pastante" />
@@ -3150,21 +3395,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Cherubic Pistil" Load="Merge">
     <part Name="Render" DisplayName="pistilo querúbico" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mechanical Cherubic Pistil" Load="Merge">
     <part Name="Render" DisplayName="{{c|pistilo querúbico mecánico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Cherubic Claw" Load="Merge">
     <part Name="Render" DisplayName="garra querúbica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cherubic Hand Claw" Load="Merge">
     <part Name="Render" DisplayName="garra querúbica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Mechanical Cherubic Claw" Load="Merge">
     <part Name="Render" DisplayName="{{c|garra querúbica mecánica}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Mechanical Cherubic Hand Claw" Load="Merge">
     <part Name="Render" DisplayName="{{c|garra querúbica mecánica}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cherubic Fist" Load="Merge">
     <part Name="Render" DisplayName="puño querúbico" />
@@ -3174,69 +3425,91 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Cherubic Nodule" Load="Merge">
     <part Name="Render" DisplayName="nódulo querúbico" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mechanical Cherubic Nodule" Load="Merge">
     <part Name="Render" DisplayName="{{c|nódulo querúbico mecánico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Cherubic Handle" Load="Merge">
     <part Name="Render" DisplayName="asidero querúbico" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mechanical Cherubic Handle" Load="Merge">
     <part Name="Render" DisplayName="{{c|asidero querúbico mecánico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Cherubic Strangle" Load="Merge">
     <part Name="Render" DisplayName="presa estranguladora querúbica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Mechanical Cherubic Strangle" Load="Merge">
     <part Name="Render" DisplayName="{{c|presa estranguladora querúbica mecánica}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cherubic Spines" Load="Merge">
     <part Name="Render" DisplayName="espinas querúbicas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Mechanical Cherubic Spines" Load="Merge">
     <part Name="Render" DisplayName="{{c|espinas querúbicas mecánicas}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Cherubic Bark" Load="Merge">
     <part Name="Render" DisplayName="corteza querúbica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Mechanical Cherubic Bark" Load="Merge">
     <part Name="Render" DisplayName="{{c|corteza querúbica mecánica}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cherubic Spade" Load="Merge">
     <part Name="Render" DisplayName="pala querúbica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Mechanical Cherubic Spade" Load="Merge">
     <part Name="Render" DisplayName="{{c|pala querúbica mecánica}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cherubic Bands" Load="Merge">
     <part Name="Render" DisplayName="bandas querúbicas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Mechanical Cherubic Bands" Load="Merge">
     <part Name="Render" DisplayName="{{c|bandas querúbicas mecánicas}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Cherubic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="seudópodo querúbico" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mechanical Cherubic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="{{c|seudópodo querúbico mecánico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Cherubic Foot" Load="Merge">
     <part Name="Render" DisplayName="pie querúbico" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Mechanical Cherubic Foot" Load="Merge">
     <part Name="Render" DisplayName="{{c|pie querúbico mecánico}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Cherubic Kick" Load="Merge">
     <part Name="Render" DisplayName="patada querúbica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Mechanical Cherubic Kick" Load="Merge">
     <part Name="Render" DisplayName="{{c|patada querúbica mecánica}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Cherubic Talons" Load="Merge">
     <part Name="Render" DisplayName="garras querúbicas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Mechanical Cherubic Talons" Load="Merge">
     <part Name="Render" DisplayName="{{c|garras querúbicas mecánicas}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="BaseNephal" Load="Merge">
     <part Name="Render" DisplayName="nephal" />
@@ -3247,6 +3520,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_Weapon" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="ProjectileIrisdualBeam" Load="Merge">
     <part Name="Render" DisplayName="{{rainbow|destello de neón}}" />
@@ -3259,6 +3533,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_Claw" Load="Merge">
     <part Name="Render" DisplayName="garra moteada" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Bethsaida" Load="Merge">
     <part Name="Render" DisplayName="Bethsaida" />
@@ -3266,6 +3541,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_Talon" Load="Merge">
     <part Name="Render" DisplayName="garra fractal" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Rermadon" Load="Merge">
     <part Name="Render" DisplayName="Rermadon" />
@@ -3273,6 +3549,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_Tail" Load="Merge">
     <part Name="Render" DisplayName="cola con aletas" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Qas" Load="Merge">
     <part Name="Render" DisplayName="Qas" />
@@ -3280,6 +3557,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_Kick" Load="Merge">
     <part Name="Render" DisplayName="patada de embestida" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Qon" Load="Merge">
     <part Name="Render" DisplayName="Qon" />
@@ -3287,6 +3565,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_Flap" Load="Merge">
     <part Name="Render" DisplayName="aletas rasantes" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Shugruith" Load="Merge">
     <part Name="Render" DisplayName="Shug'ruith" />
@@ -3295,6 +3574,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_CordedTail" Load="Merge">
     <part Name="Render" DisplayName="cola fibrosa" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseGirshCresh" Load="Merge">
     <part Name="Render" DisplayName="cresh de girshling" />
@@ -3324,6 +3604,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Bed Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de cama" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Bipedal Robot Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de robot bípedo" />
@@ -3339,6 +3620,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Chair Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de silla" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Clam Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de almeja" />
@@ -3360,6 +3642,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Door Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de puerta" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Dromad Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de dromad" />
@@ -3405,12 +3688,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Infrastructure Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de infraestructura" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Insect Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de insecto" />
   </object>
   <object Name="Iron Maiden Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de dama de hierro" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Jelly Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de gelatina" />
@@ -3468,6 +3753,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Table Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de mesa" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Tortoise Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de tortuga" />
@@ -3495,6 +3781,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Wall Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de muro" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Wheeled Robot Golem" Load="Merge">
     <part Name="Render" DisplayName="gólem de robot con ruedas" />
@@ -3504,6 +3791,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Metachrome Weapon" Load="Merge">
     <part Name="Render" DisplayName="arma de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Metachrome Cudgel" Load="Merge">
     <part Name="Render" DisplayName="porra de {{metachrome|metacromo}}" />
@@ -3531,18 +3819,23 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Metachrome Face Cudgel" Load="Merge">
     <part Name="Render" DisplayName="molares de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Metachrome Face Axe" Load="Merge">
     <part Name="Render" DisplayName="trinos de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Metachrome Face LongBlades" Load="Merge">
     <part Name="Render" DisplayName="colmillos de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Metachrome Face ShortBlades" Load="Merge">
     <part Name="Render" DisplayName="colmillos afilados de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Metachrome Head Cudgel" Load="Merge">
     <part Name="Render" DisplayName="bulbo de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Metachrome Head Axe" Load="Merge">
     <part Name="Render" DisplayName="cresta de {{metachrome|metacromo}}" />
@@ -3552,9 +3845,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Metachrome Head ShortBlades" Load="Merge">
     <part Name="Render" DisplayName="cuerno de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Metachrome Foot Cudgel" Load="Merge">
     <part Name="Render" DisplayName="cormo de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Metachrome Foot Axe" Load="Merge">
     <part Name="Render" DisplayName="pala de {{metachrome|metacromo}}" />
@@ -3567,27 +3862,35 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Metachrome Arm Cudgel" Load="Merge">
     <part Name="Render" DisplayName="discos de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Metachrome Arm Axe" Load="Merge">
     <part Name="Render" DisplayName="crestas de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Metachrome Arm LongBlade" Load="Merge">
     <part Name="Render" DisplayName="escamas de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Metachrome Arm ShortBlade" Load="Merge">
     <part Name="Render" DisplayName="espinas de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Metachrome Body Cudgel" Load="Merge">
     <part Name="Render" DisplayName="bandas de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Metachrome Body Axe" Load="Merge">
     <part Name="Render" DisplayName="bandas estriadas de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Metachrome Body LongBlades" Load="Merge">
     <part Name="Render" DisplayName="bandas con hojas de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Metachrome Body ShortBlades" Load="Merge">
     <part Name="Render" DisplayName="bandas con puntas de {{metachrome|metacromo}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Metachrome Tail Cudgel" Load="Merge">
     <part Name="Render" DisplayName="cola de {{metachrome|metacromo}}" />
@@ -3607,6 +3910,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Dromad Corpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de dromad" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DromadTrader" Load="Merge">
     <part Name="Render" DisplayName="mercader dromad" />
@@ -3905,9 +4209,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Tungsten Carbide Hammer-Fist" Load="Merge">
     <part Name="Render" DisplayName="puño-martillo de carburo de tungsteno" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Tungsten Carbide Axe-Fist" Load="Merge">
     <part Name="Render" DisplayName="puño-hacha de carburo de tungsteno" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sparafucile" Load="Merge">
     <part Name="Render" DisplayName="Sparafucile" />
@@ -4072,15 +4378,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Slog Bands" Load="Merge">
     <part Name="Render" DisplayName="{{Y|bandas trituradoras}}" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Bilge Sphincter" Load="Merge">
     <part Name="Render" DisplayName="{{w|esfínter de sentina}}" />
     <part Name="Description" Short="Húmedos anillos de músculo estremecido se contraen y escupen caldo corporal en oleadas peristálticas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SlogCorpse" Load="Merge">
     <part Name="Render" DisplayName="cadáver de Slog" />
     <part Name="Description" Short="Viscosos anillos de cuerpo de gusano esponjoso están deshinchados e inmóviles. Pequeñas cerdas raspan la tierra." />
     <part Name="Food" Message="¡Es repugnante!" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Alchemist" Load="Merge">
     <part Name="Render" DisplayName="alquimista" />
@@ -4167,12 +4476,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Writhing Spike" Load="Merge">
     <part Name="Render" DisplayName="{{K|púa que se retuerce}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Writhing Cable" Load="Merge">
     <part Name="Render" DisplayName="{{K|cable que se retuerce}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Glossy Hull" Load="Merge">
     <part Name="Render" DisplayName="{{K|casco lustroso}}" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Nacham" Load="Merge">
     <part Name="Description" Short="Tres patas digitígradas de piel reluciente van lastradas por el aura de un caparazón metálico flotante, suspendido a través de tres bandas en tensión magnética cuántica. Trenzas prensiles de cordaje se derraman de =pronouns.possessive= aberturas (rematadas en ojos maníacos y eléctricos), y el aire en torno a =pronouns.objective= ronronea en la multitextura sonora del oro." />
@@ -4334,6 +4646,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Prism Point" Load="Merge">
     <part Name="Render" DisplayName="{{Y|punta de prisma}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TauNoLonger" Load="Merge">
     <part Name="Render" DisplayName="{{M|Tau-Ya-No}}" />
