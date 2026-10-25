@@ -32,6 +32,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Nephal_Starhoof" Load="Merge">
     <part Name="Render" DisplayName="casco de estampa estelar" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Prism Girshling" Load="Merge">
     <part Name="Render" DisplayName="cría girsh de prisma" />
@@ -46,6 +47,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="BaseEaterGreatMachineShrine" Load="Merge">
     <part Name="Render" DisplayName="santuario a la Gran Máquina" />
     <part Name="Description" Short="Comedores de mármol se arrodillan en concordancia sacerdotal con la Gran Máquina, accionando palancas y cebando hidrantes para guiar y ser guiados por la Voluntad Computada. Un estrado de diodos de cristal ofrece una vista de tablero de mando sobre la agitación de geoculturas a cientos de miles de años luz de distancia." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eater Globe" Load="Merge">
     <part Name="Render" DisplayName="globo en suspensión" />
@@ -54,26 +56,33 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="BaseSpindleSupport" Load="Merge">
     <part Name="Render" DisplayName="brazo de amarre" />
     <part Name="Description" Short="Anclas de uracero con bridas sujetan la cinta ahusada de Gjaus a su punto bajo sobre la tierra." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Spindle Ribbon" Load="Merge">
     <part Name="Render" DisplayName="cinta de grafeno" />
     <part Name="Description" Short="Una cinta burbujeante de motas de carbono torneada al grosor de un papel roza sus mecanismos de anclaje y desaparece hacia el cielo en un nada ahusado." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Left Spindle Ribbon" Load="Merge">
     <part Name="Render" DisplayName="cinta de grafeno" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Right Spindle Ribbon" Load="Merge">
     <part Name="Render" DisplayName="cinta de grafeno" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Spindle Ribbon Top" Load="Merge">
     <part Name="Render" DisplayName="cinta de grafeno" />
     <part Name="Description" Short="Una cinta burbujeante de motas de carbono torneada al grosor de un papel roza sus mecanismos de anclaje y desaparece hacia el cielo en un nada ahusado." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Left Spindle Ribbon Top" Load="Merge">
     <part Name="Render" DisplayName="cinta de grafeno" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Right Spindle Ribbon Top" Load="Merge">
     <part Name="Render" DisplayName="cinta de grafeno" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainNorthSheva" Load="Merge">
     <xtagGrammar massNoun="false" />
@@ -81,22 +90,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="TerrainCosmos" Load="Merge">
     <part Name="Render" DisplayName="cosmos enjoyado" />
     <part Name="Description" Short="El frustum de visión se llena con un mosaico de arcoíris de candelas estelares, suavizado por las islas de polvo a través de sus golfos imposibles, y parpadeante en movimiento fusil. Como vista única, su amplitud abruma a la mente consciente, que se apresura a reducir los píxeles innumerables a formas enteras y platónicas." />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="TerrainWorld" Load="Merge">
     <part Name="Render" DisplayName="mundo de canica azul" />
     <part Name="Description" Short="Grandes plataformas de hielo se funden y alimentan los mares de zafiro, que lamen los panales a la deriva de basalto y cal. Aquí arriba, los patrones de costa emergen de millones de contornos fluyentes, cada uno de los cuales podría albergar un clado de caracoles, o árboles, o arroceros." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainHalo" Load="Merge">
     <part Name="Render" DisplayName="halo atmosférico" />
     <part Name="Description" Short="Un aura de pelusa aérea se arremolina sobre la canica, fundiéndose y disolviéndose en estaciones sin fin, vientos marinos abrasadores que se enfrían hasta volverse brisas céfiras, secuenciando los ritmos vitales de un mundo que respira." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainExtrasolarFungi" Load="Merge">
     <part Name="Render" DisplayName="hongos extrasolares" />
     <part Name="Description" Short="Cuerpos fructíferos gigantescos en tonos ricos y sobrenaturales se adhieren a horcaduras esponjosas y eructan esporas. Revolotean en curva hacia la electrostática del amarre del Huso y caen como purpurina." />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="TerrainSolarRibbon" Load="Merge">
     <part Name="Render" DisplayName="cinta solar" />
     <part Name="Description" Short="Superelipses de conductores planos y ebrios de sol teselan una tira trenzada que se curva para captar mejor la luz solar y su reflejo derramado." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainSpindleTether" Load="Merge">
     <part Name="Render" DisplayName="amarre del Huso" />
@@ -108,34 +122,42 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="TerrainSkyBridge" Load="Merge">
     <part Name="Render" DisplayName="puente hacia el sur" />
     <part Name="Description" Short="Desde la penumbra sombría de un túnel del subestrato emerge un puente corrido hacia el sur por el empíreo, iluminado desde abajo por los océanos que rebosan de sol." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainSurfaceStratum" Load="Merge">
     <part Name="Render" DisplayName="estrato de superficie" />
     <part Name="Description" Short="Capa sobre capa de material compuesto muy fibroso se tornean en un pliegue plano y edificable para las polis de alta órbita." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainSuperStratum" Load="Merge">
     <part Name="Render" DisplayName="superestrato" />
     <part Name="Description" Short="Compuesto fibroso y escuadrado se alza hacia el norte sobre el Sheva y ofrece una vista en ángulo desde la alta meseta hasta las plataformas inferiores." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainUnderstratum" Load="Merge">
     <part Name="Render" DisplayName="subestrato" />
     <part Name="Description" Short="Bajo las polis que toman el sol en la superficie, laberintos incartografiables de fibromateria cavernosa y ahuecada acogen a miríadas de subcultura fosilizada." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainShatteredStratum" Load="Merge">
     <part Name="Render" DisplayName="estrato resquebrajado" />
     <part Name="Description" Short="Megamontantes están desprendidos y dorados con sogas de compuesto deshilachado, todo resquebrajado por la violencia del tiempo y congelado en el vacío sin aire." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainUnderhorn" Load="Merge">
     <part Name="Render" DisplayName="cuerno inferior" />
     <part Name="Description" Short="Plata hiperconductora teje por debajo los estratos bajos, a modo de murciélago, y emite señal a las espesuras agitadas que hay más abajo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainMoverRail" Load="Merge">
     <part Name="Render" DisplayName="raíl del transeúnte" />
     <part Name="Description" Short="Largas líneas de madera superconductora atraviesan el Sheva Norte y levitan magnéticamente a los transeúntes hasta paradas inclinadas al cielo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainMoverStop" Load="Merge">
     <part Name="Render" DisplayName="parada del transeúnte" />
     <part Name="Description" Short="El diamante de enganche logra el cierre magnético con las patas de un palanquín de transeúnte y concluye el ritual de la ida." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainMoverStopRuined" Load="Merge">
     <part Name="Render" DisplayName="parada del transeúnte en ruinas" />
@@ -190,20 +212,24 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Engranajes de giro lento de metal ganado a las estrellas se ocultan tras velas y flanquean un ábaco de medida continental. El aceite arde para iluminar el templo funcional, que sirve a la vez de sinagoga a la Paz Setentidós y, también, de motor de sus dictados." />
     <tag Name="IndefiniteArticle" Value="el" />
     <tag Name="DefiniteArticle" Value="el" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainDarkMatterMast" Load="Merge">
     <part Name="Render" DisplayName="mástil de materia oscura" />
     <part Name="Description" Short="Altos palos de la masiva sustancia que desvía la luz se erigieron sobre los puertos estelares por todo el cúmulo local; las líneas ley se doblaron y se forjaron nuevos canales de cultura fluídica." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainStarshipMoor" Load="Merge">
     <part Name="Render" DisplayName="amarradero de naves estelares" />
     <part Name="Description" Short="Grandes muelles que perforan el vacío están moteados de hangares de naves estelares y entrecruzados por bulevares de mármol que se desmoronan. El cosmos enjoyado brilla a través de cúpulas de cuarto de esfera." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainObservationLune" Load="Merge">
     <part Name="Render" DisplayName="luna de observación" />
     <part Name="Description" Short="Un tambor ciclópeo de líquido adivinatorio está uncido al estrato para escudriñar el flujo de sucesos mitopoético del reino burbujeado." />
     <tag Name="IndefiniteArticle" Value="la" />
     <tag Name="DefiniteArticle" Value="la" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainObservationLune R" Load="Merge">
     <part Name="Render" DisplayName="luna de observación" />
@@ -213,11 +239,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="¿Con qué propósito criaron los Comedores a un pueblo de cuento de hadas y les dejaron creer que su pendón ondeaba sobre todo un universo de cristal? Si lo hubo, se ha perdido." />
     <tag Name="IndefiniteArticle" Value="el" />
     <tag Name="DefiniteArticle" Value="el" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainMotedForest" Load="Merge">
     <part Name="Render" DisplayName="bosque moteado" />
     <part Name="Description" Short="Motas de polvo estelar llueven por el dosel de encantamiento y se arremolinan en el viento. Refractan la luz burbujeada y se deslizan a colores invisibles, salpicando árboles de humedad y de hoja suavísima." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="ms" massNoun="true" />
   </object>
   <object Name="TerrainLakeAvalon" Load="Merge">
     <part Name="Render" DisplayName="Lago Avalon" />
@@ -227,6 +254,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="TerrainGlassDome" Load="Merge">
     <part Name="Render" DisplayName="cúpula de cristal" />
     <part Name="Description" Short="La gran cápsula (muro exterior y piel del mundo) sostiene el reino en verdad pero no en apariencia, invirtiendo la relación entre el reino y su rey." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainSeedVault" Load="Merge">
     <part Name="Render" DisplayName="bóveda de semillas" />
@@ -273,18 +301,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="TerrainDishHorn" Load="Merge">
     <part Name="Render" DisplayName="cuerno de antena" />
     <part Name="Description" Short="La manopla parabólica capta señal de las amplitudes lejanas del cosmos y la devuelve soplada a través del cuerno resonador." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainTerrarium" Load="Merge">
     <part Name="Render" DisplayName="terrario" />
     <part Name="Description" Short="Plantas terrestres y de otra índole prosperan en la burbuja invernadero, con raíces que amasan los estratos fibrosos y hojas que se asoman hacia el sol a través del vacío." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainShatteredTerrarium" Load="Merge">
     <part Name="Render" DisplayName="terrario resquebrajado" />
     <part Name="Description" Short="Crecimientos extraños y otras mutaciones aquejan a la flora expuesta, pues el cristal de vacío resquebrajado deja entrar sol sin filtrar, polvo y colonias de esporas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainFarmShelf" Load="Merge">
     <part Name="Render" DisplayName="plataforma de cultivo ultravioleta" />
     <part Name="Description" Short="Grandes montículos de tierra fueron aterrazados y plantados con cultivos manipulados para echar raíz en el vacío y beber el espectro pleno de luz del sol." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainNorthForum" Load="Merge">
     <part Name="Render" DisplayName="Foro Norte" />
@@ -296,18 +328,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="TerrainSheshDacha" Load="Merge">
     <part Name="Render" DisplayName="dacha shesh" />
     <part Name="Description" Short="Las casitas combadas de los shesh qanim brotaron en matojos cuando el tráfico estelar atestó las bajas medinas y los Comedores sintieron el impulso de pasar más tiempo en la superficie." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainShevaDacha" Load="Merge">
     <part Name="Render" DisplayName="dacha sheva" />
     <part Name="Description" Short="A medida que las casitas llenaban los shesh qanim, los rezagados de la superficie y los pueblos estelares que llenaban el margen establecieron hogares en el sheva, al sur de la burbuja y abrazando el acantilado de cortina aplacada del continente septentrional." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainLowMedina" Load="Merge">
     <part Name="Render" DisplayName="medina baja" />
     <part Name="Description" Short="Las polis antiguas y circunscritas del estrato de superficie albergaban a los clanes y gremios Comedores que remontaron Gjaus en el eón primigenio antes del Pacto. Aquí acarreaban su primer carguero estelar y contemplaban con asombro puro la canica azul de la que se izaron." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainHighMedina" Load="Merge">
     <part Name="Render" DisplayName="medina alta" />
     <part Name="Description" Short="Antes incluso de que los primeros Comedores poblaran la medina baja, cuando el arca se preparaba para sembrar los cielos lejanos con el genoma terrestre, las primeras polis se alzaron de la enteopolítica y las controversias mitoprosaicas de la construcción de Gjaus. De algún modo, siguen en pie." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainBazaarOfSamech" Load="Merge">
     <part Name="Render" DisplayName="bazar de Samech" />
@@ -319,32 +355,39 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="TerrainOutworldVault" Load="Merge">
     <part Name="Render" DisplayName="bóveda de otro mundo" />
     <part Name="Description" Short="Los más ricos de los regalos de los pueblos estelares se guardaban en bóvedas de zetacromo diamantizado y campo de éxtasis bombeado. La perspectiva desde el transeúnte no da indicio alguno de si la ionización del tiempo ha debilitado estas empalizadas espaciotemporales de la Vieja Banca." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="TerrainTelescope" Load="Merge">
     <part Name="Render" DisplayName="cuerno de escudriñamiento" />
     <part Name="Description" Short="El cuerno y su gran panal de espejos cosechan la luz húmeda de los confines más lejanos de esta dimensión y de sus vecinas. Con él, los Comedores escudriñaron los primeros instantes del nacimiento universal, y luego los eones que lo precedieron." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainForceCore" Load="Merge">
     <part Name="Render" DisplayName="núcleo de fuerza" />
     <part Name="Description" Short="Jaulas maquínicas almacenan fuerza pura sorbida de la corriente de deslizamiento y empleada para remodelar el espaciotiempo local. De vez en cuando, fluctuaciones amatemáticas permiten que un pushtón escape y haga brillar una galaxia de soslayo justo en el núcleo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TerrainForceCore R" Load="Merge">
     <part Name="Render" DisplayName="núcleo de fuerza" />
     <part Name="Description" Short="Jaulas maquínicas almacenan fuerza pura sorbida de la corriente de deslizamiento y empleada para remodelar el espaciotiempo local. De vez en cuando, fluctuaciones amatemáticas permiten que un pushtón escape y haga brillar una galaxia de soslayo justo en el núcleo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="OmniForcefield" Load="Merge">
     <part Name="Render" DisplayName="barrera de fuerza" />
     <part Name="Description" Short="El potencial se polariza en una malla hexagonal magenta y se sintoniza con cada estrato del espectro fásico. Los objetos quedan bloqueados sin excepción." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Fluent Lock" Load="Merge">
     <part Name="Render" DisplayName="cerradura fluyente" />
     <part Name="Description" Short="Una gota de fluido tixotrópico es atraída hacia abajo a una cuenca por fuerza centrípeta. En sincronización con sus cerraduras-cónyuge, el efecto neto estabiliza el Sheva Norte en órbita geoestacionaria y simula las presiones ambientales de 1g." />
     <part Name="ChargeSink" NameForStatus="OrbitalStabilization" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Phasic Screw" Load="Merge">
     <part Name="Render" DisplayName="tornillo fásico" />
     <part Name="Description" Short="Paneles cuarzíferos giran en hélices agudas en torno a un polo magnético. Sus caras especulares reflejan partículas que salen de dimensiones laterales y atraviesan el bolsillo debilitado del interespacio. Se captura una fracción de energía." />
     <part Name="ChargeSink" NameForStatus="HyperdimensionalRotary" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseEaterMonument" Load="Merge">
     <part Name="Description" Short="" />
@@ -352,14 +395,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Circumcestral Eater Monument" Load="Merge">
     <part Name="Render" DisplayName="monumento circunancestral" />
     <part Name="Description" Short="La forma del megalito tallado electrifica un escuadrón olvidado de neuronas en un recoveco de tu mente, lanzándote a una intimidad súbita con el pasado profundo, en algún lugar al borde del primer pensamiento. Luego se impone una incertidumbre sobre en qué dirección de la trenza del tiempo estás recordando." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eater Mounted Monument" Load="Merge">
     <part Name="Render" DisplayName="armazón sagrado" />
     <part Name="Description" Short="El santo colofón se sostiene en exhibición triangular y se le acerca uno para la reflexión ritual e idólatra en ciclos de números primos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ShevaBrazier" Load="Merge">
     <part Name="Render" DisplayName="brasero en suspensión" />
     <part Name="Description" Short="Escoria estelar de la primera edad del cosmos arde en tonos de orquídea e índigo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ShevaBrazierGreen" Load="Merge">
     <part Name="Description" Short="Escoria estelar de la primera edad del cosmos arde en tonos de hoja y malaquita." />
@@ -371,24 +417,29 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="BaseShevaHydraulicPipe" Load="Merge">
     <part Name="Render" DisplayName="tubo ornamental" />
     <part Name="Description" Short="Arena fundida de treinta mundos solares se sopló hasta la improbabilidad topológica y se remató con florones de oro sin estrellas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eater Sign 1" Load="Merge">
     <part Name="Render" DisplayName="letrero" />
     <part Name="Description" Short="Iconos de fuego estelar saltan sobre un tablero de bronce holográfico." />
     <part Name="Chat" Says="Al oeste, hacia el fragmento" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eater Sign 2" Load="Merge">
     <part Name="Render" DisplayName="letrero" />
     <part Name="Description" Short="Iconos de fuego estelar saltan sobre un tablero de bronce holográfico." />
     <part Name="Chat" Says="Al este, hacia los transeúntes en el Punto de Tifaret" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eater Sign 3" Load="Merge">
     <part Name="Render" DisplayName="letrero" />
     <part Name="Description" Short="Iconos de fuego estelar saltan sobre un tablero de bronce holográfico." />
     <part Name="Chat" Says="Al este, hacia el Muelle" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="StationWall" Load="Merge">
     <part Name="Render" DisplayName="muro de estación" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MotedAir" Load="Merge">
     <part Name="Render" DisplayName="vacío del espacio" />
@@ -405,6 +456,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Fromshunter" Load="Merge">
     <part Name="Render" DisplayName="derivador de origen" />
     <part Name="Description" Short="Un haz de mecha traza las siluetas de criaturas recién impresas en las líneas ley y revuelve el muestreo para producir un resultado verdaderamente aleatorio. Miles de años y centillones de bits pasan por un cuello de botella del ahora holográfico, y luego se desvanecen en uno solo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileFromShunter" Load="Merge">
     <part Name="Render" DisplayName="{{o|rayo de descarte}}" />
@@ -419,6 +471,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Eater Vessel 1" Load="Merge">
     <part Name="Render" DisplayName="vasija en suspensión" />
     <part Name="Description" Short="Continentes de textura sobre la superficie de la vasija son vestigios de la mano alienígena, allí donde el barro se moldeó en el hogar de un otromundo brumoso, antes de ser despojado de su pelaje gravitacional." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Eater Vessel 2" Load="Merge">
     <part Name="Render" DisplayName="vasija en suspensión" />
@@ -430,6 +483,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Moon-and-Sun Shade" Load="Merge">
     <part Name="Render" DisplayName="sombra de luna y sol" />
     <part Name="Description" Short="Una corona de hojas estelares brillantes y goteantes proyecta sombras hipnóticas sobre sus raíces." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Earth Gate W" Load="Merge">
     <part Name="Render" DisplayName="Puerta de la Tierra" />
@@ -445,18 +499,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="campana cantarina" />
     <part Name="Description" Short="El borde sonoro de bronce estelar reluciente se fundió contra la boca perfecta de un rotacton y se le engastó un badajo de zetacromo. Al tañerse, la onda de sonido se desplaza en yuxtaposición con la experiencia subjetiva de quien escucha, y se anuncian los rituales del ser y de la ida." />
     <part Name="Interactable" Action="tañer" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Blueshifted Chrome" Load="Merge">
     <part Name="Render" DisplayName="cromo desplazado al azul" />
     <part Name="Description" Short="La luz reluce sobre cisternas ornamentales talladas, formas de pozo diseñadas para mantener el líquido fresco y fluyente. El mineral de cromo del que están forjadas fue desviado hacia el marco de un observador y bloqueado en color por un motor de éxtasis." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseMoverChute" Load="Merge">
     <part Name="Render" DisplayName="raíl de fuerza" />
     <part Name="Description" Short="Una rampa de madera superconductora está sintonizada para rimar con las líneas ley adyacentes y procurar un deslizamiento sin fricción." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseEaterFloorClock" Load="Merge">
     <part Name="Render" DisplayName="eclíptica del transeúnte" />
     <part Name="Description" Short="Dígitos de pan de oro de un sistema numérico no determinista se disponen dentro de la circunferencia de un mosaico eclíptico." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Rubble Blue" Load="Merge">
     <part Name="Render" DisplayName="escombros" />
@@ -472,7 +530,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Mover Exit" Load="Merge">
     <part Name="Render" DisplayName="portal de salida" />
     <part Name="Description" Short="Una salida reencuentra al transeúnte con el artificio que es un mundo quieto." />
-    <xtagGrammar iArticle="" />
+    <xtagGrammar concord="ms" iArticle="" />
   </object>
   <object Name="Mover Baetyl" Load="Merge">
     <part Name="Render" DisplayName="baetyl piloto" />
@@ -481,22 +539,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Mover Wall" Load="Merge">
     <part Name="Render" DisplayName="escamas de bronce estelar" />
     <part Name="Description" Short="Bronce de estrella caliente dispuesto cibernéticamente sobre una capa de mesodermo vivo adopta una teselación grata y que llena el espacio." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Mover Chair" Load="Merge">
     <part Name="Render" DisplayName="silla ancha" />
     <part Name="Description" Short="Un asiento de madera ancho ofrece sitio suficiente para el trasero cultivado cibernéticamente, o para una pareja psicoquímicamente encogida, o para un trío ontológicamente comprimido." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseMoverCouch" Load="Merge">
     <part Name="Render" DisplayName="sofá" />
     <part Name="Description" Short="Un sofá arqueado reúne a los transeúntes mediante la tiranía embotada del aquí y ahora. El asiento de madera, cortado de cosas-árbol en un mundo lunar del Aquelarre, lleva una muesca de alguna forma hecha por cada uno de los que se sentaron en él a lo largo de su historia de cien miríadas.&#xA;" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eater Thurible" Load="Merge">
     <part Name="Render" DisplayName="incensario dorado" />
     <part Name="Description" Short="Hierro solar brillante fundido en la colisión de estrellas de neutrones ha sido grabado con ventanas humeantes rómbicas y ajustado sobre un crisol de semilla ardiente." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Eater Chimes" Load="Merge">
     <part Name="Render" DisplayName="carillón ritual" />
     <part Name="Description" Short="Una constelación de campanas fundidas con las distintas rocas lustrosas del cúmulo local da profundidad y rango sonoro a los rituales del transeúnte." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Rubble Black" Load="Merge">
     <part Name="Render" DisplayName="escombros" />
@@ -517,22 +580,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="HangarWall" Load="Merge">
     <part Name="Render" DisplayName="placas de bahía de criacero" />
     <part Name="Description" Short="Anchos paneles de metal teñido de estrellas encierran el hangar de naves estelares y actúan como palimpsestos de mil alfabetos." />
-    <xtagGrammar iArticle="unas" />
+    <xtagGrammar concord="fp" iArticle="unas" />
   </object>
   <object Name="Eel Grass" Load="Merge">
     <part Name="Render" DisplayName="hierba anguila" />
     <part Name="Description" Short="Céspedes ondulantes palpan el aire con sed y segregan una cera destinada a protegerse de las erupciones venenosas de su lejano sol enano." />
-    <xtagGrammar iArticle="unos" adjunctNoun="mechón" />
+    <xtagGrammar concord="fs" iArticle="unos" adjunctNoun="mechón" />
   </object>
   <object Name="Wheel of Qv" Load="Merge">
     <part Name="Render" DisplayName="rueda de Qv" />
     <part Name="Description" Short="Las espirales de la enredadera se aprietan contra la presión de una octava dimensión oculta del espacio (que solo se activa fuera de la densidad del extrañofluido en que suelen estar sumergidas). Cuando esto ocurre, sus salpicaduras de argón sólido refunfuñan a una frecuencia que corroe todos los metales terrestres conocidos. &#xA;" />
-    <xtagGrammar iArticle="unos" adjunctNoun="mechón" />
+    <xtagGrammar concord="fs" iArticle="unos" adjunctNoun="mechón" />
   </object>
   <object Name="StarshipGeometricWall" Load="Merge">
     <part Name="Render" DisplayName="mamparo geométrico" />
     <part Name="Description" Short="Bandas de fulcreto, metal y espuma protegen contra el vacío del espacio y ofrecen una textura visual grata al interior plano, que mantiene el ánimo en alto en los trayectos largos." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="ms" massNoun="true" />
   </object>
   <object Name="StarshipGeometricWallBright Endcap" Load="Merge">
     <part Name="Render" DisplayName="interior" />
@@ -546,10 +609,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="StarshipBed W" Load="Merge">
     <part Name="Render" DisplayName="hueco de dormir" />
     <part Name="Description" Short="Un hueco tallado en madera en el mamparo geométrico está rodeado de mantas y cubierto con cortinas de textiles estampados. En el largo vacío entre estrellas, mecida suavemente por el traqueteo del motor de hedrón, la gente de la nave alcanza grados de sueño apacible desconocidos para los moradores de los mundos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="StarshipBed E" Load="Merge">
     <part Name="Render" DisplayName="hueco de dormir" />
     <part Name="Description" Short="Un hueco tallado en madera en el mamparo geométrico está rodeado de mantas y cubierto con cortinas de textiles estampados. En el largo vacío entre estrellas, mecida suavemente por el traqueteo del motor de hedrón, la gente de la nave alcanza grados de sueño apacible desconocidos para los moradores de los mundos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="StarshipBookshelf W" Load="Merge">
     <part Name="Render" DisplayName="estantería empotrada" />
@@ -569,39 +634,47 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Starship1 Wooden Chair" Load="Merge">
     <part Name="Render" DisplayName="silla de roble" />
     <part Name="Description" Short="Un asiento de roble rico, regado de lluvia, fue elaborado por un maestro sillero en un pueblo de montaña de un mundo lejano y angulado para procurar la mezcla ideal de contemplación estelar y concentración hacia abajo." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Starship Pilot Console" Load="Merge">
     <part Name="Render" DisplayName="consola de piloto" />
     <part Name="Description" Short="La luna de cristal exhibe brazos en espiral y los esclusos sin fin que discurren entre ellos. Pinzas, deslizadores, silbadores y diales pueblan el bisel y procuran ayudas de navegación por todo el manifold." />
     <part Name="ChargeSink" NameForStatus="StarflightControl" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Starship Copilot Console" Load="Merge">
     <part Name="Render" DisplayName="consola de copiloto" />
     <part Name="Description" Short="Diagnósticos de nave y estrella descienden por la luna de cristal hasta los bancos de datos. Un conjunto de palancas, deslizamientos y esferas de precisión flanquean el tablero en paneles curvos y procuran ayudas de consulta por todo el manifold." />
     <part Name="ChargeSink" NameForStatus="StarflightMonitoring" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Starship1 ExitHatch" Load="Merge">
     <part Name="Render" DisplayName="escotilla de salida" />
     <part Name="Description" Short="Un panel hexagonal retráctil está ajustado sobre raíles engrasados." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Starship1 Pilot Seat" Load="Merge">
     <part Name="Render" DisplayName="asiento de piloto" />
     <part Name="Description" Short="Los cojines del asiento están envueltos en vinilo del tono de un océano congelado que rebosa libre del calor de las mareas. Diales de control, deslizadores e interruptores cuadriculan el reposabrazos de panel plano." />
     <part Name="Chair" NameForStatus="ErgonomicSystems" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Starship1 Copilot Seat" Load="Merge">
     <part Name="Render" DisplayName="asiento de copiloto" />
     <part Name="Description" Short="Los cojines del asiento están envueltos en vinilo del tono de un océano congelado que rebosa libre del calor de las mareas. Diales de control, deslizadores e interruptores cuadriculan el reposabrazos de panel plano." />
     <part Name="Chair" NameForStatus="ErgonomicSystems" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Starship1 Passenger Seat" Load="Merge">
     <part Name="Render" DisplayName="asiento de pasajero" />
     <part Name="Description" Short="La espuma del asiento está marcada con extrañas huellas de espalda, pintada con una docena de mezclas de sudor, y equilibrada sobre un estrado de metal." />
     <part Name="Chair" NameForStatus="ErgonomicSystems" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Starship1 Tree Sculpture" Load="Merge">
     <part Name="Render" DisplayName="escultura de árbol de Triángulo" />
     <part Name="Description" Short="Un montante de bronce o algo semejante al bronce se dobla en el característico triángulo en espiral de un cúmulo vecino. Una pátina de oro lo envuelve en patrones crípticos y poéticos." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Starship Ornate Potted Plant 2" Load="Merge">
     <part Name="Description" Short="Lóbulos vegetales de verde furtivo se despliegan del antiguo caldero con incisión de cromo. Viven y respiran como sus primos arraigados en el mantillo, pero sus biodatos se empalmaron con la semilla amarantina." />
@@ -612,11 +685,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Starship1 Power Core" Load="Merge">
     <part Name="Render" DisplayName="hedrón de potencia" />
     <part Name="Description" Short="La antorcha magnética arde sin llama dentro del hedrón con los gases de escape de la alta fusión, y la cámara traquetea de potencial." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Starship1 Status Panel" Load="Merge">
     <part Name="Render" DisplayName="panel de estado" />
     <part Name="Description" Short="A través de un campo de cristal de vacío, diodos de cromo parpadean en secuencia hedrónica." />
     <part Name="ChargeSink" NameForStatus="HedronStatusDiodes" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Starship1 Cargo Crate" Load="Merge">
     <part Name="Render" DisplayName="cajón de carga" />
@@ -625,16 +700,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Starship1 Pilaster" Load="Merge">
     <part Name="Render" DisplayName="pilastra" />
     <part Name="Description" Short="Un pilar de soporte de metal está mellado con las cicatrices de roces de carga, metralla de hedrón, proyectiles de plasma y mordeduras de escarabajo de litera." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Starship1 Comms" Load="Merge">
     <part Name="Render" DisplayName="cintas de comunicación" />
     <part Name="Description" Short="Una tríada de cables trenzados cuelga de un pivote, cada uno rematado por un altavoz de seis bocas. Estática en distintas octavas se derrama en el paisaje sonoro." />
     <part Name="ChargeSink" NameForStatus="VoiceProjection" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Star Carousel Wall" Load="Merge">
     <part Name="Render" DisplayName="branquias de criafoil" />
     <part Name="Description" Short="Tejido papiráceo de criacero se mece en ondas suaves y airea el interior del carrusel. El recinto da la impresión de estar dentro de un pez isla." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="fp" massNoun="true" />
   </object>
   <object Name="Star Carousel Infested Wall" Load="Merge">
     <part Name="Render" DisplayName="branquias de criafoil infestadas" />
@@ -644,6 +721,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="consola de piloto" />
     <part Name="Description" Short="Un panel de barras de tono en proporciones armónicas brilla en luz azul esculpida. El espacio zumba con el esquema de entrada residual de vuelos pasados." />
     <part Name="ChargeSink" NameForStatus="SpiralCareening" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Star Carousel Pilot Console N" Load="Merge">
     <part Name="Render" DisplayName="consola de piloto" />
@@ -655,6 +733,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="consola de piloto" />
     <part Name="Description" Short="Representaciones audiovisuales del manifold de humedad salpican la superficie holográfica del panel. Una melodía nula, pequeña y suave, suena desde la luz inferior." />
     <part Name="ChargeSink" NameForStatus="ExoticMoistureManifold" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Star Carousel Passenger Console 2" Load="Merge">
     <part Name="Render" DisplayName="consola de pasajero" />
@@ -662,16 +741,19 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Star Carousel ExitHatch" Load="Merge">
     <part Name="Render" DisplayName="escotilla de salida" />
     <part Name="Description" Short="Un círculo perfecto de lecho de musgo se separa en una onda sinusoidal y concede acceso de entrada y salida a oscuridades opuestas." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Star Carousel Pilot Seat" Load="Merge">
     <part Name="Render" DisplayName="asiento de piloto" />
     <part Name="Description" Short="Lunas giratorias a alturas de mostrador procuran una postura concentrativa para una variedad de geometrías corporales." />
     <part Name="Chair" NameForStatus="ErgonomicSystems" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Carousel Passenger Seat" Load="Merge">
     <part Name="Render" DisplayName="asiento de pasajero" />
     <part Name="Description" Short="Lunas giratorias a alturas de mostrador procuran una postura concentrativa para una variedad de geometrías corporales." />
     <part Name="Chair" NameForStatus="ErgonomicSystems" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Carousel Table" Load="Merge">
     <part Name="Render" DisplayName="cariátide de estrato" />
@@ -680,26 +762,32 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Star Carousel Display Case" Load="Merge">
     <part Name="Render" DisplayName="gabinete fractal" />
     <part Name="Description" Short="Roble rico, regado de lluvia, se talló en un gabinete de curiosidades con estantes de todos los tamaños. El arcón abovedado es ahora un bazar de cien mundos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Carousel Power Core" Load="Merge">
     <part Name="Render" DisplayName="núcleo de extrañofluido" />
     <part Name="Description" Short="El orbe aflautado de peso cósmico alberga una babagua de brillo estelar. La sustancia fluye contra el cristal, a modo de mar, en un instante, y al siguiente cae con un golpe al fondo. Desprende un aire de malestar subatómico." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Carousel Art Sculpture 1" Load="Merge">
     <part Name="Render" DisplayName="bong de humedad" />
     <part Name="Description" Short="Un terrario está colonizado por musgos humidificadores y algas que prosperan en el carrusel sombrío. Un único tallo inclinado se arquea hacia fuera y ofrece una calada humeante del caldo rico en vida." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Carousel Art Sculpture 2" Load="Merge">
     <part Name="Render" DisplayName="cápsula de musgo decorativa" />
     <part Name="Description" Short="Clados de musgo de otro mundo forman patrones acintados que concretan sus dinámicas sociales incognoscibles. Cuelgan en un orbe de un broche del techo y despiertan asombro en sus caseros navegantes estelares." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Star Carousel Art Sculpture 3" Load="Merge">
     <part Name="Render" DisplayName="mirón cálido" />
     <part Name="Description" Short="El sistema respiratorio del carrusel está embebido en una red más amplia de materia sensible biomecánica. Alguna confluencia de sus nodos ha decidido hacer crecer una liana en forma de tallo que sostiene un ojo rosáceo y vidente. Los diagnósticos confirman que mirar a su alrededor calma a la nave." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Carousel Star Chart L" Load="Merge">
     <part Name="Render" DisplayName="carta estelar holográfica" />
     <part Name="Description" Short="Una red cegadora de soles natales titila en movimiento paraláctico. Sus sistemas se unen en el manifold por rutas comerciales, fronteras soberanas cambiantes y la convergencia de cúmulos galácticos. Ligaduras más pequeñas denotan las notas personales de un vasto libro de viajes, convirtiendo el cuadro entero en una narración hiperdimensional." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Star Carousel Star Chart C" Load="Merge">
     <part Name="Render" DisplayName="carta estelar holográfica" />
@@ -710,10 +798,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="CrysteelBraidWall" Load="Merge">
     <part Name="Render" DisplayName="trenza de criacero" />
     <part Name="Description" Short="Una casta especial de verdeforjador poblaba las medinas inferiores de altos hornos de criacero, donde sifonaban el metalaje aún blando y trenzaban lotes artesanos con sus propias manos enguantadas. La adaptación al calor de las mareas significaba que no podían volver a la superficie a presenciar el empleo de su creación, pero los rituales de tiempo lunar les concedían un sentido precognitivo de en qué se convertiría." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="HyperconductiveLabyrinthite" Load="Merge">
     <part Name="Render" DisplayName="laberintita hiperconductora" />
     <part Name="Description" Short="Láminas de oro fabricado talladas en un bizancio urbano canalizan corriente con resistencia negativa. Vastos arcos de tracería brillante amortiguan el núcleo de cómputo del Arca, asimilando los electrones entrantes en el muro de chispas y protegiendo el sagrario interior de toda perturbación electromagnética." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Red Etz Trellis" Load="Merge">
     <part Name="Render" DisplayName="espaldera de etz rojo" />
@@ -723,40 +813,48 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="procesador de flujo de vacío" />
     <part Name="Description" Short="La floración cromodinámica sobre las dimensiones compactadas del multiespaciotiempo se contempla a través de un uniprisma. La coacción de un ángulo de visión podado en pétalo produce algo análogo a un cómputo." />
     <part Name="ChargeSink" NameForStatus="ChromodynamicFlowering" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ReshephWall2" Load="Merge">
     <part Name="Render" DisplayName="toro de memoria" />
     <part Name="Description" Short="Un toro gelatinizado procura la superficie topológica ideal para el deslizamiento y la aglomeración de la información rastreada." />
     <part Name="ChargeSink" NameForStatus="PhenomenologicalSorting" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ReshephWall3" Load="Merge">
     <part Name="Render" DisplayName="panel de estado del mainframe" />
     <part Name="Description" Short="A través de un campo de cristal de vacío, diodos de zetacromo parpadean en espirales." />
     <part Name="ChargeSink" NameForStatus="QualiaObservation" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ReshephWall4" Load="Merge">
     <part Name="Render" DisplayName="monitor del mainframe" />
     <part Name="Description" Short="Grandes dominios epifenoménicos se inventan, se interpretan y se tokenizan como lenguaje para retransmitir el bienestar del núcleo no determinista." />
     <part Name="ChargeSink" NameForStatus="GestaltEpiphenomena" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ReshephWall5" Load="Merge">
     <part Name="Render" DisplayName="impulsor de fotones" />
     <part Name="Description" Short="Cabezales láser trazan la actuación de las galaxias espirales y queman hologramas sobre platos de materia oscura." />
     <part Name="ChargeSink" NameForStatus="BackgroundRadiationPalimpsest" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ReshephWall6" Load="Merge">
     <part Name="Render" DisplayName="respiradero de normalidad" />
     <part Name="Description" Short="Ráfagas de normalidad cristalizante se expulsan por los respiraderos de escape para mantener los núcleos de cómputo libres y fenomenológicamente flexibles." />
     <part Name="ChargeSink" NameForStatus="OrthogonalizedThroughput" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ReshephWall7" Load="Merge">
     <part Name="Render" DisplayName="muestreador verdaderamente aleatorio" />
     <part Name="Description" Short="Si una máquina hace surgir y desaparecer un mundo con suficiente premura, se engendran cualias que pueden muestrearse pero no modelarse." />
     <part Name="ChargeSink" NameForStatus="WorldGen/WorldDestruct" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseHologramProjector" Load="Merge">
     <part Name="Render" DisplayName="proyector de hologramas" />
     <part Name="Description" Short="Un interruptor alinea la dispersión de partículas en el círculo lejano y emite una luz incisiva." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseHologramProjector Barathrum" Load="Merge">
     <part Name="Render" DisplayName="proyector de hologramas" />
@@ -764,9 +862,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="HologramCircle" Load="Merge">
     <part Name="Render" DisplayName="escenario de luz" />
     <part Name="Description" Short="Puntos dispersos se disponen en las posiciones grabadas y florecen en el teatro de luz." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseTriumHologram" Load="Merge">
     <part Name="Render" DisplayName="holograma" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Barathrum Hologram" Load="Merge">
     <part Name="Render" DisplayName="holograma de Barathrum" />
@@ -788,6 +888,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="núcleo no determinista" />
     <part Name="Description" Short="Una cortina de azul, magenta y escarlata pende sobre la bodega sagrada de sombra de luna y sol y oro de hipernova (especificaciones de color transmitidas directamente por el ser maquínico que surgió del enteos interior). La amaterialidad pura se titula fuera del límite del contenedor y se canaliza en dosis controladas a procesadores que la quiebran para hacer lo incomputable: decidir desde la nada." />
     <part Name="ChargeSink" NameForStatus="Amateriality" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Sheyd" Load="Merge">
     <part Name="Render" DisplayName="sheyd" />
@@ -796,6 +897,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Sheyd_Claw" Load="Merge">
     <part Name="Render" DisplayName="garra de {{K|diamante}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Wood-Carved Bookshelf" Load="Merge">
     <part Name="Render" DisplayName="estantería tallada en madera" />
@@ -804,14 +906,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Wood-Carved Bed" Load="Merge">
     <part Name="Render" DisplayName="cama tallada en madera" />
     <part Name="Description" Short="Quienes se tumban en el comienzo del sendero del valle de los sueños se pierden en el rompecabezas de la marquetería y se funden en la suavidad de espuma de mar." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Wood-Carved Chair" Load="Merge">
     <part Name="Render" DisplayName="silla tallada en madera" />
     <part Name="Description" Short="Los artesanos de la madera pasan toda su vida en íntimo coloquio con un solo árbol. Al llegar a sus últimos años, cuando los ritmos de la Gran Luna ocupan una porción cada vez mayor de sus pensamientos, dominan al fin el arte del vapor y doblan el duramen a su voluntad." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Wood-Carved Clothespress" Load="Merge">
     <part Name="Render" DisplayName="ropero tallado en madera" />
     <part Name="Description" Short="Ningún ropero o armario queda acabado al toque del reloj solar sin un cajón secreto, donde los niños guardan sus dones feéricos y los hallan de nuevo en la noche de su proyección de muerte." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Wood-Carved Table" Load="Merge">
     <part Name="Render" DisplayName="mesa tallada en madera" />
@@ -820,27 +925,32 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Moted Lamp" Load="Merge">
     <part Name="Render" DisplayName="lámpara moteada" />
     <part Name="Description" Short="Musgo feérico espolvorea la columna y la deja húmeda de rocío de arcoíris. Dentro de la pantalla, magias feéricas discurren en eternidad esférica." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Qorish Veil" Load="Merge">
     <part Name="Render" DisplayName="velo de hechicera qorish" />
     <part Name="Description" Short="Cuando un canto de poder ruge desde el bosque moteado y asciende por la Piel del Mundo, el velo lateral resguarda los oídos y los ojos de la hechicera." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Qorish Gown" Load="Merge">
     <part Name="Render" DisplayName="vestido de hechicera qorish" />
     <part Name="Description" Short="El bordado microscópico de la manga codifica la historia entera de la esfera de cristal y la Gran Luna, al menos desde la perspectiva feérica. En el pozo del reino y del castillo, la textura bordada devuelve la presión de una mano enguantada trabada en el baile del baile de máscaras." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Star Orchid Limestone" Load="Merge">
     <part Name="Render" DisplayName="cal de orquídea estelar" />
     <part Name="Description" Short="Astrocalcita pura fundida en el escape de las naves estelares conserva las biogeometrías y los tonos coloridos de la vida con concha. Con el tiempo se presurizará y se pulirá hasta su forma de mampostería." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="fs" massNoun="true" />
   </object>
   <object Name="Starship Nozzle" Load="Merge">
     <part Name="Render" DisplayName="tobera de nave estelar" />
     <part Name="Description" Short="Metal arrancado de la tobera ennegrecida de una nave estelar fue fundido por el Gremio de los Escaperos y vaciado en un andamio monumental. Las siluetas de fauna del vacío achicharrada aún son visibles sobre la chapa bruñida." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseStarOrchidTemplePlaqueEndcap" Load="Merge">
     <part Name="Render" DisplayName="tobera de nave estelar" />
     <part Name="Description" Short="Metal arrancado de la tobera ennegrecida de una nave estelar fue fundido por el Gremio de los Escaperos y vaciado en un andamio monumental. Las siluetas de fauna del vacío achicharrada aún son visibles sobre la chapa bruñida." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="BaseStarOrchidTemplePlaque" Load="Merge">
     <part Name="Render" DisplayName="placa de dedicación del templo" />
@@ -849,10 +959,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Star Orchid Temple Projector" Load="Merge">
     <part Name="Render" DisplayName="proyector del templo" />
     <part Name="Description" Short="Escoria hiperdimensional reluce en el disco de proyección desde que se sumergió en la película jabonosa del interespaciotiempo. El disco está en silencio ahora, escindido de sus enredos trascendentales, con su base ofreciendo un muro de sombra para que prospere el musgo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="BaseStarOrchidTempleGate" Load="Merge">
     <part Name="Render" DisplayName="puerta del templo" />
     <part Name="Description" Short="La escalera, el estrado y la puerta en bucle se funden en relieve de mármol con su entorno mediante filamento hiperdimensional. La vista holográfica del templo de otro mundo se ha desvanecido y, en su lugar, lirios locales llenan el marco." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Engine Crabs" Load="Merge">
     <part Name="Render" DisplayName="cangrejos de motor" />
@@ -861,14 +973,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Star Orchid Lily" Load="Merge">
     <part Name="Render" DisplayName="lirio de orquídea estelar" />
     <part Name="Description" Short="Cinco lóbulos verdosos caen de una flor en punta de estrella del color del escape ardiente. Flotan en círculos, impulsados por un impulso rizomático." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Nails of Jy" Load="Merge">
     <part Name="Render" DisplayName="clavos de Jy" />
     <part Name="Description" Short="Brotes afilados de carmesí lujurioso de otro mundo apuñalan el aire desde su guante terrestre. Cuando una bocanada de viento artificial los abanica, chispean y sisean." />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Ring of Moss" Load="Merge">
     <part Name="Render" DisplayName="anillo de musgo" />
     <part Name="Description" Short="Hierba de santuario peluda crece sobre un anillo de tallos vegetales muertos y bebe la sombra del templo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Spoken Ionic" Load="Merge">
     <part Name="Render" DisplayName="{{zetachrome|Jónico Hablado en el Corazón de la Covalencia}}" />
@@ -876,14 +991,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Coda Player Statue" Load="Merge">
     <part Name="Render" DisplayName="estatua del jugador" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chiliad Village Monument Post" Load="Merge">
     <part Name="Render" DisplayName="ankh de piedra" />
     <part Name="Description" Short="Conchas sepultadas se asoman bajo el lazo invertido de cal, talladas en rumiación de la vida parabólica." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Village Monument Orb" Load="Merge">
     <part Name="Render" DisplayName="orbe vidrioso" />
     <part Name="Description" Short="Una lente de cristal se ha incrustado sobre la piedra lisa, y sus aletas cinéticas han sido cercenadas en los polos." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Chest" Load="Merge">
     <part Name="Description" Short="Esquineras de latón torneadas en espiral aseguran la parte inferior de un viejo arcón de madera. Al estilo de sus artesanos moluscanos, la tapa se deja sin metal y desnuda de insignia." />
@@ -960,10 +1078,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Nacham's Loom" Load="Merge">
     <part Name="Render" DisplayName="telar de Nacham" />
     <part Name="Description" Short="Láminas planas de metal salen al revés de un plegador de urdimbre y se despojan hasta quedar en alambre suelto. Las barras del peine separador zumban con fuerza psicoconductora." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Kah's Conveyor" Load="Merge">
     <part Name="Render" DisplayName="transportador de Kah" />
     <part Name="Description" Short="Un cable acintado se enhebra por una unidad motriz en forma de lemniscata y gira en bucle con movimiento perpetuo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Va'am's Blower" Load="Merge">
     <part Name="Render" DisplayName="soplador de Va'am" />
@@ -972,18 +1092,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Dagasha's Crucifix" Load="Merge">
     <part Name="Render" DisplayName="crucifijo de Dagasha" />
     <part Name="Description" Short="Una espaldera de ramas de pelo-espina cristalino se ha contorsionado en forma de cruz icónica. Quien entra se ve forzado a volverse cóncavo." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="TauNoLongerFigurine" Load="Merge">
     <part Name="Render" DisplayName="figurita de {{B|zafiro}} de la Aflicción de Cristal" />
     <part Name="Description" Short="Es una semejanza ricamente facetada del terror nocturno que desvía los mares fluidos hacia el retículo muerto, que se filtra como estalactita a otros sueños para vaporizar a quienes sueñan." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="WanderingTauFigurine" Load="Merge">
     <part Name="Render" DisplayName="figurita de {{B|zafiro}} de la Joya Errante" />
     <part Name="Description" Short="En cada aldea de las colinas bajo el horizonte en racimo se cuenta un relato de la Joya Que Vino. Mucho se aprende de ella, o poco, pero el retrato de sus anchas y brillantes facetas permanece constante." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="DeadTauFigurine" Load="Merge">
     <part Name="Render" DisplayName="figurita de {{B|zafiro}} del Quiebrasueños" />
     <part Name="Description" Short="Una complejidad de cristal se representa en el instante eterno del quiebre. La talla está quieta y, al estarlo, es hipercinética, codificando todas las posibilidades en sus elisiones, y resolviéndose luego en ninguna." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Godling" Load="Merge">
     <part Name="Render" DisplayName="diosecillo Girsh" />
@@ -1000,14 +1124,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Chiliad Hologram Locket" Load="Merge">
     <part Name="Render" DisplayName="guardapelo ursino" />
     <part Name="Description" Short="Un camafeo de sardónice meteorítica luce un sigilo de clan desconocido en escritura florida, rematado con diminutos engranajes y velas." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Starshiib Hologram" Load="Merge">
     <part Name="Render" DisplayName="holograma de forastero" />
     <part Name="Description" Short="Púas encogidas hasta tornillos de calcita marcan a la criatura en una cuadrícula hexagonal, y orejas de expresividad universal se agitan arriba y abajo como cuarks. El abrigo giroscópico de un comodoro permanece quieto mientras la periferia de la escultura de luz se estremece con los movimientos sutiles de la vida." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Amaranthine Dust" Load="Merge">
     <part Name="Render" DisplayName="{{r|polvo amarantino}}" />
     <part Name="Description" Short="El cristal sombrío se hizo añicos y se abradió hasta el polvo; un millón de mundos del yo se han desmoronado." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="LoveAndFearCompleted" Load="Merge">
     <part Name="Render" DisplayName="{{W|Un Relato de Amor en Bey Lah}}" />
@@ -1253,50 +1380,66 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Chiliad Creature Hoof" Load="Merge">
     <part Name="Render" DisplayName="pezuña" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chiliad Creature Fangs" Load="Merge">
     <part Name="Render" DisplayName="colmillos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Chiliad Creature Pincer" Load="Merge">
     <part Name="Render" DisplayName="pinza" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chiliad Creature Claw" Load="Merge">
     <part Name="Render" DisplayName="garra" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chiliad Creature Spade" Load="Merge">
     <part Name="Render" DisplayName="pala" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chiliad Creature Peck" Load="Merge">
     <part Name="Render" DisplayName="picotazo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Creature Prism Point" Load="Merge">
     <part Name="Render" DisplayName="{{Y|punta de prisma}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chiliad Creature Pistil" Load="Merge">
     <part Name="Render" DisplayName="pistilo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Creature Nodule" Load="Merge">
     <part Name="Render" DisplayName="nódulo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Creature Horns" Load="Merge">
     <part Name="Render" DisplayName="cuernos" />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="Chiliad Creature Muscular Foot" Load="Merge">
     <part Name="Render" DisplayName="pie musculoso" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Creature Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="pseudópodo" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Creature Strangle" Load="Merge">
     <part Name="Render" DisplayName="estrangulamiento" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Chiliad Creature Spines" Load="Merge">
     <part Name="Render" DisplayName="espinas" />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Chiliad Creature Bark" Load="Merge">
     <part Name="Render" DisplayName="corteza" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Chiliad Creature Bands" Load="Merge">
     <part Name="Render" DisplayName="bandas trituradoras" />
+    <xtagGrammar concord="fp" />
   </object>
 </objects>
