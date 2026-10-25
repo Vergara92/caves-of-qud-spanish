@@ -29,6 +29,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="charco" />
     <part Name="LiquidVolume" NamePreposition="de" />
     <part Name="Description" Short="Un charco de líquido." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Gas" Load="Merge">
     <xtagGrammar massNoun="true" />
@@ -38,12 +39,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Penachos de gas nocivo se aferran al aire. Atestan los pulmones de las criaturas de sangre húmeda, incapaces de extraer el oxígeno desplazado." />
     <tag Name="GasGenerationName" Value="Generación de Gas Venenoso" />
     <tag Name="LevelEffectDescription" Value="dificultad de la salvación contra veneno y daño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="MiasmaticAsh" Load="Merge">
     <part Name="Render" DisplayName="ceniza ósea" />
     <part Name="Description" Short="Fragmentos de hueso se vaporizan en una densa niebla de carbón. La luz se pierde dentro." />
     <tag Name="GasGenerationName" Value="Generación de Ceniza Ósea" />
     <tag Name="LevelEffectDescription" Value="dificultad de la salvación contra asfixia y daño" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Plasma" Load="Merge">
     <part Name="Render" DisplayName="plasma" />
@@ -55,16 +58,19 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Steam" Load="Merge">
     <part Name="Render" DisplayName="vapor" />
     <tag Name="GasGenerationName" Value="Generación de Vapor" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SteamGas" Load="Merge">
     <part Name="Render" DisplayName="vapor abrasador" />
     <part Name="Description" Short="El aerosol caliente se hincha al empezar a disiparse en el aire." />
     <tag Name="GasGenerationName" Value="Generación de Gas de Vapor" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="CryoGas" Load="Merge">
     <part Name="Render" DisplayName="niebla criogénica" />
     <part Name="Description" Short="El agua, enfriada por máquinas, se despresurizó en una niebla glacial para suspender los procesos de la vida." />
     <tag Name="GasGenerationName" Value="Generación de Niebla Criogénica" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="StableCryoGas" Load="Merge">
     <part Name="Render" DisplayName="niebla criogénica" />
@@ -76,23 +82,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Incluso ahora el nimbo de ácido vaporizado se condensa, empieza a posarse sobre las superficies que coloniza, empieza a hundirse en sus bordes blandos." />
     <tag Name="GasGenerationName" Value="Generación de Gas Corrosivo" />
     <tag Name="LevelEffectDescription" Value="daño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="StunGas" Load="Merge">
     <part Name="Render" DisplayName="gas aturdidor" />
     <part Name="Description" Short="El rocío de níquel se aferra al aire y detiene las fugaces moléculas de materia migrante." />
     <tag Name="GasGenerationName" Value="Generación de Gas Aturdidor" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="SleepGas" Load="Merge">
     <part Name="Render" DisplayName="gas somnífero" />
     <part Name="Description" Short="El miasma aquieta los pulmones de quienes lo rodean y los guía al valle de los sueños. Sus cuerpos reposan." />
     <tag Name="GasGenerationName" Value="Generación de Gas Somnífero" />
     <tag Name="LevelEffectDescription" Value="dificultad de la salvación contra el sueño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ConfusionGas" Load="Merge">
     <part Name="Render" DisplayName="gas de confusión" />
     <part Name="Description" Short="Un gas cobalto se filtra por la nariz y desordena la mente." />
     <tag Name="GasGenerationName" Value="Generación de Gas de Confusión" />
     <tag Name="LevelEffectDescription" Value="dificultad de la salvación contra la confusión" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Miasma" Load="Merge">
     <part Name="Render" DisplayName="miasma" />
@@ -106,6 +116,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Las moléculas de gas se alinean a lo largo de las líneas ley de este plano para formar una malla aeriforme. Los objetos en trayectorias ortogonales quedan atrapados y son devueltos hacia sus hogares planares." />
     <tag Name="GasGenerationName" Value="Generación de Gas de Normalidad" />
     <tag Name="LevelEffectDescription" Value="amarre astral y daño contra seres extradimensionales" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="DefoliantGas" Load="Merge">
     <part Name="Render" DisplayName="defoliante" />
@@ -113,6 +124,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="La niebla sintética llamada Aurora Dorada asciende de su recipiente para atomizar el follaje y dejar a su paso una vista despejada del horizonte." />
     <tag Name="GasGenerationName" Value="Generación de Defoliante" />
     <tag Name="LevelEffectDescription" Value="daño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="FungicideGas" Load="Merge">
     <part Name="Render" DisplayName="fungicida" />
@@ -120,56 +132,66 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Un magenta rocía a los heterótrofos con una película húmeda que inhibe su absorción de restos animales y vegetales." />
     <tag Name="GasGenerationName" Value="Generación de Fungicida" />
     <tag Name="LevelEffectDescription" Value="daño" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="GlitterGas" Load="Merge">
     <part Name="Render" DisplayName="polvo de purpurina" />
     <part Name="Description" Short="Diminutos hexágonos de vidrio triturado, restos de insectos y película de poliéster centellean en el aire como el helio ionizado del polvo estelar." />
     <tag Name="GasGenerationName" Value="Generación de Polvo de Purpurina" />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="FungalSporeGasLuminous" Load="Merge">
     <part Name="Render" DisplayName="esporas fúngicas" />
     <part Name="Description" Short="Brumas de motas de moho giratorias dan al aire un aspecto velloso." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="FungalSporeGasPuff" Load="Merge">
     <part Name="Render" DisplayName="esporas fúngicas" />
     <part Name="Description" Short="Brumas de motas de moho giratorias dan al aire un aspecto velloso." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="FungalSporeGasWax" Load="Merge">
     <part Name="Render" DisplayName="esporas fúngicas" />
     <part Name="Description" Short="Brumas de motas de moho giratorias dan al aire un aspecto velloso." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="FungalSporeGasMumbles" Load="Merge">
     <part Name="Render" DisplayName="esporas fúngicas" />
     <part Name="Description" Short="Brumas de motas de moho giratorias dan al aire un aspecto velloso." />
+    <xtagGrammar concord="fp" />
   </object>
   <object Name="Shimmering Heat" Load="Merge">
     <part Name="Render" DisplayName="calor reluciente" />
     <part Name="Description" Short="El aire caliente corona un remolino y resplandece en la luz abrasadora." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="ms" massNoun="true" />
   </object>
   <object Name="Frigid Mist" Load="Merge">
     <part Name="Render" DisplayName="niebla helada" />
     <part Name="Description" Short="El aire se quiebra bajo un remolino y arrastra humedad sobreenfriada hasta convertirla en polvo reluciente." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="fs" massNoun="true" />
   </object>
   <object Name="Space-Time Anomaly" Load="Merge">
     <part Name="Render" DisplayName="vórtice espaciotemporal" />
     <part Name="Description" Short="Imágenes resplandecientes de lugares y épocas remotos se proyectan desde las caras de un prisma platónico, y las ondas sonoras se desgarran hasta la asíntota. Aquí las líneas ley están anudadas, y la ilusión de la localidad se desmorona." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Wormhole" Load="Merge">
     <part Name="Render" DisplayName="esfera reluciente" />
     <part Name="Description" Short="Imágenes resplandecientes de lugares y épocas remotos se proyectan desde las caras de un prisma platónico, y las ondas sonoras se desgarran hasta la asíntota. Aquí las líneas ley están anudadas, y la ilusión de la localidad se desmorona." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="InteriorVoid" Load="Merge">
     <part Name="Render" DisplayName="espacio vacío" />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="ms" massNoun="true" />
   </object>
   <object Name="Kindleflame" Load="Merge">
     <part Name="Render" DisplayName="llama prendida" />
     <part Name="Description" Short="Una llama ardiente de ámbar flota bajo una mecha psíquica." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="RealityStabilizationField" Load="Merge">
     <part Name="Render" DisplayName="{{normal|campo de normalidad}}" />
     <part Name="Description" Short="Segmentos de sombra se alinean a lo largo de las líneas ley de este plano para formar una malla geométrica. Los objetos en trayectorias ortogonales quedan atrapados y son devueltos hacia sus hogares planares." />
+    <xtagGrammar concord="ms" />
   </object>
 </objects>
