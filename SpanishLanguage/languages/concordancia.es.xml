@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Formas del adjetivo para la opción C (CAV-24, decisión B.4). Formato: _equipo/prototipo_c/FORMATO.md.
+  Generado por _equipo/informes/cav24e4_formas.py (CAV-24.E4) desde cav29_adjetivos.jsonl,
+  cav34_manchas.jsonl y la tabla de literales de C# del script. No editar a mano: cambiar el script.
+  <string> remite al <string> de Strings.es.xml (Context + ID); <literal> es el texto tal como llega.
+-->
+<concordancia Lang="es" Encoding="utf-8">
+
+  <!-- 1. Adjetivos de Strings.es.xml con formas (53) -->
+  <string Context="AnimatedObject DisplayName Adjective" ID="animated" ms="animado" fs="animada" mp="animados" fp="animadas" />
+  <string Context="ContainedAcidEating Effect DisplayName Adjective" ID="{{Y|sizzling}}" ms="{{Y|chisporroteante}}" fs="{{Y|chisporroteante}}" mp="{{Y|chisporroteantes}}" fp="{{Y|chisporroteantes}}" />
+  <string Context="Liquid Volume - Pool swimming depth adjective" ID="deep" ms="profundo" fs="profunda" mp="profundos" fp="profundas" />
+  <string Context="ModAirfoil Adjective" ID="{{Y|airfoil}}" clase="relacional" ms="{{Y|aerodinámico}}" fs="{{Y|aerodinámica}}" mp="{{Y|aerodinámicos}}" fp="{{Y|aerodinámicas}}" />
+  <string Context="ModBiomech Description Adjective" ID="{{biomech|biomech}}" clase="relacional" ms="{{biomech|biomecánico}}" fs="{{biomech|biomecánica}}" mp="{{biomech|biomecánicos}}" fp="{{biomech|biomecánicas}}" />
+  <string Context="ModCybrid Adjective" ID="{{biomech|cybrid}}" clase="relacional" ms="{{biomech|cíbrido}}" fs="{{biomech|cíbrida}}" mp="{{biomech|cíbridos}}" fp="{{biomech|cíbridas}}" />
+  <string Context="ModDesecrated Adjective" ID="{{K|desecrated}}" ms="{{K|profanado}}" fs="{{K|profanada}}" mp="{{K|profanados}}" fp="{{K|profanadas}}" />
+  <string Context="ModDisplacer DisplayName Adjective" ID="{{displacer|displacer}}" ms="{{displacer|desplazador}}" fs="{{displacer|desplazadora}}" mp="{{displacer|desplazadores}}" fp="{{displacer|desplazadoras}}" />
+  <string Context="ModElectrified DisplayName Adjective" ID="{{electrical|electrified}}" ms="{{electrical|electrificado}}" fs="{{electrical|electrificada}}" mp="{{electrical|electrificados}}" fp="{{electrical|electrificadas}}" />
+  <string Context="ModEngraved Description Adjective" ID="{{engraved|engraved}}" ms="{{engraved|grabado}}" fs="{{engraved|grabada}}" mp="{{engraved|grabados}}" fp="{{engraved|grabadas}}" />
+  <string Context="ModExtradimensional DisplayName Adjective" ID="{{extradimensional|extradimensional}}" clase="relacional" ms="{{extradimensional|extradimensional}}" fs="{{extradimensional|extradimensional}}" mp="{{extradimensional|extradimensionales}}" fp="{{extradimensional|extradimensionales}}" />
+  <string Context="ModFeathered DisplayName Adjective" ID="{{feathered|feathered}}" ms="{{feathered|emplumado}}" fs="{{feathered|emplumada}}" mp="{{feathered|emplumados}}" fp="{{feathered|emplumadas}}" />
+  <string Context="ModFlexiweaved Display Adjective" ID="flexiweaved(=modLevel=)" ms="flexitrenzado(=modLevel=)" fs="flexitrenzada(=modLevel=)" mp="flexitrenzados(=modLevel=)" fp="flexitrenzadas(=modLevel=)" />
+  <string Context="ModFreezing Display Adjective" ID="{{freezing|freezing}}" ms="{{freezing|congelante}}" fs="{{freezing|congelante}}" mp="{{freezing|congelantes}}" fp="{{freezing|congelantes}}" />
+  <string Context="ModGesticulating Display Adjective" ID="{{m|gesticulating}}" ms="{{m|gesticulante}}" fs="{{m|gesticulante}}" mp="{{m|gesticulantes}}" fp="{{m|gesticulantes}}" />
+  <string Context="ModGigantic DisplayName Adjective" ID="gigantic" ms="gigantesco" fs="gigantesca" mp="gigantescos" fp="gigantescas" />
+  <string Context="ModHeatSeeking Display Adjective" ID="homing" ms="autoguiado" fs="autoguiada" mp="autoguiados" fp="autoguiadas" />
+  <string Context="ModIlluminated Display Adjective" ID="[{{illuminated|illuminated}}]" ms="[{{illuminated|iluminado}}]" fs="[{{illuminated|iluminada}}]" mp="[{{illuminated|iluminados}}]" fp="[{{illuminated|iluminadas}}]" />
+  <string Context="ModJacked Display Adjective" ID="{{c|jacked}}" ms="{{c|enchufado}}" fs="{{c|enchufada}}" mp="{{c|enchufados}}" fp="{{c|enchufadas}}" />
+  <string Context="ModLacquered Display Adjective" ID="{{lacquered|lacquered}}" ms="{{lacquered|lacado}}" fs="{{lacquered|lacada}}" mp="{{lacquered|lacados}}" fp="{{lacquered|lacadas}}" />
+  <string Context="ModLiquidCooled Display Adjective" ID="{{=liquid.color=|liquid-cooled}}" ms="{{=liquid.color=|refrigerado por líquido}}" fs="{{=liquid.color=|refrigerada por líquido}}" mp="{{=liquid.color=|refrigerados por líquido}}" fp="{{=liquid.color=|refrigeradas por líquido}}" />
+  <string Context="ModMagnetized Display Adjective" ID="magnetized" ms="magnetizado" fs="magnetizada" mp="magnetizados" fp="magnetizadas" />
+  <string Context="ModMercurial Display Adjective" ID="{{Y|mercurial}}" clase="relacional" ms="{{Y|mercurial}}" fs="{{Y|mercurial}}" mp="{{Y|mercuriales}}" fp="{{Y|mercuriales}}" />
+  <string Context="ModMorphogenetic Display Adjective" ID="{{m|morphogenetic}}" clase="relacional" ms="{{m|morfogenético}}" fs="{{m|morfogenética}}" mp="{{m|morfogenéticos}}" fp="{{m|morfogenéticas}}" />
+  <string Context="ModNulling Display Adjective" ID="{{K|nulling}}" ms="{{K|anulador}}" fs="{{K|anuladora}}" mp="{{K|anuladores}}" fp="{{K|anuladoras}}" />
+  <string Context="ModOverloaded Display Adjective" ID="{{overloaded|overloaded}}" ms="{{overloaded|sobrecargado}}" fs="{{overloaded|sobrecargada}}" mp="{{overloaded|sobrecargados}}" fp="{{overloaded|sobrecargadas}}" />
+  <string Context="ModPadded Description Adjective" ID="padded" ms="acolchado" fs="acolchada" mp="acolchados" fp="acolchadas" />
+  <string Context="ModPainted Description Adjective" ID="{{painted|painted}}" ms="{{painted|pintado}}" fs="{{painted|pintada}}" mp="{{painted|pintados}}" fp="{{painted|pintadas}}" />
+  <string Context="ModPhaseConjugate" ID="{{K|phase-conjugate}}" ms="{{K|conjugado de fase}}" fs="{{K|conjugada de fase}}" mp="{{K|conjugados de fase}}" fp="{{K|conjugadas de fase}}" />
+  <string Context="ModPhaseHarmonic Display Adjective" ID="{{phase-harmonic|phase-harmonic}}" ms="{{phase-harmonic|armónico de fase}}" fs="{{phase-harmonic|armónica de fase}}" mp="{{phase-harmonic|armónicos de fase}}" fp="{{phase-harmonic|armónicas de fase}}" />
+  <string Context="ModPolarized Display Adjective" ID="{{polarized|polarized}}" ms="{{polarized|polarizado}}" fs="{{polarized|polarizada}}" mp="{{polarized|polarizados}}" fp="{{polarized|polarizadas}}" />
+  <string Context="ModPsionic Display Adjective" ID="{{psionic|psionic}}" clase="relacional" ms="{{psionic|psiónico}}" fs="{{psionic|psiónica}}" mp="{{psionic|psiónicos}}" fp="{{psionic|psiónicas}}" />
+  <string Context="ModRadioPowered Display Adjective" ID="{{C|radio-powered}}" ms="{{C|alimentado por radio}}" fs="{{C|alimentada por radio}}" mp="{{C|alimentados por radio}}" fp="{{C|alimentadas por radio}}" />
+  <string Context="ModRecycling Display Adjective" ID="{{B|recycling}}" ms="{{B|reciclador}}" fs="{{B|recicladora}}" mp="{{B|recicladores}}" fp="{{B|recicladoras}}" />
+  <string Context="ModRefractive Display Adjective" ID="{{refractive|refractive}}" ms="{{refractive|refractante}}" fs="{{refractive|refractante}}" mp="{{refractive|refractantes}}" fp="{{refractive|refractantes}}" />
+  <string Context="ModReinforced Display Adjective" ID="reinforced" ms="reforzado" fs="reforzada" mp="reforzados" fp="reforzadas" />
+  <string Context="ModScaled Display Adjective" ID="{{scaled|scaled}}" ms="{{scaled|escamado}}" fs="{{scaled|escamada}}" mp="{{scaled|escamados}}" fp="{{scaled|escamadas}}" />
+  <string Context="ModSerrated Display Adjective" ID="{{Y|serra{{R|t}}ed}}" ms="{{Y|den{{R|t}}ado}}" fs="{{Y|den{{R|t}}ada}}" mp="{{Y|den{{R|t}}ados}}" fp="{{Y|den{{R|t}}adas}}" />
+  <string Context="ModSharp Display Adjective" ID="sharp" ms="afilado" fs="afilada" mp="afilados" fp="afiladas" />
+  <string Context="ModSlender Display Adjective" ID="slender" ms="esbelto" fs="esbelta" mp="esbeltos" fp="esbeltas" />
+  <string Context="ModSnailEncrusted Display Adjective" ID="{{snail-encrusted|snail-encrusted}}" ms="{{snail-encrusted|cubierto de caracoles}}" fs="{{snail-encrusted|cubierta de caracoles}}" mp="{{snail-encrusted|cubiertos de caracoles}}" fp="{{snail-encrusted|cubiertas de caracoles}}" />
+  <string Context="ModSturdy Display Adjective" ID="sturdy" ms="resistente" fs="resistente" mp="resistentes" fp="resistentes" />
+  <string Context="ModWillowy Adjective" ID="willowy" ms="grácil" fs="grácil" mp="gráciles" fp="gráciles" />
+  <string Context="ModWired Adjective" ID="{{c|wired}}" ms="{{c|cableado}}" fs="{{c|cableada}}" mp="{{c|cableados}}" fp="{{c|cableadas}}" />
+  <string Context="ModWooly Adjective" ID="{{Y|wooly}}" ms="{{Y|lanudo}}" fs="{{Y|lanuda}}" mp="{{Y|lanudos}}" fp="{{Y|lanudas}}" />
+  <string Context="Physics GetDisplayNameEvent AuroralAdjective" ID="{{auroral|auroral}}" clase="relacional" ms="{{auroral|auroral}}" fs="{{auroral|auroral}}" mp="{{auroral|aurorales}}" fp="{{auroral|aurorales}}" />
+  <string Context="PopTableZoneBuilder - Apply Zone Faction - DisplayName Adjective for faction swap" ID="domesticated" ms="domesticado" fs="domesticada" mp="domesticados" fp="domesticadas" />
+  <string Context="Putrid Template, DisplayName Adjective" ID="putrid" ms="pútrido" fs="pútrida" mp="pútridos" fp="pútridas" />
+  <string Context="Rusty Biome - Faction Qudzu Adjective" ID="domesticated" ms="domesticado" fs="domesticada" mp="domesticados" fp="domesticadas" />
+  <string Context="Slimy Biome - Creature Adjective" ID="slime-spitting" ms="que escupe limo" fs="que escupe limo" mp="que escupen limo" fp="que escupen limo" />
+  <string Context="Torch Display Name - Adjective" ID="lit" ms="encendido" fs="encendida" mp="encendidos" fp="encendidas" />
+  <string Context="VillageStoryReveal Engraving Adjective" ID="{{engraved|engraved}}" ms="{{engraved|grabado}}" fs="{{engraved|grabada}}" mp="{{engraved|grabados}}" fp="{{engraved|grabadas}}" />
+  <string Context="VillageStoryReveal Painting Adjective" ID="{{painted|painted}}" ms="{{painted|pintado}}" fs="{{painted|pintada}}" mp="{{painted|pintados}}" fp="{{painted|pintadas}}" />
+
+  <!-- 2. Solo clase (1): el prefijo del implante se queda delante -->
+  <string Context="Cybernetics Base Item - DisplayName Adjective" ID="[{{W|Implant}}] -" clase="delante" />
+
+  <!-- 3. Manchas de Strings.es.xml (4): con C# y sin concord, «con manchas de …» -->
+  <string Context="Liquid Volume - Stain of unknown liquid" ID="stained" respaldo="con manchas" ms="manchado" fs="manchada" mp="manchados" fp="manchadas" />
+  <string Context="Liquid Volume - Stain with liquid" ID="=volume.liquid.stain.name#primary=-stained" respaldo="con manchas de =volume.liquid.stain.name#primary=" ms="manchado de =volume.liquid.stain.name#primary=" fs="manchada de =volume.liquid.stain.name#primary=" mp="manchados de =volume.liquid.stain.name#primary=" fp="manchadas de =volume.liquid.stain.name#primary=" />
+  <string Context="Liquid Volume - Stain with two liquids" ID="=volume.liquid.stain.name#primary=-and-=volume.liquid.stain.name#secondary=-stained" respaldo="con manchas de =volume.liquid.stain.name#primary= y =volume.liquid.stain.name#secondary=" ms="manchado de =volume.liquid.stain.name#primary= y =volume.liquid.stain.name#secondary=" fs="manchada de =volume.liquid.stain.name#primary= y =volume.liquid.stain.name#secondary=" mp="manchados de =volume.liquid.stain.name#primary= y =volume.liquid.stain.name#secondary=" fp="manchadas de =volume.liquid.stain.name#primary= y =volume.liquid.stain.name#secondary=" />
+  <string Context="Liquid Volume - Smear of unknown liquid" ID="liquid-covered" respaldo="con restos de líquido" ms="cubierto de líquido" fs="cubierta de líquido" mp="cubiertos de líquido" fp="cubiertas de líquido" />
+
+  <!-- 4. Untados de Liquids.es.xml (33; smearedName/smearedAdjective, LiquidVolume.cs) -->
+  <!-- Acid/smearedName -->
+  <literal Texto="{{G|cubierto de ácido}}" respaldo="{{G|con restos de ácido}}" ms="{{G|cubierto de ácido}}" fs="{{G|cubierta de ácido}}" mp="{{G|cubiertos de ácido}}" fp="{{G|cubiertas de ácido}}" />
+  <!-- Acid/smearedAdjective -->
+  <literal Texto="{{G|ácido}}" respaldo="{{G|con restos de ácido}}" ms="{{G|ácido}}" fs="{{G|ácida}}" mp="{{G|ácidos}}" fp="{{G|ácidas}}" />
+  <!-- Asphalt/smearedName -->
+  <literal Texto="{{K|cubierto de alquitrán}}" respaldo="{{K|con restos de alquitrán}}" ms="{{K|cubierto de alquitrán}}" fs="{{K|cubierta de alquitrán}}" mp="{{K|cubiertos de alquitrán}}" fp="{{K|cubiertas de alquitrán}}" />
+  <!-- Asphalt/smearedAdjective -->
+  <literal Texto="{{K|alquitranado}}" respaldo="{{K|con restos de alquitrán}}" ms="{{K|alquitranado}}" fs="{{K|alquitranada}}" mp="{{K|alquitranados}}" fp="{{K|alquitranadas}}" />
+  <!-- Algae/smearedName -->
+  <literal Texto="{{g|cubierto de algas}}" respaldo="{{g|con restos de algas}}" ms="{{g|cubierto de algas}}" fs="{{g|cubierta de algas}}" mp="{{g|cubiertos de algas}}" fp="{{g|cubiertas de algas}}" />
+  <!-- Algae/smearedAdjective -->
+  <literal Texto="{{g|algáceo}}" respaldo="{{g|con restos de algas}}" ms="{{g|algáceo}}" fs="{{g|algácea}}" mp="{{g|algáceos}}" fp="{{g|algáceas}}" />
+  <!-- Blood/smearedName -->
+  <literal Texto="{{r|ensangrentado}}" respaldo="{{r|con restos de sangre}}" ms="{{r|ensangrentado}}" fs="{{r|ensangrentada}}" mp="{{r|ensangrentados}}" fp="{{r|ensangrentadas}}" />
+  <!-- BrainBrine/smearedName -->
+  <literal Texto="{{nervous|nervioso}}" respaldo="{{nervous|con restos de salmuera cerebral}}" ms="{{nervous|nervioso}}" fs="{{nervous|nerviosa}}" mp="{{nervous|nerviosos}}" fp="{{nervous|nerviosas}}" />
+  <!-- Cider/smearedName -->
+  <literal Texto="{{cider|fragante}}" respaldo="{{cider|con restos de sidra}}" ms="{{cider|fragante}}" fs="{{cider|fragante}}" mp="{{cider|fragantes}}" fp="{{cider|fragantes}}" />
+  <!-- CloningDraught/smearedName -->
+  <literal Texto="{{cloning|homogeneizado}}" respaldo="{{cloning|con restos de brebaje de clonación}}" ms="{{cloning|homogeneizado}}" fs="{{cloning|homogeneizada}}" mp="{{cloning|homogeneizados}}" fp="{{cloning|homogeneizadas}}" />
+  <!-- Convalessence/smearedName -->
+  <literal Texto="{{C|luminoso}}" respaldo="{{C|con restos de convalessence}}" ms="{{C|luminoso}}" fs="{{C|luminosa}}" mp="{{C|luminosos}}" fp="{{C|luminosas}}" />
+  <!-- Gel/smearedName -->
+  <literal Texto="{{Y|untuoso}}" respaldo="{{Y|con restos de gel}}" ms="{{Y|untuoso}}" fs="{{Y|untuosa}}" mp="{{Y|untuosos}}" fp="{{Y|untuosas}}" />
+  <!-- GreenGoo/smearedName -->
+  <literal Texto="{{G|viscoso}}" respaldo="{{G|con restos de baba}}" ms="{{G|viscoso}}" fs="{{G|viscosa}}" mp="{{G|viscosos}}" fp="{{G|viscosas}}" />
+  <!-- Honey/smearedName -->
+  <literal Texto="{{w|pegajoso}}" respaldo="{{w|con restos de miel}}" ms="{{w|pegajoso}}" fs="{{w|pegajosa}}" mp="{{w|pegajosos}}" fp="{{w|pegajosas}}" />
+  <!-- Ink/smearedName -->
+  <literal Texto="{{K|entintado}}" respaldo="{{K|con restos de tinta}}" ms="{{K|entintado}}" fs="{{K|entintada}}" mp="{{K|entintados}}" fp="{{K|entintadas}}" />
+  <!-- Lava/smearedName -->
+  <literal Texto="{{lava|cubierto de lava}}" respaldo="{{lava|con restos de lava}}" ms="{{lava|cubierto de lava}}" fs="{{lava|cubierta de lava}}" mp="{{lava|cubiertos de lava}}" fp="{{lava|cubiertas de lava}}" />
+  <!-- Lava/smearedAdjective -->
+  <literal Texto="{{lava|magmático}}" respaldo="{{lava|con restos de lava}}" ms="{{lava|magmático}}" fs="{{lava|magmática}}" mp="{{lava|magmáticos}}" fp="{{lava|magmáticas}}" />
+  <!-- NeutronFlux/smearedName -->
+  <literal Texto="{{neutronic|neutro}}" respaldo="{{neutronic|con restos de flujo}}" ms="{{neutronic|neutro}}" fs="{{neutronic|neutra}}" mp="{{neutronic|neutros}}" fp="{{neutronic|neutras}}" />
+  <!-- NeutronFlux/smearedAdjective -->
+  <literal Texto="{{neutronic|neutrónico}}" respaldo="{{neutronic|con restos de flujo}}" ms="{{neutronic|neutrónico}}" fs="{{neutronic|neutrónica}}" mp="{{neutronic|neutrónicos}}" fp="{{neutronic|neutrónicas}}" />
+  <!-- Oil/smearedName -->
+  <literal Texto="{{K|aceitoso}}" respaldo="{{K|con restos de aceite}}" ms="{{K|aceitoso}}" fs="{{K|aceitosa}}" mp="{{K|aceitosos}}" fp="{{K|aceitosas}}" />
+  <!-- Ooze/smearedName -->
+  <literal Texto="{{K|rezumante}}" respaldo="{{K|con restos de baba}}" ms="{{K|rezumante}}" fs="{{K|rezumante}}" mp="{{K|rezumantes}}" fp="{{K|rezumantes}}" />
+  <!-- PrimordialSoup/smearedName -->
+  <literal Texto="{{c|caldoso}}" respaldo="{{c|con restos de sopa}}" ms="{{c|caldoso}}" fs="{{c|caldosa}}" mp="{{c|caldosos}}" fp="{{c|caldosas}}" />
+  <!-- Putrescence/smearedName -->
+  <literal Texto="{{putrid|pútrido}}" respaldo="{{putrid|con restos de putrefacción}}" ms="{{putrid|pútrido}}" fs="{{putrid|pútrida}}" mp="{{putrid|pútridos}}" fp="{{putrid|pútridas}}" />
+  <!-- Salt/smearedName -->
+  <literal Texto="{{Y|incrustado de sal}}" respaldo="{{Y|con restos de sal}}" ms="{{Y|incrustado de sal}}" fs="{{Y|incrustada de sal}}" mp="{{Y|incrustados de sal}}" fp="{{Y|incrustadas de sal}}" />
+  <!-- Salt/smearedAdjective -->
+  <literal Texto="{{Y|salado}}" respaldo="{{Y|con restos de sal}}" ms="{{Y|salado}}" fs="{{Y|salada}}" mp="{{Y|salados}}" fp="{{Y|saladas}}" />
+  <!-- Sap/smearedName -->
+  <literal Texto="{{W|pegajoso}}" respaldo="{{W|con restos de savia}}" ms="{{W|pegajoso}}" fs="{{W|pegajosa}}" mp="{{W|pegajosos}}" fp="{{W|pegajosas}}" />
+  <!-- Slime/smearedName -->
+  <literal Texto="{{slimy|viscoso}}" respaldo="{{slimy|con restos de limo}}" ms="{{slimy|viscoso}}" fs="{{slimy|viscosa}}" mp="{{slimy|viscosos}}" fp="{{slimy|viscosas}}" />
+  <!-- Sludge/smearedName -->
+  <literal Texto="{{w|fangoso}}" respaldo="{{w|con restos de fango}}" ms="{{w|fangoso}}" fs="{{w|fangosa}}" mp="{{w|fangosos}}" fp="{{w|fangosas}}" />
+  <!-- Sunslag/smearedName -->
+  <literal Texto="{{radiant|radiante}}" respaldo="{{radiant|con restos de escoria solar}}" ms="{{radiant|radiante}}" fs="{{radiant|radiante}}" mp="{{radiant|radiantes}}" fp="{{radiant|radiantes}}" />
+  <!-- Water/smearedName -->
+  <literal Texto="{{B|mojado}}" respaldo="{{B|con restos de agua}}" ms="{{B|mojado}}" fs="{{B|mojada}}" mp="{{B|mojados}}" fp="{{B|mojadas}}" />
+  <!-- Wax/smearedName -->
+  <literal Texto="{{Y|ceroso}}" respaldo="{{Y|con restos de cera}}" ms="{{Y|ceroso}}" fs="{{Y|cerosa}}" mp="{{Y|cerosos}}" fp="{{Y|cerosas}}" />
+  <!-- Wine/smearedName -->
+  <literal Texto="{{m|sabroso}}" respaldo="{{m|con restos de vino}}" ms="{{m|sabroso}}" fs="{{m|sabrosa}}" mp="{{m|sabrosos}}" fp="{{m|sabrosas}}" />
+  <!-- WarmStatic/smearedName -->
+  <literal Texto="{{Y|entrópico}}" respaldo="{{Y|con restos de estática cálida}}" ms="{{Y|entrópico}}" fs="{{Y|entrópica}}" mp="{{Y|entrópicos}}" fp="{{Y|entrópicas}}" />
+
+  <!-- 5. Literales de C# sin _S (24): llegan en inglés, todos con respaldo -->
+  <!-- Tinkering_Mine.cs:272 -->
+  <literal Texto="empty" respaldo="sin explosivo" ms="vacío" fs="vacía" mp="vacíos" fp="vacías" />
+  <!-- Tinkering_Mine.cs:283 -->
+  <literal Texto="disarmed" respaldo="sin armar" ms="desactivado" fs="desactivada" mp="desactivados" fp="desactivadas" />
+  <!-- Gigantism.cs:31 -->
+  <literal Texto="gigantic" respaldo="de tamaño gigante" ms="gigantesco" fs="gigantesca" mp="gigantescos" fp="gigantescas" />
+  <!-- ModKeen.cs:56 -->
+  <literal Texto="keen" respaldo="de filo aguzado" ms="aguzado" fs="aguzada" mp="aguzados" fp="aguzadas" />
+  <!-- ModLegendary.cs:66 -->
+  <literal Texto="{{Y|lege{{W|n}}dary}}" respaldo="{{Y|de le{{W|y}}enda}}" ms="{{Y|lege{{W|n}}dario}}" fs="{{Y|lege{{W|n}}daria}}" mp="{{Y|lege{{W|n}}darios}}" fp="{{Y|lege{{W|n}}darias}}" />
+  <!-- ModMassivelyOverloaded.cs:55 -->
+  <literal Texto="{{overloaded|massively overloaded}}" respaldo="{{overloaded|con sobrecarga masiva}}" ms="{{overloaded|sobrecargado al máximo}}" fs="{{overloaded|sobrecargada al máximo}}" mp="{{overloaded|sobrecargados al máximo}}" fp="{{overloaded|sobrecargadas al máximo}}" />
+  <!-- ModHUD.cs:62 -->
+  <literal Texto="HUD" respaldo="con HUD" />
+  <!-- ModAntiGravity.cs:88 -->
+  <literal Texto="{{B|anti-gravity}}" clase="relacional" respaldo="{{B|de antigravedad}}" ms="{{B|antigravitatorio}}" fs="{{B|antigravitatoria}}" mp="{{B|antigravitatorios}}" fp="{{B|antigravitatorias}}" />
+  <!-- GraftekGraft.cs:104 -->
+  <literal Texto="grafted" respaldo="con injertos" ms="injertado" fs="injertada" mp="injertados" fp="injertadas" />
+  <!-- GraftekGraft.cs:108 -->
+  <literal Texto="cyberized" respaldo="con cibernética" ms="cibernetizado" fs="cibernetizada" mp="cibernetizados" fp="cibernetizadas" />
+  <!-- GraftekGraft.cs:112 -->
+  <literal Texto="chromed" respaldo="con cromados" ms="cromado" fs="cromada" mp="cromados" fp="cromadas" />
+  <!-- ModDefib.cs:63 -->
+  <literal Texto="{{love|defib}}" respaldo="{{love|con desfibrilador}}" ms="{{love|desfibrilador}}" fs="{{love|desfibriladora}}" mp="{{love|desfibriladores}}" fp="{{love|desfibriladoras}}" />
+  <!-- ModFlareCompensating.cs:99 -->
+  <literal Texto="{{K|flare-compensating}}" respaldo="{{K|con compensación de destellos}}" ms="{{K|antideslumbrante}}" fs="{{K|antideslumbrante}}" mp="{{K|antideslumbrantes}}" fp="{{K|antideslumbrantes}}" />
+  <!-- ModHeartstopper.cs:77 -->
+  <literal Texto="{{lovesickness|heartstopper}}" respaldo="{{lovesickness|de paro cardíaco}}" />
+  <!-- ModHypervelocity.cs:70 -->
+  <literal Texto="{{hypervelocity|hypervelocity}}" respaldo="{{hypervelocity|de hipervelocidad}}" />
+  <!-- Lost.cs:145 -->
+  <literal Texto="lost" respaldo="sin rumbo" ms="perdido" fs="perdida" mp="perdidos" fp="perdidas" />
+  <!-- ModMicroserrated.cs:59 -->
+  <literal Texto="{{Y|mi{{R|c}}roserra{{R|t}}ed}}" respaldo="{{Y|de filo mi{{R|c}}roden{{R|t}}ado}}" ms="{{Y|mi{{R|c}}roden{{R|t}}ado}}" fs="{{Y|mi{{R|c}}roden{{R|t}}ada}}" mp="{{Y|mi{{R|c}}roden{{R|t}}ados}}" fp="{{Y|mi{{R|c}}roden{{R|t}}adas}}" />
+  <!-- ModMighty.cs:51 -->
+  <literal Texto="mighty" respaldo="de gran poder" ms="poderoso" fs="poderosa" mp="poderosos" fp="poderosas" />
+  <!-- ModNanochelated.cs:92 -->
+  <literal Texto="{{K|nanochelated}}" respaldo="{{K|con nanoquelación}}" ms="{{K|nanoquelado}}" fs="{{K|nanoquelada}}" mp="{{K|nanoquelados}}" fp="{{K|nanoqueladas}}" />
+  <!-- ModOrthopedic.cs:72 -->
+  <literal Texto="orthopedic" clase="relacional" respaldo="de uso ortopédico" ms="ortopédico" fs="ortopédica" mp="ortopédicos" fp="ortopédicas" />
+  <!-- ModOverbuilt.cs:55 -->
+  <literal Texto="overbuilt" respaldo="de construcción robusta" ms="sobredimensionado" fs="sobredimensionada" mp="sobredimensionados" fp="sobredimensionadas" />
+  <!-- ModSmart.cs:81 -->
+  <literal Texto="{{c|smart}}" respaldo="{{c|con circuitos inteligentes}}" ms="{{c|inteligente}}" fs="{{c|inteligente}}" mp="{{c|inteligentes}}" fp="{{c|inteligentes}}" />
+  <!-- QuantumStabilized.cs:74 -->
+  <literal Texto="stable" respaldo="en estado estable" ms="estable" fs="estable" mp="estables" fp="estables" />
+  <!-- ModMetallized.cs:81 -->
+  <literal Texto="{{c|metallized}}" respaldo="{{c|con metalizado}}" ms="{{c|metalizado}}" fs="{{c|metalizada}}" mp="{{c|metalizados}}" fp="{{c|metalizadas}}" />
+</concordancia>
