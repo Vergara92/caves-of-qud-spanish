@@ -246,6 +246,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="{{W|yondercane}}" />
     <part Name="Description" Short="El tallo acanalado del yonderbrush con borlas se dobla hacia un punto lejano fuera de foco." />
     <part Name="Food" Message="Sabe a lejanía." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Vinewafer" Load="Merge">
     <part Name="Render" DisplayName="oblea de viñagua" />
@@ -378,6 +379,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="{{m|taco suprema}}" />
     <part Name="Food" Message="Un crujido divino se deshace en maná salado." />
     <part Name="Description" Short="Un papel fino y antiguo, un palimpsesto de grasa, envuelve la silla crujiente de oblea frita. Siete estratos de néctar cuajado rellenan la hendidura crujiente." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="Crystal of Eve" Load="Merge">
     <part Name="Render" DisplayName="{{crystalline|cristal de Eva}}" />

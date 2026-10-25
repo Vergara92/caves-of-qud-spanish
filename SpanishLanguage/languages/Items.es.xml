@@ -554,7 +554,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="La Jeunesse" Load="Merge">
     <part Name="Render" DisplayName="{{r|La}} {{r-R-R-W-W-w-w sequence|Jeunesse}}" />
     <part Name="Description" Short="La empuñadura se rompió y se rehízo, ensamblada con hierro, joya y cuero a través de la dispersión prismática del pasado, siempre convirtiéndose en algo nuevo. La hoja lleva las cicatrices de las técnicas que la forzaron una y otra vez a una forma mortífera." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="BaseLeadSlugProjectile" Load="Merge">
     <part Name="Render" DisplayName="bala de plomo" />
@@ -610,6 +610,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Eigenrifle" Load="Merge">
     <part Name="Render" DisplayName="eigenrifle" />
     <part Name="Description" Short="Perpendicular al cañón azul neón hay una mira de placas cuadradas engastada con una gran lente ocular. La vista a través de la lente se distorsiona cuando el arma se inclina, pero el vector trazado permanece inalterado." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="ProjectileEigenrifle" Load="Merge">
     <part Name="Render" DisplayName="{{B|vector de punto}}" />
@@ -1046,7 +1047,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="La manitas de esta pistola, labrada en latón y cromo, quita el aliento: empuñaduras de madera regia que invitan a la palma a un abrazo sin aire, el martillo contorneado al pulgar por la micropulgada, y la mira que arrastra el ojo cañón abajo como el deslizar de la seda. Está grabada por todas partes con hiedra marchita, y la boca está besada de sangre." />
     <part Name="RulesDescription" Text="+1 Ego&#xA;Los golpes críticos asestados con esta arma reciben un bonificador adicional de +4 a las tiradas de penetración.&#xA;Cuando esta arma dispara con su última ronda de munición, el disparo tiene puntería perfecta y garantiza un golpe crítico." />
     <part Name="TakenAccomplishment" Text="Recuperaste la pistola maestra y la oda legendaria a la venganza, la =this.refname=." Hagiograph="El sultán pistolero =name= dio muerte a cada uno de los siete señores de la Casa Isner con un revólver maestro y cenó sobre sus cadáveres amontonados." Gospel="En lo profundo de los parajes cercanos a =landmark.nearest=, =name= se topó con un clan de barones del agua que celebraban un ritual secreto. A causa de sus ojos traicioneros, =name= dio muerte a cada uno de los siete señores con un revólver maestro y cenó sobre sus cadáveres amontonados." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
     <tag Name="IndefiniteArticle" Value="la" />
     <tag Name="DefiniteArticle" Value="la" />
   </object>
@@ -2547,7 +2548,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="{{R-r-w-W-Y-y sequence|Volaflujos}} del {{b-B-C-c sequence|Oso-Cielo}}" />
     <part Name="Description" Short="Dos torretas de cromo conductor del sol coronan cilindros de gas ardiente, que flanquean un enrejado metálico de picas ciñendo una suerte de marca gremial. Una hélice séxtuple de humo, firma del motor estelar con que está forjado este volador, gira hacia el cielo." />
     <part Name="RulesDescription" Text="Puedes activar este objeto para empezar a embestir.&#xA; Mientras embistes, cada vez que te muevas en una dirección, embistes hasta 20 espacios hacia el enemigo u obstáculo más cercano y realizas un ataque.&#xA; Por cada tres espacios que embistas, obtienes +2 al impacto y +2 a las tiradas de penetración." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="ms" Proper="true" />
     <tag Name="IndefiniteArticle" Value="el" />
     <tag Name="DefiniteArticle" Value="el" />
     <part Name="TakenAccomplishment" Text="¡El Oso-Cielo vuela de nuevo! De las garras del pasado helado, recuperaste =this.refname=." Hagiograph="El aliento cálido y húmedo de las profundidades desfosilizó al Oso-Cielo y nos reveló esta verdad: =name= es Saad Amus, Saad Amus es =name=." Gospel="A lo largo de todo =month=, =name= =spice:commonPhrases.ravaged.!random= la provincia de Bethesda Susa sobre =player.possessive= mochila propulsora, =spice:elements.entity@elements[random].ravaging.!random= de =mostHatedFaction.t= y =secondMostHatedFaction.t=. =player.Subjective= pasó a conocerse como =spice:commonPhrases.scourge.!random.capitalize= de Bethesda." />
@@ -2575,7 +2576,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Cyclopean Prism" Load="Merge">
     <part Name="Render" DisplayName="prisma {{K|amaranto}}" />
     <part Name="Description" Short="Un prisma triangular de vidrio negro, sin estrellas, permanece inmóvil." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="ms" Proper="true" />
     <tag Name="IndefiniteArticle" Value="el" />
     <tag Name="DefiniteArticle" Value="el" />
     <part Name="TakenAccomplishment" Text="Aferraste el vidrio negro del =this.refname= en tus manos." Hagiograph="¡Amaranto =name=! ¡Acobardaos ante el dios-sultán forjado con la propia materia onírica de =player.possessive=, que porta el vidrio negro!" Gospel="Vagando por la jungla cerca de Kyakukya, =name= soñó que =player.subjective= orbitaba una estrella tenebrosa y que en su vasto disco de acreción se amontonaban los pilares del yo. Desde entonces, =name= llevó consigo un prisma triangular sin estrellas." />
@@ -2602,7 +2603,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Render" DisplayName="{{C-c-K-K-K-K sequence|cinta}} de {{K-K-K-K-K-c-C-Y sequence|Nacham}}" />
     <part Name="Description" Short="Una cortina de cables palpitantes hace de manto para unos hombros encorvados. Vibran a frecuencias neuronales largo tiempo aletargadas." />
     <part Name="Toolbox" BehaviorDescription="Cuando está alimentado, este objeto otorga un 40% de probabilidad de que un objeto trabajado tenga una modificación de objeto aleatoria. Esto puede incluir modificaciones de objeto que normalmente no son trabajables." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="Vaam's Lens" Load="Merge">
     <part Name="Render" DisplayName="{{C-c-K-K sequence|lente}} de {{K-K-K-K-c-C-Y sequence|Va'am}}" />
@@ -2613,44 +2614,44 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   <object Name="Dagasha's Spur" Load="Merge">
     <part Name="Render" DisplayName="{{K sequence|espuela}} de {{K-K-K-K-c-C-Y-C-c sequence|Dagasha}}" />
     <part Name="Description" Short="Una corona de espinas dispuesta con cristales en reveladores ángulos psiónicos hace de hito en el mar psíquico." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="Kah's Loop" Load="Merge">
     <part Name="Render" DisplayName="{{C-c-K-K sequence|lazo}} de {{K-K-c-C-Y sequence|Kah}}" />
     <part Name="Description" Short="Un cable nervado de puntas de aguja tangentes aprieta el miembro y aviva su biomateria más allá de lo esperado." />
     <part Name="IntPropertyChanger" BehaviorDescription="Quien lo porta puede realizar cualquier acción mientras esprinta sin penalización adicional." NameForStatus="?????" />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="ms" Proper="true" />
   </object>
   <object Name="The Kesil Face" Load="Merge">
     <part Name="Render" DisplayName="Faz de {{kesil|Kesil}}" />
     <part Name="Description" Short="Joyas relucientes están esparcidas por los contornos de un semblante galáctico, y los trazos dibujados entre ellas esbozan la silueta de un Necio con faja. Lejos, en la cresta de cromo, cuentas de luz viva y abrasadora sugieren la forma de un aguamanil medial, y más allá de su pico, una estructura vasta y temporal. El interior de la máscara está acintado con calado quemado de donde se moldeó en un torno de galio, luego teñido con los iris ordeñados de los shedim y puesto a secar en un charco de estática cálida." />
     <part Name="RulesDescription" Text="+1 a todos los niveles de mutación&#xA;+6 al rango de licencia de cibernética" />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="The Shemesh Face" Load="Merge">
     <part Name="Render" DisplayName="Faz de {{shemesh|Shemesh}}" />
     <part Name="Description" Short="Rubíes, cornalinas y granates ardientes están dispuestos como un sol cálido y dadivoso. Diminutos orbes rocosos pasan por el espacio cercano del semblante, y en el espacio lejano un prisma de carga se alarga hacia un vacío más amplio. El interior de la máscara está acintado con calado quemado de donde se moldeó en un torno de galio, luego teñido con los iris ordeñados de los shedim y puesto a secar en un charco de estática cálida." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="The Earth Face" Load="Merge">
     <part Name="Render" DisplayName="Faz de {{earth|la Tierra}}" />
     <part Name="Description" Short="En el semblante, cintas de nube de alabastro circunscriben un mar de lapislázuli y bosques de jade. En el centro de todo, un Spindle perfora la rotundidad exterior y desaparece más allá de la composición. Una segunda aguja obstruida, lo que debe de ser la sombra del Spindle, absorbe la luz arrojada por el cielo austral de blanco cristalino. El interior de la máscara está acintado con calado quemado de donde se moldeó en un torno de galio, luego teñido con los iris ordeñados de los shedim y puesto a secar en un charco de estática cálida." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="The Levant Face" Load="Merge">
     <part Name="Render" DisplayName="Faz de {{levant|Levante}}" />
     <part Name="Description" Short="Rocas de jaspe rompen en los bordes de la máscara y cercan un mar pálido de cuarzo lechoso. El Spindle biseca la ancha Faz, y la simetría florece bajo él. El interior de la máscara está acintado con calado quemado de donde se moldeó en un torno de galio, luego teñido con los iris ordeñados de los shedim y puesto a secar en un charco de estática cálida." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="The Olive Face" Load="Merge">
     <part Name="Render" DisplayName="Faz de {{olive|la Oliva}}" />
     <part Name="Description" Short="Un único monte de basalto y malaquita incrustados se abre de par en par; una imagen del Spindle brota de su centro y domina el aspecto festoneado. El interior de la máscara está acintado con calado quemado de donde se moldeó en un torno de galio, luego teñido con los iris ordeñados de los shedim y puesto a secar en un charco de estática cálida." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="The Nil Face" Load="Merge">
     <part Name="Render" DisplayName="Faz {{K|Nula}}" />
     <part Name="Description" Short="Una luna combada está agrietada por donde se rompió al separarla del torno de galio. A los shedim no les quedaban ojos para colorear la Faz tenue y final, y yació demasiado tiempo descartada en un charco de estática cálida. El sultanato está roto." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="Repulsive Device" Load="Merge">
     <part Name="Render" DisplayName="{{M|artilugio repulsivo}}" />
@@ -2662,31 +2663,31 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
     <part Name="Description" Short="Nácar de todos los colores endurecido en una forma ontológicamente perfecta; las matemáticas de las esferas son meras aproximaciones. Dentro, patrones acintados de éter están congelados en estasis y cuajan en una vista a la luz de la luna, una escena de algún modo amarrada al punto del espaciotiempo desde donde la observaste. El significado de este emparejamiento es desconocido e incognoscible." />
     <part Name="RulesDescription" Text="+40 destello psíquico&#xA;Los objetos que encuentres tienen cinco veces más probabilidad de provenir de otras dimensiones." />
     <part Name="TakenAccomplishment" Text="Aferraste =this.refname= y te vestiste con el espejo de las realidades." Hagiograph="¡Oh! ¡Nuestros corazones se tornaron remanentes estelares cuando =name= recitó una elegía por la niña desconocida Eudoxia!" Gospel="En el mes =month= de =year=, un administrador corrupto fue nombrado ministro de una ciudad reluciente de calles de oro y vidrio. =spice:pronouns.subject.!random.capitalize= proscribió la práctica de componer elegías, y =name= se vio obligado a huir." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
     <tag Name="IndefiniteArticle" Value="la" />
     <tag Name="DefiniteArticle" Value="la" />
   </object>
   <object Name="Flange from the Great Machine" Load="Merge">
     <part Name="Render" DisplayName="brida de la {{great machine|Gran Máquina}}" />
     <part Name="Description" Short="Un labio de voluta gigantesco se desgajó de la rueda motriz de la cultura, cayó de la órbita de su bóveda estelar y, mediante los métodos erosionados del tiempo, llegó hasta aquí. Esporas astroexóticas azotan su reborde inferior de metacero, peregrinas de un núcleo fúngico ardiente que aguardan entre el ahora y algún punto futuro desconcertante." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="Sail from the Great Machine" Load="Merge">
     <part Name="Render" DisplayName="vela de la {{great machine|Gran Máquina}}" />
     <part Name="Description" Short="Una vela cometa en flor de lino extrasolar se teje sobre sables para atrapar el aire venenoso de algún pantano de un planetoide lejano y dar potencia a un ciclo ecuménico. Sus puños están cosidos con plétora sincrética de todo el espectro onírico." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="fs" Proper="true" />
   </object>
   <object Name="Gear from the Great Machine" Load="Merge">
     <part Name="Render" DisplayName="engranaje de la {{great machine|Gran Máquina}}" />
     <part Name="Description" Short="Desejado de su templo-máquina aluminado que orbitaba una estrella a unos cien mil años luz de distancia, el gran engranaje se cierne en estasis. El polvo de un centenar de planetas-hogar vecinos punta sus dientes acanalados, mientras su orificio está untado de amaranto y aceite de incienso cultivado a lo largo de la vida de una civilización ajardinada." />
     <part Name="RulesDescription" Text="Las armas empuñadas que bloquee este escudo tienen un 10% de probabilidad de ser desarmadas." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="ms" Proper="true" />
   </object>
   <object Name="Gauge from the Great Machine" Load="Merge">
     <part Name="Render" DisplayName="indicador de la {{great machine|Gran Máquina}}" />
     <part Name="Description" Short="Una esfera de reloj gigante está trazada con lemniscatas para medir las presiones enteógenas que se acumulan en los núcleos de soles abisales. El sacerdote de la máquina que tomaba sus lecturas y cantaba el dial está en deuda con el colega distante cuya camarilla inventó el lenguaje silbado 8000 años después." />
     <part Name="RulesDescription" Text="Vituperar, Intimidar y Mirada Amenazante también confunden según Confusión rango 10." />
-    <xtagGrammar Proper="true" />
+    <xtagGrammar concord="ms" Proper="true" />
   </object>
   <object Name="RelicTonic" Load="Merge">
     <part Name="Description" Short="Un tubo de vidrio de tetraxenonoglás reluce por dentro con un jarabe opalino." />
@@ -4165,36 +4166,47 @@ Caves of Qud - Generated Localizable XML 2.0.212.24
   </object>
   <object Name="Random Copper Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{w|cobre}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Rhinox figure" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{w|cobre}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Silver Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{silvery|plata}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Gold Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{W|oro}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Agate Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{K|ágata}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Topaz Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{W|topacio}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Jasper Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{R|jaspe}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Amethyst Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{M|amatista}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Sapphire Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{B|zafiro}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Emerald Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{G|esmeralda}} de {{|=creature.name|strip=}}" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Random Peridot Figurine" Load="Merge">
     <part Name="Render" DisplayName="figurilla de {{peridot|peridoto}} de =creature.name|strip=" />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="Trinket" Load="Merge">
     <part Name="Render" DisplayName="{{c|baratija}}" />
