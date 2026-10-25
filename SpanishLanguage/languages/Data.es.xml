@@ -25,6 +25,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="BaseUnknown" Load="Merge">
     <part Name="Render" DisplayName="artefacto extraño" />
     <part Name="Description" Short="El polvo cubre el aparato enigmático." />
+    <xtagGrammar concord="ms" />
   </object>
   <object Name="UnknownGigantic" Load="Merge">
     <part Name="Description" Short="El polvo cubre el aparato gigantesco." />
@@ -33,10 +34,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="UnknownOddTrinket" Load="Merge">
     <part Name="Render" DisplayName="baratija rara" />
     <part Name="Description" Short="La luz reluce en el borde de una curiosidad pequeña." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownStrangeTubes" Load="Merge">
     <part Name="Render" DisplayName="tubos extraños" />
     <part Name="Description" Short="Unos tubos de propósito desconocido se abren en juntas soldadas." />
+    <xtagGrammar concord="mp" />
   </object>
   <object Name="UnknownStrangeFurniture" Load="Merge">
     <part Name="Render" DisplayName="mobiliario extraño" />
@@ -59,10 +62,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="UnknownStrangePlant" Load="Merge">
     <part Name="Render" DisplayName="planta extraña" />
     <part Name="Description" Short="Un zarcillo verde poco común, envuelto en vaina foliar, se enrosca sobre sí mismo." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownPistol" Load="Merge">
     <part Name="Render" DisplayName="pistola" />
     <part Name="Description" Short="Hay manchas en el cañón corto de un arma sin identificar." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownRifle" Load="Merge">
     <part Name="Render" DisplayName="rifle" />
@@ -79,10 +84,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="UnknownGrenade" Load="Merge">
     <part Name="Render" DisplayName="granada" />
     <part Name="Description" Short="Una cápsula de explosivo va envuelta en metal sin descifrar." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownClub" Load="Merge">
     <part Name="Render" DisplayName="porra" />
     <part Name="Description" Short="Un pedazo de material fundido sirve de garrote." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownKnife" Load="Merge">
     <part Name="Render" DisplayName="cuchillo" />
@@ -91,10 +98,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="UnknownSword" Load="Merge">
     <part Name="Render" DisplayName="espada" />
     <part Name="Description" Short="Una hoja de considerable longitud atraviesa una empuñadura extraña." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownAxe" Load="Merge">
     <part Name="Render" DisplayName="hacha" />
     <part Name="Description" Short="Un filo cuelga sobre un astil con marcas de dedos." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownShield" Load="Merge">
     <part Name="Render" DisplayName="escudo" />
@@ -103,7 +112,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="UnknownArmor" Load="Merge">
     <part Name="Render" DisplayName="armadura" />
     <part Name="Description" Short="Una coraza moldeada de origen desconocido protege buena parte del cuerpo." />
-    <xtagGrammar massNoun="true" />
+    <xtagGrammar concord="fs" massNoun="true" />
   </object>
   <object Name="UnknownHelmet" Load="Merge">
     <part Name="Render" DisplayName="casco" />
@@ -112,38 +121,42 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="UnknownMask" Load="Merge">
     <part Name="Render" DisplayName="máscara" />
     <part Name="Description" Short="Un rostro falso fue moldeado a la moda y cosido con intención desconocida." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownGoggles" Load="Merge">
     <part Name="Render" DisplayName="gafas protectoras" />
     <part Name="Description" Short="Unos visores redondeados se sujetan con una correa." />
-    <xtagGrammar adjunctNoun="par" />
+    <xtagGrammar concord="fp" adjunctNoun="par" />
   </object>
   <object Name="UnknownGloves" Load="Merge">
     <part Name="Render" DisplayName="guantes" />
     <part Name="Description" Short="Unas manoplas extrañas se ajustan a la mayoría de muñecas y dedos." />
-    <xtagGrammar adjunctNoun="par" />
+    <xtagGrammar concord="mp" adjunctNoun="par" />
   </object>
   <object Name="UnknownJewelry" Load="Merge">
     <part Name="Render" DisplayName="joya" />
     <part Name="Description" Short="Un torque redondeado reluce ante ojos no previstos." />
-    <xtagGrammar adjunctNoun="pieza" />
+    <xtagGrammar concord="fs" adjunctNoun="pieza" />
   </object>
   <object Name="UnknownCloak" Load="Merge">
     <part Name="Render" DisplayName="capa" />
     <part Name="Description" Short="Un tejido de algún tipo fue cosido con un fin desconocido." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownBackpack" Load="Merge">
     <part Name="Render" DisplayName="mochila" />
     <part Name="Description" Short="Un saco con correas fue cosido para cargar algo." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownBoots" Load="Merge">
     <part Name="Render" DisplayName="botas" />
     <part Name="Description" Short="Marcas de uso prolongado recorren la superficie del calzado." />
-    <xtagGrammar adjunctNoun="par" />
+    <xtagGrammar concord="fp" adjunctNoun="par" />
   </object>
   <object Name="UnknownBottle" Load="Merge">
     <part Name="Render" DisplayName="botella" />
     <part Name="Description" Short="Es un recipiente de hechura buena e inusual." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownDataDisk" Load="Merge">
     <part Name="Render" DisplayName="disco de datos" />
@@ -152,6 +165,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.30
   <object Name="UnknownTool" Load="Merge">
     <part Name="Render" DisplayName="herramienta" />
     <part Name="Description" Short="El conjunto de piezas extrañas suma a la postre una especie de herramienta." />
+    <xtagGrammar concord="fs" />
   </object>
   <object Name="UnknownEmptyMed" Load="Merge">
     <part Name="Render" DisplayName="tubo" />
