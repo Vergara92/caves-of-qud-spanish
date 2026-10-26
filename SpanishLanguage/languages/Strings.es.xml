@@ -2978,9 +2978,9 @@ alone if no match found.
   <string Context="Faction Gossip Two Faction" ID="=spice:gossip.twoFaction.!random=">=spice:gossip.twoFaction.!random=</string>
   <string Context="Grabber Default StuckAdjective" ID="grabbed">agarrado</string>
   <string Context="Grabber Default StuckPreposition" ID="by">por</string>
-  <string Context="InventoryAbilitySystem Access your item" ID="Access your =subject.name:single=">Acceder a =subject.name:single=</string>
+  <string Context="InventoryAbilitySystem Access your item" ID="Access your =subject.name:single=">Acceder a tu =subject.name:single=</string>
   <string Context="InventoryAbilitySystem =originalname= snapshot" ID="=subject.name:single=">=subject.name:single=</string>
-  <string Context="InventoryAbilitySystem Access your item" ID="Access your =subject.name:single:withTitles=">Acceder a =subject.name:single:withTitles=</string>
+  <string Context="InventoryAbilitySystem Access your item" ID="Access your =subject.name:single:withTitles=">Acceder a tu =subject.name:single:withTitles=</string>
   <string Context="InventoryAbilitySystem =originalname= snapshot" ID="=subject.name:single:withTitles=">=subject.name:single:withTitles=</string>
   <string Context="InventoryAbilitySystem Name your custom ability" ID="Name your custom ability">Nombra tu aptitud personalizada</string>
   <string Context="InventoryAbilitySystem ability description" ID="Directly access inventory item">Acceder directamente a un objeto del inventario</string>
