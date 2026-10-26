@@ -2005,7 +2005,7 @@ alone if no match found.
   <string Context="Cybernetics Debug Wish 'implant'" ID="No blueprint by the name '=name=' could be found.">No se encontró ningún plano con el nombre '=name='.</string>
   <string Context="Cybernetics Debug Wish 'implant'" ID="The blueprint '=blueprint.name=' is not a cybernetic.">El plano '=blueprint.name=' no es un implante cibernético.</string>
   <string Context="Cybernetics Debug Wish 'implant'" ID="No body part by the name '=slot=' could be found.">No se encontró ninguna parte del cuerpo con el nombre '=slot='.</string>
-  <string Context="Cybernetics Debug Wish 'implant'" ID="Your =part.ordinalName= =part.isPlural:are:is= implanted with =cybernetic.name=!">Recibes =cybernetic.name= como implante en =part.ordinalName=!</string>
+  <string Context="Cybernetics Debug Wish 'implant'" ID="Your =part.ordinalName= =part.isPlural:are:is= implanted with =cybernetic.name=!">¡Recibes =cybernetic.name= como implante en =part.ifPlural:tus:tu= =part.ordinalName=!</string>
   <string Context="DifficultyEvaluation Impossible" ID="Impossible">Imposible</string>
   <string Context="DifficultyEvaluation Very Tough" ID="Very Tough">Muy duro</string>
   <string Context="DifficultyEvaluation Tough" ID="Tough">Duro</string>
@@ -2752,8 +2752,8 @@ alone if no match found.
   <string Context="RandomAltarBaetyl Reward List" ID="=list.andList=">=list.andList=</string>
   <string Context="RandomAltarBaetyl Journal Entry" ID="A &quot;SATED&quot; baetyl">Un baetyl &quot;SACIADO&quot;</string>
   <string Context="RandomAltarBaetyl Journal Entry" ID="A baetyl demanding &quot;=demand=&quot; and promising &quot;=reward=&quot;.">Un baetyl que exige &quot;=demand=&quot; y promete &quot;=reward=&quot;.</string>
-  <string Context="Body Lost Use Of Part" ID="You have lost the use of your =part.ordinalName=.">Has perdido el uso de =part.ordinalName=.</string>
-  <string Context="Body Recover Use Of Part" ID="You have recovered the use of your =part.ordinalName=.">Has recuperado el uso de =part.ordinalName=.</string>
+  <string Context="Body Lost Use Of Part" ID="You have lost the use of your =part.ordinalName=.">Has perdido el uso de =part.ifPlural:tus:tu= =part.ordinalName=.</string>
+  <string Context="Body Recover Use Of Part" ID="You have recovered the use of your =part.ordinalName=.">Has recuperado el uso de =part.ifPlural:tus:tu= =part.ordinalName=.</string>
   <string Context="Body Severed Limb Description" ID="Dried =subject.bleedLiquid= crusts on the severed =limb.name= of =subject.a.name:single:withTitles|strip=.">Restos resecos de =subject.bleedLiquid= forman costra sobre =limb.name= cercenado de =subject.a.name:single:withTitles|strip=.</string>
   <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!">¡Te desmiembran =limb.ordinalName=!</string>
   <string Context="Body Limb Dismember Mural" ID="While fighting a battle to protect the practice of =spice:elements.$element.practices.!random=, =name= valorously had =player.possessive= =limb.ordinalName= dismembered.">Mientras libraba una batalla por proteger la práctica de =spice:elements.$element.practices.!random=, =name= sufrió con valentía el desmembramiento de =player.possessive= =limb.ordinalName=.</string>
