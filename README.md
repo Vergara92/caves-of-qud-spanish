@@ -3,7 +3,7 @@
 Traducción **no oficial** de *Caves of Qud* al español de España, construida sobre el
 framework de localización de la rama experimental `lang-experimental` de Steam.
 
-> **Estado:** andamiaje montado. Falta la traducción masiva de los ~40 archivos de idioma.
+> ⚠️ **Disclaimer**: Las traducciones están hechas con claude code sobre la base inglesa que comparte freehold, en ningún momento pretendo quitarle el valor a las personas que son traductoras, estas traducciones carecen del alma y la precisión que les daría un profesional del secto. lo hago solo como un pequeño aporte para que, a los que como yo, el nivel de inglés que utiliza el juego les hace la experiencia menos disfrutable de lo que nos gustaría y así al menos, podemos matarnos el gusanillo jugando teniendo en mente que las traducciones están lejos de estar en un estado optimo. 
 
 ## Estructura del repo
 - `ExampleLanguage/` — plantilla oficial de Freehold (fuente de verdad, inglés). No editar.
