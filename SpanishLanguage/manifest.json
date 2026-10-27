@@ -2,7 +2,7 @@
   "ID": "rafaelvergara.lang.spanish.es",
   "Title": "Traducción al español (España)",
   "Description": "Traducción no oficial de Caves of Qud al español de España. Con «Permitir mods con scripts» activado, los adjetivos de los objetos van detrás del nombre y concuerdan; sin esa opción, la traducción funciona igual con textos sin concordancia.",
-  "Version": "0.0.1",
+  "Version": "0.2.0",
   "Author": "rafaelvergara",
   "Tags": "Localization,Script",
   "Directories": [

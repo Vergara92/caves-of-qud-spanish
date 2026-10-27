@@ -30,7 +30,9 @@ framework de localización de la rama experimental `lang-experimental` de Steam.
    - **macOS:** `~/Library/Application Support/com.FreeholdGames.CavesOfQud/Mods` (o `./scripts/install-local.sh`)
    - **Linux:** `~/.config/unity3d/Freehold Games/CavesOfQud/Mods`
    > La ruta exacta puede variar según versión/tienda: verifícala una vez. Puedes forzarla con `MODS_DIR=... ./scripts/install-local.sh`.
-3. Abrir el juego, habilitar las scripted mods si lo pide, y en **Language** elegir el español. El juego se reinicia.
+3. Abrir el juego y, en **Opciones**, activar **«Permitir mods con scripts»** (recomendado). Con la opción activada, los adjetivos de los objetos van detrás del nombre y concuerdan («espada larga de acero afilada»). Sin ella, la traducción funciona igual, con adjetivos en forma invariable («chal acolchado con pinturas»).
+4. En **Language** elegir el español. El juego se reinicia.
+> Si tenías instalada una versión anterior, borra antes la carpeta `SpanishLanguage` (y `SpanishConcordancia`, si existe) de la carpeta de mods.
 
 ## Pendientes conocidos
 - Verificar el código de idioma correcto (`es` / `es-ES` / slot propio) en `lang-experimental`.
